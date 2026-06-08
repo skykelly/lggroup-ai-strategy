@@ -1,0 +1,47 @@
+styles:
+  warm_minimalism:
+    ko: 웜 미니멀
+    en: Warm Minimalism
+    keywords:
+    - 아이보리
+    - 베이지
+    - 밝은 우드
+    - 패브릭
+    - 간접 조명
+    - 여백
+    related_spaces:
+    - living_room
+    - bedroom
+    - studio
+    related_themes:
+    - warm_minimalism_2026
+    - wellness_home
+  japandi:
+    ko: 재팬디
+    en: Japandi
+    keywords:
+    - 절제
+    - 자연 소재
+    - 낮은 가구
+    - 뉴트럴 톤
+    - 여백
+    related_spaces:
+    - living_room
+    - bedroom
+    related_themes:
+    - natural_luxury
+  hotel_like_interior:
+    ko: 호텔식 인테리어
+    en: Hotel-like Interior
+    keywords:
+    - 프리미엄 침실
+    - 간접 조명
+    - 침구
+    - 협탁
+    - 향
+    related_spaces:
+    - bedroom
+    - living_room
+    related_themes:
+    - hotel_like_bedroom
+    - wellness_home

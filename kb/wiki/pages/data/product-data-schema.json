@@ -1,0 +1,102 @@
+{
+  "fields": [
+    {
+      "field": "product_id",
+      "desc": "내부 또는 수집 기준 상품 ID"
+    },
+    {
+      "field": "source",
+      "desc": "오늘의집/네이버쇼핑/브랜드몰/이케아 등"
+    },
+    {
+      "field": "category_lv1",
+      "desc": "가구/패브릭/조명/수납/가전/시공재 등"
+    },
+    {
+      "field": "category_lv2",
+      "desc": "소파/침대/식탁/커튼/러그/수납장 등"
+    },
+    {
+      "field": "space",
+      "desc": "거실/침실/주방/원룸 등"
+    },
+    {
+      "field": "style_tags",
+      "desc": "웜미니멀/화이트우드/호텔식/내추럴럭셔리 등"
+    },
+    {
+      "field": "material_tags",
+      "desc": "원목/세라믹/린넨/부클레/스톤 등"
+    },
+    {
+      "field": "color_tags",
+      "desc": "아이보리/베이지/오트밀/월넛 등"
+    },
+    {
+      "field": "price",
+      "desc": "판매가"
+    },
+    {
+      "field": "price_tier",
+      "desc": "entry/mid/premium"
+    },
+    {
+      "field": "review_count",
+      "desc": "리뷰 수"
+    },
+    {
+      "field": "rating",
+      "desc": "평점"
+    },
+    {
+      "field": "image_url",
+      "desc": "대표 이미지 URL"
+    },
+    {
+      "field": "product_url",
+      "desc": "상품 URL"
+    },
+    {
+      "field": "mapped_docs",
+      "desc": "연결 위키 문서 ID 목록"
+    }
+  ],
+  "sample_rows": [
+    [
+      "SOFA-001",
+      "brand_mall",
+      "furniture",
+      "sofa",
+      "living_room",
+      "warm_minimal,modern_natural",
+      "fabric,wood",
+      "ivory,beige",
+      "mid",
+      "living-room-trend,warm-minimalism"
+    ],
+    [
+      "BED-001",
+      "brand_mall",
+      "furniture",
+      "bed",
+      "bedroom",
+      "hotel_like,wellness_home",
+      "fabric,wood",
+      "cream,greige",
+      "premium",
+      "bedroom-trend,bedroom-category-map"
+    ],
+    [
+      "STOR-001",
+      "marketplace",
+      "storage",
+      "storage_bed",
+      "studio_officetel",
+      "storage_centered,small_space",
+      "wood,LPM",
+      "white,oak",
+      "mid",
+      "studio-officetel-trend,storage-furniture-category-map"
+    ]
+  ]
+}

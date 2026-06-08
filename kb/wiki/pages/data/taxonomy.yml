@@ -1,0 +1,16 @@
+document_types:
+  trend_history: 연도별/시기별 트렌드
+  theme: 2026 핵심 테마
+  style: 스타일 사전
+  space_trend: 공간별 트렌드
+  category_map: 카테고리 맵
+  marketing_insight: 마케팅 인사이트
+audiences:
+  brand: 브랜드 담당자
+  md: MD/상품기획자
+  marketer: 마케터/콘텐츠 기획자
+status:
+  draft: 초안
+  reviewed: 검수 완료
+  published: 발행
+  archived: 보관

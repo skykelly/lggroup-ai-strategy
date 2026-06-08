@@ -1,0 +1,12 @@
+keywords:
+  hotel_like_bedroom:
+    ko: 호텔식 침실
+    intent: 프리미엄 수면 공간에 대한 관심
+    content_titles:
+    - 호텔처럼 쉬는 침실을 만드는 법
+    - 하루의 끝을 바꾸는 침실 스타일링
+    - 침실 분위기를 바꾸는 조명과 침구의 힘
+    related_documents:
+    - hotel-like-bedroom
+    - bedroom-trend
+    - bedroom-category-map

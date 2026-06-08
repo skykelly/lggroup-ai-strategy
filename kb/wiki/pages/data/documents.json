@@ -1,0 +1,702 @@
+[
+  {
+    "id": "2000-2004-korea-interior-trend",
+    "title": "2000~2004 한국 인테리어 트렌드",
+    "path": "./kb/wiki/pages/01-trend-history/2000-2004-korea-interior-trend.md",
+    "type": "trend_history",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "draft",
+    "priority": 2,
+    "purpose": "대형 가구 세트, 체리몰딩, 아파트 표준 인테리어의 출발점 정리",
+    "period": "2000-2004"
+  },
+  {
+    "id": "2005-2009-korea-interior-trend",
+    "title": "2005~2009 한국 인테리어 트렌드",
+    "path": "./kb/wiki/pages/01-trend-history/2005-2009-korea-interior-trend.md",
+    "type": "trend_history",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "draft",
+    "priority": 2,
+    "purpose": "빌트인, 브랜드 가구, 모델하우스식 인테리어 확산 정리",
+    "period": "2005-2009"
+  },
+  {
+    "id": "2010-2014-korea-interior-trend",
+    "title": "2010~2014 한국 인테리어 트렌드",
+    "path": "./kb/wiki/pages/01-trend-history/2010-2014-korea-interior-trend.md",
+    "type": "trend_history",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "북유럽, 화이트 인테리어, 홈퍼니싱 대중화 정리",
+    "period": "2010-2014",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "2015-2019-korea-interior-trend",
+    "title": "2015~2019 한국 인테리어 트렌드",
+    "path": "./kb/wiki/pages/01-trend-history/2015-2019-korea-interior-trend.md",
+    "type": "trend_history",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "오늘의집식 집꾸미기, 원룸/신혼집 콘텐츠 확산 정리",
+    "period": "2015-2019",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "2020-2024-korea-interior-trend",
+    "title": "2020~2024 한국 인테리어 트렌드",
+    "path": "./kb/wiki/pages/01-trend-history/2020-2024-korea-interior-trend.md",
+    "type": "trend_history",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "draft",
+    "priority": 2,
+    "purpose": "팬데믹 이후 집의 다기능화, 홈오피스, 웰니스, 수납 강화 정리",
+    "period": "2020-2024"
+  },
+  {
+    "id": "2024-korea-interior-trend",
+    "title": "2024 한국 인테리어 트렌드",
+    "path": "./kb/wiki/pages/01-trend-history/2024-korea-interior-trend.md",
+    "type": "trend_history",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "최근 연도별 변화 추적용 기준 문서",
+    "period": "2024",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "2025-korea-interior-trend",
+    "title": "2025 한국 인테리어 트렌드",
+    "path": "./kb/wiki/pages/01-trend-history/2025-korea-interior-trend.md",
+    "type": "trend_history",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "2026 트렌드의 직전 맥락 정리",
+    "period": "2025",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "2026-korea-interior-trend",
+    "title": "2026 한국 인테리어 트렌드",
+    "path": "./kb/wiki/pages/01-trend-history/2026-korea-interior-trend.md",
+    "type": "trend_history",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 1,
+    "purpose": "MVP의 핵심 허브 문서",
+    "period": "2026",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "warm-minimalism-2026",
+    "title": "2026 테마: Warm Minimalism",
+    "path": "./kb/wiki/pages/02-2026-themes/warm-minimalism-2026.md",
+    "type": "theme",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "따뜻한 미니멀리즘의 시장/상품/콘텐츠 의미 정리",
+    "period": "2026",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "hotel-like-bedroom",
+    "title": "2026 테마: Hotel-like Bedroom",
+    "path": "./kb/wiki/pages/02-2026-themes/hotel-like-bedroom.md",
+    "type": "theme",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "침실 고급화, 수면 경험, 호텔식 공간 연출 정리",
+    "period": "2026",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "storage-as-lifestyle",
+    "title": "2026 테마: Storage as Lifestyle",
+    "path": "./kb/wiki/pages/02-2026-themes/storage-as-lifestyle.md",
+    "type": "theme",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "수납을 라이프스타일/공간 질서 관점으로 재정의",
+    "period": "2026",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "natural-luxury",
+    "title": "2026 테마: Natural Luxury",
+    "path": "./kb/wiki/pages/02-2026-themes/natural-luxury.md",
+    "type": "theme",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "조용한 프리미엄, 자연 소재, 절제된 고급감 정리",
+    "period": "2026",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "ai-smart-living",
+    "title": "2026 테마: AI & Smart Living",
+    "path": "./kb/wiki/pages/02-2026-themes/ai-smart-living.md",
+    "type": "theme",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "AI Home과 인테리어/라이프스타일 연결",
+    "period": "2026",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "small-space-optimization",
+    "title": "2026 테마: Small Space Optimization",
+    "path": "./kb/wiki/pages/02-2026-themes/small-space-optimization.md",
+    "type": "theme",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "원룸, 오피스텔, 20평대 공간 효율 트렌드 정리",
+    "period": "2026",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "wellness-home",
+    "title": "2026 테마: Wellness Home",
+    "path": "./kb/wiki/pages/02-2026-themes/wellness-home.md",
+    "type": "theme",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "수면, 조명, 공기, 향, 회복 중심 집의 의미 정리",
+    "period": "2026",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "warm-minimalism",
+    "title": "웜 미니멀",
+    "path": "./kb/wiki/pages/03-style-dictionary/warm-minimalism.md",
+    "type": "style",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "스타일 문법과 마케팅 언어 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "modern-natural",
+    "title": "모던 내추럴",
+    "path": "./kb/wiki/pages/03-style-dictionary/modern-natural.md",
+    "type": "style",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "한국 대중형 인테리어의 기본 스타일 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "white-wood",
+    "title": "화이트 우드",
+    "path": "./kb/wiki/pages/03-style-dictionary/white-wood.md",
+    "type": "style",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "밝은 주거 공간 연출의 대표 스타일 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "japandi",
+    "title": "재팬디",
+    "path": "./kb/wiki/pages/03-style-dictionary/japandi.md",
+    "type": "style",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "일본식 절제와 북유럽 감성의 결합 스타일 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "mid-century-modern",
+    "title": "미드센추리 모던",
+    "path": "./kb/wiki/pages/03-style-dictionary/mid-century-modern.md",
+    "type": "style",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "취향형/디자인 감도 높은 스타일 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "nordic-style",
+    "title": "북유럽 스타일",
+    "path": "./kb/wiki/pages/03-style-dictionary/nordic-style.md",
+    "type": "style",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "2010년대 이후 한국 홈퍼니싱에 미친 영향 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "hotel-like-interior",
+    "title": "호텔식 인테리어",
+    "path": "./kb/wiki/pages/03-style-dictionary/hotel-like-interior.md",
+    "type": "style",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "침실/거실 고급화와 연결되는 스타일 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "natural-luxury-style",
+    "title": "내추럴 럭셔리",
+    "path": "./kb/wiki/pages/03-style-dictionary/natural-luxury-style.md",
+    "type": "style",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "과시보다 질감과 소재 중심의 프리미엄 스타일 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "plant-interior",
+    "title": "플랜테리어",
+    "path": "./kb/wiki/pages/03-style-dictionary/plant-interior.md",
+    "type": "style",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "식물과 공간 감성의 결합 방식 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "storage-centered-interior",
+    "title": "수납 중심 인테리어",
+    "path": "./kb/wiki/pages/03-style-dictionary/storage-centered-interior.md",
+    "type": "style",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "수납을 스타일과 생활 질서로 보는 접근 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "living-room-trend",
+    "title": "거실 트렌드",
+    "path": "./kb/wiki/pages/04-space-trends/living-room-trend.md",
+    "type": "space_trend",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "거실의 역할 변화, 상품군, 콘텐츠 키워드 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "bedroom-trend",
+    "title": "침실 트렌드",
+    "path": "./kb/wiki/pages/04-space-trends/bedroom-trend.md",
+    "type": "space_trend",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "호텔식 침실, 웰니스 수면, 침구/조명 중심 변화 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "kitchen-trend",
+    "title": "주방 트렌드",
+    "path": "./kb/wiki/pages/04-space-trends/kitchen-trend.md",
+    "type": "space_trend",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "주방의 생활/취향/가전 결합 트렌드 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "dining-room-trend",
+    "title": "다이닝룸 트렌드",
+    "path": "./kb/wiki/pages/04-space-trends/dining-room-trend.md",
+    "type": "space_trend",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "식사 공간에서 취향/소셜 공간으로의 변화 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "entrance-trend",
+    "title": "현관 트렌드",
+    "path": "./kb/wiki/pages/04-space-trends/entrance-trend.md",
+    "type": "space_trend",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "첫인상, 수납, 위생, 외출 동선 중심 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "balcony-trend",
+    "title": "베란다/발코니 트렌드",
+    "path": "./kb/wiki/pages/04-space-trends/balcony-trend.md",
+    "type": "space_trend",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "확장/비확장, 식물, 수납, 휴식 공간 활용 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "home-office-trend",
+    "title": "홈오피스 트렌드",
+    "path": "./kb/wiki/pages/04-space-trends/home-office-trend.md",
+    "type": "space_trend",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "재택근무 이후 업무/학습/취미 공간 변화 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "kids-room-trend",
+    "title": "아이방 트렌드",
+    "path": "./kb/wiki/pages/04-space-trends/kids-room-trend.md",
+    "type": "space_trend",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "학습, 수납, 성장 단계별 공간 구성 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "studio-officetel-trend",
+    "title": "원룸/오피스텔 트렌드",
+    "path": "./kb/wiki/pages/04-space-trends/studio-officetel-trend.md",
+    "type": "space_trend",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 2,
+    "purpose": "작은 공간 최적화, 멀티유즈, 수납 중심 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "apartment-20-30-pyeong-trend",
+    "title": "20평대/30평대 아파트 트렌드",
+    "path": "./kb/wiki/pages/04-space-trends/apartment-20-30-pyeong-trend.md",
+    "type": "space_trend",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "draft",
+    "priority": 2,
+    "purpose": "한국 핵심 주거 유형별 공간 전략 정리"
+  },
+  {
+    "id": "storage-furniture-category-map",
+    "title": "수납 가구 카테고리 맵",
+    "path": "./kb/wiki/pages/05-category-maps/storage-furniture-category-map.md",
+    "type": "category_map",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 1,
+    "purpose": "수납장을 용도/공간/라이프스타일 기준으로 재분류",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "bedroom-category-map",
+    "title": "침실 카테고리 맵",
+    "path": "./kb/wiki/pages/05-category-maps/bedroom-category-map.md",
+    "type": "category_map",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 1,
+    "purpose": "침대 중심이 아닌 수면 경험 카테고리 구조화",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "living-room-category-map",
+    "title": "거실 카테고리 맵",
+    "path": "./kb/wiki/pages/05-category-maps/living-room-category-map.md",
+    "type": "category_map",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "draft",
+    "priority": 2,
+    "purpose": "소파 중심에서 거실 경험 상품군으로 확장"
+  },
+  {
+    "id": "premium-vs-value-living-brand",
+    "title": "프리미엄 리빙 브랜드 vs 가성비 리빙 브랜드",
+    "path": "./kb/wiki/pages/06-marketing-insights/premium-vs-value-living-brand.md",
+    "type": "marketing_insight",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 1,
+    "purpose": "브랜드 포지셔닝과 스타일 언어 차이 정리",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "lifestyle-content-keyword-map",
+    "title": "라이프스타일 콘텐츠 키워드 맵",
+    "path": "./kb/wiki/pages/06-marketing-insights/lifestyle-content-keyword-map.md",
+    "type": "marketing_insight",
+    "audience": [
+      "brand",
+      "md",
+      "marketer"
+    ],
+    "status": "rich_draft",
+    "priority": 1,
+    "purpose": "콘텐츠 제목, 해시태그, 캠페인 메시지 작성 기준 제공",
+    "updated_at": "2026-05-31"
+  },
+  {
+    "id": "2000-2009-korea-interior-trend",
+    "title": "2000~2009 한국 인테리어 트렌드: 체리몰딩·아파트 기본형·기능 중심 주거",
+    "type": "trend_history",
+    "path": "./kb/wiki/pages/01-trend-history/2000-2009-korea-interior-trend.md",
+    "status": "rich_draft",
+    "updated_at": "2026-05-31",
+    "priority": 1
+  },
+  {
+    "id": "2020-2022-korea-interior-trend",
+    "title": "2020~2022 한국 인테리어 트렌드: 팬데믹·홈오피스·집의 다기능화",
+    "type": "trend_history",
+    "path": "./kb/wiki/pages/01-trend-history/2020-2022-korea-interior-trend.md",
+    "status": "rich_draft",
+    "updated_at": "2026-05-31",
+    "priority": 1
+  },
+  {
+    "id": "2023-korea-interior-trend",
+    "title": "2023 한국 인테리어 트렌드: 취향 다변화·뉴트로·클래식·프리미엄 감성",
+    "type": "trend_history",
+    "path": "./kb/wiki/pages/01-trend-history/2023-korea-interior-trend.md",
+    "status": "rich_draft",
+    "updated_at": "2026-05-31",
+    "priority": 1
+  },
+  {
+    "id": "bathroom-trend",
+    "title": "욕실 트렌드",
+    "type": "space_trend",
+    "path": "./kb/wiki/pages/04-space-trends/bathroom-trend.md",
+    "status": "rich_draft",
+    "updated_at": "2026-05-31",
+    "priority": 1
+  },
+  {
+    "id": "living-product-category-map",
+    "title": "리빙 상품 카테고리 맵",
+    "type": "category_map",
+    "path": "./kb/wiki/pages/05-category-maps/living-product-category-map.md",
+    "status": "rich_draft",
+    "updated_at": "2026-05-31",
+    "priority": 1
+  },
+  {
+    "id": "domestic-search-keyword-matrix",
+    "title": "국내 검색량 보강 키워드 매트릭스",
+    "type": "enrichment",
+    "path": "./kb/wiki/pages/07-enrichment/domestic-search-keyword-matrix.md",
+    "status": "rich_draft",
+    "updated_at": "2026-05-31",
+    "priority": 1
+  },
+  {
+    "id": "product-data-enrichment-schema",
+    "title": "상품 데이터 보강 스키마",
+    "type": "enrichment",
+    "path": "./kb/wiki/pages/07-enrichment/product-data-enrichment-schema.md",
+    "status": "rich_draft",
+    "updated_at": "2026-05-31",
+    "priority": 1
+  },
+  {
+    "id": "image-reference-board",
+    "title": "이미지 레퍼런스 보드",
+    "type": "enrichment",
+    "path": "./kb/wiki/pages/07-enrichment/image-reference-board.md",
+    "status": "rich_draft",
+    "updated_at": "2026-05-31",
+    "priority": 1
+  },
+  {
+    "id": "internal-link-qa-report",
+    "title": "내부 링크 QA 리포트",
+    "type": "enrichment",
+    "path": "./kb/wiki/pages/07-enrichment/internal-link-qa-report.md",
+    "status": "qa_complete",
+    "updated_at": "2026-05-31",
+    "priority": 1
+  },
+  {
+    "id": "taxonomy-tag-standard",
+    "title": "용어·태그 표준화 가이드",
+    "type": "enrichment",
+    "path": "./kb/wiki/pages/07-enrichment/taxonomy-tag-standard.md",
+    "status": "rich_draft",
+    "updated_at": "2026-05-31",
+    "priority": 1
+  }
+]

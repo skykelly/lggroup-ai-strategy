@@ -1,0 +1,76 @@
+{
+  "audience": [
+    "brand",
+    "md",
+    "marketer"
+  ],
+  "doc_type": [
+    "trend_history",
+    "theme_2026",
+    "style",
+    "space_trend",
+    "category_map",
+    "marketing_insight",
+    "enrichment"
+  ],
+  "spaces": [
+    "living_room",
+    "bedroom",
+    "kitchen",
+    "dining_room",
+    "home_office",
+    "entrance",
+    "bathroom",
+    "kids_room",
+    "balcony",
+    "studio_officetel"
+  ],
+  "styles": [
+    "warm_minimal",
+    "modern_natural",
+    "white_wood",
+    "japandi",
+    "mid_century_modern",
+    "nordic",
+    "hotel_like",
+    "natural_luxury",
+    "plant_interior",
+    "storage_centered"
+  ],
+  "themes_2026": [
+    "warm_minimalism",
+    "wellness_home",
+    "hotel_like_bedroom",
+    "storage_as_lifestyle",
+    "small_space_optimization",
+    "ai_smart_living",
+    "natural_luxury"
+  ],
+  "product_groups": [
+    "furniture",
+    "storage",
+    "lighting",
+    "fabric",
+    "decor",
+    "appliance",
+    "finish_material",
+    "plant",
+    "scent_air",
+    "tableware"
+  ],
+  "price_tiers": [
+    "entry",
+    "mid",
+    "premium"
+  ],
+  "content_intents": [
+    "definition",
+    "trend",
+    "comparison",
+    "category_guide",
+    "checklist",
+    "how_to",
+    "space_solution",
+    "buying_guide"
+  ]
+}

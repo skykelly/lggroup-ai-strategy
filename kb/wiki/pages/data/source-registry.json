@@ -1,0 +1,42 @@
+{
+  "naver_datalab": {
+    "title": "네이버 데이터랩",
+    "url": "https://datalab.naver.com/",
+    "use": "국내 검색량/검색어 상대 추이 검증용. 공개 UI 또는 API 연동 필요."
+  },
+  "ohouse_2026": {
+    "title": "오늘의집 2026 인테리어 트렌드",
+    "url": "https://ohou.se/advices/12252",
+    "use": "국내 2026 인테리어 키워드: 무몰딩, 대면형 주방, 자연 소재, 아이보리/베이지 톤 등."
+  },
+  "ohouse_report_store": {
+    "title": "오늘의집 2026 트렌드 리포트 기획전",
+    "url": "https://store.ohou.se/exhibitions/17445",
+    "use": "국내 플랫폼 기준 2026 인테리어 리포트/상품 연계 참고."
+  },
+  "houzz_2026": {
+    "title": "Houzz 2026 Home Design Trends",
+    "url": "https://www.houzz.com/magazine/25-home-design-trends-defining-how-well-live-in-2026-stsetivw-vs~183837788",
+    "use": "공간별/기능별 글로벌 홈 디자인 트렌드 보강."
+  },
+  "livingetc_storage": {
+    "title": "Livingetc Home Storage Trends 2026",
+    "url": "https://www.livingetc.com/ideas/home-storage-trends-2026",
+    "use": "수납의 디자인화, 빌트인/내부 조명/플루티드 글라스 등 참고."
+  },
+  "housebeautiful_wellness": {
+    "title": "House Beautiful Invisible Wellness 2026",
+    "url": "https://www.housebeautiful.com/design-inspiration/a70249325/next-big-wellness-trend-2026/",
+    "use": "보이지 않는 웰니스: 조명, 공기질, 향, 소재, 수면 환경 참고."
+  },
+  "ikea_life": {
+    "title": "IKEA Life at Home",
+    "url": "https://lifeathome.ikea.com/",
+    "use": "생활 장면과 집에서의 감정/행동 관점 참고."
+  },
+  "wgsn_interiors": {
+    "title": "WGSN Interiors",
+    "url": "https://www.wgsn.com/ko/products/interiors",
+    "use": "CMF, 소비자 인사이트, 제품/공간 트렌드 프레임 참고."
+  }
+}
