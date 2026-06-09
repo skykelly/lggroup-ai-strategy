@@ -30,8 +30,6 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+/* embedded popup mode (ChatPopup iframe) */
+body[data-embedded="true"] > header { display: none; }
+body[data-embedded="true"] > main   { padding-top: 1rem; }
