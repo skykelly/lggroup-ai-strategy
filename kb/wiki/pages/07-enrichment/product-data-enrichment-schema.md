@@ -2,50 +2,39 @@
 linked_concepts:
 - warm-minimalism
 - storage-as-lifestyle
+- studio-officetel-living
 - living-room-lounge
+- sleep-wellness
 - open-kitchen
-- home-office-zone
 image_references:
-- role: hero_space
-  search_query: source-notes Korean apartment interior trend
-  alt_text_ko: source-notes의 대표 공간 전경
-  recommended_framing: 16:9 전경
+- role: data_structure_diagram
+  search_query: product-data-enrichment-schema knowledge graph taxonomy data visualization
+    interior
+  alt_text_ko: product-data-enrichment-schema를 설명하는 구조도·데이터 시각화
+  recommended_framing: 16:9 다이어그램
   links:
-    unsplash: https://unsplash.com/s/photos/source-notes+Korean+apartment+interior+trend
-    pexels: https://www.pexels.com/search/source-notes+Korean+apartment+interior+trend/
-    wikimedia: https://commons.wikimedia.org/w/index.php?search=source-notes+Korean+apartment+interior+trend&title=Special:MediaSearch&type=image
-    naver: https://search.naver.com/search.naver?where=image&query=source-notes+Korean+apartment+interior+trend
-    bing: https://www.bing.com/images/search?q=source-notes+Korean+apartment+interior+trend
-    todayhouse_photos: https://ohou.se/cards/feed?query=source+notes
-    todayhouse_search: https://ohou.se/search/index?query=source+notes&search_affect_type=Typing
+    unsplash: https://unsplash.com/s/photos/product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior
+    pexels: https://www.pexels.com/search/product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior/
+    wikimedia: https://commons.wikimedia.org/w/index.php?search=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior&title=Special:MediaSearch&type=image
+    naver: https://search.naver.com/search.naver?where=image&query=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior
+    bing: https://www.bing.com/images/search?q=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior
+    todayhouse_photos: https://ohou.se/cards/feed?query=product+data+enrichment+schema
+    todayhouse_search: https://ohou.se/search/index?query=product+data+enrichment+schema&search_affect_type=Typing
   license_checked: false
   primary_source_platform: todayhouse
-- role: layout_and_flow
-  search_query: source-notes Korean apartment interior trend layout floor plan circulation
-  alt_text_ko: source-notes의 배치·동선·구역 구성
-  recommended_framing: 4:3 배치
+- role: reference_board
+  search_query: product-data-enrichment-schema knowledge graph taxonomy data visualization
+    interior moodboard
+  alt_text_ko: product-data-enrichment-schema의 레퍼런스 보드
+  recommended_framing: 4:3 보드
   links:
-    unsplash: https://unsplash.com/s/photos/source-notes+Korean+apartment+interior+trend+layout+floor+plan+circulation
-    pexels: https://www.pexels.com/search/source-notes+Korean+apartment+interior+trend+layout+floor+plan+circulation/
-    wikimedia: https://commons.wikimedia.org/w/index.php?search=source-notes+Korean+apartment+interior+trend+layout+floor+plan+circulation&title=Special:MediaSearch&type=image
-    naver: https://search.naver.com/search.naver?where=image&query=source-notes+Korean+apartment+interior+trend+layout+floor+plan+circulation
-    bing: https://www.bing.com/images/search?q=source-notes+Korean+apartment+interior+trend+layout+floor+plan+circulation
-    todayhouse_photos: https://ohou.se/cards/feed?query=source+notes
-    todayhouse_search: https://ohou.se/search/index?query=source+notes&search_affect_type=Typing
-  license_checked: false
-  primary_source_platform: todayhouse
-- role: product_detail
-  search_query: source-notes Korean apartment interior trend furniture storage lighting
-  alt_text_ko: source-notes를 구현하는 상품·수납·조명
-  recommended_framing: 4:3 상품
-  links:
-    unsplash: https://unsplash.com/s/photos/source-notes+Korean+apartment+interior+trend+furniture+storage+lighting
-    pexels: https://www.pexels.com/search/source-notes+Korean+apartment+interior+trend+furniture+storage+lighting/
-    wikimedia: https://commons.wikimedia.org/w/index.php?search=source-notes+Korean+apartment+interior+trend+furniture+storage+lighting&title=Special:MediaSearch&type=image
-    naver: https://search.naver.com/search.naver?where=image&query=source-notes+Korean+apartment+interior+trend+furniture+storage+lighting
-    bing: https://www.bing.com/images/search?q=source-notes+Korean+apartment+interior+trend+furniture+storage+lighting
-    todayhouse_photos: https://ohou.se/cards/feed?query=source+notes
-    todayhouse_search: https://ohou.se/search/index?query=source+notes&search_affect_type=Typing
+    unsplash: https://unsplash.com/s/photos/product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior+moodboard
+    pexels: https://www.pexels.com/search/product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior+moodboard/
+    wikimedia: https://commons.wikimedia.org/w/index.php?search=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior+moodboard&title=Special:MediaSearch&type=image
+    naver: https://search.naver.com/search.naver?where=image&query=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior+moodboard
+    bing: https://www.bing.com/images/search?q=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior+moodboard
+    todayhouse_photos: https://ohou.se/cards/feed?query=product+data+enrichment+schema
+    todayhouse_search: https://ohou.se/search/index?query=product+data+enrichment+schema&search_affect_type=Typing
   license_checked: false
   primary_source_platform: todayhouse
 - role: linked_concept_warm-minimalism
@@ -58,8 +47,8 @@ image_references:
     wikimedia: https://commons.wikimedia.org/w/index.php?search=warm+minimalism+beige+living+room+natural+wood+linen+interior&title=Special:MediaSearch&type=image
     naver: https://search.naver.com/search.naver?where=image&query=warm+minimalism+beige+living+room+natural+wood+linen+interior
     bing: https://www.bing.com/images/search?q=warm+minimalism+beige+living+room+natural+wood+linen+interior
-    todayhouse_photos: https://ohou.se/cards/feed?query=source+notes
-    todayhouse_search: https://ohou.se/search/index?query=source+notes&search_affect_type=Typing
+    todayhouse_photos: https://ohou.se/cards/feed?query=product+data+enrichment+schema
+    todayhouse_search: https://ohou.se/search/index?query=product+data+enrichment+schema&search_affect_type=Typing
   license_checked: false
   primary_source_platform: todayhouse
 image_status: search_links_added
@@ -68,12 +57,12 @@ concept_link_status: mapped
 primary_image_source_urls:
 - source: todayhouse
   type: photo_search
-  url: https://ohou.se/cards/feed?query=source+notes
-  query: source notes
+  url: https://ohou.se/cards/feed?query=product+data+enrichment+schema
+  query: product data enrichment schema
 - source: todayhouse
   type: integrated_search
-  url: https://ohou.se/search/index?query=source+notes&search_affect_type=Typing
-  query: source notes
+  url: https://ohou.se/search/index?query=product+data+enrichment+schema&search_affect_type=Typing
+  query: product data enrichment schema
 primary_image_source: todayhouse
 primary_image_source_updated_at: '2026-06-09'
 existing_source_image_references:
@@ -121,23 +110,52 @@ existing_source_image_status: source_page_urls_added
 existing_source_image_updated_at: '2026-06-09'
 ---
 
-# 공간별 트렌드 조사 출처 노트
+# 상품 데이터 보강 스키마
 
-## 주요 출처
+이 문서는 위키 문서와 실제 상품 데이터를 연결하기 위한 수집 필드, 태그, 샘플 구조를 정의한다.
 
-- Houzz: 2026 Home Design Trends / Emerging Trends / Kitchen Trends
-- The Spruce: 2026 거실·주방·작은 공간 트렌드
-- Livingetc: 2026 욕실/엔스위트 및 수납 트렌드
-- Real Simple: Calm and intentional home design
-- DesignCafe / Mood for Decor: 2026 홈오피스 트렌드
-- House Beautiful: Invisible Wellness
-- 오늘의집 / 오픈갤러리: 국내 2026 인테리어와 웜 미니멀 맥락
+## 필수 필드
 
-## 운영 메모
+| 필드 | 설명 |
+|---|---|
+| `product_id` | 내부 또는 수집 기준 상품 ID |
+| `source` | 오늘의집/네이버쇼핑/브랜드몰/이케아 등 |
+| `category_lv1` | 가구/패브릭/조명/수납/가전/시공재 등 |
+| `category_lv2` | 소파/침대/식탁/커튼/러그/수납장 등 |
+| `space` | 거실/침실/주방/원룸 등 |
+| `style_tags` | 웜미니멀/화이트우드/호텔식/내추럴럭셔리 등 |
+| `material_tags` | 원목/세라믹/린넨/부클레/스톤 등 |
+| `color_tags` | 아이보리/베이지/오트밀/월넛 등 |
+| `price` | 판매가 |
+| `price_tier` | entry/mid/premium |
+| `review_count` | 리뷰 수 |
+| `rating` | 평점 |
+| `image_url` | 대표 이미지 URL |
+| `product_url` | 상품 URL |
+| `mapped_docs` | 연결 위키 문서 ID 목록 |
 
-- 각 문서는 공간별 고객 질문에 바로 대응할 수 있도록 작성했다.
-- 실제 발행 전 국내 검색량, 플랫폼 상품 데이터, 국내 브랜드 사례를 추가 보강한다.
-- 공간 문서는 2026 테마, 스타일 사전, 카테고리 맵과 내부 링크를 계속 강화한다.
+## 샘플 데이터
+
+| product_id | source | category_lv1 | category_lv2 | space | style_tags | material_tags | color_tags | price_tier | mapped_docs |
+|---|---|---|---|---|---|---|---|---|---|
+| SOFA-001 | brand_mall | furniture | sofa | living_room | warm_minimal,modern_natural | fabric,wood | ivory,beige | mid | living-room-trend,warm-minimalism |
+| BED-001 | brand_mall | furniture | bed | bedroom | hotel_like,wellness_home | fabric,wood | cream,greige | premium | bedroom-trend,bedroom-category-map |
+| STOR-001 | marketplace | storage | storage_bed | studio_officetel | storage_centered,small_space | wood,LPM | white,oak | mid | studio-officetel-trend,storage-furniture-category-map |
+
+## 우선 수집 카테고리
+
+- 수납장/수납형 침대/리프트업 테이블
+- 침대/매트리스/호텔식 침구/협탁 조명
+- 소파/러그/플로어 램프/거실장
+- 식탁/체어/펜던트 조명/테이블웨어
+- 커튼/러그/디퓨저/공기·수면 가전
+
+## 상품 데이터와 문서 연결 규칙
+
+- 상품이 특정 공간 문제를 해결하면 `space`와 `mapped_docs`를 우선 부여한다.
+- 스타일성 상품은 `style_tags`와 `material_tags`를 반드시 기록한다.
+- 이미지가 강한 상품은 `image_reference_board.md`의 레퍼런스 톤과 비교해 대표 컷을 선정한다.
+- 리뷰 수가 많아도 스타일 태그가 불명확하면 콘텐츠 추천에는 낮은 우선순위를 둔다.
 
 ## 이미지 레퍼런스 및 Concept 연결
 
@@ -151,9 +169,8 @@ existing_source_image_updated_at: '2026-06-09'
 
 | 역할 | 권장 이미지 | 구도 | 후보 링크 |
 |---|---|---|---|
-| `hero_space` | source-notes의 대표 공간 전경<br>`source-notes Korean apartment interior trend` | 16:9 전경 | [Unsplash](https://unsplash.com/s/photos/source-notes+Korean+apartment+interior+trend) · [Pexels](https://www.pexels.com/search/source-notes+Korean+apartment+interior+trend/) · [Commons](https://commons.wikimedia.org/w/index.php?search=source-notes+Korean+apartment+interior+trend&title=Special:MediaSearch&type=image) · [네이버 이미지](https://search.naver.com/search.naver?where=image&query=source-notes+Korean+apartment+interior+trend) · [Bing](https://www.bing.com/images/search?q=source-notes+Korean+apartment+interior+trend) |
-| `layout_and_flow` | source-notes의 배치·동선·구역 구성<br>`source-notes Korean apartment interior trend layout floor plan circulation` | 4:3 배치 | [Unsplash](https://unsplash.com/s/photos/source-notes+Korean+apartment+interior+trend+layout+floor+plan+circulation) · [Pexels](https://www.pexels.com/search/source-notes+Korean+apartment+interior+trend+layout+floor+plan+circulation/) · [Commons](https://commons.wikimedia.org/w/index.php?search=source-notes+Korean+apartment+interior+trend+layout+floor+plan+circulation&title=Special:MediaSearch&type=image) · [네이버 이미지](https://search.naver.com/search.naver?where=image&query=source-notes+Korean+apartment+interior+trend+layout+floor+plan+circulation) · [Bing](https://www.bing.com/images/search?q=source-notes+Korean+apartment+interior+trend+layout+floor+plan+circulation) |
-| `product_detail` | source-notes를 구현하는 상품·수납·조명<br>`source-notes Korean apartment interior trend furniture storage lighting` | 4:3 상품 | [Unsplash](https://unsplash.com/s/photos/source-notes+Korean+apartment+interior+trend+furniture+storage+lighting) · [Pexels](https://www.pexels.com/search/source-notes+Korean+apartment+interior+trend+furniture+storage+lighting/) · [Commons](https://commons.wikimedia.org/w/index.php?search=source-notes+Korean+apartment+interior+trend+furniture+storage+lighting&title=Special:MediaSearch&type=image) · [네이버 이미지](https://search.naver.com/search.naver?where=image&query=source-notes+Korean+apartment+interior+trend+furniture+storage+lighting) · [Bing](https://www.bing.com/images/search?q=source-notes+Korean+apartment+interior+trend+furniture+storage+lighting) |
+| `data_structure_diagram` | product-data-enrichment-schema를 설명하는 구조도·데이터 시각화<br>`product-data-enrichment-schema knowledge graph taxonomy data visualization interior` | 16:9 다이어그램 | [Unsplash](https://unsplash.com/s/photos/product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior) · [Pexels](https://www.pexels.com/search/product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior/) · [Commons](https://commons.wikimedia.org/w/index.php?search=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior&title=Special:MediaSearch&type=image) · [네이버 이미지](https://search.naver.com/search.naver?where=image&query=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior) · [Bing](https://www.bing.com/images/search?q=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior) |
+| `reference_board` | product-data-enrichment-schema의 레퍼런스 보드<br>`product-data-enrichment-schema knowledge graph taxonomy data visualization interior moodboard` | 4:3 보드 | [Unsplash](https://unsplash.com/s/photos/product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior+moodboard) · [Pexels](https://www.pexels.com/search/product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior+moodboard/) · [Commons](https://commons.wikimedia.org/w/index.php?search=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior+moodboard&title=Special:MediaSearch&type=image) · [네이버 이미지](https://search.naver.com/search.naver?where=image&query=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior+moodboard) · [Bing](https://www.bing.com/images/search?q=product-data-enrichment-schema+knowledge+graph+taxonomy+data+visualization+interior+moodboard) |
 | `linked_concept_warm-minimalism` | 따뜻한 베이지 톤 거실, 라이트 오크, 패브릭 소파, 간접 조명<br>`warm minimalism beige living room natural wood linen interior` | 16:9 wide interior | [Unsplash](https://unsplash.com/s/photos/warm+minimalism+beige+living+room+natural+wood+linen+interior) · [Pexels](https://www.pexels.com/search/warm+minimalism+beige+living+room+natural+wood+linen+interior/) · [Commons](https://commons.wikimedia.org/w/index.php?search=warm+minimalism+beige+living+room+natural+wood+linen+interior&title=Special:MediaSearch&type=image) · [네이버 이미지](https://search.naver.com/search.naver?where=image&query=warm+minimalism+beige+living+room+natural+wood+linen+interior) · [Bing](https://www.bing.com/images/search?q=warm+minimalism+beige+living+room+natural+wood+linen+interior) |
 
 ### Concept 이미지와의 일관성 기준
@@ -168,9 +185,9 @@ existing_source_image_updated_at: '2026-06-09'
 
 > 아래 URL은 문서와 연결된 Concept·공간·스타일 키워드로 오늘의집 원문 사진과 콘텐츠를 탐색하기 위한 1차 출처다. 실제 이미지를 선택할 때는 개별 게시물 페이지의 작성자와 사용 조건을 별도로 기록한다.
 
-- **검색 키워드:** `source notes`
-- **사진 검색:** [오늘의집 사진 결과](https://ohou.se/cards/feed?query=source+notes)
-- **통합 검색:** [오늘의집 통합 결과](https://ohou.se/search/index?query=source+notes&search_affect_type=Typing)
+- **검색 키워드:** `product data enrichment schema`
+- **사진 검색:** [오늘의집 사진 결과](https://ohou.se/cards/feed?query=product+data+enrichment+schema)
+- **통합 검색:** [오늘의집 통합 결과](https://ohou.se/search/index?query=product+data+enrichment+schema&search_affect_type=Typing)
 - **연결 Concept:** `warm-minimalism`
 - **현재 사용 상태:** `reference_only`
 
@@ -178,8 +195,8 @@ existing_source_image_updated_at: '2026-06-09'
 
 > 이 문서를 작성할 때 활용한 기존 연구·에디토리얼·브랜드·데이터 출처의 원문 URL이다. 원문 페이지 안의 공간 전경, 소재 디테일, 상품 장면, 도식 이미지를 우선 후보로 활용한다. 실제 이미지를 복제·발행하기 전에는 각 이미지의 저작자와 이용 조건을 확인한다.
 
-- **연결 Concept:** `warm-minimalism`, `storage-as-lifestyle`, `living-room-lounge`, `open-kitchen`, `home-office-zone`
-- **문서 유형:** `space_trend`
+- **연결 Concept:** `warm-minimalism`, `storage-as-lifestyle`, `studio-officetel-living`, `living-room-lounge`, `sleep-wellness`, `open-kitchen`
+- **문서 유형:** `enrichment`
 
 | 우선순위 | 기존 출처 | 원문 URL | 적합한 이미지 역할 | 상태 |
 |---:|---|---|---|---|

@@ -82,10 +82,10 @@ def import_concepts(cur, wiki_dir: Path, dry_run: bool) -> int:
         print('[concepts] 디렉터리 없음, skip')
         return 0
 
-    # 직속 .md 파일만 (data/ 하위·_ 시작 제외)
+    # 직속 .md 파일만 (data/ 하위·_ 시작·README 제외)
     files = sorted(
         f for f in concepts_dir.glob('*.md')
-        if not f.name.startswith('_')
+        if not f.name.startswith('_') and f.name.lower() != 'readme.md'
     )
 
     count = 0
