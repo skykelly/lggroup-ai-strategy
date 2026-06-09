@@ -18,8 +18,9 @@ function mapSource(r: typeof sources.$inferSelect): SourceItem {
     publisher: r.publisher ?? undefined,
     published_at: r.published_at ?? undefined,
     source_type: r.source_type ?? 'external',
-    one_line_summary: r.one_line_summary ?? undefined,
+    raw_content: r.raw_content ?? undefined,
     ai_summary: r.ai_summary ?? undefined,
+    one_line_summary: r.one_line_summary ?? undefined,
     topics: (r.topics as string[]) ?? [],
     status: r.status ?? 'done',
     synthesis_result: (r.synthesis_result as SynthesisResult) ?? {

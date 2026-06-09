@@ -5,8 +5,9 @@ export interface SourceItem {
   publisher?: string
   published_at?: string
   source_type: string
-  one_line_summary?: string
+  raw_content?: string
   ai_summary?: string
+  one_line_summary?: string
   topics: string[]
   status: string
   synthesis_result: SynthesisResult
