@@ -1,0 +1,576 @@
+{
+  "updated_at": "2026-06-09",
+  "concept_count": 38,
+  "images": [
+    {
+      "concept_id": "warm-minimalism",
+      "canonical_name": "Warm Minimalism",
+      "search_query": "warm minimalism beige living room natural wood linen interior",
+      "alt_text_ko": "따뜻한 베이지 톤 거실, 라이트 오크, 패브릭 소파, 간접 조명",
+      "recommended_framing": "16:9 wide interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/warm+minimalism+beige+living+room+natural+wood+linen+interior",
+        "pexels": "https://www.pexels.com/search/warm+minimalism+beige+living+room+natural+wood+linen+interior/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=warm+minimalism+beige+living+room+natural+wood+linen+interior&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=warm+minimalism+beige+living+room+natural+wood+linen+interior"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "modern-natural",
+      "canonical_name": "Modern Natural",
+      "search_query": "modern natural interior wood linen plants apartment",
+      "alt_text_ko": "현대적 직선 구조에 원목·린넨·식물을 결합한 한국형 아파트",
+      "recommended_framing": "16:9 wide interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/modern+natural+interior+wood+linen+plants+apartment",
+        "pexels": "https://www.pexels.com/search/modern+natural+interior+wood+linen+plants+apartment/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=modern+natural+interior+wood+linen+plants+apartment&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=modern+natural+interior+wood+linen+plants+apartment"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "white-wood",
+      "canonical_name": "White Wood",
+      "search_query": "white wood small apartment interior light oak",
+      "alt_text_ko": "화이트 벽과 라이트 오크 가구가 조합된 밝은 소형 주거",
+      "recommended_framing": "4:3 room scene",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/white+wood+small+apartment+interior+light+oak",
+        "pexels": "https://www.pexels.com/search/white+wood+small+apartment+interior+light+oak/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=white+wood+small+apartment+interior+light+oak&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=white+wood+small+apartment+interior+light+oak"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "japandi",
+      "canonical_name": "Japandi",
+      "search_query": "japandi interior low furniture paper lamp natural wood",
+      "alt_text_ko": "낮은 가구, 종이 조명, 뉴트럴 컬러, 자연 소재",
+      "recommended_framing": "16:9 calm interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/japandi+interior+low+furniture+paper+lamp+natural+wood",
+        "pexels": "https://www.pexels.com/search/japandi+interior+low+furniture+paper+lamp+natural+wood/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=japandi+interior+low+furniture+paper+lamp+natural+wood&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=japandi+interior+low+furniture+paper+lamp+natural+wood"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "mid-century-modern",
+      "canonical_name": "Mid Century Modern",
+      "search_query": "mid century modern living room walnut lounge chair arc lamp",
+      "alt_text_ko": "월넛 가구, 라운지체어, 테이퍼드 레그, 조형 조명",
+      "recommended_framing": "16:9 living room",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/mid+century+modern+living+room+walnut+lounge+chair+arc+lamp",
+        "pexels": "https://www.pexels.com/search/mid+century+modern+living+room+walnut+lounge+chair+arc+lamp/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=mid+century+modern+living+room+walnut+lounge+chair+arc+lamp&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=mid+century+modern+living+room+walnut+lounge+chair+arc+lamp"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "nordic-style",
+      "canonical_name": "Nordic Style",
+      "search_query": "scandinavian nordic interior bright functional living room",
+      "alt_text_ko": "밝은 자연광, 실용 가구, 가벼운 컬러 포인트",
+      "recommended_framing": "16:9 living room",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/scandinavian+nordic+interior+bright+functional+living+room",
+        "pexels": "https://www.pexels.com/search/scandinavian+nordic+interior+bright+functional+living+room/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=scandinavian+nordic+interior+bright+functional+living+room&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=scandinavian+nordic+interior+bright+functional+living+room"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "hotel-like-interior",
+      "canonical_name": "Hotel Like Interior",
+      "search_query": "luxury hotel style apartment interior neutral lighting",
+      "alt_text_ko": "정돈된 뉴트럴 공간, 레이어드 조명, 고급 소재",
+      "recommended_framing": "16:9 whole-room",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/luxury+hotel+style+apartment+interior+neutral+lighting",
+        "pexels": "https://www.pexels.com/search/luxury+hotel+style+apartment+interior+neutral+lighting/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=luxury+hotel+style+apartment+interior+neutral+lighting&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=luxury+hotel+style+apartment+interior+neutral+lighting"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "natural-luxury",
+      "canonical_name": "Natural Luxury",
+      "search_query": "natural luxury interior stone wood linen quiet luxury",
+      "alt_text_ko": "스톤·원목·린넨·브러시드 메탈이 조합된 절제된 고급 공간",
+      "recommended_framing": "16:9 premium interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/natural+luxury+interior+stone+wood+linen+quiet+luxury",
+        "pexels": "https://www.pexels.com/search/natural+luxury+interior+stone+wood+linen+quiet+luxury/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=natural+luxury+interior+stone+wood+linen+quiet+luxury&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=natural+luxury+interior+stone+wood+linen+quiet+luxury"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "plant-interior",
+      "canonical_name": "Plant Interior",
+      "search_query": "biophilic plant interior apartment living room",
+      "alt_text_ko": "실내 식물과 자연광이 생활 공간에 통합된 장면",
+      "recommended_framing": "4:3 living room",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/biophilic+plant+interior+apartment+living+room",
+        "pexels": "https://www.pexels.com/search/biophilic+plant+interior+apartment+living+room/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=biophilic+plant+interior+apartment+living+room&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=biophilic+plant+interior+apartment+living+room"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "storage-centered-interior",
+      "canonical_name": "Storage Centered Interior",
+      "search_query": "minimal storage centered interior built in cabinets",
+      "alt_text_ko": "벽면 일체형 수납과 생활감이 정돈된 공간",
+      "recommended_framing": "16:9 interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/minimal+storage+centered+interior+built+in+cabinets",
+        "pexels": "https://www.pexels.com/search/minimal+storage+centered+interior+built+in+cabinets/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=minimal+storage+centered+interior+built+in+cabinets&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=minimal+storage+centered+interior+built+in+cabinets"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "wellness-home",
+      "canonical_name": "Wellness Home",
+      "search_query": "wellness home interior natural light calm air quality bedroom",
+      "alt_text_ko": "자연광·식물·편안한 소재가 있는 회복형 집",
+      "recommended_framing": "16:9 wellness scene",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/wellness+home+interior+natural+light+calm+air+quality+bedroom",
+        "pexels": "https://www.pexels.com/search/wellness+home+interior+natural+light+calm+air+quality+bedroom/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=wellness+home+interior+natural+light+calm+air+quality+bedroom&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=wellness+home+interior+natural+light+calm+air+quality+bedroom"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "hotel-like-bedroom",
+      "canonical_name": "Hotel Like Bedroom",
+      "search_query": "hotel like bedroom cream bedding bedside lighting",
+      "alt_text_ko": "크림 침구, 패브릭 헤드보드, 협탁 조명, 암막 커튼",
+      "recommended_framing": "16:9 bedroom",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/hotel+like+bedroom+cream+bedding+bedside+lighting",
+        "pexels": "https://www.pexels.com/search/hotel+like+bedroom+cream+bedding+bedside+lighting/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=hotel+like+bedroom+cream+bedding+bedside+lighting&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=hotel+like+bedroom+cream+bedding+bedside+lighting"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "storage-as-lifestyle",
+      "canonical_name": "Storage As Lifestyle",
+      "search_query": "organized home storage lifestyle hidden storage apartment",
+      "alt_text_ko": "공간별 물건과 수납 동선이 정리된 생활 장면",
+      "recommended_framing": "4:3 functional interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/organized+home+storage+lifestyle+hidden+storage+apartment",
+        "pexels": "https://www.pexels.com/search/organized+home+storage+lifestyle+hidden+storage+apartment/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=organized+home+storage+lifestyle+hidden+storage+apartment&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=organized+home+storage+lifestyle+hidden+storage+apartment"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "small-space-optimization",
+      "canonical_name": "Small Space Optimization",
+      "search_query": "small apartment multifunctional furniture storage interior",
+      "alt_text_ko": "원룸에서 수면·업무·수납이 효율적으로 구획된 장면",
+      "recommended_framing": "16:9 small apartment",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/small+apartment+multifunctional+furniture+storage+interior",
+        "pexels": "https://www.pexels.com/search/small+apartment+multifunctional+furniture+storage+interior/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=small+apartment+multifunctional+furniture+storage+interior&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=small+apartment+multifunctional+furniture+storage+interior"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "ai-smart-living",
+      "canonical_name": "Ai Smart Living",
+      "search_query": "smart home interior invisible technology lighting appliances",
+      "alt_text_ko": "기술이 공간에 자연스럽게 통합된 거실·주방",
+      "recommended_framing": "16:9 smart interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/smart+home+interior+invisible+technology+lighting+appliances",
+        "pexels": "https://www.pexels.com/search/smart+home+interior+invisible+technology+lighting+appliances/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=smart+home+interior+invisible+technology+lighting+appliances&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=smart+home+interior+invisible+technology+lighting+appliances"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "premium-living",
+      "canonical_name": "Premium Living",
+      "search_query": "premium living interior refined materials furniture service",
+      "alt_text_ko": "고급 소재와 정교한 마감이 강조된 전체 공간",
+      "recommended_framing": "16:9 premium room",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/premium+living+interior+refined+materials+furniture+service",
+        "pexels": "https://www.pexels.com/search/premium+living+interior+refined+materials+furniture+service/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=premium+living+interior+refined+materials+furniture+service&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=premium+living+interior+refined+materials+furniture+service"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "living-room-lounge",
+      "canonical_name": "Living Room Lounge",
+      "search_query": "living room lounge conversation seating floor lamp rug",
+      "alt_text_ko": "소파와 라운지체어가 마주보고 러그와 조명으로 구획된 거실",
+      "recommended_framing": "16:9 lounge",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/living+room+lounge+conversation+seating+floor+lamp+rug",
+        "pexels": "https://www.pexels.com/search/living+room+lounge+conversation+seating+floor+lamp+rug/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=living+room+lounge+conversation+seating+floor+lamp+rug&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=living+room+lounge+conversation+seating+floor+lamp+rug"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "sleep-wellness",
+      "canonical_name": "Sleep Wellness",
+      "search_query": "sleep wellness bedroom blackout lighting calm bedding",
+      "alt_text_ko": "숙면을 위한 암막·조명·침구·공기 환경",
+      "recommended_framing": "16:9 bedroom",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/sleep+wellness+bedroom+blackout+lighting+calm+bedding",
+        "pexels": "https://www.pexels.com/search/sleep+wellness+bedroom+blackout+lighting+calm+bedding/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=sleep+wellness+bedroom+blackout+lighting+calm+bedding&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=sleep+wellness+bedroom+blackout+lighting+calm+bedding"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "open-kitchen",
+      "canonical_name": "Open Kitchen",
+      "search_query": "open facing kitchen island living dining social cooking",
+      "alt_text_ko": "거실·다이닝을 향한 대면형 조리대와 가족 소통 장면",
+      "recommended_framing": "16:9 kitchen",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/open+facing+kitchen+island+living+dining+social+cooking",
+        "pexels": "https://www.pexels.com/search/open+facing+kitchen+island+living+dining+social+cooking/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=open+facing+kitchen+island+living+dining+social+cooking&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=open+facing+kitchen+island+living+dining+social+cooking"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "kitchen-island",
+      "canonical_name": "Kitchen Island",
+      "search_query": "modern kitchen island seating pendant lighting storage",
+      "alt_text_ko": "조리·수납·식사를 결합한 아일랜드와 펜던트 조명",
+      "recommended_framing": "16:9 kitchen",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/modern+kitchen+island+seating+pendant+lighting+storage",
+        "pexels": "https://www.pexels.com/search/modern+kitchen+island+seating+pendant+lighting+storage/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=modern+kitchen+island+seating+pendant+lighting+storage&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=modern+kitchen+island+seating+pendant+lighting+storage"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "home-office-zone",
+      "canonical_name": "Home Office Zone",
+      "search_query": "small home office zone apartment ergonomic desk lighting",
+      "alt_text_ko": "거실이나 침실 일부에 구획된 집중 업무 공간",
+      "recommended_framing": "4:3 workspace",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/small+home+office+zone+apartment+ergonomic+desk+lighting",
+        "pexels": "https://www.pexels.com/search/small+home+office+zone+apartment+ergonomic+desk+lighting/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=small+home+office+zone+apartment+ergonomic+desk+lighting&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=small+home+office+zone+apartment+ergonomic+desk+lighting"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "balcony-garden",
+      "canonical_name": "Balcony Garden",
+      "search_query": "apartment balcony garden plants small table urban",
+      "alt_text_ko": "아파트 발코니의 식물·소형 테이블·관리 동선",
+      "recommended_framing": "4:3 balcony",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/apartment+balcony+garden+plants+small+table+urban",
+        "pexels": "https://www.pexels.com/search/apartment+balcony+garden+plants+small+table+urban/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=apartment+balcony+garden+plants+small+table+urban&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=apartment+balcony+garden+plants+small+table+urban"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "studio-officetel-living",
+      "canonical_name": "Studio Officetel Living",
+      "search_query": "studio apartment officetel multifunctional interior korea",
+      "alt_text_ko": "침대·책상·식사·수납이 구획된 원룸형 공간",
+      "recommended_framing": "16:9 studio",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/studio+apartment+officetel+multifunctional+interior+korea",
+        "pexels": "https://www.pexels.com/search/studio+apartment+officetel+multifunctional+interior+korea/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=studio+apartment+officetel+multifunctional+interior+korea&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=studio+apartment+officetel+multifunctional+interior+korea"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "hidden-storage",
+      "canonical_name": "Hidden Storage",
+      "search_query": "hidden storage minimalist interior flush cabinets concealed",
+      "alt_text_ko": "플랫 도어와 벽면 일체형 수납으로 생활감을 숨긴 공간",
+      "recommended_framing": "16:9 interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/hidden+storage+minimalist+interior+flush+cabinets+concealed",
+        "pexels": "https://www.pexels.com/search/hidden+storage+minimalist+interior+flush+cabinets+concealed/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=hidden+storage+minimalist+interior+flush+cabinets+concealed&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=hidden+storage+minimalist+interior+flush+cabinets+concealed"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "modular-storage",
+      "canonical_name": "Modular Storage",
+      "search_query": "modular storage system shelves apartment configurable",
+      "alt_text_ko": "확장·재조립 가능한 모듈형 선반과 수납장",
+      "recommended_framing": "4:3 product-in-room",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/modular+storage+system+shelves+apartment+configurable",
+        "pexels": "https://www.pexels.com/search/modular+storage+system+shelves+apartment+configurable/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=modular+storage+system+shelves+apartment+configurable&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=modular+storage+system+shelves+apartment+configurable"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "vertical-storage",
+      "canonical_name": "Vertical Storage",
+      "search_query": "vertical storage small apartment wall shelving tall cabinet",
+      "alt_text_ko": "벽면·키큰장·상부 공간을 활용한 수직 수납",
+      "recommended_framing": "4:3 interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/vertical+storage+small+apartment+wall+shelving+tall+cabinet",
+        "pexels": "https://www.pexels.com/search/vertical+storage+small+apartment+wall+shelving+tall+cabinet/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=vertical+storage+small+apartment+wall+shelving+tall+cabinet&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=vertical+storage+small+apartment+wall+shelving+tall+cabinet"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "multifunctional-furniture",
+      "canonical_name": "Multifunctional Furniture",
+      "search_query": "multifunctional furniture small apartment sofa bed lift table",
+      "alt_text_ko": "수납형 침대·소파베드·리프트업 테이블의 실제 사용 장면",
+      "recommended_framing": "4:3 product action",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/multifunctional+furniture+small+apartment+sofa+bed+lift+table",
+        "pexels": "https://www.pexels.com/search/multifunctional+furniture+small+apartment+sofa+bed+lift+table/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=multifunctional+furniture+small+apartment+sofa+bed+lift+table&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=multifunctional+furniture+small+apartment+sofa+bed+lift+table"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "appliance-garage",
+      "canonical_name": "Appliance Garage",
+      "search_query": "kitchen appliance garage cabinet coffee machine hidden storage",
+      "alt_text_ko": "커피머신·밥솥 등을 숨기는 전원·환기 통합 수납장",
+      "recommended_framing": "4:3 kitchen detail",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/kitchen+appliance+garage+cabinet+coffee+machine+hidden+storage",
+        "pexels": "https://www.pexels.com/search/kitchen+appliance+garage+cabinet+coffee+machine+hidden+storage/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=kitchen+appliance+garage+cabinet+coffee+machine+hidden+storage&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=kitchen+appliance+garage+cabinet+coffee+machine+hidden+storage"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "circadian-lighting",
+      "canonical_name": "Circadian Lighting",
+      "search_query": "circadian lighting bedroom warm evening smart light",
+      "alt_text_ko": "시간대에 따라 밝기와 색온도가 달라지는 침실·거실",
+      "recommended_framing": "16:9 lighting scene",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/circadian+lighting+bedroom+warm+evening+smart+light",
+        "pexels": "https://www.pexels.com/search/circadian+lighting+bedroom+warm+evening+smart+light/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=circadian+lighting+bedroom+warm+evening+smart+light&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=circadian+lighting+bedroom+warm+evening+smart+light"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "invisible-technology",
+      "canonical_name": "Invisible Technology",
+      "search_query": "invisible technology smart home hidden devices interior",
+      "alt_text_ko": "기기·배선·센서가 드러나지 않는 통합형 공간",
+      "recommended_framing": "16:9 smart room",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/invisible+technology+smart+home+hidden+devices+interior",
+        "pexels": "https://www.pexels.com/search/invisible+technology+smart+home+hidden+devices+interior/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=invisible+technology+smart+home+hidden+devices+interior&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=invisible+technology+smart+home+hidden+devices+interior"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "warm-neutral-palette",
+      "canonical_name": "Warm Neutral Palette",
+      "search_query": "warm neutral color palette interior ivory beige oatmeal",
+      "alt_text_ko": "아이보리·베이지·오트밀의 톤온톤 공간과 소재 샘플",
+      "recommended_framing": "4:3 palette/interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/warm+neutral+color+palette+interior+ivory+beige+oatmeal",
+        "pexels": "https://www.pexels.com/search/warm+neutral+color+palette+interior+ivory+beige+oatmeal/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=warm+neutral+color+palette+interior+ivory+beige+oatmeal&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=warm+neutral+color+palette+interior+ivory+beige+oatmeal"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "natural-materiality",
+      "canonical_name": "Natural Materiality",
+      "search_query": "natural materials interior wood stone linen ceramic detail",
+      "alt_text_ko": "원목·스톤·세라믹·린넨의 결이 드러나는 소재 중심 공간",
+      "recommended_framing": "4:3 material detail",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/natural+materials+interior+wood+stone+linen+ceramic+detail",
+        "pexels": "https://www.pexels.com/search/natural+materials+interior+wood+stone+linen+ceramic+detail/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=natural+materials+interior+wood+stone+linen+ceramic+detail&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=natural+materials+interior+wood+stone+linen+ceramic+detail"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "tactile-materiality",
+      "canonical_name": "Tactile Materiality",
+      "search_query": "tactile materials interior boucle linen ribbed glass texture",
+      "alt_text_ko": "부클레·린넨·리브드 글라스·무광 표면의 클로즈업",
+      "recommended_framing": "4:3 texture detail",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/tactile+materials+interior+boucle+linen+ribbed+glass+texture",
+        "pexels": "https://www.pexels.com/search/tactile+materials+interior+boucle+linen+ribbed+glass+texture/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=tactile+materials+interior+boucle+linen+ribbed+glass+texture&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=tactile+materials+interior+boucle+linen+ribbed+glass+texture"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "light-oak",
+      "canonical_name": "Light Oak",
+      "search_query": "light oak furniture interior white beige apartment",
+      "alt_text_ko": "라이트 오크 결·색조와 화이트·베이지 조합",
+      "recommended_framing": "4:3 material in room",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/light+oak+furniture+interior+white+beige+apartment",
+        "pexels": "https://www.pexels.com/search/light+oak+furniture+interior+white+beige+apartment/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=light+oak+furniture+interior+white+beige+apartment&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=light+oak+furniture+interior+white+beige+apartment"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "brushed-metal",
+      "canonical_name": "Brushed Metal",
+      "search_query": "brushed metal interior detail stainless brass lighting handle",
+      "alt_text_ko": "브러시드 스테인리스·황동 표면의 방향성 결",
+      "recommended_framing": "4:3 material close-up",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/brushed+metal+interior+detail+stainless+brass+lighting+handle",
+        "pexels": "https://www.pexels.com/search/brushed+metal+interior+detail+stainless+brass+lighting+handle/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=brushed+metal+interior+detail+stainless+brass+lighting+handle&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=brushed+metal+interior+detail+stainless+brass+lighting+handle"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "quiet-premium",
+      "canonical_name": "Quiet Premium",
+      "search_query": "quiet luxury interior understated premium natural materials",
+      "alt_text_ko": "로고·장식보다 소재와 마감이 돋보이는 절제된 프리미엄 공간",
+      "recommended_framing": "16:9 premium interior",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/quiet+luxury+interior+understated+premium+natural+materials",
+        "pexels": "https://www.pexels.com/search/quiet+luxury+interior+understated+premium+natural+materials/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=quiet+luxury+interior+understated+premium+natural+materials&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=quiet+luxury+interior+understated+premium+natural+materials"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "affordable-premium",
+      "canonical_name": "Affordable Premium",
+      "search_query": "affordable premium interior design mid range stylish apartment",
+      "alt_text_ko": "접근 가능한 가격대지만 디자인과 마감이 정돈된 공간",
+      "recommended_framing": "16:9 room scene",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/affordable+premium+interior+design+mid+range+stylish+apartment",
+        "pexels": "https://www.pexels.com/search/affordable+premium+interior+design+mid+range+stylish+apartment/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=affordable+premium+interior+design+mid+range+stylish+apartment&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=affordable+premium+interior+design+mid+range+stylish+apartment"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    },
+    {
+      "concept_id": "material-storytelling",
+      "canonical_name": "Material Storytelling",
+      "search_query": "interior material samples wood stone fabric metal moodboard",
+      "alt_text_ko": "원목·스톤·패브릭·메탈 샘플과 제작 디테일",
+      "recommended_framing": "4:3 material moodboard",
+      "links": {
+        "unsplash": "https://unsplash.com/s/photos/interior+material+samples+wood+stone+fabric+metal+moodboard",
+        "pexels": "https://www.pexels.com/search/interior+material+samples+wood+stone+fabric+metal+moodboard/",
+        "wikimedia_commons": "https://commons.wikimedia.org/w/index.php?search=interior+material+samples+wood+stone+fabric+metal+moodboard&title=Special:MediaSearch&type=image",
+        "bing_images": "https://www.bing.com/images/search?q=interior+material+samples+wood+stone+fabric+metal+moodboard"
+      },
+      "status": "search_links_added",
+      "license_checked": false
+    }
+  ]
+}
