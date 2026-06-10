@@ -1,0 +1,240 @@
+---
+id: kitchen-trend
+title: 주방 트렌드
+type: space_trend
+audience:
+- brand
+- md
+- marketer
+keywords:
+- 주방 트렌드
+- 따뜻한 주방
+- 우드 주방
+- 어플라이언스 가라지
+- 팬트리
+- 빌트인 가전
+- 주방 수납
+- 스마트 주방
+status: rich_draft
+priority: 1
+updated_at: '2026-05-31'
+related:
+- '2026 테마: AI & Smart Living'
+- 수납 중심 인테리어
+- '2026 테마: Natural Luxury'
+standard_tags:
+- furniture
+- kitchen
+data_enrichment_status: enrichment_note_added
+image_reference_status: reference_query_added
+taxonomy_status: standard_tags_added
+linked_concepts:
+- open-kitchen
+- kitchen-island
+- appliance-garage
+- invisible-technology
+- storage-centered-interior
+- storage-as-lifestyle
+image_references:
+- role: hero_space
+  search_query: korean apartment open kitchen island built in appliances storage
+  alt_text_ko: 대면형 주방·아일랜드·빌트인 가전·수납 장면
+  recommended_framing: 16:9 공간 전경
+  links:
+    unsplash: https://unsplash.com/s/photos/korean+apartment+open+kitchen+island+built+in+appliances+storage
+    pexels: https://www.pexels.com/search/korean+apartment+open+kitchen+island+built+in+appliances+storage/
+    wikimedia: https://commons.wikimedia.org/w/index.php?search=korean+apartment+open+kitchen+island+built+in+appliances+storage&title=Special:MediaSearch&type=image
+    naver: https://search.naver.com/search.naver?where=image&query=korean+apartment+open+kitchen+island+built+in+appliances+storage
+    bing: https://www.bing.com/images/search?q=korean+apartment+open+kitchen+island+built+in+appliances+storage
+    todayhouse_photos: https://ohou.se/cards/feed?query=%EC%A3%BC%EB%B0%A9+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4
+    todayhouse_search: https://ohou.se/search/index?query=%EC%A3%BC%EB%B0%A9+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4&search_affect_type=Typing
+  license_checked: false
+  primary_source_platform: todayhouse
+- role: linked_concept_open-kitchen
+  search_query: open facing kitchen island living dining social cooking
+  alt_text_ko: 거실·다이닝을 향한 대면형 조리대와 가족 소통 장면
+  recommended_framing: 16:9 kitchen
+  links:
+    unsplash: https://unsplash.com/s/photos/open+facing+kitchen+island+living+dining+social+cooking
+    pexels: https://www.pexels.com/search/open+facing+kitchen+island+living+dining+social+cooking/
+    wikimedia: https://commons.wikimedia.org/w/index.php?search=open+facing+kitchen+island+living+dining+social+cooking&title=Special:MediaSearch&type=image
+    naver: https://search.naver.com/search.naver?where=image&query=open+facing+kitchen+island+living+dining+social+cooking
+    bing: https://www.bing.com/images/search?q=open+facing+kitchen+island+living+dining+social+cooking
+    todayhouse_photos: https://ohou.se/cards/feed?query=%EC%A3%BC%EB%B0%A9+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4
+    todayhouse_search: https://ohou.se/search/index?query=%EC%A3%BC%EB%B0%A9+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4&search_affect_type=Typing
+  license_checked: false
+  primary_source_platform: todayhouse
+- role: linked_concept_kitchen-island
+  search_query: modern kitchen island seating pendant lighting storage
+  alt_text_ko: 조리·수납·식사를 결합한 아일랜드와 펜던트 조명
+  recommended_framing: 16:9 kitchen
+  links:
+    unsplash: https://unsplash.com/s/photos/modern+kitchen+island+seating+pendant+lighting+storage
+    pexels: https://www.pexels.com/search/modern+kitchen+island+seating+pendant+lighting+storage/
+    wikimedia: https://commons.wikimedia.org/w/index.php?search=modern+kitchen+island+seating+pendant+lighting+storage&title=Special:MediaSearch&type=image
+    naver: https://search.naver.com/search.naver?where=image&query=modern+kitchen+island+seating+pendant+lighting+storage
+    bing: https://www.bing.com/images/search?q=modern+kitchen+island+seating+pendant+lighting+storage
+    todayhouse_photos: https://ohou.se/cards/feed?query=%EC%A3%BC%EB%B0%A9+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4
+    todayhouse_search: https://ohou.se/search/index?query=%EC%A3%BC%EB%B0%A9+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4&search_affect_type=Typing
+  license_checked: false
+  primary_source_platform: todayhouse
+image_status: search_links_added
+image_updated_at: '2026-06-09'
+concept_link_status: mapped
+primary_image_source_urls:
+- source: todayhouse
+  type: photo_search
+  url: https://ohou.se/cards/feed?query=%EC%A3%BC%EB%B0%A9+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4
+  query: 주방 인테리어
+- source: todayhouse
+  type: integrated_search
+  url: https://ohou.se/search/index?query=%EC%A3%BC%EB%B0%A9+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4&search_affect_type=Typing
+  query: 주방 인테리어
+primary_image_source: todayhouse
+primary_image_source_updated_at: '2026-06-09'
+existing_source_image_references:
+- priority: 1
+  source_id: ohouse_2026
+  source_title: 오늘의집 — 2026 인테리어 트렌드
+  source_type: domestic_editorial
+  source_page_url: https://ohou.se/advices/12252
+  image_use: 한국형 공간 전경, 컬러, 주방, 무몰딩, 자연 소재
+  usage_status: reference_url
+  license_checked: false
+- priority: 2
+  source_id: houzz_2026
+  source_title: Houzz — 25 Home Design Trends Defining 2026
+  source_type: global_editorial
+  source_page_url: https://www.houzz.com/magazine/25-home-design-trends-defining-how-well-live-in-2026-stsetivw-vs~183837788
+  image_use: 공간 구조, 가구, 조명, 소재, 기능 변화 사례
+  usage_status: reference_url
+  license_checked: false
+- priority: 3
+  source_id: thespruce
+  source_title: The Spruce — Home Design & Decorating
+  source_type: global_editorial
+  source_page_url: https://www.thespruce.com/home-design-and-decorating-4127998
+  image_use: 실용적 공간 구성, 스타일, 주방, 수납
+  usage_status: reference_url
+  license_checked: false
+- priority: 4
+  source_id: archiproducts
+  source_title: Archiproducts — Furniture and Design
+  source_type: design_product
+  source_page_url: https://www.archiproducts.com/
+  image_use: 가구, 조명, 소재, 제품 유형
+  usage_status: reference_url
+  license_checked: false
+- priority: 5
+  source_id: ohouse_report_store
+  source_title: 오늘의집 — 2026 트렌드 리포트 기획전
+  source_type: domestic_commerce
+  source_page_url: https://store.ohou.se/exhibitions/17445
+  image_use: 테마와 연결되는 실제 상품, 룸셋, 스타일링
+  usage_status: reference_url
+  license_checked: false
+existing_source_image_status: source_page_urls_added
+existing_source_image_updated_at: '2026-06-09'
+---
+
+## 1. 한 줄 정의
+
+**2026년 주방은 조리 기능을 넘어 가족 커뮤니케이션, 수납 최적화, 빌트인 가전, 따뜻한 소재, 스마트 리빙이 결합된 생활 운영 공간이 된다.**
+
+## 2. 공간 트렌드 요약
+
+주방의 변화는 올화이트에서 따뜻한 우드와 깊은 컬러, 상판을 비우는 수납, 어플라이언스 가라지, 팬트리, 조닝형 레이아웃으로 이동한다. 기술은 보여주기보다 주방 동선 안에 자연스럽게 녹아들어야 한다.
+
+## 3. 핵심 키워드
+
+- 주방 트렌드
+- 따뜻한 주방
+- 우드 주방
+- 어플라이언스 가라지
+- 팬트리
+- 빌트인 가전
+- 주방 수납
+- 스마트 주방
+
+## 4. 왜 이 공간이 중요해졌나
+
+주방은 집 안에서 가장 많은 생활 루틴이 모이는 공간이다. 조리, 식사, 대화, 재고 관리, 가전 사용, 청소, 수납이 동시에 일어난다. 2026년 주방 트렌드는 디자인과 기능의 균형을 중시한다. 자연색·우드·텍스처 타일로 차가운 주방을 따뜻하게 만들고, 소형 가전을 숨기는 수납과 조닝형 레이아웃이 중요해진다.
+
+## 5. 2026 스타일 방향
+
+### 웜 우드 주방
+
+화이트 도어만 쓰는 주방에서 벗어나 우드 캐비닛, 크림톤, 텍스처 타일을 결합한다.
+
+### 수납 중심 주방
+
+소형 가전과 식재료, 조리도구를 숨기는 팬트리와 어플라이언스 수납이 핵심이다.
+
+### 스마트 빌트인 주방
+
+냉장고, 인덕션, 식기세척기, 오븐, 조명, 환기가 동선 안에서 통합된다.
+
+## 6. 공간 구성 원칙
+
+- 상판을 비우는 것을 최우선 원칙으로 둔다.
+- 가전은 단품 배치가 아니라 수납과 전원 동선까지 함께 설계한다.
+- 화이트 주방은 크림·우드·타일 질감을 더해 차갑지 않게 만든다.
+- 팬트리와 키큰장, 어플라이언스 가라지를 적극 활용한다.
+- 조리·세척·보관·식사 영역을 구분해 동선을 정리한다.
+
+## 7. 대표 상품/카테고리 맵
+
+| 카테고리 | 역할 | MD 관점 |
+|---|---|---|
+| 상부장/하부장 | 주방의 시각적 톤과 수납력 결정 | 무광·우드·플랫 도어 큐레이션 |
+| 팬트리/키큰장 | 식재료와 소형 가전 수납 | 생활 문제 해결형 제안 |
+| 어플라이언스 가라지 | 커피머신·토스터 등 상판 가전 은닉 | 전원·환기·도어 방식 설명 필요 |
+| 빌트인 가전 | 공간 통합과 프리미엄 이미지 | 가전+가구+시공 패키지 |
+| 타일/상판 | 주방의 개성과 질감 형성 | 소재별 관리성 콘텐츠 필요 |
+
+## 8. 브랜드 관점 시사점
+
+브랜드는 주방을 ‘요리하는 곳’이 아니라 ‘가족의 생활 운영 중심’으로 설명해야 한다. 가전 브랜드는 AI 기능보다 식재료 관리, 조리 동선, 청소 편의, 에너지 효율, 빌트인 미감을 강조하는 것이 효과적이다.
+
+## 9. MD 관점 시사점
+
+MD는 주방 상품을 가전·가구·시공으로 분리하지 말고 주방 루틴 기준으로 묶어야 한다. 조리, 보관, 세척, 커피/홈카페, 식사, 수납 영역별 큐레이션이 필요하다.
+
+## 10. 마케팅 콘텐츠 키워드
+
+### 대표 키워드
+
+- 2026 주방 트렌드
+- 우드 주방
+- 따뜻한 주방
+- 주방 수납
+- 어플라이언스 가라지
+- 빌트인 가전
+- 팬트리
+
+### 콘텐츠 제목 예시
+
+- 2026년 주방은 왜 다시 따뜻해지고 있나
+- 상판을 비우는 주방 수납 전략
+- AI 스마트 주방은 기능보다 동선으로 설명해야 한다
+
+## 11. 소비자 질문 예시
+
+- 최근 주방 트렌드는 무엇인가?
+- 소형 가전은 어떻게 수납해야 하나?
+- 화이트 주방이 차갑게 보이지 않게 하려면?
+- 빌트인 가전과 수납을 어떻게 묶어야 하나?
+
+## 12. 관련 문서
+
+- [2026 테마: AI & Smart Living](../02-2026-themes/ai-smart-living.md)
+- [수납 중심 인테리어](../03-style-dictionary/storage-centered-interior.md)
+- [2026 테마: Natural Luxury](../02-2026-themes/natural-luxury.md)
+
+## 13. 참고 출처
+
+| 출처 | 활용 관점 | URL |
+|---|---|---|
+| The Spruce, Kitchens Will Change in the Next 10 Years | 어플라이언스 가라지, 우드 캐비닛, 조닝형 주방 참고 | https://www.thespruce.com/how-kitchens-will-change-in-the-next-10-years-11947459 |
+| Houzz, Most Popular New Kitchens So Far in 2026 | 자연색·스마트 레이아웃·주방 사진 트렌드 참고 | https://www.houzz.com/magazine/the-10-most-popular-new-kitchens-so-far-in-2026-stsetivw-vs~184899878 |
+| Houzz, 25 Home Design Trends Defining 2026 | 풍부한 소재와 목적 중심 공간 변화 참고 | https://www.houzz.com/magazine/25-home-design-trends-defining-how-well-live-in-2026-stsetivw-vs~183837788 |

@@ -33,6 +33,8 @@ export interface ConceptItem {
   confidence: number
   content?: string
   source_count: number
+  image_url?: string
+  image_source_url?: string
   last_synthesized_at?: string
   updated_at: string
 }
@@ -46,6 +48,8 @@ export interface WikiPageItem {
   summary?: string
   topics: string[]
   content?: string
+  image_url?: string
+  image_source_url?: string
   updated_at: string
 }
 

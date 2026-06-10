@@ -1,0 +1,239 @@
+---
+id: home-office-trend
+title: 홈오피스 트렌드
+type: space_trend
+audience:
+- brand
+- md
+- marketer
+keywords:
+- 홈오피스 트렌드
+- 재택근무
+- 데스크테리어
+- 인체공학 의자
+- 수직 수납
+- 화상회의 배경
+- 웰니스 오피스
+- 집중 공간
+status: rich_draft
+priority: 1
+updated_at: '2026-05-31'
+related:
+- 2020~2022 한국 인테리어 트렌드
+- '2026 테마: Wellness Home'
+- '2026 테마: Small Space Optimization'
+standard_tags:
+- home_office
+data_enrichment_status: enrichment_note_added
+image_reference_status: reference_query_added
+taxonomy_status: standard_tags_added
+linked_concepts:
+- home-office-zone
+- vertical-storage
+- circadian-lighting
+- small-space-optimization
+- wellness-home
+- storage-as-lifestyle
+image_references:
+- role: hero_space
+  search_query: small apartment home office zone ergonomic desk storage lighting
+  alt_text_ko: 소형 주거의 업무 구획·책상·조명·수납 장면
+  recommended_framing: 16:9 공간 전경
+  links:
+    unsplash: https://unsplash.com/s/photos/small+apartment+home+office+zone+ergonomic+desk+storage+lighting
+    pexels: https://www.pexels.com/search/small+apartment+home+office+zone+ergonomic+desk+storage+lighting/
+    wikimedia: https://commons.wikimedia.org/w/index.php?search=small+apartment+home+office+zone+ergonomic+desk+storage+lighting&title=Special:MediaSearch&type=image
+    naver: https://search.naver.com/search.naver?where=image&query=small+apartment+home+office+zone+ergonomic+desk+storage+lighting
+    bing: https://www.bing.com/images/search?q=small+apartment+home+office+zone+ergonomic+desk+storage+lighting
+    todayhouse_photos: https://ohou.se/cards/feed?query=%ED%99%88%EC%98%A4%ED%94%BC%EC%8A%A4+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4
+    todayhouse_search: https://ohou.se/search/index?query=%ED%99%88%EC%98%A4%ED%94%BC%EC%8A%A4+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4&search_affect_type=Typing
+  license_checked: false
+  primary_source_platform: todayhouse
+- role: linked_concept_home-office-zone
+  search_query: small home office zone apartment ergonomic desk lighting
+  alt_text_ko: 거실이나 침실 일부에 구획된 집중 업무 공간
+  recommended_framing: 4:3 workspace
+  links:
+    unsplash: https://unsplash.com/s/photos/small+home+office+zone+apartment+ergonomic+desk+lighting
+    pexels: https://www.pexels.com/search/small+home+office+zone+apartment+ergonomic+desk+lighting/
+    wikimedia: https://commons.wikimedia.org/w/index.php?search=small+home+office+zone+apartment+ergonomic+desk+lighting&title=Special:MediaSearch&type=image
+    naver: https://search.naver.com/search.naver?where=image&query=small+home+office+zone+apartment+ergonomic+desk+lighting
+    bing: https://www.bing.com/images/search?q=small+home+office+zone+apartment+ergonomic+desk+lighting
+    todayhouse_photos: https://ohou.se/cards/feed?query=%ED%99%88%EC%98%A4%ED%94%BC%EC%8A%A4+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4
+    todayhouse_search: https://ohou.se/search/index?query=%ED%99%88%EC%98%A4%ED%94%BC%EC%8A%A4+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4&search_affect_type=Typing
+  license_checked: false
+  primary_source_platform: todayhouse
+- role: linked_concept_vertical-storage
+  search_query: vertical storage small apartment wall shelving tall cabinet
+  alt_text_ko: 벽면·키큰장·상부 공간을 활용한 수직 수납
+  recommended_framing: 4:3 interior
+  links:
+    unsplash: https://unsplash.com/s/photos/vertical+storage+small+apartment+wall+shelving+tall+cabinet
+    pexels: https://www.pexels.com/search/vertical+storage+small+apartment+wall+shelving+tall+cabinet/
+    wikimedia: https://commons.wikimedia.org/w/index.php?search=vertical+storage+small+apartment+wall+shelving+tall+cabinet&title=Special:MediaSearch&type=image
+    naver: https://search.naver.com/search.naver?where=image&query=vertical+storage+small+apartment+wall+shelving+tall+cabinet
+    bing: https://www.bing.com/images/search?q=vertical+storage+small+apartment+wall+shelving+tall+cabinet
+    todayhouse_photos: https://ohou.se/cards/feed?query=%ED%99%88%EC%98%A4%ED%94%BC%EC%8A%A4+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4
+    todayhouse_search: https://ohou.se/search/index?query=%ED%99%88%EC%98%A4%ED%94%BC%EC%8A%A4+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4&search_affect_type=Typing
+  license_checked: false
+  primary_source_platform: todayhouse
+image_status: search_links_added
+image_updated_at: '2026-06-09'
+concept_link_status: mapped
+primary_image_source_urls:
+- source: todayhouse
+  type: photo_search
+  url: https://ohou.se/cards/feed?query=%ED%99%88%EC%98%A4%ED%94%BC%EC%8A%A4+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4
+  query: 홈오피스 인테리어
+- source: todayhouse
+  type: integrated_search
+  url: https://ohou.se/search/index?query=%ED%99%88%EC%98%A4%ED%94%BC%EC%8A%A4+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4&search_affect_type=Typing
+  query: 홈오피스 인테리어
+primary_image_source: todayhouse
+primary_image_source_updated_at: '2026-06-09'
+existing_source_image_references:
+- priority: 1
+  source_id: ikea_life
+  source_title: IKEA — Life at Home
+  source_type: global_research
+  source_page_url: https://lifeathome.ikea.com/
+  image_use: 집에서의 행동, 감정, 가족, 소형 공간, 생활 장면
+  usage_status: reference_url
+  license_checked: false
+- priority: 2
+  source_id: ikea_korea
+  source_title: IKEA Korea
+  source_type: official_brand
+  source_page_url: https://www.ikea.com/kr/ko/
+  image_use: 공간별 룸셋, 수납, 소형 공간, 상품 사용 장면
+  usage_status: reference_url
+  license_checked: false
+- priority: 3
+  source_id: homes_gardens
+  source_title: Homes & Gardens — Interior Design
+  source_type: global_editorial
+  source_page_url: https://www.homesandgardens.com/interior-design
+  image_use: 공간별 스타일, 컬러, 소형 공간, 가구 배치
+  usage_status: reference_url
+  license_checked: false
+- priority: 4
+  source_id: livingetc_storage
+  source_title: Livingetc — Home Storage Trends 2026
+  source_type: global_editorial
+  source_page_url: https://www.livingetc.com/ideas/home-storage-trends-2026
+  image_use: 수납, 빌트인, 플루티드 글라스, 조명, 가구 디테일
+  usage_status: reference_url
+  license_checked: false
+- priority: 5
+  source_id: realsimple
+  source_title: Real Simple — Home
+  source_type: global_editorial
+  source_page_url: https://www.realsimple.com/home-organizing
+  image_use: 정리, 수납, 소형 가구, 생활 문제 해결
+  usage_status: reference_url
+  license_checked: false
+existing_source_image_status: source_page_urls_added
+existing_source_image_updated_at: '2026-06-09'
+---
+
+## 1. 한 줄 정의
+
+**2026년 홈오피스는 임시 책상 공간이 아니라 집중, 웰니스, 수납, 화상회의 배경, 작은 공간 효율을 함께 고려하는 생산성 공간으로 정착한다.**
+
+## 2. 공간 트렌드 요약
+
+홈오피스는 재택근무의 보조 공간에서 개인 생산성과 컨디션을 관리하는 공간으로 진화한다. 인체공학 의자, 자연광, 수직 수납, 벽부착 책상, 조명, 식물, 소음 관리, 케이블 정리가 핵심이다.
+
+## 3. 핵심 키워드
+
+- 홈오피스 트렌드
+- 재택근무
+- 데스크테리어
+- 인체공학 의자
+- 수직 수납
+- 화상회의 배경
+- 웰니스 오피스
+- 집중 공간
+
+## 4. 왜 이 공간이 중요해졌나
+
+재택근무가 팬데믹 이후에도 완전히 사라지지 않으면서, 집 안의 업무 공간은 임시 해결이 아니라 장기적 생활 인프라가 되었다. 2026년 홈오피스 트렌드는 생산성과 웰빙을 동시에 본다. 자연광 가까이 책상을 두고, 식물과 따뜻한 소재를 더하며, 벽면 수납과 케이블 정리로 작은 공간을 효율화한다.
+
+## 5. 2026 스타일 방향
+
+### 웰니스 홈오피스
+
+자연광, 식물, 저자극 컬러, 공기질, 스트레칭 공간을 통해 장시간 업무의 피로를 줄인다.
+
+### 컴팩트 워크존
+
+벽부착 책상, 폴딩 테이블, 슬림 수납, 코너 활용으로 작은 집에 업무 영역을 만든다.
+
+### 화상회의 친화형 배경
+
+책장, 아트, 조명, 정돈된 수납을 활용해 화면에 보이는 배경을 관리한다.
+
+## 6. 공간 구성 원칙
+
+- 책상은 자연광을 고려하되 화면 반사를 피한다.
+- 의자는 디자인보다 인체공학과 장시간 착석감을 우선한다.
+- 벽면 수납과 페그보드로 바닥 면적을 비운다.
+- 케이블과 충전기 수납을 반드시 설계한다.
+- 조명은 얼굴과 화면, 눈 피로를 함께 고려한다.
+
+## 7. 대표 상품/카테고리 맵
+
+| 카테고리 | 역할 | MD 관점 |
+|---|---|---|
+| 책상 | 업무 영역의 중심 | 벽부착/확장형/높이조절형 세분화 |
+| 의자 | 건강과 생산성의 핵심 | 인체공학, 소재, 디자인 균형 |
+| 조명 | 눈 피로와 화상회의 품질 | 태스크 조명·간접 조명 조합 |
+| 수납/페그보드 | 업무 물건 정리 | 수직 수납과 케이블 정리 |
+| 식물/향/공기 | 웰니스 업무 환경 | 집중과 회복 메시지 연결 |
+
+## 8. 브랜드 관점 시사점
+
+브랜드는 홈오피스를 ‘일하는 방’이 아니라 ‘컨디션을 유지하며 일하는 공간’으로 제안해야 한다. 오피스 가구 브랜드는 생산성, 리빙 브랜드는 감성, 가전 브랜드는 조명·공기·소음 관리를 연결할 수 있다.
+
+## 9. MD 관점 시사점
+
+MD는 홈오피스를 공간 크기별로 나누는 것이 좋다. 독립 서재형, 침실 코너형, 거실 워크존형, 원룸 벽부착형으로 분류하고, 책상+의자+조명+수납+케이블 정리 용품을 묶는다.
+
+## 10. 마케팅 콘텐츠 키워드
+
+### 대표 키워드
+
+- 홈오피스
+- 데스크테리어
+- 재택근무 인테리어
+- 화상회의 배경
+- 인체공학 의자
+- 벽부착 책상
+- 웰니스 오피스
+
+### 콘텐츠 제목 예시
+
+- 2026년 홈오피스는 생산성과 웰니스를 함께 설계한다
+- 작은 집에 업무 공간을 만드는 7가지 방법
+- 화상회의 배경까지 고려한 홈오피스 구성법
+
+## 11. 소비자 질문 예시
+
+- 홈오피스는 어떤 카테고리로 나눠야 하나?
+- 작은 집에서 책상은 어디에 둬야 하나?
+- 화상회의 배경은 어떻게 꾸며야 하나?
+- 의자와 조명은 어떻게 선택해야 하나?
+
+## 12. 관련 문서
+
+- [2020~2022 한국 인테리어 트렌드](../01-trend-history/2020-2022-korea-interior-trend.md)
+- [2026 테마: Wellness Home](../02-2026-themes/wellness-home.md)
+- [2026 테마: Small Space Optimization](../02-2026-themes/small-space-optimization.md)
+
+## 13. 참고 출처
+
+| 출처 | 활용 관점 | URL |
+|---|---|---|
+| DesignCafe, Home Office Design Trends 2026 | 자연광, 식물, 모듈 가구, 수직 수납, 웰니스 업무 공간 참고 | https://www.designcafe.com/blog/home-interiors/home-office-design-trends-2026/ |
+| Mood for Decor, Home Office Trends 2026 | 인체공학, 바이오필릭, 스마트 기술, 개인화 참고 | https://moodfordecor.com/home-office-trends/ |
+| Real Simple, Calmer Home Design Moves | 따뜻한 조명, 기능 우선, 정돈된 공간 참고 | https://www.realsimple.com/overlooked-design-moves-for-a-calmer-home-11968663 |

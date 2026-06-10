@@ -21,6 +21,27 @@ export default async function ConceptDetailPage({
         ← Concepts
       </Link>
 
+      {concept.image_url && (
+        <div className="mb-6">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={concept.image_url}
+            alt={concept.title}
+            className="w-full h-64 sm:h-80 object-cover rounded-xl border border-neutral-800"
+          />
+          {concept.image_source_url && (
+            <a
+              href={concept.image_source_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-neutral-600 hover:text-neutral-400 transition-colors mt-1.5 inline-block"
+            >
+              이미지 출처 ↗
+            </a>
+          )}
+        </div>
+      )}
+
       <div className="grid lg:grid-cols-[1fr_280px] gap-10 mt-1">
         {/* 본문 */}
         <div>

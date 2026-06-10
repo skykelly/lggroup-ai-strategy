@@ -30,6 +30,27 @@ export default async function WikiPageDetail({
         <WikiChapterDrawer pages={allPages} topics={topics} currentSlug={slug} />
 
         <div className="min-w-0">
+          {page.image_url && (
+            <div className="mb-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={page.image_url}
+                alt={page.title}
+                className="w-full h-64 sm:h-80 object-cover rounded-xl border border-neutral-800"
+              />
+              {page.image_source_url && (
+                <a
+                  href={page.image_source_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-neutral-600 hover:text-neutral-400 transition-colors mt-1.5 inline-block"
+                >
+                  이미지 출처 ↗
+                </a>
+              )}
+            </div>
+          )}
+
           <h1 className="text-xl font-semibold text-white mb-2 leading-snug">{page.title}</h1>
           {page.summary && (
             <p className="text-sm text-neutral-400 leading-relaxed mb-6">{page.summary}</p>

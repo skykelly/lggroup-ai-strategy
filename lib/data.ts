@@ -46,6 +46,8 @@ function mapConcept(r: typeof concepts.$inferSelect): ConceptItem {
     confidence: r.confidence ?? 0,
     content: r.content ?? undefined,
     source_count: r.source_count ?? 0,
+    image_url: r.image_url ?? undefined,
+    image_source_url: r.image_source_url ?? undefined,
     last_synthesized_at: r.last_synthesized_at?.toISOString() ?? undefined,
     updated_at: r.updated_at?.toISOString() ?? '',
   }
@@ -61,6 +63,8 @@ function mapPage(r: typeof pages.$inferSelect): WikiPageItem {
     summary: r.summary ?? undefined,
     topics: (r.topics as string[]) ?? [],
     content: r.content ?? undefined,
+    image_url: r.image_url ?? undefined,
+    image_source_url: r.image_source_url ?? undefined,
     updated_at: r.updated_at?.toISOString() ?? '',
   }
 }
@@ -106,7 +110,7 @@ export async function getConceptBySlug(slug: string): Promise<ConceptItem | null
 export async function getWikiPages(): Promise<WikiPageItem[]> {
   noStore()
   try {
-    const rows = await db.select().from(pages).orderBy(asc(pages.chapter_number))
+    const rows = await db.select().from(pages).orderBy(asc(pages.chapter_number), asc(pages.slug))
     return rows.map(mapPage)
   } catch { return [] }
 }

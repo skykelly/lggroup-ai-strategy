@@ -38,6 +38,8 @@ export const concepts = pgTable('concepts', {
   confidence:          integer('confidence').default(0),
   content:             text('content'),
   source_count:        integer('source_count').default(0),
+  image_url:           text('image_url'),
+  image_source_url:    text('image_source_url'),
   last_synthesized_at: timestamp('last_synthesized_at', { withTimezone: true }),
   updated_at:          timestamp('updated_at', { withTimezone: true }).defaultNow(),
 })
@@ -51,6 +53,8 @@ export const pages = pgTable('pages', {
   summary:        text('summary'),
   topics:         text('topics').array().default(sql`'{}'`),
   content:        text('content'),
+  image_url:        text('image_url'),
+  image_source_url: text('image_source_url'),
   updated_at:     timestamp('updated_at', { withTimezone: true }).defaultNow(),
 })
 
