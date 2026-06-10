@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation'
 import { signOut } from 'next-auth/react'
 import type { Session } from 'next-auth'
 import { useState } from 'react'
+import SearchBox from './SearchBox'
 
 interface Props {
   session: Session | null
@@ -69,8 +70,9 @@ export default function Header({ session }: Props) {
           )}
         </nav>
 
-        {/* 데스크탑 로그인/로그아웃 */}
-        <div className="hidden md:block">
+        {/* 데스크탑 검색 + 로그인/로그아웃 */}
+        <div className="hidden md:flex items-center gap-4">
+          <SearchBox className="w-40" />
           {session ? (
             <button
               onClick={() => signOut({ callbackUrl: '/' })}
@@ -98,6 +100,7 @@ export default function Header({ session }: Props) {
       {/* 모바일 메뉴 */}
       {mobileOpen && (
         <nav className="md:hidden border-t border-neutral-800 px-4 py-4 flex flex-col gap-4">
+          <SearchBox />
           <Link href="/"          className="text-sm text-neutral-300 hover:text-white" onClick={closeMobile}>Home</Link>
           <Link href="/sources"   className="text-sm text-neutral-300 hover:text-white" onClick={closeMobile}>Sources</Link>
           <div className="border-t border-neutral-800 pt-3 flex flex-col gap-3">

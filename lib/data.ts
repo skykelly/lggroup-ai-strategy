@@ -1,11 +1,13 @@
 import { unstable_noStore as noStore } from 'next/cache'
-import { asc, desc, eq, sql } from 'drizzle-orm'
+import { and, asc, desc, eq, sql } from 'drizzle-orm'
 import { db } from './db'
-import { sources, concepts, pages, settings } from './db/schema'
+import { sources, concepts, pages, chat_sessions } from './db/schema'
+import { getSetting, getSettingJson } from './settings'
 import type {
   SourceItem, ConceptItem, WikiPageItem, KnowledgeItem,
   TopicNode, MetricCard, KnowledgeGraphData,
   IngestLogEntry, EditorialVersion, SynthesisResult,
+  ChatSession, ChatMessage,
 } from './types'
 
 // ─── mappers ──────────────────────────────────────────────
@@ -142,20 +144,6 @@ export async function getKnowledgeItems(): Promise<KnowledgeItem[]> {
   } catch { return [] }
 }
 
-// ─── settings helpers ─────────────────────────────────────
-
-async function getSetting(key: string): Promise<string | null> {
-  const [row] = await db.select().from(settings).where(eq(settings.key, key))
-  return row?.value ?? null
-}
-
-async function getSettingJson<T>(key: string, fallback: T): Promise<T> {
-  try {
-    const value = await getSetting(key)
-    return value ? (JSON.parse(value) as T) : fallback
-  } catch { return fallback }
-}
-
 // ─── editorial ────────────────────────────────────────────
 
 export async function getEditorialContent(): Promise<string> {
@@ -191,4 +179,36 @@ export async function getKnowledgeGraph(): Promise<KnowledgeGraphData> {
 export async function getIngestLog(): Promise<IngestLogEntry[]> {
   noStore()
   return getSettingJson<IngestLogEntry[]>('ingest_log', [])
+}
+
+// ─── chat sessions ─────────────────────────────────────────
+
+function mapChatSession(r: typeof chat_sessions.$inferSelect): ChatSession {
+  return {
+    id: r.id,
+    title: r.title ?? '새 대화',
+    messages: (r.messages as ChatMessage[]) ?? [],
+    updated_at: r.updated_at?.toISOString() ?? '',
+  }
+}
+
+export async function getChatSessions(userEmail: string): Promise<ChatSession[]> {
+  noStore()
+  try {
+    const rows = await db.select()
+      .from(chat_sessions)
+      .where(eq(chat_sessions.user_email, userEmail))
+      .orderBy(desc(chat_sessions.updated_at))
+    return rows.map(mapChatSession)
+  } catch { return [] }
+}
+
+export async function getChatSession(id: string, userEmail: string): Promise<ChatSession | null> {
+  noStore()
+  try {
+    const [row] = await db.select()
+      .from(chat_sessions)
+      .where(and(eq(chat_sessions.id, id), eq(chat_sessions.user_email, userEmail)))
+    return row ? mapChatSession(row) : null
+  } catch { return null }
 }

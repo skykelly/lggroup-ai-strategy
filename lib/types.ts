@@ -92,6 +92,8 @@ export interface KnowledgeGraphNode {
   published_at?: string
   topics?: string[]
   source_count?: number
+  last_synthesized_at?: string
+  synthesis_result?: SynthesisResult
 }
 
 export interface KnowledgeGraphData {
@@ -111,6 +113,7 @@ export interface Citation {
   ref_type: string
   ref_id: string
   title: string
+  slug?: string
 }
 
 export interface ChatSession {

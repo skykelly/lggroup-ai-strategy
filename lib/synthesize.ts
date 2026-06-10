@@ -1,24 +1,12 @@
 import OpenAI from 'openai'
 import { desc, eq, sql, isNotNull } from 'drizzle-orm'
 import { db } from './db'
-import { concepts, sources, settings } from './db/schema'
+import { concepts, sources } from './db/schema'
+import { getSetting, upsertSetting } from './settings'
 import type { SynthesisResult, LintIssue, EditorialVersion } from './types'
 import { chunkText, rebuildEmbeddings } from './embed'
 
 const openai = new OpenAI()
-
-// ─── 내부 헬퍼 ────────────────────────────────────────────
-
-async function upsertSetting(key: string, value: string): Promise<void> {
-  await db.insert(settings)
-    .values({ key, value })
-    .onConflictDoUpdate({ target: settings.key, set: { value, updated_at: sql`now()` } })
-}
-
-async function getSetting(key: string): Promise<string | null> {
-  const [row] = await db.select({ value: settings.value }).from(settings).where(eq(settings.key, key))
-  return row?.value ?? null
-}
 
 // ─── synthesizeConcepts ───────────────────────────────────
 
