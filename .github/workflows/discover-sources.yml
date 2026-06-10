@@ -1,0 +1,26 @@
+name: Discover Sources
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 매일 09:00 KST (00:00 UTC)
+  workflow_dispatch:
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install openai
+
+      - name: Run discovery
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          INGEST_API_URL: ${{ secrets.INGEST_API_URL }}
+          INGEST_SECRET: ${{ secrets.INGEST_SECRET }}
+        run: python3 scripts/discover_sources.py
