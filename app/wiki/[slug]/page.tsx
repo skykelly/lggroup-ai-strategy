@@ -30,13 +30,15 @@ export default async function WikiPageDetail({
         <WikiChapterDrawer pages={allPages} topics={topics} currentSlug={slug} />
 
         <div className="min-w-0">
+          <h1 className="text-xl font-semibold text-white mb-2 leading-snug">{page.title}</h1>
+
           {page.image_url && (
-            <div className="mb-6">
+            <div className="mb-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={page.image_url}
                 alt={page.title}
-                className="w-full h-64 sm:h-80 object-cover rounded-xl border border-neutral-800"
+                className="w-full h-auto max-h-[28rem] object-contain rounded-xl border border-neutral-800 bg-neutral-950"
               />
               {page.image_source_url && (
                 <a
@@ -51,7 +53,6 @@ export default async function WikiPageDetail({
             </div>
           )}
 
-          <h1 className="text-xl font-semibold text-white mb-2 leading-snug">{page.title}</h1>
           {page.summary && (
             <p className="text-sm text-neutral-400 leading-relaxed mb-6">{page.summary}</p>
           )}
