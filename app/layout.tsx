@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
 import { auth } from '@/auth'
+import { getWikiPages, getTopicsConfig } from '@/lib/data'
 import Header from '@/components/Header'
 import EmbeddedChrome from '@/components/EmbeddedChrome'
 import ChatPopup from '@/components/ChatPopup'
@@ -19,13 +20,17 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const session = await auth()
+  const [session, wikiPages, wikiTopics] = await Promise.all([
+    auth(),
+    getWikiPages(),
+    getTopicsConfig(),
+  ])
 
   return (
     <html lang="ko">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-neutral-950 text-neutral-100 min-h-screen`}>
         <EmbeddedChrome />
-        <Header session={session} />
+        <Header session={session} wikiPages={wikiPages} wikiTopics={wikiTopics} />
         <main>{children}</main>
         <ChatPopup session={session} />
       </body>
