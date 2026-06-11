@@ -19,6 +19,7 @@ export default async function WikiPageDetail({
   if (!page) notFound()
 
   const contentHtml = page.content ? await renderMarkdown(page.content) : ''
+  const chapterTitle = topics.find((t) => t.number === page.chapter_number)?.title
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
@@ -30,7 +31,12 @@ export default async function WikiPageDetail({
         <WikiChapterDrawer pages={allPages} topics={topics} currentSlug={slug} />
 
         <div className="min-w-0">
-          <h1 className="text-xl font-semibold text-white mb-2 leading-snug">{page.title}</h1>
+          {page.chapter_number && (
+            <h3 className="text-sm text-neutral-500 mb-1.5">
+              {page.chapter_number}{chapterTitle ? ` ${chapterTitle}` : ''}
+            </h3>
+          )}
+          <h1 className="text-3xl font-semibold text-white mb-2 leading-snug">{page.title}</h1>
 
           {page.image_url && (
             <div className="mb-4">
@@ -38,29 +44,25 @@ export default async function WikiPageDetail({
               <img
                 src={page.image_url}
                 alt={page.title}
-                className="w-full h-auto max-h-[28rem] object-contain rounded-xl border border-neutral-800 bg-neutral-950"
+                className="max-w-full h-auto max-h-[28rem] object-contain rounded-xl border border-neutral-800 bg-neutral-950"
               />
-              {page.image_source_url && (
-                <a
-                  href={page.image_source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs text-neutral-600 hover:text-neutral-400 transition-colors mt-1.5 inline-block"
-                >
-                  이미지 출처 ↗
-                </a>
-              )}
             </div>
-          )}
-
-          {page.summary && (
-            <p className="text-sm text-neutral-400 leading-relaxed mb-6">{page.summary}</p>
           )}
 
           {contentHtml ? (
             <MarkdownRenderer html={contentHtml} />
           ) : (
             <p className="text-sm text-neutral-600">아직 작성된 내용이 없습니다.</p>
+          )}
+
+          {page.topics.length > 0 && (
+            <div className="flex flex-wrap gap-1.5 mt-8 pt-6 border-t border-neutral-800">
+              {page.topics.map((t) => (
+                <span key={t} className="text-xs bg-neutral-900 border border-neutral-800 text-neutral-400 px-2 py-0.5 rounded-md">
+                  {t}
+                </span>
+              ))}
+            </div>
           )}
         </div>
       </div>

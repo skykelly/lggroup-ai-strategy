@@ -32,18 +32,8 @@ export default async function ConceptDetailPage({
               <img
                 src={concept.image_url}
                 alt={concept.title}
-                className="w-full h-auto max-h-[28rem] object-contain rounded-xl border border-neutral-800 bg-neutral-950"
+                className="max-w-full h-auto max-h-[28rem] object-contain rounded-xl border border-neutral-800 bg-neutral-950"
               />
-              {concept.image_source_url && (
-                <a
-                  href={concept.image_source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs text-neutral-600 hover:text-neutral-400 transition-colors mt-1.5 inline-block"
-                >
-                  이미지 출처 ↗
-                </a>
-              )}
             </div>
           )}
 
