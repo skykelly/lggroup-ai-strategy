@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { getEditorialContent, getConceptItems, getSources } from '@/lib/data'
 import { renderMarkdown } from '@/lib/markdown'
+import MarkdownRenderer from '@/components/MarkdownRenderer'
 
 export default async function HomePage() {
   const [editorialContent, allConcepts, allSources] = await Promise.all([
@@ -52,15 +53,7 @@ export default async function HomePage() {
           {/* 좌: 에디토리얼 */}
           <section>
             {editorialHtml ? (
-              <div
-                className="prose prose-invert prose-sm max-w-none
-                  prose-headings:text-white prose-headings:font-semibold
-                  prose-p:text-neutral-300 prose-p:leading-relaxed
-                  prose-a:text-accent-400 prose-a:no-underline hover:prose-a:underline
-                  prose-strong:text-white prose-code:text-accent-300
-                  prose-hr:border-neutral-800"
-                dangerouslySetInnerHTML={{ __html: editorialHtml }}
-              />
+              <MarkdownRenderer html={editorialHtml} />
             ) : (
               <div className="space-y-4">
                 <h1 className="text-xl font-semibold text-white">Homestyle Wiki</h1>
