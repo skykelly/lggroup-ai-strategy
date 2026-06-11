@@ -1,13 +1,11 @@
-import OpenAI from 'openai'
 import { eq, sql } from 'drizzle-orm'
 import { db } from './db'
 import { sources, settings } from './db/schema'
 import { slugify } from './slug'
 import { chunkText, rebuildEmbeddings } from './embed'
 import { synthesizeConcepts } from './synthesize'
+import { getOpenAI } from './openai'
 import type { SynthesisResult, IngestLogEntry } from './types'
-
-const openai = new OpenAI()
 
 async function getIngestLog(): Promise<IngestLogEntry[]> {
   const [row] = await db.select({ value: settings.value }).from(settings).where(eq(settings.key, 'ingest_log'))
@@ -44,7 +42,7 @@ export async function runIngest(params: {
 
   try {
     // 2. gpt-4.1-mini → 6섹션 한국어 요약
-    const summaryRes = await openai.chat.completions.create({
+    const summaryRes = await getOpenAI().chat.completions.create({
       model: 'gpt-4.1-mini',
       temperature: 0.3,
       messages: [

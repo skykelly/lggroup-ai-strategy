@@ -1,12 +1,10 @@
-import OpenAI from 'openai'
 import { desc, eq, sql, isNotNull } from 'drizzle-orm'
 import { db } from './db'
 import { concepts, sources } from './db/schema'
 import { getSetting, upsertSetting } from './settings'
 import type { SynthesisResult, LintIssue, EditorialVersion } from './types'
 import { chunkText, rebuildEmbeddings } from './embed'
-
-const openai = new OpenAI()
+import { getOpenAI } from './openai'
 
 // ─── synthesizeConcepts ───────────────────────────────────
 
@@ -44,7 +42,7 @@ export async function synthesizeConcepts(params: {
   }))
 
   // 3. GPT-4.1 호출
-  const response = await openai.chat.completions.create({
+  const response = await getOpenAI().chat.completions.create({
     model: 'gpt-4.1',
     response_format: { type: 'json_object' },
     temperature: 0.3,
@@ -146,7 +144,7 @@ export async function synthesizeEditorial(): Promise<string> {
       .limit(5),
   ])
 
-  const response = await openai.chat.completions.create({
+  const response = await getOpenAI().chat.completions.create({
     model: 'gpt-4.1',
     temperature: 0.7,
     messages: [

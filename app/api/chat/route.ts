@@ -1,15 +1,14 @@
 import { and, eq, sql } from 'drizzle-orm'
-import OpenAI from 'openai'
+import type OpenAI from 'openai'
 import { auth } from '@/auth'
 import { db } from '@/lib/db'
 import { chat_sessions } from '@/lib/db/schema'
 import { embedQuery, matchKnowledgeChunks, buildCitations } from '@/lib/chat'
+import { getOpenAI } from '@/lib/openai'
 import type { ChatMessage } from '@/lib/types'
 
 export const runtime = 'nodejs'
 export const maxDuration = 60
-
-const openai = new OpenAI()
 
 const SYSTEM_PROMPT = `당신은 Homestyle Wiki의 AI 어시스턴트입니다.
 제공된 컨텍스트(concepts, pages, sources)를 바탕으로 한국어로 답변하세요.
@@ -58,7 +57,7 @@ export async function POST(req: Request) {
     { role: 'user', content: message },
   ]
 
-  const completion = await openai.chat.completions.create({
+  const completion = await getOpenAI().chat.completions.create({
     model: 'gpt-4.1',
     stream: true,
     messages,

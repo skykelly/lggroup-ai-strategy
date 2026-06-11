@@ -1,15 +1,13 @@
-import OpenAI from 'openai'
 import { inArray, sql } from 'drizzle-orm'
 import { db } from './db'
 import { concepts, pages, sources } from './db/schema'
+import { getOpenAI } from './openai'
 import type { Citation } from './types'
 
 const EMBED_MODEL = 'text-embedding-3-small'
 
-const openai = new OpenAI()
-
 export async function embedQuery(text: string): Promise<number[]> {
-  const res = await openai.embeddings.create({ model: EMBED_MODEL, input: text })
+  const res = await getOpenAI().embeddings.create({ model: EMBED_MODEL, input: text })
   return res.data[0].embedding
 }
 
