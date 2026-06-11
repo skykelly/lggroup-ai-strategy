@@ -6,12 +6,13 @@ import type { Session } from 'next-auth'
 import { useState } from 'react'
 import SearchBox from './SearchBox'
 import WikiIndexDrawer from './WikiIndexDrawer'
-import type { WikiPageItem, TopicNode } from '@/lib/types'
+import type { WikiPageItem, TopicNode, ConceptItem } from '@/lib/types'
 
 interface Props {
   session: Session | null
   wikiPages: WikiPageItem[]
   wikiTopics: TopicNode[]
+  concepts: ConceptItem[]
 }
 
 const KNOWLEDGE_ITEMS = [
@@ -20,7 +21,7 @@ const KNOWLEDGE_ITEMS = [
   { href: '/wiki',      label: '위키'   },
 ]
 
-export default function Header({ session, wikiPages, wikiTopics }: Props) {
+export default function Header({ session, wikiPages, wikiTopics, concepts }: Props) {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [indexOpen, setIndexOpen] = useState(false)
   const pathname = usePathname()
@@ -153,6 +154,7 @@ export default function Header({ session, wikiPages, wikiTopics }: Props) {
         onClose={() => setIndexOpen(false)}
         pages={wikiPages}
         topics={wikiTopics}
+        concepts={concepts}
         currentSlug={currentSlug}
       />
     </header>

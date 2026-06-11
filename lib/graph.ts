@@ -4,16 +4,8 @@ import { concepts, sources } from './db/schema'
 import { getTopicsConfig } from './data'
 import { upsertSetting } from './settings'
 import { slugify } from './slug'
+import { topicsForConceptType } from './topicMapping'
 import type { KnowledgeGraphData, KnowledgeGraphLink, KnowledgeGraphNode, SynthesisResult, TopicNode } from './types'
-
-const CONCEPT_TYPE_TO_CHAPTERS: Record<string, string[]> = {
-  style: ['03'],
-  lifestyle: ['02'],
-  spatial: ['04'],
-  functional: ['05'],
-  market: ['06'],
-  material: ['03', '04'],
-}
 
 function topicNodeId(topic: TopicNode): string {
   return `topic_${slugify(topic.label || topic.title)}`
@@ -77,15 +69,11 @@ export async function rebuildGraph(): Promise<KnowledgeGraphData> {
   }
 
   // ─── 링크 ──────────────────────────────────────────────
-  const topicByNumber = new Map(topics.map((t) => [t.number, t]))
 
-  // topic-concept (concept_type → chapter 매핑)
+  // topic-concept (concept_type → topic 키워드 매칭)
   for (const c of allConcepts) {
-    const chapters = c.concept_type ? CONCEPT_TYPE_TO_CHAPTERS[c.concept_type] : undefined
-    if (!chapters) continue
-    for (const chapter of chapters) {
-      const topic = topicByNumber.get(chapter)
-      if (topic) links.push({ source: topicNodeId(topic), target: c.id })
+    for (const topic of topicsForConceptType(c.concept_type, topics)) {
+      links.push({ source: topicNodeId(topic), target: c.id })
     }
   }
 

@@ -1,14 +1,16 @@
 'use client'
 import Link from 'next/link'
-import type { WikiPageItem, TopicNode } from '@/lib/types'
+import type { WikiPageItem, TopicNode, ConceptItem } from '@/lib/types'
+import { topicsForConceptType } from '@/lib/topicMapping'
 
 export default function WikiIndexDrawer({
-  open, onClose, pages, topics, currentSlug,
+  open, onClose, pages, topics, concepts, currentSlug,
 }: {
   open: boolean
   onClose: () => void
   pages: WikiPageItem[]
   topics: TopicNode[]
+  concepts: ConceptItem[]
   currentSlug?: string
 }) {
   const groups = new Map<string, WikiPageItem[]>()
@@ -19,6 +21,15 @@ export default function WikiIndexDrawer({
   }
   const sortedKeys = [...groups.keys()].sort()
   const chapterTitle = (num: string) => topics.find((t) => t.number === num)?.title
+
+  // 챕터(topic number)별로 매칭되는 concepts 그룹핑 (concept_type → topic 키워드)
+  const conceptGroups = new Map<string, ConceptItem[]>()
+  for (const c of concepts) {
+    for (const topic of topicsForConceptType(c.concept_type, topics)) {
+      if (!conceptGroups.has(topic.number)) conceptGroups.set(topic.number, [])
+      conceptGroups.get(topic.number)!.push(c)
+    }
+  }
 
   return (
     <>
@@ -67,6 +78,24 @@ export default function WikiIndexDrawer({
                     </Link>
                   ))}
                 </div>
+
+                {conceptGroups.has(num) && (
+                  <div className="mt-2 pt-2 border-t border-neutral-900">
+                    <p className="text-xs text-neutral-600 px-2 mb-1">관련 개념</p>
+                    <div className="flex flex-col gap-0.5">
+                      {conceptGroups.get(num)!.map((c) => (
+                        <Link
+                          key={c.slug}
+                          href={`/concepts/${c.slug}`}
+                          onClick={onClose}
+                          className="text-sm px-2 py-1 rounded-md transition-colors leading-snug text-accent-500 hover:text-accent-400 hover:bg-neutral-900"
+                        >
+                          {c.title}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             ))
           )}
