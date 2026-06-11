@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { renderMarkdown } from '@/lib/markdown'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
+import DiffView from '@/components/DiffView'
 import type { EditorialVersion } from '@/lib/types'
 
 export default function EditorialTab({
@@ -13,14 +14,17 @@ export default function EditorialTab({
 }) {
   const router = useRouter()
   const [content, setContent] = useState(initialContent)
+  const [publishedContent, setPublishedContent] = useState(initialContent)
   const [versions, setVersions] = useState(initialVersions)
   const [previewHtml, setPreviewHtml] = useState('')
   const [selectedVersion, setSelectedVersion] = useState('')
+  const [viewMode, setViewMode] = useState<'preview' | 'diff'>('preview')
   const [saving, setSaving] = useState(false)
   const [generating, setGenerating] = useState(false)
   const [toast, setToast] = useState<string | null>(null)
 
   useEffect(() => { setVersions(initialVersions) }, [initialVersions])
+  useEffect(() => { setPublishedContent(initialContent) }, [initialContent])
 
   useEffect(() => {
     const timer = setTimeout(() => { renderMarkdown(content).then(setPreviewHtml) }, 250)
@@ -115,8 +119,36 @@ export default function EditorialTab({
           className="w-full bg-neutral-900 border border-neutral-800 rounded-xl px-4 py-3 text-sm text-white font-mono resize-y focus:outline-none focus:border-neutral-600"
           placeholder="마크다운으로 작성하세요…"
         />
-        <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-4 overflow-y-auto max-h-[600px]">
-          <MarkdownRenderer html={previewHtml} />
+        <div className="flex flex-col gap-2">
+          <div className="flex gap-2">
+            <button
+              onClick={() => setViewMode('preview')}
+              className={`text-xs px-3 py-1.5 rounded-full transition-colors ${
+                viewMode === 'preview'
+                  ? 'bg-white text-neutral-950'
+                  : 'bg-neutral-900 text-neutral-400 border border-neutral-800 hover:border-neutral-700'
+              }`}
+            >
+              미리보기
+            </button>
+            <button
+              onClick={() => setViewMode('diff')}
+              className={`text-xs px-3 py-1.5 rounded-full transition-colors ${
+                viewMode === 'diff'
+                  ? 'bg-white text-neutral-950'
+                  : 'bg-neutral-900 text-neutral-400 border border-neutral-800 hover:border-neutral-700'
+              }`}
+            >
+              Diff
+            </button>
+          </div>
+          <div className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-4 overflow-y-auto max-h-[600px]">
+            {viewMode === 'preview' ? (
+              <MarkdownRenderer html={previewHtml} />
+            ) : (
+              <DiffView oldText={publishedContent} newText={content} />
+            )}
+          </div>
         </div>
       </div>
 
