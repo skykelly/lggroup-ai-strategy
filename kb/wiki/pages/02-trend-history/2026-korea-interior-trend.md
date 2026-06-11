@@ -1,6 +1,6 @@
 ---
 id: 2026-korea-interior-trend
-title: '2026 웜 미니멀·웰니스·수납·AI 스마트 리빙'
+title: '2026 한국의 인테리어 트렌드'
 type: trend_history
 period: '2026'
 audience:
@@ -18,12 +18,12 @@ keywords:
 - 작은 공간 최적화
 status: rich_draft
 priority: 1
-updated_at: '2026-05-31'
+updated_at: '2026-06-11'
 related:
-- '2026 테마: Warm Minimalism'
-- '2026 테마: Wellness Home'
-- '2026 테마: AI & Smart Living'
-- '2026 테마: Storage as Lifestyle'
+- '개념: Warm Minimalism'
+- '개념: Wellness Home'
+- '개념: AI & Smart Living'
+- '개념: Storage as Lifestyle'
 standard_tags:
 - appliance
 - storage
@@ -66,6 +66,7 @@ image_references:
     naver: https://search.naver.com/search.naver?where=image&query=Korea+furniture+2026+living+room+kitchen+bedroom
     bing: https://www.bing.com/images/search?q=Korea+furniture+2026+living+room+kitchen+bedroom
     todayhouse_photos: https://ohou.se/cards/feed?query=%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4%3A+%EC%9B%9C+%EB%AF%B8%EB%8B%88%EB%A9%80%C2%B7%EC%9B%B0%EB%8B%88%EC%8A%A4%C2%B7%EC%88%98%EB%82%A9%C2%B7AI+%EC%8A%A4%EB%A7%88%ED%8A%B8+%EB%A6%AC%EB%B9%99+%ED%95%9C%EA%B5%AD+%EC%A7%91+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4
+    todayhouse_search: https://ohou.se/search/index?query=%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4%3A+%EC%9B%9C+%EB%AF%B8%EB%8B%88%EB%A9%80%C2%B7%EC%9B%B0%EB%8B%88%EC%8A%A4%C2%B7%EC%88%98%EB%82%A9%C2%B7AI+%EC%8A%A4%EB%A7%88%ED%8A%B8+%EB%A6%AC%EB%B9%99+%ED%95%9C%EA%B5%AD+%EC%A7%91+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4
     todayhouse_search: https://ohou.se/search/index?query=%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4%3A+%EC%9B%9C+%EB%AF%B8%EB%8B%88%EB%A9%80%C2%B7%EC%9B%B0%EB%8B%88%EC%8A%A4%C2%B7%EC%88%98%EB%82%A9%C2%B7AI+%EC%8A%A4%EB%A7%88%ED%8A%B8+%EB%A6%AC%EB%B9%99+%ED%95%9C%EA%B5%AD+%EC%A7%91+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4&search_affect_type=Typing
     todayhouse_editorial: https://ohou.se/advices/12252
   license_checked: false
@@ -182,30 +183,17 @@ existing_source_image_status: source_page_urls_added
 existing_source_image_updated_at: '2026-06-09'
 ---
 
-## 1. 한 줄 정의
+## 1. 요약
 
 **2026년 한국 인테리어는 따뜻한 미니멀리즘, 회복형 웰니스 홈, 디자인화된 수납, 호텔식 침실, 보이지 않는 AI 스마트 리빙이 결합되는 방향으로 진화한다.**
 
-## 2. 시기 요약
-
 2026년의 핵심은 ‘예쁜 집’보다 ‘생활을 잘 운영하는 집’이다. 색은 차가운 화이트/그레이에서 아이보리·베이지·오트밀·우드로 이동하고, 공간은 거실·침실·주방 각각이 휴식·수면·수납·웰니스·AI 자동화의 장면으로 재정의된다.
 
-## 3. 핵심 키워드
-
-- 2026 인테리어
-- 웜 미니멀
-- 웰니스 홈
-- 호텔식 침실
-- 수납 중심
-- AI 스마트 리빙
-- 내추럴 럭셔리
-- 작은 공간 최적화
-
-## 4. 트렌드 변화 맥락
+## 2. 트렌드 변화 맥락
 
 2026년 트렌드는 국내외 자료에서 반복되는 축을 종합하면 따뜻한 톤, 자연 소재, 수면/웰니스, 스마트홈의 비가시화, 작은 공간 최적화, 수납의 디자인화로 정리된다. 국내 자료에서는 웜 미니멀리즘과 오늘의집의 2026 인테리어 트렌드 콘텐츠가 참고되고, 해외에서는 Houzz, SN Design Studio, House Beautiful, Livingetc 등에서 웰니스, 수납, 스마트 기술, 자연 소재, 목적 중심 공간이 반복적으로 등장한다.
 
-## 5. 대표 스타일
+## 3. 대표 스타일
 
 ### 웜 미니멀
 
@@ -223,7 +211,7 @@ existing_source_image_updated_at: '2026-06-09'
 
 기술이 드러나지 않게 조명, 공기, 수면, 에너지, 가전을 조율한다.
 
-## 6. 대표 공간 변화
+## 4. 대표 공간 변화
 
 ### 침실
 
@@ -241,7 +229,7 @@ existing_source_image_updated_at: '2026-06-09'
 
 원룸·오피스텔·20평대에서 멀티유즈 가구와 수납이 핵심이 된다.
 
-## 7. 대표 상품/카테고리 변화
+## 5. 대표 상품/카테고리 변화
 
 | 카테고리 | 변화 방향 | MD 관점 |
 |---|---|---|
@@ -251,7 +239,7 @@ existing_source_image_updated_at: '2026-06-09'
 | AI/스마트 가전 | 생활 루틴 자동화 | 기능보다 장면 중심 설명 |
 | 패브릭/러그/커튼 | 따뜻한 질감과 빛 조절 | 웜 미니멀 핵심 카테고리 |
 
-## 8. 소비자 니즈 변화
+## 6. 소비자 니즈 변화
 
 - 차갑지 않고 따뜻한 집을 원한다.
 - 침실을 회복과 숙면의 공간으로 만들고 싶다.
@@ -259,25 +247,28 @@ existing_source_image_updated_at: '2026-06-09'
 - 기술은 편리하되 인테리어를 방해하지 않았으면 한다.
 - 작은 공간도 넓고 효율적으로 쓰고 싶다.
 
-## 9. 브랜드 관점 시사점
+## 7. 브랜드 관점 시사점
 
 브랜드는 2026년에 ‘제품’보다 ‘생활 장면’을 팔아야 한다. 소파는 거실 휴식의 중심이고, 침구는 수면 경험의 일부이며, 수납장은 생활의 질서를 만드는 시스템이고, AI 가전은 보이지 않게 하루를 편하게 만드는 인프라로 설명되어야 한다.
 
-## 10. MD 관점 시사점
+## 8. MD 관점 시사점
 
 MD는 웜 미니멀 거실, 호텔식 침실, 수납 최적화, AI 스마트 리빙, 웰니스 욕실, 작은 공간 패키지처럼 테마 기반으로 상품을 묶어야 한다. 색상·소재·공간·루틴을 결합한 큐레이션이 중요하다.
 
-## 11. 마케팅 콘텐츠 키워드
+## 9. 마케팅 대표 키워드
 
 ### 대표 키워드
 
-- 2026 인테리어 트렌드
+- 2026 인테리어
 - 웜 미니멀
-- 호텔식 침실
 - 웰니스 홈
+- 호텔식 침실
+- 수납 중심
 - 수납 인테리어
+- AI 스마트 리빙
 - AI Home
 - 내추럴 럭셔리
+- 작은 공간 최적화
 
 ### 콘텐츠 제목 예시
 
@@ -285,14 +276,16 @@ MD는 웜 미니멀 거실, 호텔식 침실, 수납 최적화, AI 스마트 리
 - 웜 미니멀부터 AI Home까지, 2026 리빙 트렌드 정리
 - 예쁜 집에서 생활을 운영하는 집으로
 
-## 12. 관련 문서
+## 10. 관련 문서
 
-- [2026 테마: Warm Minimalism](../02-2026-themes/warm-minimalism-2026.md)
-- [2026 테마: Wellness Home](../02-2026-themes/wellness-home.md)
-- [2026 테마: AI & Smart Living](../02-2026-themes/ai-smart-living.md)
-- [2026 테마: Storage as Lifestyle](../02-2026-themes/storage-as-lifestyle.md)
+- [개념: Warm Minimalism](../../concepts/warm-minimalism.md)
+- [개념: Wellness Home](../../concepts/wellness-home.md)
+- [개념: AI & Smart Living](../../concepts/ai-smart-living.md)
+- [개념: Storage as Lifestyle](../../concepts/storage-as-lifestyle.md)
+- [개념: Natural Luxury](../../concepts/natural-luxury.md)
+- [개념: Storage-Centered Interior](../../concepts/storage-centered-interior.md)
 
-## 13. 참고 출처
+## 11. 참고 출처
 
 | 출처 | 활용 관점 | URL |
 |---|---|---|
