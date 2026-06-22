@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EntityCard from "../../components/EntityCard.astro";
+import { getConcepts, THEME_META } from "../../lib/content";
+
+const concepts = await getConcepts();
+---
+
+<BaseLayout title="Concepts — LG AI Strategy Journal" description="LG AI 전략의 핵심 개념과 경계">
+  <section class="entity-list-hero compact">
+    <span class="eyebrow">Strategy dictionary · {concepts.length} concepts</span>
+    <h1>용어를 정리해야<br /><em>전략의 경계가 보입니다.</em></h1>
+    <p>반복 등장하는 기술 용어를 LG의 사업 자산, 운영 모델, 전략 질문과 연결해 정의합니다.</p>
+  </section>
+  <section class="entity-browser" data-concept-browser>
+    <div class="concept-filter">
+      <button class="active" data-concept-theme="all">All</button>
+      {Object.entries(THEME_META).map(([id, theme]) => <button data-concept-theme={id}>{theme.short}</button>)}
+    </div>
+    <label class="concept-search">
+      <span class="sr-only">개념 검색</span>
+      <input type="search" placeholder="AI Factory, ontology, cooling…" data-concept-search />
+    </label>
+    <div class="entity-grid concept-grid">
+      {concepts.map((concept) => (
+        <div data-concept-item data-theme={concept.primary_theme} data-search={`${concept.title} ${concept.aliases.join(" ")} ${concept.tags.join(" ")}`.toLowerCase()}>
+          <EntityCard entity={concept} href={`/concepts/${concept.slug}`} />
+        </div>
+      ))}
+    </div>
+  </section>
+  <script>
+    const root = document.querySelector<HTMLElement>("[data-concept-browser]");
+    if (root) {
+      const items = [...root.querySelectorAll<HTMLElement>("[data-concept-item]")];
+      const buttons = [...root.querySelectorAll<HTMLButtonElement>("[data-concept-theme]")];
+      const input = root.querySelector<HTMLInputElement>("[data-concept-search]");
+      let theme = "all";
+      const apply = () => {
+        const query = input?.value.trim().toLowerCase() || "";
+        items.forEach((item) => item.hidden = !((theme === "all" || item.dataset.theme === theme) && (!query || item.dataset.search?.includes(query))));
+      };
+      buttons.forEach((button) => button.addEventListener("click", () => {
+        theme = button.dataset.conceptTheme || "all";
+        buttons.forEach((item) => item.classList.toggle("active", item === button));
+        apply();
+      }));
+      input?.addEventListener("input", apply);
+    }
+  </script>
+</BaseLayout>

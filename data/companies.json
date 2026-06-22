@@ -1,0 +1,1035 @@
+{
+  "companies": [
+    {
+      "id": "lg-corp",
+      "entity_id": "company_lg_corp",
+      "title": "LG Corp.",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "ai_data_center_infra",
+        "enterprise_ax_agentic_operating_model",
+        "global_ai_alliance_open_innovation",
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv"
+      ],
+      "related_topics": [
+        "topic_what_did_jensen_huang_leave_lg",
+        "topic_what_did_palantir_ask_lg",
+        "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk",
+        "topic_what_is_one_lg_in_the_ai_age"
+      ],
+      "related_concepts": [
+        "ai-data-center",
+        "gpu-cloud",
+        "high-density-gpu-rack",
+        "data-center-cooling",
+        "direct-to-chip-cooling",
+        "cdu",
+        "immersion-cooling",
+        "dc-grid",
+        "ess-ups-for-aidc",
+        "workload-orchestration",
+        "ai-factory",
+        "enterprise-ontology"
+      ],
+      "source_ids": [
+        "src_lg_nvidia_map_20260608",
+        "src_lgcorp_silicon_valley_20260407",
+        "src_lge_dcw_20260421",
+        "src_lguplus_paju_aidc_20260607",
+        "src_pulse_lguplus_paju_aidc_20260608",
+        "src_lgcns_ai_box_20260304",
+        "src_lgensol_ess_expansion_20260415",
+        "src_iea_energy_ai_2026",
+        "src_goldman_data_center_power_20260520",
+        "src_lge_strategy_ax_20260108",
+        "src_lgcns_palantir_20260312",
+        "src_lgcns_ax_platform"
+      ],
+      "image_id": "lg_nvidia_map_koo_huang_prn",
+      "image_path": "assets/images/lg_nvidia_map_koo_huang_prn.jpg",
+      "path": "companies/lg-corp.md"
+    },
+    {
+      "id": "lg-ai-research",
+      "entity_id": "company_lg_ai_research",
+      "title": "LG AI Research",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "enterprise_ax_agentic_operating_model",
+        "ai_for_science_bio_materials_battery",
+        "global_ai_alliance_open_innovation",
+        "ai_mobility_sdv_aidv"
+      ],
+      "related_topics": [
+        "topic_what_did_jensen_huang_leave_lg",
+        "topic_how_competitive_is_exaone_globally",
+        "topic_is_ai_factory_a_data_center_or_operating_model",
+        "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk",
+        "topic_can_ai_for_science_change_lg_rnd_productivity",
+        "topic_what_is_one_lg_in_the_ai_age",
+        "topic_what_is_lg_real_ai_moat",
+        "topic_should_lg_build_foundation_models_or_focus_on_industry_models",
+        "topic_how_should_enterprise_ax_performance_be_measured",
+        "topic_how_does_manufacturing_data_become_an_ai_product",
+        "topic_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg"
+      ],
+      "related_concepts": [
+        "ai-data-center",
+        "gpu-cloud",
+        "high-density-gpu-rack",
+        "data-center-cooling",
+        "direct-to-chip-cooling",
+        "cdu",
+        "immersion-cooling",
+        "dc-grid",
+        "ess-ups-for-aidc",
+        "workload-orchestration",
+        "ai-factory",
+        "physical-ai"
+      ],
+      "source_ids": [
+        "src_lgai_exaone",
+        "src_lgai_materials_intelligence",
+        "src_lgai_exaone_discovery_patent_20260203",
+        "src_lgai_dd_pharmatech_20260617",
+        "src_lge_dcw_20260421",
+        "src_lguplus_paju_aidc_20260607",
+        "src_pulse_lguplus_paju_aidc_20260608",
+        "src_lgcns_ai_box_20260304",
+        "src_lgensol_ess_expansion_20260415",
+        "src_iea_energy_ai_2026",
+        "src_goldman_data_center_power_20260520",
+        "src_lge_smart_factory_20260414"
+      ],
+      "image_id": "exaone_journey_timeline",
+      "image_path": "assets/images/exaone_journey_timeline.png",
+      "path": "companies/lg-ai-research.md"
+    },
+    {
+      "id": "lg-uplus",
+      "entity_id": "company_lg_uplus",
+      "title": "LG U+",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "ai_data_center_infra",
+        "ai_mobility_sdv_aidv",
+        "global_ai_alliance_open_innovation",
+        "physical_ai_smart_manufacturing",
+        "enterprise_ax_agentic_operating_model",
+        "ai_for_science_bio_materials_battery"
+      ],
+      "related_topics": [
+        "topic_what_did_jensen_huang_leave_lg",
+        "topic_ai_infra_demand_next_5_years",
+        "topic_what_is_one_lg_in_the_ai_age",
+        "topic_what_is_lg_real_ai_moat",
+        "topic_are_power_and_cooling_bottlenecks_new_growth_engines",
+        "topic_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg",
+        "topic_how_gpu_cloud_price_decline_changes_aidc_business"
+      ],
+      "related_concepts": [
+        "ai-data-center",
+        "gpu-cloud",
+        "high-density-gpu-rack",
+        "data-center-cooling",
+        "direct-to-chip-cooling",
+        "cdu",
+        "immersion-cooling",
+        "dc-grid",
+        "ess-ups-for-aidc",
+        "workload-orchestration",
+        "ai-factory",
+        "physical-ai"
+      ],
+      "source_ids": [
+        "src_lguplus_paju_aidc_20260607",
+        "src_pulse_lguplus_paju_aidc_20260608",
+        "src_lguplus_autonomous_driving",
+        "src_lge_dcw_20260421",
+        "src_lgcns_ai_box_20260304",
+        "src_lgensol_ess_expansion_20260415",
+        "src_iea_energy_ai_2026",
+        "src_goldman_data_center_power_20260520",
+        "src_lge_smart_factory_20260414",
+        "src_lg_smart_park_lighthouse_20220427",
+        "src_lgcorp_smart_park_lighthouse_20220331",
+        "src_lgcns_factova_20260519"
+      ],
+      "image_id": "img_lguplus_paju_pulse_01",
+      "image_path": "assets/images/img_lguplus_paju_pulse_01.png",
+      "path": "companies/lg-uplus.md"
+    },
+    {
+      "id": "lg-cns",
+      "entity_id": "company_lg_cns",
+      "title": "LG CNS",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "enterprise_ax_agentic_operating_model",
+        "ai_for_science_bio_materials_battery",
+        "global_ai_alliance_open_innovation",
+        "ai_mobility_sdv_aidv"
+      ],
+      "related_topics": [
+        "topic_what_did_jensen_huang_leave_lg",
+        "topic_how_competitive_is_exaone_globally",
+        "topic_ai_infra_demand_next_5_years",
+        "topic_is_ai_factory_a_data_center_or_operating_model",
+        "topic_what_did_palantir_ask_lg",
+        "topic_is_physical_ai_more_than_smart_factory_rebranding",
+        "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk",
+        "topic_what_is_one_lg_in_the_ai_age",
+        "topic_what_is_lg_real_ai_moat",
+        "topic_are_power_and_cooling_bottlenecks_new_growth_engines",
+        "topic_should_lg_build_foundation_models_or_focus_on_industry_models",
+        "topic_how_should_enterprise_ax_performance_be_measured",
+        "topic_how_does_manufacturing_data_become_an_ai_product",
+        "topic_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg",
+        "topic_how_gpu_cloud_price_decline_changes_aidc_business"
+      ],
+      "related_concepts": [
+        "ai-data-center",
+        "gpu-cloud",
+        "high-density-gpu-rack",
+        "data-center-cooling",
+        "direct-to-chip-cooling",
+        "cdu",
+        "immersion-cooling",
+        "dc-grid",
+        "ess-ups-for-aidc",
+        "workload-orchestration",
+        "ai-factory",
+        "physical-ai"
+      ],
+      "source_ids": [
+        "src_lgcns_ai_box_20260304",
+        "src_lgcns_factova_20260519",
+        "src_lgcns_ax_platform",
+        "src_lgcns_palantir_20260312",
+        "src_lge_dcw_20260421",
+        "src_lguplus_paju_aidc_20260607",
+        "src_pulse_lguplus_paju_aidc_20260608",
+        "src_lgensol_ess_expansion_20260415",
+        "src_iea_energy_ai_2026",
+        "src_goldman_data_center_power_20260520",
+        "src_lge_smart_factory_20260414",
+        "src_lg_smart_park_lighthouse_20220427"
+      ],
+      "image_id": "lgcns_ax_platform_service_development",
+      "image_path": "assets/images/lgcns_ax_platform_service_development.png",
+      "path": "companies/lg-cns.md"
+    },
+    {
+      "id": "lg-electronics",
+      "entity_id": "company_lg_electronics",
+      "title": "LG Electronics",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv",
+        "enterprise_ax_agentic_operating_model",
+        "global_ai_alliance_open_innovation",
+        "ai_for_science_bio_materials_battery"
+      ],
+      "related_topics": [
+        "topic_what_did_jensen_huang_leave_lg",
+        "topic_ai_infra_demand_next_5_years",
+        "topic_is_ai_factory_a_data_center_or_operating_model",
+        "topic_can_lg_win_ai_mobility_without_making_cars",
+        "topic_is_physical_ai_more_than_smart_factory_rebranding",
+        "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk",
+        "topic_what_is_one_lg_in_the_ai_age",
+        "topic_what_is_lg_real_ai_moat",
+        "topic_are_power_and_cooling_bottlenecks_new_growth_engines",
+        "topic_should_lg_build_foundation_models_or_focus_on_industry_models",
+        "topic_how_does_manufacturing_data_become_an_ai_product",
+        "topic_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg",
+        "topic_how_gpu_cloud_price_decline_changes_aidc_business"
+      ],
+      "related_concepts": [
+        "ai-data-center",
+        "gpu-cloud",
+        "high-density-gpu-rack",
+        "data-center-cooling",
+        "direct-to-chip-cooling",
+        "cdu",
+        "immersion-cooling",
+        "dc-grid",
+        "ess-ups-for-aidc",
+        "workload-orchestration",
+        "ai-factory",
+        "physical-ai"
+      ],
+      "source_ids": [
+        "src_lge_dcw_20260421",
+        "src_lge_smart_factory_20260414",
+        "src_lge_ai_in_vehicle_20251217",
+        "src_lge_strategy_ax_20260108",
+        "src_lguplus_paju_aidc_20260607",
+        "src_pulse_lguplus_paju_aidc_20260608",
+        "src_lgcns_ai_box_20260304",
+        "src_lgensol_ess_expansion_20260415",
+        "src_iea_energy_ai_2026",
+        "src_goldman_data_center_power_20260520",
+        "src_lg_smart_park_lighthouse_20220427",
+        "src_lgcorp_smart_park_lighthouse_20220331"
+      ],
+      "image_id": "img_koreatimes_cdu_01",
+      "image_path": "assets/images/img_koreatimes_cdu_01.jpg",
+      "path": "companies/lg-electronics.md"
+    },
+    {
+      "id": "lg-energy-solution",
+      "entity_id": "company_lg_energy_solution",
+      "title": "LG Energy Solution",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "ai_data_center_infra",
+        "ai_mobility_sdv_aidv",
+        "enterprise_ax_agentic_operating_model",
+        "ai_for_science_bio_materials_battery",
+        "physical_ai_smart_manufacturing",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_topics": [
+        "topic_what_did_jensen_huang_leave_lg",
+        "topic_how_competitive_is_exaone_globally",
+        "topic_ai_infra_demand_next_5_years",
+        "topic_can_lg_win_ai_mobility_without_making_cars",
+        "topic_can_battery_software_become_lges_next_platform",
+        "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk",
+        "topic_can_ai_for_science_change_lg_rnd_productivity",
+        "topic_what_is_one_lg_in_the_ai_age",
+        "topic_what_is_lg_real_ai_moat",
+        "topic_are_power_and_cooling_bottlenecks_new_growth_engines",
+        "topic_should_lg_build_foundation_models_or_focus_on_industry_models",
+        "topic_how_should_enterprise_ax_performance_be_measured",
+        "topic_how_gpu_cloud_price_decline_changes_aidc_business"
+      ],
+      "related_concepts": [
+        "ai-data-center",
+        "gpu-cloud",
+        "high-density-gpu-rack",
+        "data-center-cooling",
+        "direct-to-chip-cooling",
+        "cdu",
+        "immersion-cooling",
+        "dc-grid",
+        "ess-ups-for-aidc",
+        "workload-orchestration",
+        "ai-factory",
+        "physical-ai"
+      ],
+      "source_ids": [
+        "src_lgensol_ess_expansion_20260415",
+        "src_lgensol_baround",
+        "src_lgensol_sdverse_20260403",
+        "src_lgensol_genai_battery_20250613",
+        "src_lge_dcw_20260421",
+        "src_lguplus_paju_aidc_20260607",
+        "src_pulse_lguplus_paju_aidc_20260608",
+        "src_lgcns_ai_box_20260304",
+        "src_iea_energy_ai_2026",
+        "src_goldman_data_center_power_20260520",
+        "src_lge_smart_factory_20260414",
+        "src_lg_smart_park_lighthouse_20220427"
+      ],
+      "image_id": "lgensol_baround_core_values",
+      "image_path": "assets/images/lgensol_baround_core_values.png",
+      "path": "companies/lg-energy-solution.md"
+    },
+    {
+      "id": "lg-display",
+      "entity_id": "company_lg_display",
+      "title": "LG Display",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv",
+        "enterprise_ax_agentic_operating_model",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_topics": [
+        "topic_can_lg_win_ai_mobility_without_making_cars",
+        "topic_how_should_enterprise_ax_performance_be_measured"
+      ],
+      "related_concepts": [
+        "physical-ai",
+        "smart-manufacturing",
+        "ai-factory",
+        "digital-twin",
+        "manufacturing-intelligence",
+        "predictive-maintenance",
+        "robotic-foundation-model",
+        "industrial-humanoid",
+        "synthetic-data",
+        "robot-simulation",
+        "factory-ontology",
+        "sdv"
+      ],
+      "source_ids": [
+        "src_lgdisplay_ces2026_20260105",
+        "src_lgdisplay_ai_productivity_20250805",
+        "src_lge_smart_factory_20260414",
+        "src_lg_smart_park_lighthouse_20220427",
+        "src_lgcorp_smart_park_lighthouse_20220331",
+        "src_lgcns_factova_20260519",
+        "src_lgcns_skild_ai_20250616",
+        "src_wef_global_lighthouse_20260115",
+        "src_ifr_world_robotics_20250925",
+        "src_lge_ai_in_vehicle_20251217",
+        "src_lginnotek_ces2026_aidv_20260106",
+        "src_lginnotek_ces2026_showcase"
+      ],
+      "image_id": "lgdisplay_ces2026_automotive_display",
+      "image_path": "assets/images/lgdisplay_ces2026_automotive_display.jpg",
+      "path": "companies/lg-display.md"
+    },
+    {
+      "id": "lg-innotek",
+      "entity_id": "company_lg_innotek",
+      "title": "LG Innotek",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv",
+        "global_ai_alliance_open_innovation",
+        "enterprise_ax_agentic_operating_model",
+        "ai_data_center_infra"
+      ],
+      "related_topics": [
+        "topic_what_did_jensen_huang_leave_lg",
+        "topic_can_lg_win_ai_mobility_without_making_cars",
+        "topic_is_physical_ai_more_than_smart_factory_rebranding",
+        "topic_what_is_one_lg_in_the_ai_age"
+      ],
+      "related_concepts": [
+        "physical-ai",
+        "smart-manufacturing",
+        "ai-factory",
+        "digital-twin",
+        "manufacturing-intelligence",
+        "predictive-maintenance",
+        "robotic-foundation-model",
+        "industrial-humanoid",
+        "synthetic-data",
+        "robot-simulation",
+        "factory-ontology",
+        "sdv"
+      ],
+      "source_ids": [
+        "src_lginnotek_ces2026_aidv_20260106",
+        "src_lginnotek_ces2026_showcase",
+        "src_lginnotek_applied_intuition_20260329",
+        "src_lge_smart_factory_20260414",
+        "src_lg_smart_park_lighthouse_20220427",
+        "src_lgcorp_smart_park_lighthouse_20220331",
+        "src_lgcns_factova_20260519",
+        "src_lgcns_skild_ai_20250616",
+        "src_wef_global_lighthouse_20260115",
+        "src_ifr_world_robotics_20250925",
+        "src_lge_ai_in_vehicle_20251217",
+        "src_lgdisplay_ces2026_20260105"
+      ],
+      "image_id": "lginnotek_autonomous_sensor_fusion",
+      "image_path": "assets/images/topic_01_lginnotek_autonomous_sensor_fusion.png",
+      "path": "companies/lg-innotek.md"
+    },
+    {
+      "id": "lg-chem",
+      "entity_id": "company_lg_chem",
+      "title": "LG Chem",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "physical_ai_smart_manufacturing",
+        "enterprise_ax_agentic_operating_model",
+        "ai_for_science_bio_materials_battery",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_topics": [
+        "topic_how_competitive_is_exaone_globally",
+        "topic_can_ai_for_science_change_lg_rnd_productivity",
+        "topic_should_lg_build_foundation_models_or_focus_on_industry_models"
+      ],
+      "related_concepts": [
+        "physical-ai",
+        "smart-manufacturing",
+        "ai-factory",
+        "digital-twin",
+        "manufacturing-intelligence",
+        "predictive-maintenance",
+        "robotic-foundation-model",
+        "industrial-humanoid",
+        "synthetic-data",
+        "robot-simulation",
+        "factory-ontology",
+        "enterprise-ontology"
+      ],
+      "source_ids": [
+        "src_lgchem_life_science",
+        "src_lgchem_open_innovation",
+        "src_lgchem_cathode_material",
+        "src_lgchem_one_agent_20260528",
+        "src_lge_smart_factory_20260414",
+        "src_lg_smart_park_lighthouse_20220427",
+        "src_lgcorp_smart_park_lighthouse_20220331",
+        "src_lgcns_factova_20260519",
+        "src_lgcns_skild_ai_20250616",
+        "src_wef_global_lighthouse_20260115",
+        "src_ifr_world_robotics_20250925",
+        "src_lgcorp_silicon_valley_20260407"
+      ],
+      "image_id": "lgchem_open_innovation_energy_materials",
+      "image_path": "assets/images/lgchem_open_innovation_energy_materials.jpg",
+      "path": "companies/lg-chem.md"
+    },
+    {
+      "id": "lg-household-health-care",
+      "entity_id": "company_lg_household_health_care",
+      "title": "LG Household & Health Care",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "enterprise_ax_agentic_operating_model",
+        "ai_for_science_bio_materials_battery",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_topics": [
+        "topic_can_ai_for_science_change_lg_rnd_productivity"
+      ],
+      "related_concepts": [
+        "enterprise-ontology",
+        "agentic-operating-model",
+        "ai-cockpit",
+        "decision-intelligence",
+        "what-if-simulation",
+        "data-foundation",
+        "knowledge-graph",
+        "agent-governance",
+        "llmops",
+        "ai-governance",
+        "ai-for-science",
+        "ai-co-scientist"
+      ],
+      "source_ids": [
+        "src_lghnh_ai_cosmetic_ingredients_20250323",
+        "src_lgcorp_silicon_valley_20260407",
+        "src_lge_strategy_ax_20260108",
+        "src_lgcns_palantir_20260312",
+        "src_lgcns_ax_platform",
+        "src_lgcns_ax_consulting",
+        "src_lgcns_ax_fair_20260527",
+        "src_lgdisplay_ai_productivity_20250805",
+        "src_lgensol_ax_productivity_20260413",
+        "src_lgchem_one_agent_20260528",
+        "src_lgai_exaone",
+        "src_lgai_materials_intelligence"
+      ],
+      "image_id": "lghnh_bichup_nad_symposium",
+      "image_path": "assets/images/lghnh_bichup_nad_symposium.jpg",
+      "path": "companies/lg-household-health-care.md"
+    },
+    {
+      "id": "lg-technology-ventures",
+      "entity_id": "company_lg_technology_ventures",
+      "title": "LG Technology Ventures",
+      "category": "lg_affiliate",
+      "related_themes": [
+        "ai_for_science_bio_materials_battery",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_topics": [],
+      "related_concepts": [
+        "global-ai-alliance",
+        "open-innovation",
+        "cvc",
+        "ai-factory",
+        "robotic-foundation-model",
+        "enterprise-ontology",
+        "physical-ai",
+        "sdv",
+        "battery-software",
+        "ai-co-scientist",
+        "hybrid-ai-strategy"
+      ],
+      "source_ids": [
+        "src_lg_nvidia_map_20260608",
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_lgcorp_silicon_valley_20260407",
+        "src_lgcns_palantir_20260312",
+        "src_lgcns_skild_ai_20250616",
+        "src_lgensol_qualcomm_bms_20241223",
+        "src_lgensol_sdverse_20260403",
+        "src_lgai_dd_pharmatech_20260617"
+      ],
+      "image_id": "lg_nvidia_map_koo_huang_prn",
+      "image_path": "assets/images/lg_nvidia_map_koo_huang_prn.jpg",
+      "path": "companies/lg-technology-ventures.md"
+    },
+    {
+      "id": "nvidia",
+      "entity_id": "company_nvidia",
+      "title": "NVIDIA",
+      "category": "partner",
+      "related_themes": [
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv",
+        "global_ai_alliance_open_innovation",
+        "enterprise_ax_agentic_operating_model",
+        "ai_for_science_bio_materials_battery"
+      ],
+      "related_topics": [
+        "topic_what_did_jensen_huang_leave_lg",
+        "topic_ai_infra_demand_next_5_years",
+        "topic_is_ai_factory_a_data_center_or_operating_model",
+        "topic_can_lg_win_ai_mobility_without_making_cars",
+        "topic_is_physical_ai_more_than_smart_factory_rebranding",
+        "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk",
+        "topic_what_is_one_lg_in_the_ai_age",
+        "topic_what_is_lg_real_ai_moat",
+        "topic_are_power_and_cooling_bottlenecks_new_growth_engines",
+        "topic_should_lg_build_foundation_models_or_focus_on_industry_models",
+        "topic_how_does_manufacturing_data_become_an_ai_product",
+        "topic_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg",
+        "topic_how_gpu_cloud_price_decline_changes_aidc_business"
+      ],
+      "related_concepts": [
+        "sdv",
+        "aidv",
+        "ai-cabin",
+        "in-vehicle-ai",
+        "adas",
+        "autonomous-driving",
+        "v2x",
+        "bms-bmts",
+        "battery-software",
+        "automotive-display",
+        "in-cabin-sensing",
+        "on-device-ai"
+      ],
+      "source_ids": [
+        "src_lg_nvidia_map_20260608",
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_nvidia_800v_architecture_20250520",
+        "src_lge_ai_in_vehicle_20251217",
+        "src_lginnotek_ces2026_aidv_20260106",
+        "src_lginnotek_ces2026_showcase",
+        "src_lgdisplay_ces2026_20260105",
+        "src_lgensol_sdverse_20260403",
+        "src_lgensol_baround",
+        "src_lgensol_qualcomm_bms_20241223",
+        "src_lguplus_autonomous_driving",
+        "src_lgcorp_silicon_valley_20260407"
+      ],
+      "image_id": "nvidia_lg_ai_factory_robot",
+      "image_path": "assets/images/nvidia_lg_ai_factory_robot.png",
+      "path": "companies/partners/nvidia.md"
+    },
+    {
+      "id": "skild-ai",
+      "entity_id": "company_skild_ai",
+      "title": "Skild AI",
+      "category": "partner",
+      "related_themes": [
+        "physical_ai_smart_manufacturing",
+        "global_ai_alliance_open_innovation",
+        "ai_data_center_infra",
+        "ai_mobility_sdv_aidv",
+        "enterprise_ax_agentic_operating_model"
+      ],
+      "related_topics": [
+        "topic_is_physical_ai_more_than_smart_factory_rebranding",
+        "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk"
+      ],
+      "related_concepts": [
+        "global-ai-alliance",
+        "open-innovation",
+        "cvc",
+        "ai-factory",
+        "robotic-foundation-model",
+        "enterprise-ontology",
+        "physical-ai",
+        "sdv",
+        "battery-software",
+        "ai-co-scientist",
+        "hybrid-ai-strategy",
+        "smart-manufacturing"
+      ],
+      "source_ids": [
+        "src_lgcns_skild_ai_20250616",
+        "src_lgcns_skild_ai_20250605",
+        "src_lg_nvidia_map_20260608",
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_lgcorp_silicon_valley_20260407",
+        "src_lgcns_palantir_20260312",
+        "src_lgensol_qualcomm_bms_20241223",
+        "src_lgensol_sdverse_20260403",
+        "src_lgai_dd_pharmatech_20260617",
+        "src_lge_smart_factory_success_20260414",
+        "src_lge_smart_factory_business_20240718",
+        "src_lg_smart_park_lighthouse_20220331"
+      ],
+      "image_id": "doc_02_skild_ai_series_c",
+      "image_path": "assets/images/doc_02_skild-ai-series-c-800x329.jpg",
+      "path": "companies/partners/skild-ai.md"
+    },
+    {
+      "id": "palantir",
+      "entity_id": "company_palantir",
+      "title": "Palantir",
+      "category": "partner",
+      "related_themes": [
+        "enterprise_ax_agentic_operating_model",
+        "global_ai_alliance_open_innovation",
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv",
+        "ai_for_science_bio_materials_battery"
+      ],
+      "related_topics": [
+        "topic_what_did_palantir_ask_lg",
+        "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk",
+        "topic_what_is_one_lg_in_the_ai_age",
+        "topic_what_is_lg_real_ai_moat",
+        "topic_should_lg_build_foundation_models_or_focus_on_industry_models",
+        "topic_how_should_enterprise_ax_performance_be_measured",
+        "topic_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg"
+      ],
+      "related_concepts": [
+        "enterprise-ontology",
+        "agentic-operating-model",
+        "ai-cockpit",
+        "decision-intelligence",
+        "what-if-simulation",
+        "data-foundation",
+        "knowledge-graph",
+        "agent-governance",
+        "llmops",
+        "ai-governance",
+        "global-ai-alliance",
+        "open-innovation"
+      ],
+      "source_ids": [
+        "src_lgcorp_silicon_valley_20260407",
+        "src_lgcns_palantir_20260312",
+        "src_lge_strategy_ax_20260108",
+        "src_lgcns_ax_platform",
+        "src_lgcns_ax_consulting",
+        "src_lgcns_ax_fair_20260527",
+        "src_lgdisplay_ai_productivity_20250805",
+        "src_lgensol_ax_productivity_20260413",
+        "src_lgchem_one_agent_20260528",
+        "src_lg_nvidia_map_20260608",
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_lgcns_skild_ai_20250616"
+      ],
+      "image_id": "lgcorp_silicon_valley_palantir_signing",
+      "image_path": "assets/images/lgcns_palantir_signing.jpg",
+      "path": "companies/partners/palantir.md"
+    },
+    {
+      "id": "qualcomm",
+      "entity_id": "company_qualcomm",
+      "title": "Qualcomm",
+      "category": "partner",
+      "related_themes": [
+        "ai_mobility_sdv_aidv",
+        "global_ai_alliance_open_innovation",
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "enterprise_ax_agentic_operating_model"
+      ],
+      "related_topics": [
+        "topic_can_lg_win_ai_mobility_without_making_cars",
+        "topic_can_battery_software_become_lges_next_platform",
+        "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk"
+      ],
+      "related_concepts": [
+        "sdv",
+        "aidv",
+        "ai-cabin",
+        "in-vehicle-ai",
+        "adas",
+        "autonomous-driving",
+        "v2x",
+        "bms-bmts",
+        "battery-software",
+        "automotive-display",
+        "in-cabin-sensing",
+        "on-device-ai"
+      ],
+      "source_ids": [
+        "src_lgensol_qualcomm_bms_20241223",
+        "src_lgensol_qualcomm_20240310",
+        "src_lge_ai_in_vehicle_20251217",
+        "src_lginnotek_ces2026_aidv_20260106",
+        "src_lginnotek_ces2026_showcase",
+        "src_lgdisplay_ces2026_20260105",
+        "src_lgensol_sdverse_20260403",
+        "src_lgensol_baround",
+        "src_lguplus_autonomous_driving",
+        "src_lg_nvidia_map_20260608",
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_lgcorp_silicon_valley_20260407"
+      ],
+      "image_id": "lgensol_sdv_bms",
+      "image_path": "assets/images/lgensol_sdv_bms.png",
+      "path": "companies/partners/qualcomm.md"
+    },
+    {
+      "id": "sdverse",
+      "entity_id": "company_sdverse",
+      "title": "SDVerse",
+      "category": "partner",
+      "related_themes": [
+        "ai_mobility_sdv_aidv",
+        "global_ai_alliance_open_innovation",
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "enterprise_ax_agentic_operating_model"
+      ],
+      "related_topics": [
+        "topic_can_lg_win_ai_mobility_without_making_cars",
+        "topic_can_battery_software_become_lges_next_platform",
+        "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk"
+      ],
+      "related_concepts": [
+        "sdv",
+        "aidv",
+        "ai-cabin",
+        "in-vehicle-ai",
+        "adas",
+        "autonomous-driving",
+        "v2x",
+        "bms-bmts",
+        "battery-software",
+        "automotive-display",
+        "in-cabin-sensing",
+        "on-device-ai"
+      ],
+      "source_ids": [
+        "src_lgensol_sdverse_20260403",
+        "src_lge_ai_in_vehicle_20251217",
+        "src_lginnotek_ces2026_aidv_20260106",
+        "src_lginnotek_ces2026_showcase",
+        "src_lgdisplay_ces2026_20260105",
+        "src_lgensol_baround",
+        "src_lgensol_qualcomm_bms_20241223",
+        "src_lguplus_autonomous_driving",
+        "src_lg_nvidia_map_20260608",
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_lgcorp_silicon_valley_20260407",
+        "src_lgcns_palantir_20260312"
+      ],
+      "image_id": "lgensol_baround_core_values",
+      "image_path": "assets/images/lgensol_baround_core_values.png",
+      "path": "companies/partners/sdverse.md"
+    },
+    {
+      "id": "dd-pharmatech",
+      "entity_id": "company_dd_pharmatech",
+      "title": "D&D Pharmatech",
+      "category": "partner",
+      "related_themes": [
+        "ai_for_science_bio_materials_battery",
+        "global_ai_alliance_open_innovation",
+        "enterprise_ax_agentic_operating_model"
+      ],
+      "related_topics": [
+        "topic_can_ai_for_science_change_lg_rnd_productivity"
+      ],
+      "related_concepts": [
+        "ai-for-science",
+        "ai-co-scientist",
+        "exaone-discovery",
+        "bio-intelligence",
+        "materials-intelligence",
+        "chemical-agentic-ai",
+        "closed-loop-rnd",
+        "peptide-drug-discovery",
+        "battery-materials",
+        "materials-informatics",
+        "global-ai-alliance",
+        "open-innovation"
+      ],
+      "source_ids": [
+        "src_lgai_dd_pharmatech_20260617",
+        "src_lgai_exaone",
+        "src_lgai_materials_intelligence",
+        "src_lgai_exaone_discovery_patent_20260203",
+        "src_lgchem_life_science",
+        "src_lgchem_open_innovation",
+        "src_lgchem_cathode_material",
+        "src_lgensol_battery_technology_roadmap_20250620",
+        "src_lgensol_genai_battery_20250613",
+        "src_lghnh_ai_cosmetic_ingredients_20250323",
+        "src_lg_nvidia_map_20260608",
+        "src_nvidia_lg_ai_factory_20260607"
+      ],
+      "image_id": "exaone_discovery_operation",
+      "image_path": "assets/images/exaone_discovery_operation.jpg",
+      "path": "companies/partners/dd-pharmatech.md"
+    },
+    {
+      "id": "sinar-mas-group",
+      "entity_id": "company_sinar_mas_group",
+      "title": "Sinar Mas Group",
+      "category": "partner",
+      "related_themes": [
+        "ai_data_center_infra",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_topics": [],
+      "related_concepts": [],
+      "source_ids": [
+        "src_sinar_mas_official"
+      ],
+      "image_id": "img_lguplus_paju_pulse_01",
+      "image_path": "assets/images/img_lguplus_paju_pulse_01.png",
+      "path": "companies/partners/sinar-mas-group.md"
+    },
+    {
+      "id": "applied-intuition",
+      "entity_id": "company_applied_intuition",
+      "title": "Applied Intuition",
+      "category": "partner",
+      "related_themes": [
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_topics": [
+        "topic_is_physical_ai_more_than_smart_factory_rebranding"
+      ],
+      "related_concepts": [
+        "physical-ai",
+        "smart-manufacturing",
+        "ai-factory",
+        "digital-twin",
+        "robot-simulation",
+        "manufacturing-intelligence",
+        "synthetic-data"
+      ],
+      "source_ids": [
+        "src_lginnotek_applied_intuition_20260329",
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_lge_smart_factory_success_20260414",
+        "src_lge_smart_factory_business_20240718",
+        "src_lg_smart_park_lighthouse_20220331",
+        "src_ai_ml_smart_manufacturing_roadmap_202605"
+      ],
+      "image_id": "lginnotek_autonomous_sensor_fusion",
+      "image_path": "assets/images/topic_01_lginnotek_autonomous_sensor_fusion.png",
+      "path": "companies/partners/applied-intuition.md"
+    },
+    {
+      "id": "microsoft",
+      "entity_id": "company_microsoft",
+      "title": "Microsoft",
+      "category": "partner",
+      "related_themes": [
+        "ai_data_center_infra",
+        "enterprise_ax_agentic_operating_model"
+      ],
+      "related_topics": [],
+      "related_concepts": [],
+      "source_ids": [
+        "src_microsoft_datacenter_sustainability"
+      ],
+      "image_id": "img_lgcns_ai_box_campus_01",
+      "image_path": "assets/images/img_lgcns_ai_box_campus_01.jpg",
+      "path": "companies/partners/microsoft.md"
+    },
+    {
+      "id": "ls-electric",
+      "entity_id": "company_ls_electric",
+      "title": "LS ELECTRIC",
+      "category": "partner",
+      "related_themes": [
+        "ai_data_center_infra"
+      ],
+      "related_topics": [],
+      "related_concepts": [],
+      "source_ids": [
+        "src_ls_electric_official"
+      ],
+      "image_id": "nvidia_800v_architecture",
+      "image_path": "assets/images/topic_01_nvidia_800v_architecture.png",
+      "path": "companies/partners/ls-electric.md"
+    },
+    {
+      "id": "ls-cable-system",
+      "entity_id": "company_ls_cable_system",
+      "title": "LS Cable & System",
+      "category": "partner",
+      "related_themes": [
+        "ai_data_center_infra"
+      ],
+      "related_topics": [],
+      "related_concepts": [],
+      "source_ids": [
+        "src_ls_cable_system_official"
+      ],
+      "image_id": "nvidia_800v_architecture",
+      "image_path": "assets/images/topic_01_nvidia_800v_architecture.png",
+      "path": "companies/partners/ls-cable-system.md"
+    },
+    {
+      "id": "grc",
+      "entity_id": "company_grc",
+      "title": "GRC",
+      "category": "partner",
+      "related_themes": [
+        "ai_data_center_infra"
+      ],
+      "related_topics": [],
+      "related_concepts": [],
+      "source_ids": [
+        "src_grc_immersion_cooling"
+      ],
+      "image_id": "img_koreatimes_cdu_01",
+      "image_path": "assets/images/img_koreatimes_cdu_01.jpg",
+      "path": "companies/partners/grc.md"
+    },
+    {
+      "id": "sk-enmove",
+      "entity_id": "company_sk_enmove",
+      "title": "SK Enmove",
+      "category": "partner",
+      "related_themes": [
+        "ai_data_center_infra"
+      ],
+      "related_topics": [],
+      "related_concepts": [],
+      "source_ids": [
+        "src_sk_enmove_official"
+      ],
+      "image_id": "img_koreatimes_cdu_01",
+      "image_path": "assets/images/img_koreatimes_cdu_01.jpg",
+      "path": "companies/partners/sk-enmove.md"
+    },
+    {
+      "id": "vanderbilt-university-medical-center",
+      "entity_id": "company_vanderbilt_university_medical_center",
+      "title": "Vanderbilt University Medical Center",
+      "category": "partner",
+      "related_themes": [
+        "ai_for_science_bio_materials_battery"
+      ],
+      "related_topics": [],
+      "related_concepts": [],
+      "source_ids": [
+        "src_vumc_research"
+      ],
+      "image_id": "lgchem_life_science_primary_care",
+      "image_path": "assets/images/lgchem_life_science_primary_care.jpg",
+      "path": "companies/partners/vanderbilt-university-medical-center.md"
+    }
+  ]
+}

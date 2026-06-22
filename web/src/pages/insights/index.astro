@@ -1,0 +1,115 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TopicCard from "../../components/TopicCard.astro";
+import { getTopics, THEME_META } from "../../lib/content";
+
+const topics = await getTopics();
+---
+
+<BaseLayout title="Insights — LG AI Strategy Journal" description="LG그룹 AI 사업기회를 다루는 18개 전략 질문">
+  <section class="listing-hero">
+    <span class="eyebrow">Research journal · 18 questions</span>
+    <h1>정답보다 먼저,<br /><em>질문을 선명하게.</em></h1>
+    <p>6대 사업기회를 둘러싼 핵심 쟁점을 근거, 해석, 실행 질문의 순서로 읽습니다.</p>
+  </section>
+
+  <section class="insights-browser" data-insights>
+    <div class="filter-bar">
+      <div class="filter-scroll" role="group" aria-label="테마 필터">
+        <button class="active" type="button" data-theme-filter="all">전체 <span>{topics.length}</span></button>
+        {Object.entries(THEME_META).map(([id, theme]) => (
+          <button type="button" data-theme-filter={id}>{theme.short}</button>
+        ))}
+      </div>
+      <label class="inline-search">
+        <span class="sr-only">인사이트 검색</span>
+        <input type="search" placeholder="질문 또는 키워드 검색" data-topic-search />
+      </label>
+      <label class="sort-select">
+        <span class="sr-only">정렬 기준</span>
+        <select data-topic-sort>
+          <option value="priority">우선순위순</option>
+          <option value="number">기존 번호순</option>
+          <option value="recent">업데이트순</option>
+        </select>
+      </label>
+    </div>
+    <p class="result-count" aria-live="polite"><strong data-result-count>{topics.length}</strong>개의 전략 질문</p>
+    <div class="topic-grid listing-grid" data-topic-grid>
+      {topics.map((topic) => (
+        <div
+          data-topic-item
+          data-themes={topic.related_themes.join(" ")}
+          data-search={`${topic.title} ${topic.question} ${topic.tags.join(" ")}`.toLowerCase()}
+          data-priority={topic.priorityScore}
+          data-number={topic.number}
+          data-updated={topic.updated}
+        >
+          <TopicCard topic={topic} />
+        </div>
+      ))}
+    </div>
+    <div class="empty-state" data-empty hidden>
+      <strong>일치하는 질문이 없습니다.</strong>
+      <p>검색어를 줄이거나 다른 테마를 선택하세요.</p>
+    </div>
+  </section>
+
+  <script>
+    const root = document.querySelector<HTMLElement>("[data-insights]");
+    if (root) {
+      const items = [...root.querySelectorAll<HTMLElement>("[data-topic-item]")];
+      const filters = [...root.querySelectorAll<HTMLButtonElement>("[data-theme-filter]")];
+      const search = root.querySelector<HTMLInputElement>("[data-topic-search]");
+      const count = root.querySelector<HTMLElement>("[data-result-count]");
+      const empty = root.querySelector<HTMLElement>("[data-empty]");
+      const sort = root.querySelector<HTMLSelectElement>("[data-topic-sort]");
+      const grid = root.querySelector<HTMLElement>("[data-topic-grid]");
+      if (!search || !count || !empty || !sort || !grid) throw new Error("Insights controls are missing");
+      const searchInput = search;
+      const countOutput = count;
+      const emptyState = empty;
+      const sortSelect = sort;
+      const topicGrid = grid;
+      const params = new URLSearchParams(location.search);
+      let activeTheme = params.get("theme") || "all";
+
+      function applyFilters() {
+        const query = searchInput.value.trim().toLowerCase();
+        let visible = 0;
+        items.forEach((item) => {
+          const themeMatch = activeTheme === "all" || (item.dataset.themes || "").split(" ").includes(activeTheme);
+          const searchMatch = !query || (item.dataset.search || "").includes(query);
+          item.hidden = !(themeMatch && searchMatch);
+          if (!item.hidden) visible += 1;
+        });
+        countOutput.textContent = String(visible);
+        emptyState.hidden = visible !== 0;
+      }
+
+      function applySort() {
+        const mode = sortSelect.value;
+        items.sort((a, b) => {
+          if (mode === "number") return Number(a.dataset.number) - Number(b.dataset.number);
+          if (mode === "recent") return (b.dataset.updated || "").localeCompare(a.dataset.updated || "");
+          return Number(b.dataset.priority) - Number(a.dataset.priority) || Number(a.dataset.number) - Number(b.dataset.number);
+        });
+        items.forEach((item) => topicGrid.append(item));
+      }
+
+      filters.forEach((button) => {
+        const selected = button.dataset.themeFilter === activeTheme;
+        button.classList.toggle("active", selected);
+        button.addEventListener("click", () => {
+          activeTheme = button.dataset.themeFilter || "all";
+          filters.forEach((item) => item.classList.toggle("active", item === button));
+          applyFilters();
+        });
+      });
+      searchInput.addEventListener("input", applyFilters);
+      sortSelect.addEventListener("change", applySort);
+      applySort();
+      applyFilters();
+    }
+  </script>
+</BaseLayout>

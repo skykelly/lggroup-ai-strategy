@@ -1,0 +1,1108 @@
+{
+  "topics": [
+    {
+      "number": 1,
+      "id": "topic_what_did_jensen_huang_leave_lg",
+      "title": "젠슨 황이 LG에게 남긴 것은 GPU가 아니었다",
+      "subtitle": "NVIDIA M.A.P. 협력으로 다시 읽는 LG의 AI Infra, Physical AI, Mobility 전략",
+      "question": "NVIDIA 협력은 LG에게 GPU 확보 이상의 무엇을 남겼는가?",
+      "short_answer": "LG와 NVIDIA의 협력에서 가장 눈에 띄는 단어는 GPU지만, 이 발표가 LG에게 남긴 진짜 의미는 GPU 자체가 아니다. 핵심은 LG가 가진 데이터센터, 냉각, 전력, 제조, 모빌리티 자산을 AI 시대의 기반 인프라로 다시 해석하게 만들었다는 점이다. LG에게 중요한 과제는 NVIDIA 기술을 쓰는 데서 끝나지 않고, 그 과정에서 만들어지는 데이터와 운영 노하우를 자기 자산으로 남기는 것이다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P1",
+      "priority_score": 4.06,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.76,
+        "issue_salience": 5.0,
+        "strategic_impact": 3.82,
+        "urgency": 2.61,
+        "actionability": 2.27
+      },
+      "priority_rationale": "최신성 4.8, 이슈성 5.0이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 80%.",
+      "topic_type": [
+        "partner_analysis",
+        "strategic_question"
+      ],
+      "related_themes": [
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "global-ai-alliance",
+        "ai-data-center",
+        "ai-factory",
+        "physical-ai",
+        "aidv"
+      ],
+      "related_companies": [
+        "lg-corp",
+        "lg-electronics",
+        "lg-uplus",
+        "lg-cns",
+        "lg-energy-solution",
+        "lg-innotek",
+        "lg-ai-research",
+        "nvidia"
+      ],
+      "source_ids": [
+        "src_lg_nvidia_map_20260608",
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_lge_dcw_20260421",
+        "src_lguplus_paju_aidc_20260608",
+        "src_nvidia_800v_architecture_20250520"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_01_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/01_what_did_jensen_huang_leave_lg.md"
+    },
+    {
+      "number": 2,
+      "id": "topic_how_competitive_is_exaone_globally",
+      "title": "EXAONE의 경쟁력은 글로벌 1등 모델이 아니라 산업 맥락에 있다",
+      "subtitle": "글로벌 AI 플랫폼과 직접 경쟁하기보다, LG의 데이터·문서·산업 현장과 결합될 때 생기는 의미",
+      "question": "EXAONE은 GPT, Gemini, Claude 같은 글로벌 AI 플랫폼 대비 어디에서 경쟁력을 가질 수 있는가?",
+      "short_answer": "EXAONE을 글로벌 최상위 범용 모델과 정면 비교하면 한계가 분명하다. 하지만 EXAONE 4.5와 K-EXAONE은 한국어, 문서 이해, 긴 컨텍스트, 멀티모달, 산업 적용이라는 영역에서 전략적 의미가 있다. LG에게 중요한 질문은 EXAONE이 세계 최고 챗봇인가가 아니라, LG의 내부 데이터와 결합했을 때 글로벌 범용 모델이 제공하기 어려운 기업·산업 전용 지능을 만들 수 있는가다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.27,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 5.0,
+        "issue_salience": 2.31,
+        "strategic_impact": 3.01,
+        "urgency": 2.17,
+        "actionability": 2.61
+      },
+      "priority_rationale": "최신성 5.0, 이슈성 2.3이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 100%.",
+      "topic_type": [
+        "technology_assessment",
+        "strategic_question"
+      ],
+      "related_themes": [
+        "enterprise_ax_agentic_operating_model",
+        "ai_for_science_bio_materials_battery",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "exaone-discovery",
+        "ai-co-scientist",
+        "agentic-operating-model",
+        "hybrid-ai-strategy"
+      ],
+      "related_companies": [
+        "lg-ai-research",
+        "lg-cns",
+        "lg-chem",
+        "lg-energy-solution"
+      ],
+      "source_ids": [
+        "src_lgai_exaone",
+        "src_exaone45_blog_20260409",
+        "src_exaone45_technical_report_20260409",
+        "src_k_exaone_technical_report_20260105",
+        "src_exaone45_github"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_02_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/02_how_competitive_is_exaone_globally.md"
+    },
+    {
+      "number": 3,
+      "id": "topic_ai_infra_demand_next_5_years",
+      "title": "AI Infra 수요는 폭증보다 병목의 문제다",
+      "subtitle": "향후 5년, 데이터센터 경쟁의 중심은 GPU 확보에서 전력·냉각·운영 효율로 이동한다",
+      "question": "AI 데이터센터 수요는 향후 5년간 계속 폭증할 것인가, 아니면 전력·냉각·GPU 병목에서 조정될 것인가?",
+      "short_answer": "AI Infra 수요는 향후 5년간 구조적으로 증가할 가능성이 높다. 하지만 성장은 직선으로 폭증하기보다 전력, 냉각, 계통 접속, 입지, GPU 활용률, 운영 효율이라는 병목을 따라 움직일 것이다. LG에게 중요한 것은 데이터센터 면적 경쟁이 아니라 전력과 냉각 제약 안에서 얼마나 안정적으로 AI 연산을 제공할 수 있는가다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P1",
+      "priority_score": 3.93,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.6,
+        "issue_salience": 4.84,
+        "strategic_impact": 2.52,
+        "urgency": 4.3,
+        "actionability": 1.94
+      },
+      "priority_rationale": "최신성 4.6, 이슈성 4.8이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-22, 최근 180일 Source 비율 67%.",
+      "topic_type": [
+        "market_outlook",
+        "strategic_question"
+      ],
+      "related_themes": [
+        "ai_data_center_infra",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "ai-data-center",
+        "gpu-cloud",
+        "data-center-cooling",
+        "dc-grid",
+        "ess-ups-for-aidc",
+        "compute-per-megawatt"
+      ],
+      "related_companies": [
+        "lg-uplus",
+        "lg-cns",
+        "lg-electronics",
+        "lg-energy-solution",
+        "nvidia"
+      ],
+      "source_ids": [
+        "src_iea_energy_and_ai_2025",
+        "src_iea_key_questions_energy_ai_2026",
+        "src_lguplus_paju_aidc_20260608",
+        "src_lguplus_ace_on_trust_20260607",
+        "src_lge_dcw_20260421",
+        "src_nvidia_800v_architecture_20250520"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_03_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/03_ai_infra_demand_next_5_years.md"
+    },
+    {
+      "number": 4,
+      "id": "topic_is_ai_factory_a_data_center_or_operating_model",
+      "title": "AI Factory는 데이터센터가 아니라 운영 모델이다",
+      "subtitle": "GPU 인프라 위에서 AI를 학습·시뮬레이션·검증·배포하는 Physical AI workflow",
+      "question": "NVIDIA가 말하는 AI Factory를 LG 전략에서는 Theme 1에 둬야 하는가, Theme 2에 둬야 하는가?",
+      "short_answer": "AI Factory는 AI 데이터센터와 겹치지만 같은 말은 아니다. 데이터센터는 GPU, 전력, 냉각, 클라우드 운영 기반이고, AI Factory는 그 기반 위에서 AI 모델 개발, Physical AI 데이터 생성, 로봇 시뮬레이션, edge deployment, 디지털트윈을 연결하는 운영 모델이다. 따라서 LG 전략에서는 AI Factory를 Theme 1의 제목이 아니라 Theme 2 Physical AI / Smart Manufacturing의 핵심 Concept으로 두는 것이 적절하다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P1",
+      "priority_score": 4.09,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.76,
+        "issue_salience": 5.0,
+        "strategic_impact": 3.67,
+        "urgency": 2.17,
+        "actionability": 3.54
+      },
+      "priority_rationale": "최신성 4.8, 이슈성 5.0이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 80%.",
+      "topic_type": [
+        "operating_model",
+        "strategic_question"
+      ],
+      "related_themes": [
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "ai-data-center",
+        "ai-factory",
+        "physical-ai",
+        "digital-twin",
+        "robot-simulation",
+        "smart-manufacturing"
+      ],
+      "related_companies": [
+        "lg-electronics",
+        "lg-cns",
+        "lg-ai-research",
+        "nvidia"
+      ],
+      "source_ids": [
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_lg_nvidia_map_20260608",
+        "src_lge_smart_factory_success_20260414",
+        "src_lg_smart_park_lighthouse_20220331",
+        "src_lgcns_factova_iot_expo_20260520"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_04_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/04_is_ai_factory_a_data_center_or_operating_model.md"
+    },
+    {
+      "number": 5,
+      "id": "topic_what_did_palantir_ask_lg",
+      "title": "Palantir가 LG에 던진 질문은 솔루션 도입이 아니었다",
+      "subtitle": "온톨로지는 데이터 통합 프로젝트가 아니라 기업 운영체계를 AI가 이해하게 만드는 일이다",
+      "question": "Palantir 협력의 본질은 솔루션 도입인가, LG 운영체계의 재설계인가?",
+      "short_answer": "Palantir가 LG에 던진 질문은 어떤 플랫폼을 도입할 것인가가 아니다. 더 본질적인 질문은 LG의 제품, 고객, 공장, 설비, 원가, 품질, 재고, 프로젝트를 AI가 이해할 수 있는 객체와 관계로 재구성할 수 있는가다. 온톨로지는 데이터 통합 프로젝트가 아니라, 기업 운영을 판단과 실행으로 연결하기 위한 AI 시대의 운영체계 문제다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.5,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 5.0,
+        "issue_salience": 2.85,
+        "strategic_impact": 3.21,
+        "urgency": 2.09,
+        "actionability": 3.35
+      },
+      "priority_rationale": "최신성 5.0, 이슈성 2.9이 우선순위를 주도한다. 강점 요소는 최신성·실행 가능성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 100%.",
+      "topic_type": [
+        "partner_analysis",
+        "operating_model",
+        "strategic_question"
+      ],
+      "related_themes": [
+        "enterprise_ax_agentic_operating_model",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "enterprise-ontology",
+        "agentic-operating-model",
+        "decision-intelligence",
+        "knowledge-graph",
+        "data-foundation"
+      ],
+      "related_companies": [
+        "lg-corp",
+        "lg-cns",
+        "palantir"
+      ],
+      "source_ids": [
+        "src_lgcorp_silicon_valley_20260407",
+        "src_lgcns_palantir_20260312",
+        "src_lgcns_ax_platform"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_05_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/05_what_did_palantir_ask_lg.md"
+    },
+    {
+      "number": 6,
+      "id": "topic_can_lg_win_ai_mobility_without_making_cars",
+      "title": "LG는 완성차를 만들지 않아도 AI Mobility의 핵심 레이어를 잡을 수 있다",
+      "subtitle": "AIDV 시대의 승부는 차량 제조가 아니라 sensing, display, battery software, in-cabin AI experience에 있다",
+      "question": "LG는 완성차를 만들지 않으면서 AI Mobility에서 무엇을 장악할 수 있는가?",
+      "short_answer": "AI Mobility 시대에 반드시 완성차를 만들어야만 주도권을 갖는 것은 아니다. 차량이 software-defined vehicle을 넘어 AI-defined vehicle로 진화하면, 중요한 경쟁 레이어는 display, in-cabin sensing, on-device AI, battery software, sensing component, communication module로 넓어진다. LG는 완성차 브랜드가 아니라도 이 레이어들을 통해 차량 안의 AI 경험과 차량 밖의 sensing infrastructure를 장악할 수 있다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.46,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.7,
+        "issue_salience": 3.21,
+        "strategic_impact": 3.22,
+        "urgency": 2.53,
+        "actionability": 2.27
+      },
+      "priority_rationale": "최신성 4.7, 이슈성 3.2이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-22, 최근 180일 Source 비율 75%.",
+      "topic_type": [
+        "strategic_question",
+        "market_outlook"
+      ],
+      "related_themes": [
+        "ai_mobility_sdv_aidv",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "aidv",
+        "sdv",
+        "ai-cabin",
+        "in-vehicle-ai",
+        "in-cabin-sensing",
+        "automotive-display",
+        "bms-bmts",
+        "battery-software",
+        "on-device-ai"
+      ],
+      "related_companies": [
+        "lg-electronics",
+        "lg-innotek",
+        "lg-display",
+        "lg-energy-solution",
+        "qualcomm",
+        "sdverse",
+        "nvidia"
+      ],
+      "source_ids": [
+        "src_lge_ai_in_vehicle_solutions_20251217",
+        "src_ces_lg_ai_powered_in_vehicle_solutions_2026",
+        "src_lginnotek_ces2026",
+        "src_lgensol_sdverse_20260403",
+        "src_lgensol_baround"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_06_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/06_can_lg_win_ai_mobility_without_making_cars.md"
+    },
+    {
+      "number": 7,
+      "id": "topic_is_physical_ai_more_than_smart_factory_rebranding",
+      "title": "Physical AI는 스마트팩토리의 이름만 바꾼 것이 아니다",
+      "subtitle": "자동화에서 끝나는 공장과, 데이터를 만들고 시뮬레이션하며 학습하는 공장은 다르다",
+      "question": "Physical AI는 기존 스마트팩토리의 재포장인가, 아니면 다른 단계의 제조 AI인가?",
+      "short_answer": "Physical AI는 스마트팩토리와 겹치지만 같은 말은 아니다. 스마트팩토리가 자동화, 모니터링, 품질, 생산성 향상에 초점을 두었다면, Physical AI는 AI가 물리 세계를 이해하고 행동할 수 있도록 데이터 생성, 시뮬레이션, 학습, 검증, 배포를 연결한다. LG에게 Physical AI의 의미는 기존 스마트팩토리 자산을 기반으로 로봇·디지털트윈·제조 데이터를 AI 학습과 실행의 장으로 확장하는 데 있다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.23,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.6,
+        "issue_salience": 2.96,
+        "strategic_impact": 3.2,
+        "urgency": 1.5,
+        "actionability": 2.46
+      },
+      "priority_rationale": "최신성 4.6, 이슈성 3.0이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 67%.",
+      "topic_type": [
+        "technology_assessment",
+        "strategic_question"
+      ],
+      "related_themes": [
+        "physical_ai_smart_manufacturing",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "physical-ai",
+        "smart-manufacturing",
+        "ai-factory",
+        "digital-twin",
+        "robot-simulation",
+        "manufacturing-intelligence",
+        "synthetic-data"
+      ],
+      "related_companies": [
+        "lg-electronics",
+        "lg-cns",
+        "lg-innotek",
+        "nvidia",
+        "skild-ai",
+        "applied-intuition"
+      ],
+      "source_ids": [
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_lge_smart_factory_success_20260414",
+        "src_lge_smart_factory_business_20240718",
+        "src_lg_smart_park_lighthouse_20220331",
+        "src_lginnotek_applied_intuition_20260329",
+        "src_ai_ml_smart_manufacturing_roadmap_202605"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_07_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/07_is_physical_ai_more_than_smart_factory_rebranding.md"
+    },
+    {
+      "number": 8,
+      "id": "topic_can_battery_software_become_lges_next_platform",
+      "title": "배터리 SW는 셀을 플랫폼으로 바꿀 수 있다",
+      "subtitle": "BMS·BMTS·SDVerse로 보는 LG에너지솔루션의 다음 경쟁 레이어",
+      "question": "배터리 SW는 LG에너지솔루션의 다음 플랫폼이 될 수 있는가?",
+      "short_answer": "배터리 SW는 셀 사업의 부가 기능에 그치지 않을 수 있다. SDV 시대에는 배터리 상태, 수명, 안전, 열화, 충전 행동이 차량 software가 이해해야 할 핵심 데이터가 된다. LG에너지솔루션이 BMS를 BMTS와 SDVerse로 확장하는 흐름은 배터리를 hardware component에서 energy intelligence platform으로 바꾸려는 시도로 볼 수 있다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.12,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.2,
+        "issue_salience": 2.6,
+        "strategic_impact": 2.75,
+        "urgency": 2.22,
+        "actionability": 3.23
+      },
+      "priority_rationale": "최신성 4.2, 이슈성 2.6이 우선순위를 주도한다. 강점 요소는 최신성·실행 가능성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 33%.",
+      "topic_type": [
+        "strategic_question",
+        "technology_assessment"
+      ],
+      "related_themes": [
+        "ai_mobility_sdv_aidv",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "bms-bmts",
+        "battery-software",
+        "sdv",
+        "aidv",
+        "on-device-ai"
+      ],
+      "related_companies": [
+        "lg-energy-solution",
+        "qualcomm",
+        "sdverse"
+      ],
+      "source_ids": [
+        "src_lgensol_baround",
+        "src_lgensol_sdverse_20260403",
+        "src_lgensol_qualcomm_20241223",
+        "src_lgensol_qualcomm_20240310"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_08_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/08_can_battery_software_become_lges_next_platform.md"
+    },
+    {
+      "number": 9,
+      "id": "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk",
+      "title": "AI Alliance는 옵션이지만, 내부화하지 않으면 종속이 된다",
+      "subtitle": "NVIDIA, Palantir, Skild AI, Qualcomm, SDVerse로 보는 LG의 외부 협력 전략",
+      "question": "LG의 글로벌 AI Alliance는 옵션 전략인가, 종속 리스크인가?",
+      "short_answer": "LG의 글로벌 AI Alliance는 옵션 전략이자 동시에 종속 리스크다. NVIDIA, Palantir, Skild AI, Qualcomm, SDVerse 같은 파트너는 LG가 단기간에 AI Infra, Physical AI, Enterprise AX, Mobility SW로 진입하게 해준다. 그러나 협력의 결과가 외부 플랫폼 사용 경험에만 머물면 핵심 기술과 데이터, 운영 노하우가 밖에 남는다. LG에게 중요한 것은 파트너를 넓히는 것이 아니라, 협력 과정에서 자기 데이터와 운영체계를 내부 자산으로 축적하는 것이다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P1",
+      "priority_score": 4.11,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.6,
+        "issue_salience": 5.0,
+        "strategic_impact": 3.58,
+        "urgency": 3.38,
+        "actionability": 2.61
+      },
+      "priority_rationale": "최신성 4.6, 이슈성 5.0이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 67%.",
+      "topic_type": [
+        "partner_analysis",
+        "risk_debate",
+        "strategic_question"
+      ],
+      "related_themes": [
+        "global_ai_alliance_open_innovation",
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv",
+        "enterprise_ax_agentic_operating_model"
+      ],
+      "related_concepts": [
+        "global-ai-alliance",
+        "open-innovation",
+        "hybrid-ai-strategy",
+        "partner-technology-transfer",
+        "strategic-alliance-governance",
+        "industrial-ai-ecosystem"
+      ],
+      "related_companies": [
+        "lg-corp",
+        "lg-ai-research",
+        "lg-cns",
+        "lg-electronics",
+        "lg-energy-solution",
+        "nvidia",
+        "palantir",
+        "skild-ai",
+        "qualcomm",
+        "sdverse"
+      ],
+      "source_ids": [
+        "src_lg_nvidia_map_20260608",
+        "src_lgcns_palantir_20260312",
+        "src_lgcns_skild_ai_20250605",
+        "src_lgensol_qualcomm_20241223",
+        "src_lgensol_sdverse_20260403",
+        "src_lgai_dd_pharmatech_20260617"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_09_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/09_is_lg_ai_alliance_an_option_strategy_or_dependency_risk.md"
+    },
+    {
+      "number": 10,
+      "id": "topic_can_ai_for_science_change_lg_rnd_productivity",
+      "title": "AI for Science는 R&D의 속도를 바꾸지만, 성공률을 자동으로 보장하지는 않는다",
+      "subtitle": "EXAONE Discovery, 신약 후보 탐색, 배터리 설계, 특허 지능화로 보는 LG R&D의 다음 생산성",
+      "question": "AI for Science는 LG R&D 생산성을 얼마나 바꿀 수 있는가?",
+      "short_answer": "AI for Science는 LG R&D의 시간을 줄일 수 있다. 후보 물질 탐색, 실험 설계, 배터리 설계, 특허 검색, 논문·문서 이해 같은 반복적이고 탐색적인 업무를 빠르게 만들기 때문이다. 하지만 AI가 곧바로 신약 성공률이나 소재 상용화를 보장하지는 않는다. 진짜 생산성은 AI가 제안한 후보를 실험과 검증, 피드백 데이터로 다시 연결하는 closed-loop R&D에서 나온다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.1,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.4,
+        "issue_salience": 3.17,
+        "strategic_impact": 2.48,
+        "urgency": 1.88,
+        "actionability": 2.13
+      },
+      "priority_rationale": "최신성 4.4, 이슈성 3.2이 우선순위를 주도한다. 강점 요소는 최신성·이슈성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 50%.",
+      "topic_type": [
+        "technology_assessment",
+        "strategic_question"
+      ],
+      "related_themes": [
+        "ai_for_science_bio_materials_battery",
+        "enterprise_ax_agentic_operating_model",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "ai-for-science",
+        "ai-co-scientist",
+        "exaone-discovery",
+        "bio-intelligence",
+        "materials-intelligence",
+        "battery-materials",
+        "patent-intelligence",
+        "closed-loop-rnd"
+      ],
+      "related_companies": [
+        "lg-ai-research",
+        "lg-chem",
+        "lg-energy-solution",
+        "lg-household-health-care",
+        "dd-pharmatech"
+      ],
+      "source_ids": [
+        "src_lgai_exaone",
+        "src_lgai_dd_pharmatech_20260617",
+        "src_lgensol_genai_battery_20250613",
+        "src_lgchem_life_sciences"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_10_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/10_can_ai_for_science_change_lg_rnd_productivity.md"
+    },
+    {
+      "number": 11,
+      "id": "topic_what_is_one_lg_in_the_ai_age",
+      "title": "AI 시대의 One LG는 구호가 아니라 제품 구조가 되어야 한다",
+      "subtitle": "계열사 자산을 묶는 것만으로는 부족하다. 고객이 구매할 수 있는 package가 되어야 한다",
+      "question": "AI 시대의 One LG는 실제 시너지가 될 수 있는가?",
+      "short_answer": "AI 시대의 One LG는 가능성이 있다. 다만 단순히 여러 계열사가 함께 이름을 올리는 방식으로는 시너지가 되기 어렵다. AI Infra, Physical AI, Mobility, Enterprise AX는 모두 전력, 냉각, 데이터센터, 제조 데이터, 배터리, sensing, AI model, 운영 플랫폼이 함께 필요한 영역이다. One LG가 실제 시너지가 되려면 계열사 자산을 고객이 구매할 수 있는 반복 가능한 제품 구조와 운영 책임으로 묶어야 한다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P0",
+      "priority_score": 4.38,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 5.0,
+        "issue_salience": 4.39,
+        "strategic_impact": 4.87,
+        "urgency": 2.7,
+        "actionability": 4.02
+      },
+      "priority_rationale": "최신성 5.0, 이슈성 4.4이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 100%.",
+      "topic_type": [
+        "strategic_question",
+        "operating_model"
+      ],
+      "related_themes": [
+        "ai_data_center_infra",
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv",
+        "enterprise_ax_agentic_operating_model",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "global-ai-alliance",
+        "ai-data-center",
+        "ai-factory",
+        "enterprise-ontology",
+        "agentic-operating-model",
+        "industrial-ai-ecosystem"
+      ],
+      "related_companies": [
+        "lg-corp",
+        "lg-electronics",
+        "lg-uplus",
+        "lg-cns",
+        "lg-energy-solution",
+        "lg-innotek",
+        "lg-ai-research",
+        "nvidia",
+        "palantir"
+      ],
+      "source_ids": [
+        "src_lg_nvidia_map_20260608",
+        "src_lge_dcw_20260421",
+        "src_lguplus_paju_aidc_20260608",
+        "src_lgcns_ai_box_20260305",
+        "src_lgcns_palantir_20260312",
+        "src_lgensol_baround"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_11_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/11_what_is_one_lg_in_the_ai_age.md"
+    },
+    {
+      "number": 12,
+      "id": "topic_what_is_lg_real_ai_moat",
+      "title": "LG의 진짜 AI Moat는 모델보다 물리 세계 데이터에 있다",
+      "subtitle": "모델은 빠르게 범용화된다. 차별화는 제품·공장·고객·배터리·서비스 데이터가 연결될 때 생긴다",
+      "question": "LG의 진짜 AI Moat는 모델인가, 데이터인가, 물리 세계 자산인가?",
+      "short_answer": "LG의 AI Moat는 모델 단독에 있지 않다. 모델은 중요하지만 글로벌 frontier model과 오픈 모델이 빠르게 발전하면서 범용 모델 자체의 차별성은 오래 지속되기 어렵다. LG에게 더 오래 남는 moat는 제품, 공장, 고객 접점, 설치·서비스, 배터리, 모빌리티, 제조 데이터처럼 물리 세계에서 반복적으로 축적되는 데이터와 운영 노하우다. 다만 이 데이터가 흩어져 있으면 moat가 되지 않는다. ontology, data operating model, Agent workflow로 연결될 때 비로소 방어 가능한 자산이 된다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.5,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.7,
+        "issue_salience": 3.07,
+        "strategic_impact": 3.96,
+        "urgency": 1.69,
+        "actionability": 2.75
+      },
+      "priority_rationale": "최신성 4.7, 이슈성 3.1이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 75%.",
+      "topic_type": [
+        "strategic_question",
+        "moat_analysis"
+      ],
+      "related_themes": [
+        "enterprise_ax_agentic_operating_model",
+        "physical_ai_smart_manufacturing",
+        "ai_mobility_sdv_aidv",
+        "ai_for_science_bio_materials_battery",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "ai-moat",
+        "physical-world-data",
+        "enterprise-ontology",
+        "hybrid-ai-strategy",
+        "industrial-ai-ecosystem",
+        "data-flywheel"
+      ],
+      "related_companies": [
+        "lg-ai-research",
+        "lg-electronics",
+        "lg-cns",
+        "lg-energy-solution",
+        "lg-uplus",
+        "nvidia",
+        "palantir"
+      ],
+      "source_ids": [
+        "src_lgai_exaone",
+        "src_exaone45_technical_report_20260409",
+        "src_lge_smart_factory_business_20240718",
+        "src_lg_nvidia_map_20260608",
+        "src_lgcns_palantir_20260312",
+        "src_lgensol_baround"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_12_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/12_what_is_lg_real_ai_moat.md"
+    },
+    {
+      "number": 13,
+      "id": "topic_are_power_and_cooling_bottlenecks_new_growth_engines",
+      "title": "전력·냉각 병목은 비용이 아니라 AI Infra의 제품 축이다",
+      "subtitle": "LG전자 냉각, LG에너지솔루션 전력·ESS, LG U+ AIDC가 만나는 새 성장 기회",
+      "question": "전력·냉각 병목은 LG전자와 LG에너지솔루션의 새 성장축이 될 수 있는가?",
+      "short_answer": "AI Infra 수요가 커질수록 병목은 GPU 확보에서 전력, 냉각, 계통 접속, 에너지 효율, 운영 안정성으로 이동한다. 이 변화는 LG전자와 LG에너지솔루션에게 새로운 성장축이 될 수 있다. LG전자는 DTC, CDU, immersion cooling, DCCM, DC Grid로 냉각·운영 효율을 제품화할 수 있고, LG에너지솔루션은 ESS, UPS, battery management, DC power architecture와 연결될 수 있다. 다만 기회는 부품 판매가 아니라 compute per megawatt를 높이는 통합 솔루션으로 묶일 때 커진다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P1",
+      "priority_score": 4.13,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.7,
+        "issue_salience": 5.0,
+        "strategic_impact": 3.48,
+        "urgency": 3.63,
+        "actionability": 2.27
+      },
+      "priority_rationale": "최신성 4.7, 이슈성 5.0이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 75%.",
+      "topic_type": [
+        "market_outlook",
+        "strategic_question"
+      ],
+      "related_themes": [
+        "ai_data_center_infra",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "data-center-cooling",
+        "dc-grid",
+        "ess-ups-for-aidc",
+        "compute-per-megawatt",
+        "ai-data-center",
+        "power-bottleneck"
+      ],
+      "related_companies": [
+        "lg-electronics",
+        "lg-energy-solution",
+        "lg-uplus",
+        "lg-cns",
+        "nvidia"
+      ],
+      "source_ids": [
+        "src_lge_dcw_20260421",
+        "src_nvidia_800v_architecture_20250520",
+        "src_lg_nvidia_map_20260608",
+        "src_lguplus_paju_aidc_20260608",
+        "src_lgensol_baround"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_13_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/13_are_power_and_cooling_bottlenecks_new_growth_engines.md"
+    },
+    {
+      "number": 14,
+      "id": "topic_should_lg_build_foundation_models_or_focus_on_industry_models",
+      "title": "LG는 foundation model을 키우되, 승부는 산업 특화 AI에서 봐야 한다",
+      "subtitle": "EXAONE은 목적이 아니라 기반이다. 차별화는 LG의 데이터와 workflow에 붙을 때 생긴다",
+      "question": "LG는 foundation model을 직접 키워야 하는가, 산업 특화 모델에 집중해야 하는가?",
+      "short_answer": "LG는 foundation model을 포기해서도 안 되고, foundation model만으로 승부하려 해서도 안 된다. EXAONE과 K-EXAONE은 LG가 AI를 이해하고 통제할 수 있는 기반 역량이다. 하지만 글로벌 frontier model과 오픈 모델이 빠르게 발전하는 상황에서 LG의 차별화는 범용 모델 순위보다 산업 문서, 제조 데이터, R&D 데이터, 고객·제품 lifecycle 데이터에 붙은 산업 특화 AI에서 나온다. 전략은 자체 foundation model + 외부 frontier model + 산업 특화 layer를 조합하는 hybrid AI stack이 되어야 한다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.46,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 5.0,
+        "issue_salience": 2.85,
+        "strategic_impact": 3.58,
+        "urgency": 1.5,
+        "actionability": 3.09
+      },
+      "priority_rationale": "최신성 5.0, 이슈성 2.9이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 100%.",
+      "topic_type": [
+        "strategic_question",
+        "technology_strategy"
+      ],
+      "related_themes": [
+        "enterprise_ax_agentic_operating_model",
+        "ai_for_science_bio_materials_battery",
+        "physical_ai_smart_manufacturing",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "foundation-model",
+        "industry-specialized-ai",
+        "hybrid-ai-strategy",
+        "exaone",
+        "k-exaone",
+        "enterprise-ontology",
+        "model-governance"
+      ],
+      "related_companies": [
+        "lg-ai-research",
+        "lg-cns",
+        "lg-electronics",
+        "lg-chem",
+        "lg-energy-solution",
+        "nvidia",
+        "palantir"
+      ],
+      "source_ids": [
+        "src_lgai_exaone",
+        "src_lgcorp_exaone45_20260409",
+        "src_exaone45_technical_report_20260409",
+        "src_k_exaone_huggingface_20260105",
+        "src_lg_nvidia_map_20260608",
+        "src_lgcns_palantir_20260312"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_14_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/14_should_lg_build_foundation_models_or_focus_on_industry_models.md"
+    },
+    {
+      "number": 15,
+      "id": "topic_how_should_enterprise_ax_performance_be_measured",
+      "title": "Enterprise AX의 성과는 사용량이 아니라 일이 바뀐 정도로 측정해야 한다",
+      "subtitle": "도입률·질문 수를 넘어 생산성, 의사결정 품질, 실행 속도, 데이터 축적을 봐야 한다",
+      "question": "Enterprise AX의 성과는 무엇으로 측정해야 하는가?",
+      "short_answer": "Enterprise AX의 성과를 단순히 사용자 수, 프롬프트 수, 챗봇 호출량으로 측정하면 실제 변화를 놓칠 수 있다. 중요한 것은 AI가 업무의 어디까지 들어갔는가다. 개인 생산성, 업무 cycle time, 의사결정 품질, 실행 자동화, 시스템 연계, 비용 절감, 데이터·ontology 축적, 현업 adoption을 함께 봐야 한다. AX KPI는 AI 사용량이 아니라 조직의 일하는 방식이 바뀐 정도를 측정해야 한다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.39,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.6,
+        "issue_salience": 2.13,
+        "strategic_impact": 3.38,
+        "urgency": 2.65,
+        "actionability": 4.02
+      },
+      "priority_rationale": "최신성 4.6, 이슈성 2.1이 우선순위를 주도한다. 강점 요소는 최신성·실행 가능성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 67%.",
+      "topic_type": [
+        "operating_model",
+        "measurement_framework"
+      ],
+      "related_themes": [
+        "enterprise_ax_agentic_operating_model",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "enterprise-ax",
+        "agentic-operating-model",
+        "ax-kpi",
+        "enterprise-ontology",
+        "workflow-automation",
+        "decision-intelligence",
+        "adoption-metrics"
+      ],
+      "related_companies": [
+        "lg-cns",
+        "lg-energy-solution",
+        "lg-display",
+        "lg-ai-research",
+        "palantir"
+      ],
+      "source_ids": [
+        "src_lgcns_ax_platform",
+        "src_lgcns_agenticworks_20250825",
+        "src_lgensol_ax_productivity_20260511",
+        "src_lgcns_palantir_20260312"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_15_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/15_how_should_enterprise_ax_performance_be_measured.md"
+    },
+    {
+      "number": 16,
+      "id": "topic_how_does_manufacturing_data_become_an_ai_product",
+      "title": "제조 데이터는 정리될 때 AI 제품이 된다",
+      "subtitle": "공장 로그는 원재료이고, 제품은 예측·시뮬레이션·최적화·운영 workflow다",
+      "question": "제조 데이터는 어떻게 AI 제품이 되는가?",
+      "short_answer": "제조 데이터는 그 자체로 제품이 아니다. 설비 로그, 품질 데이터, 공정 조건, 생산 계획, 불량 원인, 작업자 노하우가 의미 구조로 연결되고, 예측·시뮬레이션·최적화·실행 workflow로 바뀔 때 AI 제품이 된다. LG에게 중요한 것은 770TB의 제조 데이터를 보유했다는 사실보다, 그 데이터를 고객이 구매할 수 있는 smart factory solution, AI Factory workflow, 제조 Agent, 운영 KPI 개선으로 바꾸는 일이다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.69,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.52,
+        "issue_salience": 2.71,
+        "strategic_impact": 4.15,
+        "urgency": 2.17,
+        "actionability": 4.98
+      },
+      "priority_rationale": "최신성 4.5, 이슈성 2.7이 우선순위를 주도한다. 강점 요소는 실행 가능성·최신성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 60%.",
+      "topic_type": [
+        "strategic_question",
+        "operating_model"
+      ],
+      "related_themes": [
+        "physical_ai_smart_manufacturing",
+        "enterprise_ax_agentic_operating_model",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "manufacturing-data-product",
+        "smart-manufacturing",
+        "ai-factory",
+        "physical-ai",
+        "digital-twin",
+        "factory-ontology",
+        "data-product"
+      ],
+      "related_companies": [
+        "lg-electronics",
+        "lg-cns",
+        "lg-ai-research",
+        "nvidia"
+      ],
+      "source_ids": [
+        "src_lge_smart_factory_business_20240718",
+        "src_lge_smart_factory_success_20260414",
+        "src_lg_smart_park_lighthouse_20220331",
+        "src_nvidia_lg_ai_factory_20260607",
+        "src_lgcns_factova_iot_expo_20260520"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_16_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/16_how_does_manufacturing_data_become_an_ai_product.md"
+    },
+    {
+      "number": 17,
+      "id": "topic_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg",
+      "title": "한국형 AI Sovereignty는 LG에게 기회이지만, 비용도 함께 온다",
+      "subtitle": "국내 모델·데이터·인프라 통제력은 필요하지만, 글로벌 AI stack과의 연결을 끊어서는 안 된다",
+      "question": "한국형 AI Sovereignty는 LG에게 기회인가 부담인가?",
+      "short_answer": "한국형 AI Sovereignty는 LG에게 기회이자 부담이다. 국내 모델, 한국어 데이터, 산업 데이터, AI 인프라 운영 역량은 LG가 기업·산업 AI 시장에서 차별화할 수 있는 기반이 된다. 하지만 완전한 독자 노선은 비용이 크고 기술 속도를 늦출 수 있다. LG에게 필요한 전략은 폐쇄적 자립이 아니라, EXAONE과 국내 데이터·인프라 통제력을 확보하면서 NVIDIA, Palantir, 글로벌 cloud·model 생태계를 함께 쓰는 managed interdependence다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P2",
+      "priority_score": 3.58,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.76,
+        "issue_salience": 3.98,
+        "strategic_impact": 3.1,
+        "urgency": 2.17,
+        "actionability": 2.13
+      },
+      "priority_rationale": "최신성 4.8, 이슈성 4.0이 우선순위를 주도한다. 강점 요소는 최신성·이슈성이며, 최신 기준일 2026-06-22, 최근 180일 Source 비율 80%.",
+      "topic_type": [
+        "policy_strategy",
+        "strategic_question"
+      ],
+      "related_themes": [
+        "enterprise_ax_agentic_operating_model",
+        "ai_data_center_infra",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "ai-sovereignty",
+        "sovereign-ai-foundation-model",
+        "korean-ai",
+        "hybrid-ai-strategy",
+        "ai-infrastructure-sovereignty",
+        "model-governance"
+      ],
+      "related_companies": [
+        "lg-ai-research",
+        "lg-cns",
+        "lg-uplus",
+        "lg-electronics",
+        "nvidia",
+        "palantir"
+      ],
+      "source_ids": [
+        "src_msit_national_ai_strategy",
+        "src_msit_sovereign_ai_foundation_model_2026",
+        "src_msit_ai_basic_act_20241226",
+        "src_lgai_exaone",
+        "src_exaone45_technical_report_20260409",
+        "src_ai_infrastructure_sovereignty_202602",
+        "src_lg_nvidia_map_20260608"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_17_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/17_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg.md"
+    },
+    {
+      "number": 18,
+      "id": "topic_how_gpu_cloud_price_decline_changes_aidc_business",
+      "title": "GPU Cloud 가격이 내려가면 AIDC는 더 강한 운영 사업이 되어야 한다",
+      "subtitle": "GPU 임대 마진이 줄어들수록 전력·냉각·활용률·SLA·산업 workload가 사업성을 좌우한다",
+      "question": "GPU Cloud 가격이 하락하면 AIDC 사업성은 어떻게 변하는가?",
+      "short_answer": "GPU Cloud 가격이 하락하면 AIDC 사업성은 약해질 수 있다. 단순 GPU 임대는 commodity가 되기 쉽기 때문이다. 하지만 수요가 사라지는 것은 아니다. 가격 하락은 AI 활용을 늘리고 inference workload를 확대할 수 있다. 결국 AIDC의 사업성은 GPU 시간당 가격이 아니라 전력·냉각 효율, GPU utilization, workload orchestration, SLA, 보안, 산업 특화 AI workload를 얼마나 잘 운영하느냐에 달려 있다.",
+      "status": "reviewed",
+      "updated": "2026-06-21",
+      "priority": "P0",
+      "priority_score": 4.32,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.83,
+        "issue_salience": 5.0,
+        "strategic_impact": 3.36,
+        "urgency": 4.64,
+        "actionability": 2.56
+      },
+      "priority_rationale": "최신성 4.8, 이슈성 5.0이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-22, 최근 180일 Source 비율 86%.",
+      "topic_type": [
+        "market_outlook",
+        "risk_debate"
+      ],
+      "related_themes": [
+        "ai_data_center_infra",
+        "global_ai_alliance_open_innovation"
+      ],
+      "related_concepts": [
+        "gpu-cloud",
+        "ai-data-center",
+        "compute-per-megawatt",
+        "workload-orchestration",
+        "inference-economics",
+        "data-center-cooling"
+      ],
+      "related_companies": [
+        "lg-uplus",
+        "lg-cns",
+        "lg-electronics",
+        "lg-energy-solution",
+        "nvidia"
+      ],
+      "source_ids": [
+        "src_gpu_per_hour_2026",
+        "src_aimultiple_gpu_index_202606",
+        "src_semianalysis_h100_rental_index_202604",
+        "src_iea_key_questions_energy_ai_2026",
+        "src_lguplus_paju_aidc_20260608",
+        "src_lge_dcw_20260421",
+        "src_nvidia_800v_architecture_20250520"
+      ],
+      "image_policy": {
+        "use_original_source_images": true,
+        "generate_new_images": false,
+        "download_script": "scripts/download_topic_18_images.py",
+        "local_image_dir": "assets/images"
+      },
+      "path": "topics/18_how_gpu_cloud_price_decline_changes_aidc_business.md"
+    }
+  ]
+}

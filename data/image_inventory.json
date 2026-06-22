@@ -1,0 +1,2608 @@
+{
+  "generated_at": "2026-06-21T12:37:57+0900",
+  "summary": {
+    "declarations": 178,
+    "unique_remote_urls": 90,
+    "downloaded": 67,
+    "failed": 23,
+    "image_url_needed": 11,
+    "markdown_files_updated": 0,
+    "markdown_references_updated": 0,
+    "local_image_references": 99,
+    "remote_image_references": 36,
+    "image_url_needed_occurrences": 10
+  },
+  "markdown_updates": {},
+  "images": [
+    {
+      "image_id": "img_lge_dcw_2026_cdu_01",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/eco-solution/lg-electronics-showcases-ai-data-center-cooling-solutions-at-data-center-world-2026/DCW%202026%20Expo%20Image%201.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-showcases-ai-data-center-cooling-solutions-at-data-center-world-2026/",
+      "source": null,
+      "caption": "LG DCW 2026 CDU exhibition image 1",
+      "declared_status": "confirmed",
+      "filename": "img_lge_dcw_2026_cdu_01.jpg",
+      "used_by": [
+        "docs/01_ai_data_center_infra.md",
+        "sources/src_lge_dcw_20260421.md",
+        "topics/01_what_did_jensen_huang_leave_lg.md",
+        "topics/13_are_power_and_cooling_bottlenecks_new_growth_engines.md"
+      ],
+      "script": "scripts/download_ai_data_center_infra_images.py",
+      "aliases": [
+        "lge_dcw_expo_cooling_1"
+      ],
+      "scripts": [
+        "scripts/download_ai_data_center_infra_images.py",
+        "scripts/download_topic_01_images.py",
+        "scripts/download_topic_13_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "img_lge_dcw_2026_cdu_02",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/eco-solution/lg-electronics-showcases-ai-data-center-cooling-solutions-at-data-center-world-2026/DCW%202026%20Expo%20Image%202.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-showcases-ai-data-center-cooling-solutions-at-data-center-world-2026/",
+      "source": null,
+      "caption": "LG DCW 2026 CDU exhibition image 2",
+      "declared_status": "confirmed",
+      "filename": "img_lge_dcw_2026_cdu_02.jpg",
+      "used_by": [
+        "docs/01_ai_data_center_infra.md",
+        "sources/src_lge_dcw_20260421.md",
+        "topics/01_what_did_jensen_huang_leave_lg.md"
+      ],
+      "script": "scripts/download_ai_data_center_infra_images.py",
+      "aliases": [
+        "lge_dcw_expo_cooling_2"
+      ],
+      "scripts": [
+        "scripts/download_ai_data_center_infra_images.py",
+        "scripts/download_topic_01_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "img_lguplus_paju_pulse_01",
+      "original_url": "https://pimg.mk.co.kr/news/cms/202606/08/news-p.v1.20260608.ae9589456ef3406ca639a3ef289bee8c_P1.png",
+      "source_url": "https://pulse.mk.co.kr/news/english/12068307",
+      "source": null,
+      "caption": "LG Uplus Paju AIDC construction site",
+      "declared_status": "confirmed",
+      "filename": "img_lguplus_paju_pulse_01.png",
+      "used_by": [
+        "companies/lg-uplus.md",
+        "companies/partners/sinar-mas-group.md",
+        "concepts/ai-data-center.md",
+        "concepts/ai-infrastructure-sovereignty.md",
+        "concepts/lguplus_datacenter.md",
+        "docs/01_ai_data_center_infra.md",
+        "sources/src_lguplus_paju_aidc_20260608.md",
+        "sources/src_pulse_lguplus_paju_aidc_20260608.md",
+        "topics/01_what_did_jensen_huang_leave_lg.md",
+        "topics/03_ai_infra_demand_next_5_years.md",
+        "topics/11_what_is_one_lg_in_the_ai_age.md",
+        "topics/13_are_power_and_cooling_bottlenecks_new_growth_engines.md",
+        "topics/18_how_gpu_cloud_price_decline_changes_aidc_business.md"
+      ],
+      "script": "scripts/download_ai_data_center_infra_images.py",
+      "aliases": [
+        "lguplus_paju_aidc_site"
+      ],
+      "scripts": [
+        "scripts/download_ai_data_center_infra_images.py",
+        "scripts/download_topic_01_images.py",
+        "scripts/download_topic_03_images.py",
+        "scripts/download_topic_11_images.py",
+        "scripts/download_topic_13_images.py",
+        "scripts/download_topic_18_images.py"
+      ],
+      "local_path": "assets/images/img_lguplus_paju_pulse_01.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 591240
+    },
+    {
+      "image_id": "img_lguplus_paju_digitaltoday_01",
+      "original_url": "https://cdn.digitaltoday.co.kr/news/photo/202606/672472_621286_631.jpg",
+      "source_url": "https://www.digitaltoday.co.kr/en/view/61108/lgu-to-step-up-ai-data-centre-business-targets-5-trillion-won-in-orders-by-2030",
+      "source": null,
+      "caption": "LG Uplus next-generation AI infrastructure strategy presentation",
+      "declared_status": "needs_download_check",
+      "filename": "img_lguplus_paju_digitaltoday_01.jpg",
+      "used_by": [
+        "concepts/pue.md",
+        "docs/01_ai_data_center_infra.md",
+        "sources/src_lguplus_paju_aidc_20260607.md"
+      ],
+      "script": "scripts/download_ai_data_center_infra_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_data_center_infra_images.py"
+      ],
+      "local_path": "assets/images/img_lguplus_paju_digitaltoday_01.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 61599
+    },
+    {
+      "image_id": "img_lgcns_ai_box_01",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/newsroom/uploads/2026/03/AI%EB%B0%95%EC%8A%A4.jpg",
+      "source_url": "https://www.lgcns.com/kr/newsroom/press/detail.aidc-2603-2",
+      "source": null,
+      "caption": "LG CNS AI Box cutaway",
+      "declared_status": "confirmed",
+      "filename": "img_lgcns_ai_box_01.jpg",
+      "used_by": [
+        "concepts/gpu-cloud.md",
+        "concepts/high-density-gpu-rack.md",
+        "concepts/lgcns_aibox.md",
+        "docs/01_ai_data_center_infra.md",
+        "sources/src_lgcns_ai_box_20260304.md",
+        "sources/src_lgcns_data_center.md"
+      ],
+      "script": "scripts/download_ai_data_center_infra_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_data_center_infra_images.py"
+      ],
+      "local_path": "assets/images/img_lgcns_ai_box_01.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 545380
+    },
+    {
+      "image_id": "img_lgcns_ai_box_campus_01",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/newsroom/uploads/2026/03/AI%EB%B0%95%EC%8A%A4%EC%BA%A0%ED%8D%BC%EC%8A%A4.jpg",
+      "source_url": "https://www.lgcns.com/kr/newsroom/press/detail.aidc-2603-2",
+      "source": null,
+      "caption": "LG CNS AI Box Campus concept",
+      "declared_status": "confirmed",
+      "filename": "img_lgcns_ai_box_campus_01.jpg",
+      "used_by": [
+        "companies/partners/microsoft.md",
+        "docs/01_ai_data_center_infra.md",
+        "sources/src_lgcns_ai_box_20260304.md",
+        "sources/src_lgcns_data_center.md"
+      ],
+      "script": "scripts/download_ai_data_center_infra_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_data_center_infra_images.py"
+      ],
+      "local_path": "assets/images/img_lgcns_ai_box_campus_01.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 778498
+    },
+    {
+      "image_id": "img_lgensol_ess_na_01",
+      "original_url": "https://news.lgensol.com/wp-content/uploads/2026/04/LGES_LG-Energy-Solutions-North-America-ESS-manufacturing-overview_600KB.png",
+      "source_url": "https://news.lgensol.com/company-news/supplementary-stories/4880/",
+      "source": null,
+      "caption": "LG Energy Solution North America ESS manufacturing overview",
+      "declared_status": "confirmed",
+      "filename": "img_lgensol_ess_na_01.png",
+      "used_by": [
+        "concepts/ess-ups-for-aidc.md",
+        "concepts/lges_ess_us.md",
+        "docs/01_ai_data_center_infra.md",
+        "sources/src_lgensol_ess_expansion_20260415.md"
+      ],
+      "script": "scripts/download_ai_data_center_infra_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_data_center_infra_images.py"
+      ],
+      "local_path": "assets/images/img_lgensol_ess_na_01.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 612716
+    },
+    {
+      "image_id": "img_koreatimes_ess_container_01",
+      "original_url": "https://newsimg.koreatimes.co.kr/2026/03/17/ffdebf62-4cdf-406b-b455-d98c36f3fecf.jpg?w=728",
+      "source_url": "https://www.koreatimes.co.kr/business/tech-science/20260318/lg-bets-on-ai-data-center-ess-as-future-growth-driver",
+      "source": null,
+      "caption": "LG Energy Solution grid-scale ESS containers",
+      "declared_status": "confirmed_media_cdn",
+      "filename": "img_koreatimes_ess_container_01.jpg",
+      "used_by": [
+        "docs/01_ai_data_center_infra.md",
+        "sources/src_koreatimes_lg_ai_data_center_ess_20260318.md"
+      ],
+      "script": "scripts/download_ai_data_center_infra_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_data_center_infra_images.py"
+      ],
+      "local_path": "assets/images/img_koreatimes_ess_container_01.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 59328
+    },
+    {
+      "image_id": "img_koreatimes_ai_box_module_01",
+      "original_url": "https://newsimg.koreatimes.co.kr/2026/03/17/46628003-deeb-4be1-a36e-4e3a182f2853.jpg?w=728",
+      "source_url": "https://www.koreatimes.co.kr/business/tech-science/20260318/lg-bets-on-ai-data-center-ess-as-future-growth-driver",
+      "source": null,
+      "caption": "LG CNS AI Box module image",
+      "declared_status": "confirmed_media_cdn",
+      "filename": "img_koreatimes_ai_box_module_01.jpg",
+      "used_by": [
+        "docs/01_ai_data_center_infra.md",
+        "sources/src_koreatimes_lg_ai_data_center_ess_20260318.md"
+      ],
+      "script": "scripts/download_ai_data_center_infra_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_data_center_infra_images.py"
+      ],
+      "local_path": "assets/images/img_koreatimes_ai_box_module_01.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 52041
+    },
+    {
+      "image_id": "img_koreatimes_cdu_01",
+      "original_url": "https://newsimg.koreatimes.co.kr/2026/03/17/c4cc7129-49d9-4643-adb1-f9bbeb0de08e.jpg?w=728",
+      "source_url": "https://www.koreatimes.co.kr/business/tech-science/20260318/lg-bets-on-ai-data-center-ess-as-future-growth-driver",
+      "source": null,
+      "caption": "LG Electronics CDU on display",
+      "declared_status": "needs_download_check",
+      "filename": "img_koreatimes_cdu_01.jpg",
+      "used_by": [
+        "companies/lg-electronics.md",
+        "companies/partners/grc.md",
+        "companies/partners/sk-enmove.md",
+        "concepts/cdu.md",
+        "concepts/data-center-cooling.md",
+        "concepts/direct-to-chip-cooling.md",
+        "concepts/immersion-cooling.md",
+        "concepts/lge_cdu.md",
+        "docs/01_ai_data_center_infra.md",
+        "sources/src_koreatimes_lg_ai_data_center_ess_20260318.md"
+      ],
+      "script": "scripts/download_ai_data_center_infra_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_data_center_infra_images.py"
+      ],
+      "local_path": "assets/images/img_koreatimes_cdu_01.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 63288
+    },
+    {
+      "image_id": "lge_smart_factory_main",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/main-image-desktopmobile-ecsmart-464.png",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/",
+      "source": "LG Electronics Newsroom",
+      "caption": "LG Smart Factory End-to-End Solutions를 설명하는 메인 이미지.",
+      "declared_status": "confirmed",
+      "filename": "lge_smart_factory_main.png",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lge_smart_factory_20260414.md",
+        "sources/src_lge_smart_factory_success_20260414.md",
+        "topics/04_is_ai_factory_a_data_center_or_operating_model.md",
+        "topics/07_is_physical_ai_more_than_smart_factory_rebranding.md",
+        "topics/12_what_is_lg_real_ai_moat.md",
+        "topics/16_how_does_manufacturing_data_become_an_ai_product.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [
+        "lge_smart_factory_main"
+      ],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py",
+        "scripts/download_topic_04_images.py",
+        "scripts/download_topic_07_images.py",
+        "scripts/download_topic_12_images.py",
+        "scripts/download_topic_16_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lge_smart_factory_end_to_end",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/Executive%20Corner%20Smart%20Factory%20Image%201.png",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/",
+      "source": "LG Electronics Newsroom",
+      "caption": "Front Engineering, Intelligent Automation, AI-DX Operation, Lifecycle Services로 구성된 LG Smart Factory End-to-End Solutions.",
+      "declared_status": "confirmed",
+      "filename": "lge_smart_factory_end_to_end.png",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lge_smart_factory_20260414.md",
+        "sources/src_lge_smart_factory_success_20260414.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lge_tennessee_factory",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/Executive%20Corner%20Smart%20Factory%20Image%202.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/",
+      "source": "LG Electronics Newsroom",
+      "caption": "LG Electronics Tennessee facility. 다운로드 시 timeout 가능성 확인 필요.",
+      "declared_status": "url_confirmed_but_timeout_possible",
+      "filename": "lge_tennessee_factory.jpg",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lge_smart_factory_20260414.md",
+        "sources/src_lge_smart_factory_success_20260414.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lge_tailored_to_industry",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/Executive%20Corner%20Smart%20Factory%20Image%203.png",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/",
+      "source": "LG Electronics Newsroom",
+      "caption": "Tailored to Your Industry 인포그래픽. 다운로드 시 timeout 가능성 확인 필요.",
+      "declared_status": "url_confirmed_but_timeout_possible",
+      "filename": "lge_tailored_to_industry.png",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lge_smart_factory_20260414.md",
+        "sources/src_lge_smart_factory_success_20260414.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lge_smart_park_robot_arms",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/Executive%20Corner%20Smart%20Factory%20Image%204.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/",
+      "source": "LG Electronics Newsroom",
+      "caption": "LG Smart Park 창원 생산 현장의 로봇 암.",
+      "declared_status": "confirmed",
+      "filename": "lge_smart_park_robot_arms.jpg",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lge_smart_factory_20260414.md",
+        "sources/src_lge_smart_factory_success_20260414.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lg_smart_park_lighthouse",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/LG-Smart-Park_01.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/",
+      "source": "LG Electronics Newsroom",
+      "caption": "LG Smart Park가 WEF Lighthouse Factory로 선정되었음을 소개하는 이미지.",
+      "declared_status": "confirmed",
+      "filename": "lg_smart_park_lighthouse.jpg",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lg_smart_park_lighthouse_20220331.md",
+        "sources/src_lg_smart_park_lighthouse_20220427.md",
+        "sources/src_lgcorp_smart_park_lighthouse_20220331.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lg_smart_park_digital_twin",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/LG-Smart-Park_02.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/",
+      "source": "LG Electronics Newsroom",
+      "caption": "Digital Twin 기술로 생산라인을 가상화하고 다양한 생산 시나리오를 시뮬레이션하는 개념 이미지.",
+      "declared_status": "confirmed",
+      "filename": "lg_smart_park_digital_twin.jpg",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lg_smart_park_lighthouse_20220427.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lg_smart_park_agv_conveyor",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/LG-Smart-Park_03.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/",
+      "source": "LG Electronics Newsroom",
+      "caption": "5G 기반 AGV와 overhead conveyor를 결합한 3차원 물류 자동화.",
+      "declared_status": "confirmed",
+      "filename": "lg_smart_park_agv_conveyor.jpg",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lg_smart_park_lighthouse_20220427.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lg_smart_park_pie_mavin_station",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/LG-Smart-Park_05.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/",
+      "source": "LG Electronics Newsroom",
+      "caption": "PIE와 MAVIN 기반 검사·예지보전이 적용된 LG Smart Park 생산 셀.",
+      "declared_status": "confirmed",
+      "filename": "lg_smart_park_pie_mavin_station.jpg",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lg_smart_park_lighthouse_20220427.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lg_smart_park_cloud_pie_mavin",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/LG-Smart-Park_06.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/",
+      "source": "LG Electronics Newsroom",
+      "caption": "Cloud, IIoT, PIE, MAVIN, Edge Computing을 연결한 LG Smart Park의 AI 제조 플랫폼 개념.",
+      "declared_status": "confirmed",
+      "filename": "lg_smart_park_cloud_pie_mavin.jpg",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lg_smart_park_lighthouse_20220427.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lg_smart_park_automation_line",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/LG-Smart-Park_08.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/",
+      "source": "LG Electronics Newsroom",
+      "caption": "로봇과 자동화 설비가 결합된 LG Smart Park 자동 생산라인.",
+      "declared_status": "confirmed",
+      "filename": "lg_smart_park_automation_line.jpg",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lg_smart_park_lighthouse_20220427.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lg_smart_park_exterior",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/LG-Smart-Park_10.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/the-future-of-manufacturing-lighthouse-factory-lighting-the-way-ahead-lg-smart-park/",
+      "source": "LG Electronics Newsroom",
+      "caption": "LG Smart Park 창원 공장 전경.",
+      "declared_status": "confirmed",
+      "filename": "lg_smart_park_exterior.jpg",
+      "used_by": [
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lg_smart_park_lighthouse_20220427.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lgcns_factova_iot_expo",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/newsroom/uploads/2026/05/%EB%B6%81%EB%AF%B8%EC%97%91%EC%8A%A4%ED%8F%AC%EC%98%81%EB%AC%B8.jpg",
+      "source_url": "https://www.lgcns.com/en/newsroom/press/detail.manufacture-2605-1",
+      "source": "LG CNS Newsroom",
+      "caption": "IoT Tech Expo 2026에서 LG CNS가 Factova 기반 AI smart factory solution을 설명하는 모습.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_factova_iot_expo.jpg",
+      "used_by": [
+        "concepts/factory-ontology.md",
+        "concepts/manufacturing-data-product.md",
+        "concepts/manufacturing-intelligence.md",
+        "concepts/predictive-maintenance.md",
+        "concepts/smart-manufacturing.md",
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "sources/src_lgcns_factova_20260519.md",
+        "sources/src_lgcns_factova_iot_expo_20260520.md",
+        "topics/04_is_ai_factory_a_data_center_or_operating_model.md",
+        "topics/16_how_does_manufacturing_data_become_an_ai_product.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [
+        "lgcns_factova_iot_expo"
+      ],
+      "scripts": [
+        "scripts/download_physical_ai_smart_manufacturing_images.py",
+        "scripts/download_topic_04_images.py",
+        "scripts/download_topic_16_images.py"
+      ],
+      "local_path": "assets/images/lgcns_factova_iot_expo.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 952334
+    },
+    {
+      "image_id": "lgcns_skild_ai_hq",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/newsroom/MAIN-scaled-e1749113375930-1920x1436.jpg",
+      "source_url": "https://www.lgcns.com/kr/newsroom/press/detail.66074",
+      "source": "LG CNS Newsroom",
+      "caption": "Skild AI 협력 보도자료에 포함된 LG CNS 본사 이미지. 로봇 솔루션 자체 이미지는 원문에 제공되지 않음.",
+      "declared_status": "confirmed_but_generic",
+      "filename": "lgcns_skild_ai_hq.jpg",
+      "used_by": [
+        "concepts/partner-technology-transfer.md",
+        "docs/02_physical_ai_smart_manufacturing.md",
+        "docs/06_global_ai_alliance_open_innovation.md",
+        "sources/src_lgcns_skild_ai_20250616.md",
+        "topics/09_is_lg_ai_alliance_an_option_strategy_or_dependency_risk.md"
+      ],
+      "script": "scripts/download_physical_ai_smart_manufacturing_images.py",
+      "aliases": [
+        "lgcns_skild_ai_hq"
+      ],
+      "scripts": [
+        "scripts/download_global_ai_alliance_open_innovation_images.py",
+        "scripts/download_physical_ai_smart_manufacturing_images.py",
+        "scripts/download_topic_09_images.py"
+      ],
+      "local_path": "assets/images/lgcns_skild_ai_hq.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 529102
+    },
+    {
+      "image_id": "lge_ai_in_vehicle_overview",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/vehicle-component-solutions/lg-showcases-future-of-mobility-with-ai-powered-in-vehicle-solutions-at-ces-2026/LG-AI-Powered-In-Vehicle-Solutions_image-1-D.png",
+      "source_url": "https://www.lg.com/global/newsroom/news/vehicle-solutions/lg-showcases-future-of-mobility-with-ai-powered-in-vehicle-solutions-at-ces-2026/",
+      "source": "LG Electronics Newsroom",
+      "caption": "LG AI-powered In-Vehicle Solutions. 디스플레이, 인캐빈 센싱, 온디바이스 AI를 결합한 AI-Defined Vehicle 경험.",
+      "declared_status": "confirmed",
+      "filename": "lge_ai_in_vehicle_overview.png",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lge_ai_in_vehicle_20251217.md",
+        "sources/src_lge_ai_in_vehicle_solutions_20251217.md",
+        "topics/06_can_lg_win_ai_mobility_without_making_cars.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [
+        "lge_ai_in_vehicle_overview"
+      ],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py",
+        "scripts/download_topic_06_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lge_mobility_display_solution",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/vehicle-component-solutions/lg-showcases-future-of-mobility-with-ai-powered-in-vehicle-solutions-at-ces-2026/LG-AI-Powered-In-Vehicle-Solutions_image-2.png",
+      "source_url": "https://www.lg.com/global/newsroom/news/vehicle-solutions/lg-showcases-future-of-mobility-with-ai-powered-in-vehicle-solutions-at-ces-2026/",
+      "source": "LG Electronics Newsroom",
+      "caption": "Mobility Display Solution. 투명 OLED 윈드실드와 AI 인터페이스를 결합한 차량 내 디스플레이 경험.",
+      "declared_status": "confirmed",
+      "filename": "lge_mobility_display_solution.png",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lge_ai_in_vehicle_20251217.md",
+        "sources/src_lge_ai_in_vehicle_solutions_20251217.md",
+        "topics/06_can_lg_win_ai_mobility_without_making_cars.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [
+        "lge_mobility_display_solution"
+      ],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py",
+        "scripts/download_topic_06_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lge_automotive_vision_solution",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/vehicle-component-solutions/lg-showcases-future-of-mobility-with-ai-powered-in-vehicle-solutions-at-ces-2026/LG-AI-Powered-In-Vehicle-Solutions_image-3.png",
+      "source_url": "https://www.lg.com/global/newsroom/news/vehicle-solutions/lg-showcases-future-of-mobility-with-ai-powered-in-vehicle-solutions-at-ces-2026/",
+      "source": "LG Electronics Newsroom",
+      "caption": "Automotive Vision Solution. 운전자·탑승자 상태와 주변 맥락을 인식해 안전과 개인화 경험을 제공하는 콘셉트.",
+      "declared_status": "confirmed",
+      "filename": "lge_automotive_vision_solution.png",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lge_ai_in_vehicle_20251217.md",
+        "sources/src_lge_ai_in_vehicle_solutions_20251217.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lge_in_vehicle_entertainment_solution",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/vehicle-component-solutions/lg-showcases-future-of-mobility-with-ai-powered-in-vehicle-solutions-at-ces-2026/LG-AI-Powered-In-Vehicle-Solutions_image_4.png",
+      "source_url": "https://www.lg.com/global/newsroom/news/vehicle-solutions/lg-showcases-future-of-mobility-with-ai-powered-in-vehicle-solutions-at-ces-2026/",
+      "source": "LG Electronics Newsroom",
+      "caption": "In-Vehicle Entertainment Solution. 차량 창문·디스플레이를 AI 기반 인터랙티브 미디어 공간으로 확장하는 경험.",
+      "declared_status": "confirmed",
+      "filename": "lge_in_vehicle_entertainment_solution.png",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lge_ai_in_vehicle_20251217.md",
+        "sources/src_lge_ai_in_vehicle_solutions_20251217.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lginnotek_ces2026_sketch_05",
+      "original_url": "https://www.lginnotek.com/resources/img/ces/sketch-05.avif",
+      "source_url": "https://www.lginnotek.com/showcase/ces2026.do",
+      "source": "LG Innotek CES 2026 Showcase",
+      "caption": "LG이노텍 CES 2026 모빌리티 전시 현장 이미지 후보. AVIF 형식이며 렌더링/다운로드 환경 확인 필요.",
+      "declared_status": "confirmed_avif",
+      "filename": "lginnotek_ces2026_sketch_05.avif",
+      "used_by": [
+        "concepts/on-device-ai.md",
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lginnotek_ces2026_showcase.md",
+        "topics/06_can_lg_win_ai_mobility_without_making_cars.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [
+        "lginnotek_ces2026_sketch_05"
+      ],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py",
+        "scripts/download_topic_06_images.py"
+      ],
+      "local_path": "assets/images/lginnotek_ces2026_sketch_05.avif",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/avif",
+      "bytes": 15264
+    },
+    {
+      "image_id": "lginnotek_ces2026_sketch_06",
+      "original_url": "https://www.lginnotek.com/resources/img/ces/sketch-06.avif",
+      "source_url": "https://www.lginnotek.com/showcase/ces2026.do",
+      "source": "LG Innotek CES 2026 Showcase",
+      "caption": "LG이노텍 CES 2026 자율주행·전동화 솔루션 전시 현장 이미지 후보. AVIF 형식이며 렌더링/다운로드 환경 확인 필요.",
+      "declared_status": "confirmed_avif",
+      "filename": "lginnotek_ces2026_sketch_06.avif",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lginnotek_ces2026_showcase.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": "assets/images/lginnotek_ces2026_sketch_06.avif",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/avif",
+      "bytes": 15855
+    },
+    {
+      "image_id": "lginnotek_ces2026_sketch_small_02",
+      "original_url": "https://www.lginnotek.com/resources/img/ces/sketch-s-02.avif",
+      "source_url": "https://www.lginnotek.com/showcase/ces2026.do",
+      "source": "LG Innotek CES 2026 Showcase",
+      "caption": "LG이노텍 CES 2026 전시 하이라이트 썸네일 이미지 후보.",
+      "declared_status": "confirmed_avif",
+      "filename": "lginnotek_ces2026_sketch_small_02.avif",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lginnotek_ces2026_showcase.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": "assets/images/lginnotek_ces2026_sketch_small_02.avif",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/avif",
+      "bytes": 16843
+    },
+    {
+      "image_id": "lgdisplay_ces2026_main",
+      "original_url": "https://www-cdn.lgdisplay.com/v1/c362c3ebb68e4dd98c62bfd9599e9d75/bucket-lgd-hp-contents/2026-01-05/dNSW6lY16t1Tvj10ajtLFebydHuNDHfZ.png",
+      "source_url": "https://www.lgdisplay.com/kor/company/media-center/latest-news?contentId=5495",
+      "source": "LG Display Newsroom",
+      "caption": "LG디스플레이 CES 2026 전시 대표 이미지. AI 시대 디스플레이 전략과 차량용 디스플레이 전시를 함께 소개.",
+      "declared_status": "confirmed_but_fetch_400_possible",
+      "filename": "lgdisplay_ces2026_main.png",
+      "used_by": [
+        "concepts/in-vehicle-ai.md",
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lgdisplay_ces2026_20260105.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": "assets/images/lgdisplay_ces2026_main.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "application/octet-stream",
+      "bytes": 1103664
+    },
+    {
+      "image_id": "lgdisplay_ces2026_automotive_display",
+      "original_url": "https://www-cdn.lgdisplay.com/v1/c362c3ebb68e4dd98c62bfd9599e9d75/bucket-lgd-hp-contents/2026-01-05/laNQS3RNREGPZm9c3NIZ1dKD24UKjSjM.jpg",
+      "source_url": "https://www.lgdisplay.com/kor/company/media-center/latest-news?contentId=5495",
+      "source": "LG Display Newsroom",
+      "caption": "LG디스플레이 CES 2026 차량용 디스플레이 이미지. P2P, Slidable OLED 등 SDV용 HMI 방향과 연결.",
+      "declared_status": "confirmed_but_fetch_400_possible",
+      "filename": "lgdisplay_ces2026_automotive_display.jpg",
+      "used_by": [
+        "companies/lg-display.md",
+        "concepts/ai-cabin.md",
+        "concepts/automotive-display.md",
+        "concepts/sdv.md",
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lgdisplay_ces2026_20260105.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": "assets/images/lgdisplay_ces2026_automotive_display.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "application/octet-stream",
+      "bytes": 1812795
+    },
+    {
+      "image_id": "lgensol_baround_core_values",
+      "original_url": "https://www.lgensol.com/inc/images/img/serv02_img_03_mo_en.png",
+      "source_url": "https://www.lgensol.com/mobile/en/business/baround",
+      "source": "LG Energy Solution B.around",
+      "caption": "B.around Core Values. 진단 전문성, 신뢰 기반 관리, 혁신 서비스, 직관적 경험을 강조.",
+      "declared_status": "confirmed",
+      "filename": "lgensol_baround_core_values.png",
+      "used_by": [
+        "companies/lg-energy-solution.md",
+        "companies/partners/sdverse.md",
+        "concepts/bms-bmts.md",
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "docs/06_global_ai_alliance_open_innovation.md",
+        "sources/src_lgensol_baround.md",
+        "topics/01_what_did_jensen_huang_leave_lg.md",
+        "topics/08_can_battery_software_become_lges_next_platform.md",
+        "topics/11_what_is_one_lg_in_the_ai_age.md",
+        "topics/12_what_is_lg_real_ai_moat.md",
+        "topics/13_are_power_and_cooling_bottlenecks_new_growth_engines.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [
+        "lgenergy_baround_core_values",
+        "lgensol_baround_core_values"
+      ],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py",
+        "scripts/download_global_ai_alliance_open_innovation_images.py",
+        "scripts/download_topic_01_images.py",
+        "scripts/download_topic_08_images.py",
+        "scripts/download_topic_11_images.py",
+        "scripts/download_topic_12_images.py",
+        "scripts/download_topic_13_images.py"
+      ],
+      "local_path": "assets/images/lgensol_baround_core_values.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 70164
+    },
+    {
+      "image_id": "lgensol_bms_lifecycle",
+      "original_url": "https://www.lgensol.com/inc/images/img/serv_bms_pop1_mo_en.png",
+      "source_url": "https://www.lgensol.com/mobile/en/business/baround",
+      "source": "LG Energy Solution B.around",
+      "caption": "BMS는 배터리 수명주기, 성능, 안전 관리를 담당하는 핵심 제어 시스템으로 설명된다.",
+      "declared_status": "confirmed",
+      "filename": "lgensol_bms_lifecycle.png",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lgensol_baround.md",
+        "topics/08_can_battery_software_become_lges_next_platform.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [
+        "lgensol_bms_lifecycle"
+      ],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py",
+        "scripts/download_topic_08_images.py"
+      ],
+      "local_path": "assets/images/lgensol_bms_lifecycle.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 142153
+    },
+    {
+      "image_id": "lgensol_sdv_bms",
+      "original_url": "https://www.lgensol.com/inc/images/img/serv_bms_pop5_mo_en.png",
+      "source_url": "https://www.lgensol.com/mobile/en/business/baround",
+      "source": "LG Energy Solution B.around",
+      "caption": "SDV BMS. BMS 기능을 고성능 컴퓨팅과 AI 기반 진단·제어로 확장하는 개념.",
+      "declared_status": "confirmed",
+      "filename": "lgensol_sdv_bms.png",
+      "used_by": [
+        "companies/partners/qualcomm.md",
+        "concepts/battery-software.md",
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "docs/06_global_ai_alliance_open_innovation.md",
+        "sources/src_lgensol_baround.md",
+        "topics/06_can_lg_win_ai_mobility_without_making_cars.md",
+        "topics/08_can_battery_software_become_lges_next_platform.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [
+        "lgenergy_bms_sdv",
+        "lgensol_baround_sdv_bms",
+        "lgensol_sdv_bms"
+      ],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py",
+        "scripts/download_global_ai_alliance_open_innovation_images.py",
+        "scripts/download_topic_06_images.py",
+        "scripts/download_topic_08_images.py"
+      ],
+      "local_path": "assets/images/lgensol_sdv_bms.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 14775
+    },
+    {
+      "image_id": "lgensol_bms_features_to_hpc",
+      "original_url": "https://www.lgensol.com/inc/images/img/serv_bms_pop3_mo_en.png",
+      "source_url": "https://www.lgensol.com/mobile/en/business/baround",
+      "source": "LG Energy Solution B.around",
+      "caption": "BMS 기능이 HPC 환경으로 확장되는 개념 이미지.",
+      "declared_status": "confirmed",
+      "filename": "lgensol_bms_features_to_hpc.png",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lgensol_baround.md",
+        "topics/08_can_battery_software_become_lges_next_platform.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [
+        "lgensol_bms_to_hpc"
+      ],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py",
+        "scripts/download_topic_08_images.py"
+      ],
+      "local_path": "assets/images/lgensol_bms_features_to_hpc.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 17370
+    },
+    {
+      "image_id": "lguplus_autonomous_driving_main",
+      "original_url": "https://www.lguplus.com/static/pc-contents/images/uhdc/entp/pr/20230726-111732-657-zkOTPTlY.jpg",
+      "source_url": "https://www.lguplus.com/biz/all/5g/smart-mobility/autonomous-driving/B000000127",
+      "source": "LG U+ Autonomous Driving",
+      "caption": "LG U+ 자율주행 서비스 대표 이미지. 원본 페이지에서 직접 이미지 URL 확보.",
+      "declared_status": "url_confirmed_but_fetch_400_possible",
+      "filename": "lguplus_autonomous_driving_main.jpg",
+      "used_by": [
+        "concepts/autonomous-driving.md",
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lguplus_autonomous_driving.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": "assets/images/lguplus_autonomous_driving_main.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "application/octet-stream",
+      "bytes": 221322
+    },
+    {
+      "image_id": "lguplus_dynamic_map_features",
+      "original_url": "https://image.lguplus.com/static/pc-contents/images/fcmm/cnts/imge/20230724-045046-845-7m6JNc0Y.png",
+      "source_url": "https://www.lguplus.com/biz/all/5g/smart-mobility/autonomous-driving/B000000127",
+      "source": "LG U+ Autonomous Driving",
+      "caption": "U+ Dynamic 정밀지도 플랫폼. 정밀지도 융합, 정밀 전자지도 적용, 국제 표준 준수를 설명.",
+      "declared_status": "confirmed",
+      "filename": "lguplus_dynamic_map_features.png",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lguplus_autonomous_driving.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": "assets/images/lguplus_dynamic_map_features.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 33979
+    },
+    {
+      "image_id": "lguplus_control_center",
+      "original_url": "https://image.lguplus.com/static/pc-contents/images/fcmm/cnts/imge/20230724-045059-757-lKafcyHG.png",
+      "source_url": "https://www.lguplus.com/biz/all/5g/smart-mobility/autonomous-driving/B000000127",
+      "source": "LG U+ Autonomous Driving",
+      "caption": "자율주행 운영 관제센터 이미지. 실시간 위치·운행상태 모니터링과 운영관리 역할을 설명.",
+      "declared_status": "confirmed",
+      "filename": "lguplus_control_center.png",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lguplus_autonomous_driving.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": "assets/images/lguplus_control_center.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 52354
+    },
+    {
+      "image_id": "lguplus_dynamic_map_architecture",
+      "original_url": "https://image.lguplus.com/static/pc-contents/images/fcmm/cnts/imge/20230724-045723-227-BDbJxueg.png",
+      "source_url": "https://www.lguplus.com/biz/all/5g/smart-mobility/autonomous-driving/B000000127",
+      "source": "LG U+ Autonomous Driving",
+      "caption": "U+ Dynamic 정밀지도 플랫폼 구성도. 객체인식센서, Static 정밀지도, 인프라 정보, V2X 정보를 연결.",
+      "declared_status": "confirmed",
+      "filename": "lguplus_dynamic_map_architecture.png",
+      "used_by": [
+        "concepts/v2x.md",
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lguplus_autonomous_driving.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": "assets/images/lguplus_dynamic_map_architecture.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 20479
+    },
+    {
+      "image_id": "lguplus_autonomous_control_architecture",
+      "original_url": "https://image.lguplus.com/static/pc-contents/images/fcmm/cnts/imge/20251231-111108-771-geJgzr8n.png",
+      "source_url": "https://www.lguplus.com/biz/all/5g/smart-mobility/autonomous-driving/B000000127",
+      "source": "LG U+ Autonomous Driving",
+      "caption": "U+ 자율주행 관제 구성도. 5G, MEC V2X Gateway, 관제 서버, Dynamic Map 서버, 정밀측위 서버를 연결.",
+      "declared_status": "confirmed",
+      "filename": "lguplus_autonomous_control_architecture.png",
+      "used_by": [
+        "docs/03_ai_mobility_sdv_aidv.md",
+        "sources/src_lguplus_autonomous_driving.md"
+      ],
+      "script": "scripts/download_ai_mobility_sdv_aidv_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_mobility_sdv_aidv_images.py"
+      ],
+      "local_path": "assets/images/lguplus_autonomous_control_architecture.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 234202
+    },
+    {
+      "image_id": "lgcorp_silicon_valley_palantir_signing",
+      "original_url": "https://cdn.digitaltoday.co.kr/news/photo/202603/640006_590746_75.jpg",
+      "source_url": "https://www.digitaltoday.co.kr/en/view/35307/lg-cns-partners-with-palantir-to-target-enterprise-ai-starting-with-lg-group-expansion",
+      "source": "Digital Today / LG CNS photo",
+      "caption": "LG CNS CEO Hyun Shin-gyun and Palantir CEO Alex Karp at the strategic partnership signing ceremony. LG그룹 AX의 온톨로지·의사결정 체계 벤치마킹과 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_palantir_signing.jpg",
+      "used_by": [
+        "companies/partners/palantir.md",
+        "concepts/enterprise-ontology.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "docs/06_global_ai_alliance_open_innovation.md",
+        "sources/src_lgcns_palantir_20260312.md",
+        "topics/05_what_did_palantir_ask_lg.md",
+        "topics/09_is_lg_ai_alliance_an_option_strategy_or_dependency_risk.md",
+        "topics/11_what_is_one_lg_in_the_ai_age.md",
+        "topics/12_what_is_lg_real_ai_moat.md",
+        "topics/14_should_lg_build_foundation_models_or_focus_on_industry_models.md",
+        "topics/15_how_should_enterprise_ax_performance_be_measured.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [
+        "lgcns_palantir_signing"
+      ],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+        "scripts/download_global_ai_alliance_open_innovation_images.py",
+        "scripts/download_topic_05_images.py",
+        "scripts/download_topic_09_images.py",
+        "scripts/download_topic_11_images.py",
+        "scripts/download_topic_12_images.py",
+        "scripts/download_topic_14_images.py",
+        "scripts/download_topic_15_images.py"
+      ],
+      "local_path": "assets/images/lgcns_palantir_signing.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 52585
+    },
+    {
+      "image_id": "lge_ceo_strategy_press_conference",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/corporate/lg-electronics-ceo-sets-strategic-direction-for-profit-driven-growth-prioritizing-speed-and-action/press-setting-image-desktoptablet-koreapressconference-1440.png",
+      "source_url": "https://www.lg.com/global/newsroom/news/corporate/lg-electronics-ceo-sets-strategic-direction-for-profit-driven-growth-prioritizing-speed-and-action/",
+      "source": "LG Electronics Newsroom",
+      "caption": "LG Electronics CEO Lyu Jae-cheol speaks at a press briefing. AX를 통한 end-to-end AI-driven operations, speed, productivity, execution 방향과 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lge_ceo_strategy_press_conference.png",
+      "used_by": [
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lge_strategy_ax_20260108.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lgcns_ax_platform_service_development",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ai-platform/AXplatform_webimage_1.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-platform",
+      "source": "LG CNS AX Platform",
+      "caption": "LG CNS AX Platform: faster, simpler AI service development. 기업 AI 서비스 개발·배포 기반을 설명하는 이미지.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_ax_platform_service_development.png",
+      "used_by": [
+        "companies/lg-cns.md",
+        "concepts/agentic-operating-model.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_platform.md",
+        "topics/05_what_did_palantir_ask_lg.md",
+        "topics/15_how_should_enterprise_ax_performance_be_measured.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [
+        "lgcns_ax_platform_1"
+      ],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+        "scripts/download_topic_05_images.py",
+        "scripts/download_topic_15_images.py"
+      ],
+      "local_path": "assets/images/lgcns_ax_platform_service_development.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 468838
+    },
+    {
+      "image_id": "lgcns_ax_platform_operations",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ai-platform/AXplatform_webimage_2.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-platform",
+      "source": "LG CNS AX Platform",
+      "caption": "LG CNS AX Platform: AI service operations, monitoring, LLMOps. 운영·모니터링·거버넌스 레이어와 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_ax_platform_operations.png",
+      "used_by": [
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_platform.md",
+        "topics/05_what_did_palantir_ask_lg.md",
+        "topics/15_how_should_enterprise_ax_performance_be_measured.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [
+        "lgcns_ax_platform_2"
+      ],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+        "scripts/download_topic_05_images.py",
+        "scripts/download_topic_15_images.py"
+      ],
+      "local_path": "assets/images/lgcns_ax_platform_operations.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 422351
+    },
+    {
+      "image_id": "lgcns_ax_platform_emerging_tech",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ai-platform/AXplatform_webimage_3.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-platform",
+      "source": "LG CNS AX Platform",
+      "caption": "LG CNS AX Platform: RAG, multimodal, vector DB, LLMOps 등 emerging technologies를 기업 AX에 적용하는 구조.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_ax_platform_emerging_tech.png",
+      "used_by": [
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_platform.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_ax_platform_emerging_tech.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 434409
+    },
+    {
+      "image_id": "lgcns_knowledge_data_pipeline",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ai-platform/AXplatform_webimage_4.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-platform",
+      "source": "LG CNS AX Platform",
+      "caption": "Knowledge Data pipeline: ingestion, processing, transformation, knowledge base. 전사 데이터·지식화·RAG 체계와 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_knowledge_data_pipeline.png",
+      "used_by": [
+        "concepts/data-foundation.md",
+        "concepts/data-product.md",
+        "concepts/knowledge-graph.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_platform.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_knowledge_data_pipeline.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 232210
+    },
+    {
+      "image_id": "lgcns_monitoring_governance",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ai-platform/AXplatform_webimage_5.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-platform",
+      "source": "LG CNS AX Platform",
+      "caption": "Monitoring & Governance. 보안, 권한, 거버넌스 정책 운영을 설명하는 이미지.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_monitoring_governance.png",
+      "used_by": [
+        "concepts/agent-governance.md",
+        "concepts/model-governance.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_platform.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_monitoring_governance.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 267950
+    },
+    {
+      "image_id": "lgcns_llmops_lifecycle",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ai-platform/AXplatform_webimage_16.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-platform",
+      "source": "LG CNS AX Platform",
+      "caption": "Enterprise-fit AI lifecycle management: learning, monitoring, evaluation, retraining. 운영형 AI의 지속 개선 루프와 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_llmops_lifecycle.png",
+      "used_by": [
+        "concepts/data-flywheel.md",
+        "concepts/llmops.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_platform.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_llmops_lifecycle.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 188073
+    },
+    {
+      "image_id": "lgcns_ax_consulting_master_plan",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/aicc/EN_027_AICC_AI%20%E1%84%89%E1%85%A1%E1%86%BC%E1%84%83%E1%85%A1%E1%86%B7%E1%84%87%E1%85%A9%E1%86%BA_AICC_%20cloud%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%91%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%BA%E1%84%91%E1%85%A9%E1%86%B7%20%E1%84%80%E1%85%AE%E1%84%89%E1%85%A5%E1%86%BC.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-consulting",
+      "source": "LG CNS AX Consulting",
+      "caption": "LG CNS AX Consulting의 세 축: AI Transformation Master Plan, AI PI & Service Design, AI Engineering Consulting.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_ax_consulting_master_plan.png",
+      "used_by": [
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_consulting.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_ax_consulting_master_plan.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 61005
+    },
+    {
+      "image_id": "lgcns_ax_strategy_consulting",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ax-consulting/AXConsulting1_webimage_1.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-consulting",
+      "source": "LG CNS AX Consulting",
+      "caption": "AX Strategy Consulting. C-level 의사결정과 AI adoption roadmap 수립을 지원하는 영역.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_ax_strategy_consulting.png",
+      "used_by": [
+        "concepts/ai-cockpit.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_consulting.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_ax_strategy_consulting.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 467536
+    },
+    {
+      "image_id": "lgcns_ax_discovery",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ax-consulting/AXConsulting1_webimage_3.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-consulting",
+      "source": "LG CNS AX Consulting",
+      "caption": "AX Discovery. 업무 pain point와 AI use case를 발굴해 전사 AX roadmap으로 연결하는 영역.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_ax_discovery.png",
+      "used_by": [
+        "concepts/decision-intelligence.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_consulting.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_ax_discovery.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 400420
+    },
+    {
+      "image_id": "lgcns_process_innovation",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ax-consulting/AXConsulting2_webimage_1.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-consulting",
+      "source": "LG CNS AX Consulting",
+      "caption": "AX PI: AI-Based Process Innovation. 업무 프로세스 전체를 데이터 기반으로 분석·재설계하는 접근.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_process_innovation.png",
+      "used_by": [
+        "concepts/what-if-simulation.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_consulting.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_process_innovation.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 506535
+    },
+    {
+      "image_id": "lgcns_service_innovation",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ax-consulting/AXConsulting2_webimage_3.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-consulting",
+      "source": "LG CNS AX Consulting",
+      "caption": "AX SAI: AI-Based Service & Application Innovation. Agentic AI 기반 서비스·업무 앱 설계와 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_service_innovation.png",
+      "used_by": [
+        "concepts/workflow-automation.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_consulting.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_service_innovation.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 481781
+    },
+    {
+      "image_id": "lgcns_ai_governance_consulting",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ax-consulting/AXConsulting3_webimage_3.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-consulting",
+      "source": "LG CNS AX Consulting",
+      "caption": "AI Governance Consulting. AI regulation, risk, explainability, governance framework와 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_ai_governance_consulting.png",
+      "used_by": [
+        "concepts/ai-governance.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_consulting.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_ai_governance_consulting.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 792385
+    },
+    {
+      "image_id": "lgcns_ai_platform_architecture",
+      "original_url": "https://www.lgcns.com/content/dam/lgcns/images/service/ai/ax-consulting/AXConsulting3_webimage_6.png",
+      "source_url": "https://www.lgcns.com/en/service/ai/ax-consulting",
+      "source": "LG CNS AX Consulting",
+      "caption": "AI Platform Planning / Design. Agentic AI 플랫폼과 legacy IT 연계를 위한 architecture planning.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_ai_platform_architecture.png",
+      "used_by": [
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_consulting.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_ai_platform_architecture.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 1150429
+    },
+    {
+      "image_id": "lgdisplay_ai_transformation_plan",
+      "original_url": "https://newsimg.koreatimes.co.kr/2025/08/05/73cc09fa-0b33-45a3-8292-b97ef345bfc5.png?w=728",
+      "source_url": "https://www.koreatimes.co.kr/business/tech-science/20250805/lg-display-eyes-30-improvement-in-productivity-through-ai",
+      "source": "The Korea Times / LG Display courtesy",
+      "caption": "LG Display AI Transformation plan infographic. 개발, 제조, 사무 업무에서 생산성 개선을 설명한다.",
+      "declared_status": "confirmed",
+      "filename": "lgdisplay_ai_transformation_plan.png",
+      "used_by": [
+        "concepts/ax-kpi.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgdisplay_ai_productivity_20250805.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgdisplay_ai_transformation_plan.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 44985
+    },
+    {
+      "image_id": "lgdisplay_hi_d_assistant",
+      "original_url": "https://newsimg.koreatimes.co.kr/2025/08/05/6a6f1122-9cb0-466e-a68b-2929fec8c039.jpg?w=728",
+      "source_url": "https://www.koreatimes.co.kr/business/tech-science/20250805/lg-display-eyes-30-improvement-in-productivity-through-ai",
+      "source": "The Korea Times / LG Display courtesy",
+      "caption": "LG Display Hi-D AI assistant demonstration. 지식검색, 실시간 통역, 회의록 생성 등 사무 AX와 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgdisplay_hi_d_assistant.jpg",
+      "used_by": [
+        "concepts/adoption-metrics.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgdisplay_ai_productivity_20250805.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgdisplay_hi_d_assistant.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 43401
+    },
+    {
+      "image_id": "lgenergy_ceo_ax_productivity",
+      "original_url": "https://wimg.mk.co.kr/news/cms/202604/14/20260414_01160113000002_L00.jpg",
+      "source_url": "https://www.mk.co.kr/en/business/12015637",
+      "source": "Maeil Business News",
+      "caption": "LG Energy Solution CEO Kim Dong-myung. AX 기반 생산성 개선과 AI Governance Committee 방향과 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgenergy_ceo_ax_productivity.jpg",
+      "used_by": [
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgensol_ax_productivity_20260413.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgenergy_ceo_ax_productivity.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 55221
+    },
+    {
+      "image_id": "lgcns_ax_fair_2026",
+      "original_url": "https://img.etnews.com/news/article/2026/05/27/news-p.v1.20260527.bc5ee2f056434e02acf50a51ee87dc39_P1.jpg",
+      "source_url": "https://www.etnews.com/20260527000356",
+      "source": "전자신문",
+      "caption": "LG CNS AX Fair 2026 발표 장면. AgenticWorks, AXThink, enterprise AI 실행 전략과 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgcns_ax_fair_2026.jpg",
+      "used_by": [
+        "concepts/enterprise-ax.md",
+        "docs/04_enterprise_ax_agentic_operating_model.md",
+        "sources/src_lgcns_ax_fair_20260527.md"
+      ],
+      "script": "scripts/download_enterprise_ax_agentic_operating_model_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_enterprise_ax_agentic_operating_model_images.py"
+      ],
+      "local_path": "assets/images/lgcns_ax_fair_2026.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 187235
+    },
+    {
+      "image_id": "exaone_journey_timeline",
+      "original_url": "https://www.lgresearch.ai/img/solution/exaone_journey_pc.png",
+      "source_url": "https://www.lgresearch.ai/exaone/",
+      "source": "LG AI Research EXAONE",
+      "caption": "EXAONE Journey timeline. EXAONE 4.5까지 이어진 LG AI Research의 모델 고도화 흐름.",
+      "declared_status": "confirmed",
+      "filename": "exaone_journey_timeline.png",
+      "used_by": [
+        "companies/lg-ai-research.md",
+        "concepts/ai-sovereignty.md",
+        "concepts/exaone.md",
+        "concepts/foundation-model.md",
+        "concepts/hybrid-ai-strategy.md",
+        "concepts/korean-ai.md",
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "docs/06_global_ai_alliance_open_innovation.md",
+        "sources/src_lgai_exaone.md",
+        "topics/02_how_competitive_is_exaone_globally.md",
+        "topics/09_is_lg_ai_alliance_an_option_strategy_or_dependency_risk.md",
+        "topics/10_can_ai_for_science_change_lg_rnd_productivity.md",
+        "topics/12_what_is_lg_real_ai_moat.md",
+        "topics/14_should_lg_build_foundation_models_or_focus_on_industry_models.md",
+        "topics/17_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [
+        "lgai_exaone_journey"
+      ],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py",
+        "scripts/download_global_ai_alliance_open_innovation_images.py",
+        "scripts/download_topic_02_images.py",
+        "scripts/download_topic_09_images.py",
+        "scripts/download_topic_10_images.py",
+        "scripts/download_topic_12_images.py",
+        "scripts/download_topic_14_images.py",
+        "scripts/download_topic_17_images.py"
+      ],
+      "local_path": "assets/images/exaone_journey_timeline.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 449721
+    },
+    {
+      "image_id": "exaone_logo",
+      "original_url": "https://www.lgresearch.ai/img/solution/exaone_logo.png",
+      "source_url": "https://www.lgresearch.ai/exaone/",
+      "source": "LG AI Research EXAONE",
+      "caption": "EXAONE logo. AI for Science의 기반 모델·솔루션 계층을 대표하는 이미지.",
+      "declared_status": "confirmed",
+      "filename": "exaone_logo.png",
+      "used_by": [
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgai_exaone.md",
+        "topics/02_how_competitive_is_exaone_globally.md",
+        "topics/10_can_ai_for_science_change_lg_rnd_productivity.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [
+        "lgai_exaone_logo"
+      ],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py",
+        "scripts/download_topic_02_images.py",
+        "scripts/download_topic_10_images.py"
+      ],
+      "local_path": "assets/images/exaone_logo.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 248981
+    },
+    {
+      "image_id": "exaone_discovery_operation",
+      "original_url": "https://image.fnnews.com/resource/media/image/2026/02/03/202602031018422799_l.jpg",
+      "source_url": "https://en.fnnews.com/news/202602031623047760",
+      "source": "Financial News / LG AI Research",
+      "caption": "EXAONE Discovery in operation. 논문·특허·분자구조 등 비정형 데이터를 활용해 후보물질 탐색과 실험 설계를 지원하는 예시.",
+      "declared_status": "confirmed",
+      "filename": "exaone_discovery_operation.jpg",
+      "used_by": [
+        "companies/partners/dd-pharmatech.md",
+        "concepts/ai-co-scientist.md",
+        "concepts/ai-for-science.md",
+        "concepts/chemical-agentic-ai.md",
+        "concepts/peptide-drug-discovery.md",
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgai_exaone_discovery_patent_20260203.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/exaone_discovery_operation.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 64029
+    },
+    {
+      "image_id": "exaone_discovery_digitaltoday_gif",
+      "original_url": "https://cdn.digitaltoday.co.kr/news/photo/202602/626597_578710_2823.gif",
+      "source_url": "https://www.digitaltoday.co.kr/en/view/2921/lg-ai-research-registers-gateway-patent-for-ai-to-aid-new-materials-and-drug-development",
+      "source": "Digital Today / LG AI Research",
+      "caption": "EXAONE Discovery image from Digital Today. 일부 fetch 환경에서 400 응답 가능성이 있어 다운로드 확인 필요.",
+      "declared_status": "url_confirmed_but_fetch_400_possible",
+      "filename": "exaone_discovery_digitaltoday.gif",
+      "used_by": [
+        "concepts/exaone-discovery.md",
+        "docs/05_ai_for_science_bio_materials_battery.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/exaone_discovery_digitaltoday.gif",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/gif",
+      "bytes": 63880
+    },
+    {
+      "image_id": "lgai_research_logo",
+      "original_url": "https://www.lgresearch.ai/img/common/logo_en.png",
+      "source_url": "https://www.lgresearch.ai/ourwork/research?tab=PE",
+      "source": "LG AI Research",
+      "caption": "LG AI Research logo. Bio Intelligence, Materials Intelligence, Advanced Agent 연구영역의 주체.",
+      "declared_status": "confirmed",
+      "filename": "lgai_research_logo.png",
+      "used_by": [
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgai_materials_intelligence.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgai_research_logo.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 8618
+    },
+    {
+      "image_id": "lgchem_life_science_sales_graph",
+      "original_url": "https://www.lgchem.com/asset/images/common/company/img_life_science_graph.png",
+      "source_url": "https://www.lgchem.com/company/company-information/business-domain/biology?lang=en_US",
+      "source": "LG Chem Life Science",
+      "caption": "LG Chem Life Science sales graph. 생명과학 사업의 중장기 성장축을 보여주는 공식 이미지.",
+      "declared_status": "confirmed",
+      "filename": "lgchem_life_science_sales_graph.png",
+      "used_by": [
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgchem_life_science.md",
+        "topics/10_can_ai_for_science_change_lg_rnd_productivity.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [
+        "lgchem_life_science_graph"
+      ],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py",
+        "scripts/download_topic_10_images.py"
+      ],
+      "local_path": "assets/images/lgchem_life_science_sales_graph.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 246744
+    },
+    {
+      "image_id": "lgchem_life_science_primary_care",
+      "original_url": "https://www.lgchem.com/asset/images/common/company/thumb_business401.jpg",
+      "source_url": "https://www.lgchem.com/company/company-information/business-domain/biology?lang=en_US",
+      "source": "LG Chem Life Science",
+      "caption": "LG Chem Life Science Primary Care division image. AI 신약개발의 실험·검증 필드와 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgchem_life_science_primary_care.jpg",
+      "used_by": [
+        "companies/partners/vanderbilt-university-medical-center.md",
+        "concepts/bio-intelligence.md",
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgchem_life_science.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgchem_life_science_primary_care.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 14773
+    },
+    {
+      "image_id": "lgchem_life_science_specialty_care",
+      "original_url": "https://www.lgchem.com/asset/images/common/company/thumb_business402.jpg",
+      "source_url": "https://www.lgchem.com/company/company-information/business-domain/biology?lang=en_US",
+      "source": "LG Chem Life Science",
+      "caption": "LG Chem Life Science Specialty Care division image. 바이오·신약 R&D 자산과 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgchem_life_science_specialty_care.jpg",
+      "used_by": [
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgchem_life_science.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgchem_life_science_specialty_care.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 13014
+    },
+    {
+      "image_id": "lgchem_open_innovation_energy_materials",
+      "original_url": "https://www.lgchem.com/asset/images/common/company/research/innovation-energy.jpg",
+      "source_url": "https://www.lgchem.com/company/research-and-development/open-innovation?lang=en_US",
+      "source": "LG Chem Open Innovation",
+      "caption": "Energy Transition & Sustainable Materials. 배터리·재생에너지 소재 오픈이노베이션 방향과 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgchem_open_innovation_energy_materials.jpg",
+      "used_by": [
+        "companies/lg-chem.md",
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgchem_open_innovation.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgchem_open_innovation_energy_materials.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 48122
+    },
+    {
+      "image_id": "lgchem_cathode_material_main",
+      "original_url": "https://www.lgchem.com/upload/file/product/66/global/0_anode_kor.png",
+      "source_url": "https://www.lgchem.com/product-detail/cathode-material?lang=en_US",
+      "source": "LG Chem Cathode Material",
+      "caption": "LG Chem Cathode Material page hero image. 배터리 소재 탐색·검증의 핵심 적용 영역.",
+      "declared_status": "confirmed",
+      "filename": "lgchem_cathode_material_main.png",
+      "used_by": [
+        "concepts/battery-materials.md",
+        "concepts/materials-intelligence.md",
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgchem_cathode_material.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgchem_cathode_material_main.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 942979
+    },
+    {
+      "image_id": "lgchem_cathode_production_plan",
+      "original_url": "https://www.lgchem.com/upload/file/product/66/global/chart_pc_e.png",
+      "source_url": "https://www.lgchem.com/product-detail/cathode-material?lang=en_US",
+      "source": "LG Chem Cathode Material",
+      "caption": "LG Chem Cathode Material Production Plan by 2030. 배터리 소재 포트폴리오와 생산능력 확대 방향.",
+      "declared_status": "confirmed",
+      "filename": "lgchem_cathode_production_plan.png",
+      "used_by": [
+        "concepts/materials-informatics.md",
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgchem_cathode_material.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgchem_cathode_production_plan.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 15031
+    },
+    {
+      "image_id": "lgchem_cathode_mobile_application",
+      "original_url": "https://www.lgchem.com/upload/file/product/66/global/1_Cathode_kor.png",
+      "source_url": "https://www.lgchem.com/product-detail/cathode-material?lang=en_US",
+      "source": "LG Chem Cathode Material",
+      "caption": "Cathode material application image: mobile batteries.",
+      "declared_status": "confirmed",
+      "filename": "lgchem_cathode_mobile_application.png",
+      "used_by": [
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgchem_cathode_material.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgchem_cathode_mobile_application.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 115816
+    },
+    {
+      "image_id": "lgchem_cathode_auto_application",
+      "original_url": "https://www.lgchem.com/upload/file/product/66/global/2_Cathode_kor.png",
+      "source_url": "https://www.lgchem.com/product-detail/cathode-material?lang=en_US",
+      "source": "LG Chem Cathode Material",
+      "caption": "Cathode material application image: automotive batteries.",
+      "declared_status": "confirmed",
+      "filename": "lgchem_cathode_auto_application.png",
+      "used_by": [
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgchem_cathode_material.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgchem_cathode_auto_application.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 99760
+    },
+    {
+      "image_id": "lgchem_cathode_ess_application",
+      "original_url": "https://www.lgchem.com/upload/file/product/66/global/3_Cathode_kor.png",
+      "source_url": "https://www.lgchem.com/product-detail/cathode-material?lang=en_US",
+      "source": "LG Chem Cathode Material",
+      "caption": "Cathode material application image: ESS batteries.",
+      "declared_status": "confirmed",
+      "filename": "lgchem_cathode_ess_application.png",
+      "used_by": [
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgchem_cathode_material.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgchem_cathode_ess_application.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 67603
+    },
+    {
+      "image_id": "lgensol_battery_technology_roadmap_mid_nickel",
+      "original_url": "https://inside.lgensol.com/wp-content/uploads/2025/06/6_%EC%86%8C%EC%9E%AC%EC%99%80-%EA%B3%B5%EC%A0%95-%ED%98%81%EC%8B%A0%EC%9D%84-%ED%86%B5%ED%95%B4-%EA%B3%A0%EA%B0%9D%EA%B0%80%EC%B9%98%EB%A5%BC-%EC%8B%A4%ED%98%84%ED%95%98%EB%8A%94-LG%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B8%B0%EC%88%A0-%EB%A1%9C%EB%93%9C%EB%A7%B5.png",
+      "source_url": "https://inside.lgensol.com/en/2025/06/lg-energy-solutions-battery-technology-roadmap-creating-customer-value-through-material-and-process-innovation/",
+      "source": "LG Energy Solution Battery Inside",
+      "caption": "LG Energy Solution battery technology roadmap presentation. 소재·공정 혁신과 AI-driven materials research 흐름.",
+      "declared_status": "confirmed",
+      "filename": "lgensol_battery_technology_roadmap_mid_nickel.png",
+      "used_by": [
+        "concepts/closed-loop-rnd.md",
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgensol_battery_technology_roadmap_20250620.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgensol_battery_technology_roadmap_mid_nickel.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/webp",
+      "bytes": 41198
+    },
+    {
+      "image_id": "lgensol_dry_electrode_process",
+      "original_url": "https://inside.lgensol.com/wp-content/uploads/2025/06/8_%EC%86%8C%EC%9E%AC%EC%99%80-%EA%B3%B5%EC%A0%95-%ED%98%81%EC%8B%A0%EC%9D%84-%ED%86%B5%ED%95%B4-%EA%B3%A0%EA%B0%9D%EA%B0%80%EC%B9%98%EB%A5%BC-%EC%8B%A4%ED%98%84%ED%95%98%EB%8A%94-LG%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EA%B8%B0%EC%88%A0-%EB%A1%9C%EB%93%9C%EB%A7%B5.png",
+      "source_url": "https://inside.lgensol.com/en/2025/06/lg-energy-solutions-battery-technology-roadmap-creating-customer-value-through-material-and-process-innovation/",
+      "source": "LG Energy Solution Battery Inside",
+      "caption": "Wet electrode process vs dry electrode process. 배터리 소재·공정 혁신의 대표 이미지.",
+      "declared_status": "confirmed",
+      "filename": "lgensol_dry_electrode_process.png",
+      "used_by": [
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgensol_battery_technology_roadmap_20250620.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lgensol_dry_electrode_process.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/webp",
+      "bytes": 44466
+    },
+    {
+      "image_id": "lgensol_genai_patent_chatbot",
+      "original_url": "https://inside.lgensol.com/wp-content/uploads/2025/05/9_%EC%83%9D%EC%84%B1%ED%98%95-AI%EB%A1%9C-%EB%B0%94%EA%BE%B8%EB%8A%94-%EB%B0%B0%ED%84%B0%EB%A6%AC-%EC%82%B0%EC%97%85%EC%9D%98-%ED%98%84%EC%9E%AC%EC%99%80-%EB%AF%B8%EB%9E%98-1.png",
+      "source_url": "https://inside.lgensol.com/en/2025/06/genai-transforming-the-present-and-future-of-the-battery-industry/",
+      "source": "LG Energy Solution Battery Inside",
+      "caption": "LG Energy Solution GenAI in battery industry. 특허 검색·요약, 배터리 지식 AI 챗봇과 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lgensol_genai_patent_chatbot.png",
+      "used_by": [
+        "concepts/patent-intelligence.md",
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lgensol_genai_battery_20250613.md",
+        "topics/10_can_ai_for_science_change_lg_rnd_productivity.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [
+        "lgensol_genai_battery_industry"
+      ],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py",
+        "scripts/download_topic_10_images.py"
+      ],
+      "local_path": "assets/images/lgensol_genai_patent_chatbot.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/webp",
+      "bytes": 48472
+    },
+    {
+      "image_id": "lghnh_bichup_nad_symposium",
+      "original_url": "https://wimg.mk.co.kr/news/cms/202503/24/20250324_01110229000002_L01.jpg",
+      "source_url": "https://www.mk.co.kr/en/special-edition/11271183",
+      "source": "Maeil Business News / LG Household & Health Care",
+      "caption": "LG Household & Health Care The Whoo Bichup NAD+ Symposium. AI 기반 화장품 효능 소재 개발 사례와 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "lghnh_bichup_nad_symposium.jpg",
+      "used_by": [
+        "companies/lg-household-health-care.md",
+        "docs/05_ai_for_science_bio_materials_battery.md",
+        "sources/src_lghnh_ai_cosmetic_ingredients_20250323.md"
+      ],
+      "script": "scripts/download_ai_for_science_bio_materials_battery_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_ai_for_science_bio_materials_battery_images.py"
+      ],
+      "local_path": "assets/images/lghnh_bichup_nad_symposium.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 129434
+    },
+    {
+      "image_id": "lg_nvidia_map_koo_huang_prn",
+      "original_url": "https://mma.prnewswire.com/media/2995864/1.jpg?w=500",
+      "source_url": "https://www.prnewswire.com/news-releases/lg-teams-with-nvidia-to-shape-the-future-with-map-mobility--ai-infra--physical-ai-302793797.html",
+      "source": "PRNewswire / LG",
+      "caption": "LG Corp. 구광모 회장과 NVIDIA Jensen Huang CEO. M.A.P. 협력은 Mobility, AI Infra, Physical AI를 연결하는 6번 테마의 핵심 축이다.",
+      "declared_status": "confirmed_but_timeout_possible",
+      "filename": "lg_nvidia_map_koo_huang_prn.jpg",
+      "used_by": [
+        "companies/lg-corp.md",
+        "companies/lg-technology-ventures.md",
+        "concepts/cvc.md",
+        "concepts/global-ai-alliance.md",
+        "concepts/industrial-ai-ecosystem.md",
+        "concepts/open-innovation.md",
+        "concepts/strategic-alliance-governance.md",
+        "docs/06_global_ai_alliance_open_innovation.md",
+        "sources/src_lg_nvidia_map_20260608.md",
+        "topics/01_what_did_jensen_huang_leave_lg.md",
+        "topics/09_is_lg_ai_alliance_an_option_strategy_or_dependency_risk.md",
+        "topics/11_what_is_one_lg_in_the_ai_age.md",
+        "topics/12_what_is_lg_real_ai_moat.md",
+        "topics/14_should_lg_build_foundation_models_or_focus_on_industry_models.md",
+        "topics/17_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg.md"
+      ],
+      "script": "scripts/download_global_ai_alliance_open_innovation_images.py",
+      "aliases": [
+        "lg_nvidia_map_koo_huang"
+      ],
+      "scripts": [
+        "scripts/download_global_ai_alliance_open_innovation_images.py",
+        "scripts/download_topic_01_images.py",
+        "scripts/download_topic_09_images.py",
+        "scripts/download_topic_11_images.py",
+        "scripts/download_topic_12_images.py",
+        "scripts/download_topic_14_images.py",
+        "scripts/download_topic_17_images.py"
+      ],
+      "local_path": "assets/images/lg_nvidia_map_koo_huang_prn.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 54261
+    },
+    {
+      "image_id": "nvidia_lg_ai_factory_robot",
+      "original_url": "https://blogs.nvidia.com/wp-content/uploads/2026/06/kr-visit-lg-group-1920x1080-no-credit-1280x720.png",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+      "source": "NVIDIA Blog",
+      "caption": "NVIDIA Blog의 LG AI Factory 대표 이미지. 제조·로봇·디지털트윈·Physical AI 운영 모델과 연결된다.",
+      "declared_status": "confirmed",
+      "filename": "nvidia_lg_ai_factory_robot.png",
+      "used_by": [
+        "companies/partners/nvidia.md",
+        "concepts/ai-factory.md",
+        "concepts/ai-moat.md",
+        "concepts/digital-twin.md",
+        "concepts/physical-ai.md",
+        "concepts/physical-world-data.md",
+        "concepts/robot-simulation.md",
+        "concepts/synthetic-data.md",
+        "docs/06_global_ai_alliance_open_innovation.md",
+        "sources/src_nvidia_lg_ai_factory_20260607.md",
+        "topics/01_what_did_jensen_huang_leave_lg.md",
+        "topics/04_is_ai_factory_a_data_center_or_operating_model.md",
+        "topics/07_is_physical_ai_more_than_smart_factory_rebranding.md",
+        "topics/16_how_does_manufacturing_data_become_an_ai_product.md"
+      ],
+      "script": "scripts/download_global_ai_alliance_open_innovation_images.py",
+      "aliases": [
+        "nvidia_lg_ai_factory_robot"
+      ],
+      "scripts": [
+        "scripts/download_global_ai_alliance_open_innovation_images.py",
+        "scripts/download_topic_01_images.py",
+        "scripts/download_topic_04_images.py",
+        "scripts/download_topic_07_images.py",
+        "scripts/download_topic_16_images.py"
+      ],
+      "local_path": "assets/images/nvidia_lg_ai_factory_robot.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 768273
+    },
+    {
+      "image_id": "lge_dcw_cdu_press",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/eco-solution/lg-electronics-showcases-ai-data-center-cooling-solutions-at-data-center-world-2026/press-setting-image-desktop-tablet-dcw-1440.png",
+      "source_url": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-showcases-ai-data-center-cooling-solutions-at-data-center-world-2026/",
+      "source": "LG Electronics Newsroom",
+      "caption": "DCW 2026의 LG 부스에서 관람객이 1.4MW Coolant Distribution Unit을 살펴보고 있다.",
+      "declared_status": "confirmed",
+      "filename": "topic_01_lge_dcw_cdu_press.png",
+      "used_by": [
+        "sources/src_lge_dcw_20260421.md",
+        "topics/01_what_did_jensen_huang_leave_lg.md",
+        "topics/03_ai_infra_demand_next_5_years.md",
+        "topics/11_what_is_one_lg_in_the_ai_age.md",
+        "topics/13_are_power_and_cooling_bottlenecks_new_growth_engines.md",
+        "topics/17_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg.md",
+        "topics/18_how_gpu_cloud_price_decline_changes_aidc_business.md"
+      ],
+      "script": "scripts/download_topic_01_images.py",
+      "aliases": [
+        "lge_dcw_cdu_press"
+      ],
+      "scripts": [
+        "scripts/download_topic_01_images.py",
+        "scripts/download_topic_03_images.py",
+        "scripts/download_topic_11_images.py",
+        "scripts/download_topic_13_images.py",
+        "scripts/download_topic_17_images.py",
+        "scripts/download_topic_18_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lguplus_ace_on_trust",
+      "original_url": "https://wimg.sedaily.com/news/cms/2026/06/07/news-p.v1.20260607.9bdb122ce9694d22b0bc1389e376a6a5_P1.png",
+      "source_url": "https://en.sedaily.com/technology/2026/06/07/lg-uplus-targets-5-trillion-won-in-aidc-orders-by-2030",
+      "source": "Seoul Economic Daily",
+      "caption": "LG U+의 차세대 AIDC 전략 ‘The ACE on Trust’. Agility, Capacity, Efficiency를 Trust 위에 결합한다.",
+      "declared_status": "confirmed",
+      "filename": "topic_01_lguplus_ace_on_trust.png",
+      "used_by": [
+        "concepts/inference-economics.md",
+        "concepts/workload-orchestration.md",
+        "sources/src_lguplus_ace_on_trust_20260607.md",
+        "topics/01_what_did_jensen_huang_leave_lg.md",
+        "topics/03_ai_infra_demand_next_5_years.md",
+        "topics/18_how_gpu_cloud_price_decline_changes_aidc_business.md"
+      ],
+      "script": "scripts/download_topic_01_images.py",
+      "aliases": [
+        "lguplus_ace_on_trust"
+      ],
+      "scripts": [
+        "scripts/download_topic_01_images.py",
+        "scripts/download_topic_03_images.py",
+        "scripts/download_topic_18_images.py"
+      ],
+      "local_path": "assets/images/topic_01_lguplus_ace_on_trust.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 265256
+    },
+    {
+      "image_id": "nvidia_800v_architecture",
+      "original_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/05/800-V-tech-blog-fig-2.png",
+      "source_url": "https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/",
+      "source": "NVIDIA Technical Blog",
+      "caption": "NVIDIA 800V DC architecture 개념도. AI Factory의 병목이 GPU에서 전력·냉각·운영 효율로 이동하고 있음을 보여준다.",
+      "declared_status": "confirmed",
+      "filename": "topic_01_nvidia_800v_architecture.png",
+      "used_by": [
+        "companies/partners/ls-cable-system.md",
+        "companies/partners/ls-electric.md",
+        "concepts/compute-per-megawatt.md",
+        "concepts/dc-grid.md",
+        "concepts/power-bottleneck.md",
+        "sources/src_nvidia_800v_architecture_20250520.md",
+        "topics/01_what_did_jensen_huang_leave_lg.md",
+        "topics/03_ai_infra_demand_next_5_years.md",
+        "topics/13_are_power_and_cooling_bottlenecks_new_growth_engines.md",
+        "topics/18_how_gpu_cloud_price_decline_changes_aidc_business.md"
+      ],
+      "script": "scripts/download_topic_01_images.py",
+      "aliases": [
+        "nvidia_800v_architecture"
+      ],
+      "scripts": [
+        "scripts/download_topic_01_images.py",
+        "scripts/download_topic_03_images.py",
+        "scripts/download_topic_13_images.py",
+        "scripts/download_topic_18_images.py"
+      ],
+      "local_path": "assets/images/topic_01_nvidia_800v_architecture.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 91202
+    },
+    {
+      "image_id": "lginnotek_autonomous_sensor_fusion",
+      "original_url": "https://www.lginnotek.com/resources/img/img-solution-autonomous-04en.png",
+      "source_url": "https://www.lginnotek.com/solution/autoDrive.do?locale=en",
+      "source": "LG Innotek",
+      "caption": "LG이노텍의 자율주행 센서 포트폴리오. NVIDIA DRIVE Hyperion 협력에서 sensing, communication, lighting layer의 의미를 보여준다.",
+      "declared_status": "confirmed",
+      "filename": "topic_01_lginnotek_autonomous_sensor_fusion.png",
+      "used_by": [
+        "companies/lg-innotek.md",
+        "companies/partners/applied-intuition.md",
+        "concepts/adas.md",
+        "concepts/aidv.md",
+        "concepts/in-cabin-sensing.md",
+        "topics/01_what_did_jensen_huang_leave_lg.md"
+      ],
+      "script": "scripts/download_topic_01_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/download_topic_01_images.py"
+      ],
+      "local_path": "assets/images/topic_01_lginnotek_autonomous_sensor_fusion.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 50220
+    },
+    {
+      "image_id": "lgai_exaone45_performance",
+      "original_url": "https://www.lgresearch.ai/img/solution/perpomance_4_5_h1.png",
+      "source_url": "https://www.lgresearch.ai/exaone/",
+      "source": "LG AI Research",
+      "caption": "EXAONE 4.5는 문서 이해와 한국어 맥락 이해에서 강점을 강조한다.",
+      "declared_status": "confirmed",
+      "filename": "topic_02_lgai_exaone45_performance.png",
+      "used_by": [
+        "concepts/industry-specialized-ai.md",
+        "concepts/k-exaone.md",
+        "concepts/sovereign-ai-foundation-model.md",
+        "sources/src_lgai_exaone.md",
+        "topics/02_how_competitive_is_exaone_globally.md",
+        "topics/14_should_lg_build_foundation_models_or_focus_on_industry_models.md"
+      ],
+      "script": "scripts/download_topic_02_images.py",
+      "aliases": [
+        "lgai_exaone45_performance"
+      ],
+      "scripts": [
+        "scripts/download_topic_02_images.py",
+        "scripts/download_topic_14_images.py"
+      ],
+      "local_path": "assets/images/topic_02_lgai_exaone45_performance.png",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/png",
+      "bytes": 814345
+    },
+    {
+      "image_id": "exaone45_github_symbol",
+      "original_url": "https://raw.githubusercontent.com/LG-AI-EXAONE/EXAONE-4.5/main/assets/EXAONE_Symbol%2BBI_3d.png",
+      "source_url": "https://github.com/LG-AI-EXAONE/EXAONE-4.5",
+      "source": "LG-AI-EXAONE GitHub",
+      "caption": "EXAONE 4.5 GitHub repository는 공개 모델, 기술보고서, 사용 방법을 함께 제공한다.",
+      "declared_status": "confirmed",
+      "filename": "topic_02_exaone45_github_symbol.png",
+      "used_by": [
+        "sources/src_exaone45_github.md",
+        "topics/02_how_competitive_is_exaone_globally.md",
+        "topics/14_should_lg_build_foundation_models_or_focus_on_industry_models.md",
+        "topics/17_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg.md"
+      ],
+      "script": "scripts/download_topic_02_images.py",
+      "aliases": [
+        "exaone45_github_symbol"
+      ],
+      "scripts": [
+        "scripts/download_topic_02_images.py",
+        "scripts/download_topic_14_images.py",
+        "scripts/download_topic_17_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "ValueError: non-image response: text/plain; charset=utf-8",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lg_smart_park_lighthouse",
+      "original_url": "https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/home-appliance-solution/lg-smart-park-named-lighthouse-factory-for-futuristic-manufacturing-technology/LG-Smart-Park_01.jpg",
+      "source_url": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-smart-park-named-lighthouse-factory-for-futuristic-manufacturing-technology/",
+      "source": "LG Electronics Newsroom",
+      "caption": "LG Smart Park는 WEF Lighthouse Factory로 선정된 제조 혁신 레퍼런스다.",
+      "declared_status": "confirmed",
+      "filename": "topic_04_lg_smart_park_lighthouse.jpg",
+      "used_by": [
+        "sources/src_lg_smart_park_lighthouse_20220331.md",
+        "sources/src_lg_smart_park_lighthouse_20220427.md",
+        "sources/src_lgcorp_smart_park_lighthouse_20220331.md",
+        "topics/04_is_ai_factory_a_data_center_or_operating_model.md",
+        "topics/07_is_physical_ai_more_than_smart_factory_rebranding.md",
+        "topics/16_how_does_manufacturing_data_become_an_ai_product.md"
+      ],
+      "script": "scripts/download_topic_04_images.py",
+      "aliases": [
+        "lg_smart_park_lighthouse"
+      ],
+      "scripts": [
+        "scripts/download_topic_04_images.py",
+        "scripts/download_topic_07_images.py",
+        "scripts/download_topic_16_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "doc_02_skild_ai_series_c",
+      "original_url": "https://cdn.wowtale.net/wp-content/uploads/2026/01/skild-ai-series-c-800x329.jpg",
+      "source_url": null,
+      "source": "Markdown image reference",
+      "caption": "Skild AI 소개.",
+      "declared_status": "discovered_in_markdown",
+      "filename": "doc_02_skild-ai-series-c-800x329.jpg",
+      "used_by": [
+        "companies/partners/skild-ai.md",
+        "concepts/industrial-humanoid.md",
+        "concepts/robotic-foundation-model.md",
+        "docs/02_physical_ai_smart_manufacturing.md"
+      ],
+      "script": "scripts/process_wiki_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/process_wiki_images.py"
+      ],
+      "local_path": "assets/images/doc_02_skild-ai-series-c-800x329.jpg",
+      "status": "downloaded",
+      "error": null,
+      "content_type": "image/jpeg",
+      "bytes": 56070
+    },
+    {
+      "image_id": "doc_04_asiae_enterprise_ax",
+      "original_url": "https://www.asiae.co.kr/news/img_view.htm?img=2026040709445416262_1775522694.jpg",
+      "source_url": null,
+      "source": "Markdown image reference",
+      "caption": null,
+      "declared_status": "discovered_in_markdown",
+      "filename": "doc_04_2026040709445416262_1775522694.jpg",
+      "used_by": [
+        "docs/04_enterprise_ax_agentic_operating_model.md"
+      ],
+      "script": "scripts/process_wiki_images.py",
+      "aliases": [],
+      "scripts": [
+        "scripts/process_wiki_images.py"
+      ],
+      "local_path": null,
+      "status": "failed",
+      "error": "ValueError: non-image response: text/html",
+      "content_type": null,
+      "bytes": 0
+    },
+    {
+      "image_id": "lgcns_ai_box_image_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://www.koreatimes.co.kr/business/tech-science/20260305/lg-cns-unveils-container-based-ai-box-for-rapid-ai-data-center-expansion",
+      "source": "The Korea Times / LG CNS",
+      "caption": "LG CNS AI Box는 AI servers, power, cooling, operations를 하나로 묶은 container-based AI data center package다. 원문 이미지 URL은 직접 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_01_lgcns_ai_box_image_needed.jpg",
+      "used_by": [
+        "topics/01_what_did_jensen_huang_leave_lg.md"
+      ],
+      "script": "scripts/download_topic_01_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    },
+    {
+      "image_id": "iea_datacenter_electricity_chart_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://www.iea.org/data-and-statistics/charts/global-data-centre-electricity-consumption-by-equipment-base-case-2020-2030",
+      "source": "IEA",
+      "caption": "IEA의 데이터센터 전력 소비 전망 차트. 원문은 차트 다운로드를 제공하지만 직접 이미지 URL은 동적 렌더링으로 별도 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_03_iea_datacenter_electricity_chart.png",
+      "used_by": [
+        "topics/03_ai_infra_demand_next_5_years.md"
+      ],
+      "script": "scripts/download_topic_03_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    },
+    {
+      "image_id": "lgcorp_palantir_meeting_image_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://www.lgcorp.com/media/release/30066",
+      "source": "LG Corp.",
+      "caption": "구광모 LG 회장은 2026년 4월 2일 Silicon Valley에서 Palantir의 Alex Karp와 만나 Ontology와 AI·data-driven decision-making framework를 논의했다. 원문 이미지 URL은 직접 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_05_lgcorp_palantir_meeting.jpg",
+      "used_by": [
+        "sources/src_lgcorp_silicon_valley_20260407.md",
+        "topics/05_what_did_palantir_ask_lg.md"
+      ],
+      "script": "scripts/download_topic_05_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    },
+    {
+      "image_id": "lginnotek_applied_intuition_image_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://www.lginnotek.com/news/pressView.do?idx=6582&locale=en",
+      "source": "LG Innotek",
+      "caption": "LG이노텍과 Applied Intuition의 협력은 sensing hardware, simulation, validation이 Physical AI로 연결되는 사례다. 원문 이미지 URL은 별도 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_07_lginnotek_applied_intuition.jpg",
+      "used_by": [
+        "sources/src_lginnotek_applied_intuition_20260329.md",
+        "topics/07_is_physical_ai_more_than_smart_factory_rebranding.md"
+      ],
+      "script": "scripts/download_topic_07_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    },
+    {
+      "image_id": "lgensol_sdverse_image_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://www.lgensol.com/mobile/en/company/newsroom-detail?seq=8753",
+      "source": "LG Energy Solution",
+      "caption": "LG에너지솔루션은 배터리 기업 최초로 SDVerse에 참여하며 SDV 환경에 최적화된 5개 battery software solution을 제시했다. 원문 이미지 URL은 별도 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_08_lgensol_sdverse.jpg",
+      "used_by": [
+        "topics/08_can_battery_software_become_lges_next_platform.md"
+      ],
+      "script": "scripts/download_topic_08_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    },
+    {
+      "image_id": "lgensol_sdverse_image_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://www.lgensol.com/mobile/en/company/newsroom-detail?seq=8753",
+      "source": "LG Energy Solution",
+      "caption": "LG에너지솔루션의 SDVerse 참여는 외부 software marketplace를 활용해 배터리 SW를 확장하는 사례다. 원문 이미지 URL은 별도 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_09_lgensol_sdverse.jpg",
+      "used_by": [
+        "topics/09_is_lg_ai_alliance_an_option_strategy_or_dependency_risk.md"
+      ],
+      "script": "scripts/download_topic_09_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    },
+    {
+      "image_id": "lgai_dd_pharmatech_image_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://www.prnewswire.com/news-releases/lg-ai-research-announces-collaboration-with-dd-pharmatech-to-accelerate-next-generation-oral-peptide-drug-discovery-302802738.html",
+      "source": "PRNewswire / LG AI Research",
+      "caption": "LG AI Research와 D&D Pharmatech의 차세대 oral peptide drug discovery 협력. 원문 페이지의 직접 이미지 URL은 별도 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_10_lgai_dd_pharmatech.jpg",
+      "used_by": [
+        "sources/src_lgai_dd_pharmatech_20260617.md",
+        "topics/10_can_ai_for_science_change_lg_rnd_productivity.md"
+      ],
+      "script": "scripts/download_topic_10_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    },
+    {
+      "image_id": "lgcns_agenticworks_image_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://www.yna.co.kr/view/AKR20250825032051017",
+      "source": "Yonhap News",
+      "caption": "LG CNS는 AgenticWorks와 a:xink를 공개하며 채용 업무 생산성 26% 개선, LG Display 적용 시 일평균 생산성 약 10% 향상과 연 100억원 이상 비용 절감 효과를 설명했다. 원문 이미지 URL은 별도 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_15_lgcns_agenticworks.jpg",
+      "used_by": [
+        "sources/src_lgcns_agenticworks_20250825.md",
+        "topics/15_how_should_enterprise_ax_performance_be_measured.md"
+      ],
+      "script": "scripts/download_topic_15_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    },
+    {
+      "image_id": "lgensol_ax_productivity_image_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://news.lgensol.com/company-news/supplementary-stories/4920/",
+      "source": "LG Energy Solution",
+      "caption": "LG에너지솔루션은 2028년까지 AI Transformation을 통해 생산성을 최대 50% 향상하겠다는 목표를 제시했다. 원문 이미지 URL은 별도 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_15_lgensol_ax_productivity.jpg",
+      "used_by": [
+        "sources/src_lgensol_ax_productivity_20260511.md",
+        "topics/15_how_should_enterprise_ax_performance_be_measured.md"
+      ],
+      "script": "scripts/download_topic_15_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    },
+    {
+      "image_id": "msit_sovereign_ai_image_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1212&sCode=eng",
+      "source": "MSIT",
+      "caption": "MSIT는 Sovereign AI Foundation Model 프로젝트를 AI G3 전략과 기술·문화·경제·안보 의존도 완화 관점에서 설명한다. 직접 이미지 URL은 별도 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_17_msit_sovereign_ai.png",
+      "used_by": [
+        "sources/src_msit_sovereign_ai_foundation_model_2026.md",
+        "topics/17_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg.md"
+      ],
+      "script": "scripts/download_topic_17_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    },
+    {
+      "image_id": "iea_datacenter_electricity_chart_needed",
+      "original_url": "IMAGE_URL_NEEDED",
+      "source_url": "https://www.iea.org/data-and-statistics/charts/global-data-centre-electricity-consumption-by-equipment-base-case-2020-2030",
+      "source": "IEA",
+      "caption": "IEA 데이터센터 전력 소비 전망 차트. 동적 렌더링으로 직접 이미지 URL은 별도 확보 필요.",
+      "declared_status": "image_url_needed",
+      "filename": "topic_18_iea_datacenter_electricity_chart.png",
+      "used_by": [
+        "topics/18_how_gpu_cloud_price_decline_changes_aidc_business.md"
+      ],
+      "script": "scripts/download_topic_18_images.py",
+      "local_path": null,
+      "status": "image_url_needed",
+      "error": "IMAGE_URL_NEEDED"
+    }
+  ]
+}

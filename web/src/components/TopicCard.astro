@@ -1,0 +1,35 @@
+---
+import type { Topic } from "../lib/content";
+import { themeLabel } from "../lib/content";
+
+interface Props {
+  topic: Topic;
+  featured?: boolean;
+}
+
+const { topic, featured = false } = Astro.props;
+---
+
+<article class:list={["topic-card", { featured }]}>
+  <a href={`/insights/${topic.slug}`} aria-label={`${topic.title} 읽기`}>
+    {topic.heroImage && (
+      <div class="card-image">
+        <img src={topic.heroImage} alt="" loading={featured ? "eager" : "lazy"} />
+      </div>
+    )}
+    <div class="card-body">
+      <div class="card-meta">
+        <span>Question {String(topic.number).padStart(2, "0")} · {topic.priority} {topic.priorityScore.toFixed(2)}</span>
+        <span>{topic.readingTime} min</span>
+      </div>
+      <h3>{topic.title}</h3>
+      <p>{topic.short_answer}</p>
+      <div class="card-footer">
+        <div class="theme-pills">
+          {topic.related_themes.slice(0, 2).map((theme) => <span>{themeLabel(theme)}</span>)}
+        </div>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </div>
+    </div>
+  </a>
+</article>

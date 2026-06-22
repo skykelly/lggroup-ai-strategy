@@ -1,0 +1,83 @@
+---
+import type { KnowledgeEntity, Topic } from "../lib/content";
+import { themeLabel, THEME_META } from "../lib/content";
+
+interface Props {
+  entity: KnowledgeEntity;
+  relatedTopics: Topic[];
+  relatedEntities: KnowledgeEntity[];
+}
+
+const { entity, relatedTopics, relatedEntities } = Astro.props;
+const typeLabel = entity.type === "company"
+  ? entity.category === "partner" ? "Strategic partner" : "LG affiliate"
+  : entity.type === "concept" ? "Strategy concept" : "Opportunity theme";
+---
+
+<article class="entity-detail">
+  <header class="entity-detail-header" style={`--entity-accent:${entity.primary_theme ? THEME_META[entity.primary_theme]?.color : entity.related_themes[0] ? THEME_META[entity.related_themes[0]]?.color : "#a50034"}`}>
+    <div>
+      <span class="eyebrow">{typeLabel}</span>
+      <h1>{entity.title}</h1>
+      {entity.aliases.length > 0 && <p class="entity-aliases">{entity.aliases.join(" · ")}</p>}
+      <p class="entity-lead">{entity.summary}</p>
+      <div class="entity-statline">
+        <span><strong>{entity.related_themes.length}</strong> themes</span>
+        <span><strong>{relatedTopics.length}</strong> questions</span>
+        <span><strong>{entity.source_ids.length}</strong> sources</span>
+      </div>
+    </div>
+    <div class="entity-constellation" aria-hidden="true">
+      <span class="constellation-core"></span>
+      {entity.related_themes.slice(0, 6).map((theme, index) => (
+        <i class={`constellation-node constellation-node-${index + 1}`} style={`--node-color:${THEME_META[theme]?.color}`}></i>
+      ))}
+    </div>
+  </header>
+
+  {entity.heroImage && (
+    <div class="entity-detail-image"><img src={entity.heroImage} alt="" /></div>
+  )}
+
+  <div class="entity-detail-layout">
+    <aside class="entity-context">
+      <div>
+        <span>Connected themes</span>
+        <nav>
+          {entity.related_themes.map((theme) => <a href={`/themes/${theme}`}>{themeLabel(theme)}</a>)}
+        </nav>
+      </div>
+      {relatedEntities.length > 0 && (
+        <div>
+          <span>Related {entity.type === "company" ? "concepts" : "companies"}</span>
+          <nav>
+            {relatedEntities.slice(0, 8).map((item) => (
+              <a href={`/${item.type === "company" ? "companies" : "concepts"}/${item.slug}`}>{item.title}</a>
+            ))}
+          </nav>
+        </div>
+      )}
+    </aside>
+    <div class="entity-prose prose" set:html={entity.html}></div>
+  </div>
+
+  {relatedTopics.length > 0 && (
+    <section class="entity-questions">
+      <div class="section-heading horizontal">
+        <div>
+          <span class="eyebrow">Connected research</span>
+          <h2>이 Entity와 연결된 전략 질문</h2>
+        </div>
+      </div>
+      <div class="question-link-list">
+        {relatedTopics.slice(0, 8).map((topic) => (
+          <a href={`/insights/${topic.slug}`}>
+            <span>Q{String(topic.number).padStart(2, "0")}</span>
+            <strong>{topic.title}</strong>
+            <b>↗</b>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</article>

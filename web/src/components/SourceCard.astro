@@ -1,0 +1,26 @@
+---
+import type { SourceEntity } from "../lib/content";
+
+interface Props {
+  source: SourceEntity;
+}
+
+const { source } = Astro.props;
+const hostname = source.url ? new URL(source.url).hostname.replace(/^www\./, "") : "";
+---
+
+<article class="source-card">
+  <a href={`/sources/${source.slug}`}>
+    <div class="source-card-top">
+      <span>{source.publisher}</span>
+      <time>{source.published}</time>
+    </div>
+    <h3>{source.title}</h3>
+    <p>{source.summary || "이 자료가 제공하는 핵심 사실과 Wiki 내 활용 범위를 확인합니다."}</p>
+    <div class="source-card-bottom">
+      <span>{hostname}</span>
+      <b>{source.related_topics.length} questions · {source.related_themes.length} themes</b>
+      <i>↗</i>
+    </div>
+  </a>
+</article>

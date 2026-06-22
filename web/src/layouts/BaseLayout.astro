@@ -1,0 +1,109 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  type?: "website" | "article";
+  published?: string;
+}
+
+const {
+  title = "LG AI Strategy Journal",
+  description = "LG그룹의 AI 사업기회와 전략 질문을 공개 출처 기반으로 탐색합니다.",
+  image,
+  type = "website",
+  published
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site || Astro.url);
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": type === "article" ? "Article" : "WebPage",
+  headline: title,
+  description,
+  url: canonical.href,
+  ...(image ? { image: new URL(image, canonical).href } : {}),
+  ...(published ? { datePublished: published, dateModified: published } : {}),
+  isPartOf: {
+    "@type": "WebSite",
+    name: "LG AI Strategy Journal",
+    url: new URL("/", canonical).href
+  }
+};
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f5f7fa" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="LG AI Strategy Journal" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    {image && <meta property="og:image" content={image} />}
+    {published && <meta property="article:published_time" content={published} />}
+    <link rel="alternate" type="application/rss+xml" title="LG AI Strategy Journal RSS" href="/rss.xml" />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
+    <title>{title}</title>
+    <script is:inline>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 이동</a>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="LG AI Strategy Journal 홈">
+        <span class="brand-mark">LG</span>
+        <span>
+          <strong>AI Strategy</strong>
+          <small>Journal</small>
+        </span>
+      </a>
+      <nav aria-label="주요 메뉴">
+        <a href="/insights">Insights</a>
+        <a href="/themes">Themes</a>
+        <a href="/companies">Companies</a>
+        <a href="/concepts">Concepts</a>
+        <a href="/sources">Sources</a>
+      </nav>
+      <button class="search-trigger" type="button" aria-label="검색 열기" data-search-open>
+        <span>Search</span><kbd>⌘ K</kbd>
+      </button>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div>
+        <strong>LG AI Strategy Journal</strong>
+        <p>공개 출처 기반 LG그룹 AI 사업기회 리서치</p>
+      </div>
+      <div class="footer-meta">
+        <span>Baseline 2026.06.21</span>
+        <a href="/insights">18 Strategic Questions</a>
+      </div>
+    </footer>
+    <dialog class="search-dialog" data-search-dialog>
+      <div class="search-shell">
+        <div class="search-top">
+          <label for="site-search">전략 질문 검색</label>
+          <button type="button" data-search-close aria-label="검색 닫기">Esc</button>
+        </div>
+        <input id="site-search" type="search" placeholder="AI Factory, EXAONE, 데이터센터…" autocomplete="off" />
+        <div class="search-results" data-search-results></div>
+      </div>
+    </dialog>
+    <script>
+      import { initSearch } from "../scripts/search";
+      initSearch();
+    </script>
+  </body>
+</html>

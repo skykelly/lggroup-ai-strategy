@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EntityDetail from "../../components/EntityDetail.astro";
+import { getCompanies, getConcepts, getTopics } from "../../lib/content";
+
+export async function getStaticPaths() {
+  const [companies, concepts, topics] = await Promise.all([getCompanies(), getConcepts(), getTopics()]);
+  return companies.map((entity) => ({
+    params: { slug: entity.slug },
+    props: {
+      entity,
+      relatedTopics: topics.filter((topic) => entity.related_topics.includes(topic.id) || topic.related_companies.includes(entity.slug)),
+      relatedEntities: concepts.filter((concept) => entity.related_concepts.includes(concept.slug))
+    }
+  }));
+}
+
+const { entity, relatedTopics, relatedEntities } = Astro.props;
+---
+
+<BaseLayout title={`${entity.title} — LG AI Strategy Journal`} description={entity.summary} image={entity.heroImage}>
+  <EntityDetail entity={entity} relatedTopics={relatedTopics} relatedEntities={relatedEntities} />
+</BaseLayout>

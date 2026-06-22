@@ -1,0 +1,54 @@
+---
+import { THEME_META } from "../lib/content";
+
+const themes = Object.entries(THEME_META);
+---
+
+<div class="radar-wrap" data-radar>
+  <div class="radar-visual" aria-label="6대 AI 전략 테마 관계도">
+    <div class="radar-orbit orbit-outer"></div>
+    <div class="radar-orbit orbit-inner"></div>
+    <div class="radar-core">
+      <span>ONE LG</span>
+      <strong>AI</strong>
+      <small>Strategy</small>
+    </div>
+    {themes.map(([id, theme], index) => (
+      <button
+        class={`radar-node node-${index + 1}`}
+        type="button"
+        data-theme-node={id}
+        style={`--theme-color:${theme.color}`}
+        aria-pressed={index === 0 ? "true" : "false"}
+      >
+        <span>{theme.number}</span>
+        <strong>{theme.short}</strong>
+      </button>
+    ))}
+  </div>
+  <div class="radar-copy" aria-live="polite">
+    {themes.map(([id, theme], index) => (
+      <article data-theme-panel={id} class:list={{ active: index === 0 }}>
+        <span class="eyebrow">Theme {theme.number}</span>
+        <h3>{theme.title}</h3>
+        <p>{theme.description}</p>
+        <a href={`/insights?theme=${id}`}>관련 질문 보기 <span>→</span></a>
+      </article>
+    ))}
+  </div>
+</div>
+
+<script>
+  const radar = document.querySelector("[data-radar]");
+  if (radar) {
+    const nodes = radar.querySelectorAll("[data-theme-node]");
+    const panels = radar.querySelectorAll("[data-theme-panel]");
+    nodes.forEach((node) => {
+      node.addEventListener("click", () => {
+        const id = node.getAttribute("data-theme-node");
+        nodes.forEach((item) => item.setAttribute("aria-pressed", String(item === node)));
+        panels.forEach((panel) => panel.classList.toggle("active", panel.getAttribute("data-theme-panel") === id));
+      });
+    });
+  }
+</script>

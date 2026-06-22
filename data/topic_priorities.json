@@ -1,0 +1,360 @@
+{
+  "generated_at": "2026-06-22",
+  "model": "recency_issue_v1",
+  "weights": {
+    "recency": 0.3,
+    "issue_salience": 0.25,
+    "strategic_impact": 0.2,
+    "urgency": 0.15,
+    "actionability": 0.1
+  },
+  "thresholds": {
+    "P0": 4.25,
+    "P1": 3.7,
+    "P2": 3.1
+  },
+  "topics": [
+    {
+      "number": 11,
+      "id": "topic_what_is_one_lg_in_the_ai_age",
+      "title": "AI 시대의 One LG는 구호가 아니라 제품 구조가 되어야 한다",
+      "path": "topics/11_what_is_one_lg_in_the_ai_age.md",
+      "priority": "P0",
+      "priority_score": 4.38,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 5.0,
+        "issue_salience": 4.39,
+        "strategic_impact": 4.87,
+        "urgency": 2.7,
+        "actionability": 4.02
+      },
+      "priority_rationale": "최신성 5.0, 이슈성 4.4이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 100%.",
+      "priority_rank": 1
+    },
+    {
+      "number": 18,
+      "id": "topic_how_gpu_cloud_price_decline_changes_aidc_business",
+      "title": "GPU Cloud 가격이 내려가면 AIDC는 더 강한 운영 사업이 되어야 한다",
+      "path": "topics/18_how_gpu_cloud_price_decline_changes_aidc_business.md",
+      "priority": "P0",
+      "priority_score": 4.32,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.83,
+        "issue_salience": 5.0,
+        "strategic_impact": 3.36,
+        "urgency": 4.64,
+        "actionability": 2.56
+      },
+      "priority_rationale": "최신성 4.8, 이슈성 5.0이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-22, 최근 180일 Source 비율 86%.",
+      "priority_rank": 2
+    },
+    {
+      "number": 13,
+      "id": "topic_are_power_and_cooling_bottlenecks_new_growth_engines",
+      "title": "전력·냉각 병목은 비용이 아니라 AI Infra의 제품 축이다",
+      "path": "topics/13_are_power_and_cooling_bottlenecks_new_growth_engines.md",
+      "priority": "P1",
+      "priority_score": 4.13,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.7,
+        "issue_salience": 5.0,
+        "strategic_impact": 3.48,
+        "urgency": 3.63,
+        "actionability": 2.27
+      },
+      "priority_rationale": "최신성 4.7, 이슈성 5.0이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 75%.",
+      "priority_rank": 3
+    },
+    {
+      "number": 9,
+      "id": "topic_is_lg_ai_alliance_an_option_strategy_or_dependency_risk",
+      "title": "AI Alliance는 옵션이지만, 내부화하지 않으면 종속이 된다",
+      "path": "topics/09_is_lg_ai_alliance_an_option_strategy_or_dependency_risk.md",
+      "priority": "P1",
+      "priority_score": 4.11,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.6,
+        "issue_salience": 5.0,
+        "strategic_impact": 3.58,
+        "urgency": 3.38,
+        "actionability": 2.61
+      },
+      "priority_rationale": "최신성 4.6, 이슈성 5.0이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 67%.",
+      "priority_rank": 4
+    },
+    {
+      "number": 4,
+      "id": "topic_is_ai_factory_a_data_center_or_operating_model",
+      "title": "AI Factory는 데이터센터가 아니라 운영 모델이다",
+      "path": "topics/04_is_ai_factory_a_data_center_or_operating_model.md",
+      "priority": "P1",
+      "priority_score": 4.09,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.76,
+        "issue_salience": 5.0,
+        "strategic_impact": 3.67,
+        "urgency": 2.17,
+        "actionability": 3.54
+      },
+      "priority_rationale": "최신성 4.8, 이슈성 5.0이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 80%.",
+      "priority_rank": 5
+    },
+    {
+      "number": 1,
+      "id": "topic_what_did_jensen_huang_leave_lg",
+      "title": "젠슨 황이 LG에게 남긴 것은 GPU가 아니었다",
+      "path": "topics/01_what_did_jensen_huang_leave_lg.md",
+      "priority": "P1",
+      "priority_score": 4.06,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.76,
+        "issue_salience": 5.0,
+        "strategic_impact": 3.82,
+        "urgency": 2.61,
+        "actionability": 2.27
+      },
+      "priority_rationale": "최신성 4.8, 이슈성 5.0이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 80%.",
+      "priority_rank": 6
+    },
+    {
+      "number": 3,
+      "id": "topic_ai_infra_demand_next_5_years",
+      "title": "AI Infra 수요는 폭증보다 병목의 문제다",
+      "path": "topics/03_ai_infra_demand_next_5_years.md",
+      "priority": "P1",
+      "priority_score": 3.93,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.6,
+        "issue_salience": 4.84,
+        "strategic_impact": 2.52,
+        "urgency": 4.3,
+        "actionability": 1.94
+      },
+      "priority_rationale": "최신성 4.6, 이슈성 4.8이 우선순위를 주도한다. 강점 요소는 이슈성·최신성이며, 최신 기준일 2026-06-22, 최근 180일 Source 비율 67%.",
+      "priority_rank": 7
+    },
+    {
+      "number": 16,
+      "id": "topic_how_does_manufacturing_data_become_an_ai_product",
+      "title": "제조 데이터는 정리될 때 AI 제품이 된다",
+      "path": "topics/16_how_does_manufacturing_data_become_an_ai_product.md",
+      "priority": "P2",
+      "priority_score": 3.69,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.52,
+        "issue_salience": 2.71,
+        "strategic_impact": 4.15,
+        "urgency": 2.17,
+        "actionability": 4.98
+      },
+      "priority_rationale": "최신성 4.5, 이슈성 2.7이 우선순위를 주도한다. 강점 요소는 실행 가능성·최신성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 60%.",
+      "priority_rank": 8
+    },
+    {
+      "number": 17,
+      "id": "topic_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg",
+      "title": "한국형 AI Sovereignty는 LG에게 기회이지만, 비용도 함께 온다",
+      "path": "topics/17_is_korean_ai_sovereignty_an_opportunity_or_burden_for_lg.md",
+      "priority": "P2",
+      "priority_score": 3.58,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.76,
+        "issue_salience": 3.98,
+        "strategic_impact": 3.1,
+        "urgency": 2.17,
+        "actionability": 2.13
+      },
+      "priority_rationale": "최신성 4.8, 이슈성 4.0이 우선순위를 주도한다. 강점 요소는 최신성·이슈성이며, 최신 기준일 2026-06-22, 최근 180일 Source 비율 80%.",
+      "priority_rank": 9
+    },
+    {
+      "number": 5,
+      "id": "topic_what_did_palantir_ask_lg",
+      "title": "Palantir가 LG에 던진 질문은 솔루션 도입이 아니었다",
+      "path": "topics/05_what_did_palantir_ask_lg.md",
+      "priority": "P2",
+      "priority_score": 3.5,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 5.0,
+        "issue_salience": 2.85,
+        "strategic_impact": 3.21,
+        "urgency": 2.09,
+        "actionability": 3.35
+      },
+      "priority_rationale": "최신성 5.0, 이슈성 2.9이 우선순위를 주도한다. 강점 요소는 최신성·실행 가능성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 100%.",
+      "priority_rank": 10
+    },
+    {
+      "number": 12,
+      "id": "topic_what_is_lg_real_ai_moat",
+      "title": "LG의 진짜 AI Moat는 모델보다 물리 세계 데이터에 있다",
+      "path": "topics/12_what_is_lg_real_ai_moat.md",
+      "priority": "P2",
+      "priority_score": 3.5,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.7,
+        "issue_salience": 3.07,
+        "strategic_impact": 3.96,
+        "urgency": 1.69,
+        "actionability": 2.75
+      },
+      "priority_rationale": "최신성 4.7, 이슈성 3.1이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 75%.",
+      "priority_rank": 11
+    },
+    {
+      "number": 6,
+      "id": "topic_can_lg_win_ai_mobility_without_making_cars",
+      "title": "LG는 완성차를 만들지 않아도 AI Mobility의 핵심 레이어를 잡을 수 있다",
+      "path": "topics/06_can_lg_win_ai_mobility_without_making_cars.md",
+      "priority": "P2",
+      "priority_score": 3.46,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.7,
+        "issue_salience": 3.21,
+        "strategic_impact": 3.22,
+        "urgency": 2.53,
+        "actionability": 2.27
+      },
+      "priority_rationale": "최신성 4.7, 이슈성 3.2이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-22, 최근 180일 Source 비율 75%.",
+      "priority_rank": 12
+    },
+    {
+      "number": 14,
+      "id": "topic_should_lg_build_foundation_models_or_focus_on_industry_models",
+      "title": "LG는 foundation model을 키우되, 승부는 산업 특화 AI에서 봐야 한다",
+      "path": "topics/14_should_lg_build_foundation_models_or_focus_on_industry_models.md",
+      "priority": "P2",
+      "priority_score": 3.46,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 5.0,
+        "issue_salience": 2.85,
+        "strategic_impact": 3.58,
+        "urgency": 1.5,
+        "actionability": 3.09
+      },
+      "priority_rationale": "최신성 5.0, 이슈성 2.9이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 100%.",
+      "priority_rank": 13
+    },
+    {
+      "number": 15,
+      "id": "topic_how_should_enterprise_ax_performance_be_measured",
+      "title": "Enterprise AX의 성과는 사용량이 아니라 일이 바뀐 정도로 측정해야 한다",
+      "path": "topics/15_how_should_enterprise_ax_performance_be_measured.md",
+      "priority": "P2",
+      "priority_score": 3.39,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.6,
+        "issue_salience": 2.13,
+        "strategic_impact": 3.38,
+        "urgency": 2.65,
+        "actionability": 4.02
+      },
+      "priority_rationale": "최신성 4.6, 이슈성 2.1이 우선순위를 주도한다. 강점 요소는 최신성·실행 가능성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 67%.",
+      "priority_rank": 14
+    },
+    {
+      "number": 2,
+      "id": "topic_how_competitive_is_exaone_globally",
+      "title": "EXAONE의 경쟁력은 글로벌 1등 모델이 아니라 산업 맥락에 있다",
+      "path": "topics/02_how_competitive_is_exaone_globally.md",
+      "priority": "P2",
+      "priority_score": 3.27,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 5.0,
+        "issue_salience": 2.31,
+        "strategic_impact": 3.01,
+        "urgency": 2.17,
+        "actionability": 2.61
+      },
+      "priority_rationale": "최신성 5.0, 이슈성 2.3이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 100%.",
+      "priority_rank": 15
+    },
+    {
+      "number": 7,
+      "id": "topic_is_physical_ai_more_than_smart_factory_rebranding",
+      "title": "Physical AI는 스마트팩토리의 이름만 바꾼 것이 아니다",
+      "path": "topics/07_is_physical_ai_more_than_smart_factory_rebranding.md",
+      "priority": "P2",
+      "priority_score": 3.23,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.6,
+        "issue_salience": 2.96,
+        "strategic_impact": 3.2,
+        "urgency": 1.5,
+        "actionability": 2.46
+      },
+      "priority_rationale": "최신성 4.6, 이슈성 3.0이 우선순위를 주도한다. 강점 요소는 최신성·전략 영향도이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 67%.",
+      "priority_rank": 16
+    },
+    {
+      "number": 8,
+      "id": "topic_can_battery_software_become_lges_next_platform",
+      "title": "배터리 SW는 셀을 플랫폼으로 바꿀 수 있다",
+      "path": "topics/08_can_battery_software_become_lges_next_platform.md",
+      "priority": "P2",
+      "priority_score": 3.12,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.2,
+        "issue_salience": 2.6,
+        "strategic_impact": 2.75,
+        "urgency": 2.22,
+        "actionability": 3.23
+      },
+      "priority_rationale": "최신성 4.2, 이슈성 2.6이 우선순위를 주도한다. 강점 요소는 최신성·실행 가능성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 33%.",
+      "priority_rank": 17
+    },
+    {
+      "number": 10,
+      "id": "topic_can_ai_for_science_change_lg_rnd_productivity",
+      "title": "AI for Science는 R&D의 속도를 바꾸지만, 성공률을 자동으로 보장하지는 않는다",
+      "path": "topics/10_can_ai_for_science_change_lg_rnd_productivity.md",
+      "priority": "P2",
+      "priority_score": 3.1,
+      "priority_updated": "2026-06-22",
+      "priority_model": "recency_issue_v1",
+      "priority_factors": {
+        "recency": 4.4,
+        "issue_salience": 3.17,
+        "strategic_impact": 2.48,
+        "urgency": 1.88,
+        "actionability": 2.13
+      },
+      "priority_rationale": "최신성 4.4, 이슈성 3.2이 우선순위를 주도한다. 강점 요소는 최신성·이슈성이며, 최신 기준일 2026-06-21, 최근 180일 Source 비율 50%.",
+      "priority_rank": 18
+    }
+  ]
+}

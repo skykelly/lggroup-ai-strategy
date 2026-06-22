@@ -1,0 +1,33 @@
+---
+import type { KnowledgeEntity } from "../lib/content";
+import { themeLabel } from "../lib/content";
+
+interface Props {
+  entity: KnowledgeEntity;
+  href: string;
+}
+
+const { entity, href } = Astro.props;
+const label = entity.type === "company"
+  ? entity.category === "partner" ? "Partner" : "LG affiliate"
+  : entity.type === "concept" ? "Concept" : "Opportunity theme";
+---
+
+<article class="entity-card">
+  <a href={href}>
+    {entity.heroImage ? (
+      <div class="entity-card-image"><img src={entity.heroImage} alt="" loading="lazy" /></div>
+    ) : (
+      <div class="entity-card-signal" aria-hidden="true"><span></span><span></span></div>
+    )}
+    <div class="entity-card-body">
+      <div class="entity-card-meta"><span>{label}</span><b>{entity.source_ids.length} sources</b></div>
+      <h3>{entity.title}</h3>
+      <p>{entity.summary || `${entity.title}의 LG AI 전략 내 역할과 관련 사업기회를 정리합니다.`}</p>
+      <div class="entity-card-footer">
+        <span>{entity.primary_theme ? themeLabel(entity.primary_theme) : `${entity.related_themes.length} themes`}</span>
+        <b>↗</b>
+      </div>
+    </div>
+  </a>
+</article>

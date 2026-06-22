@@ -1,0 +1,52 @@
+---
+import type { SourceEntity } from "../lib/content";
+
+interface Props {
+  sources: SourceEntity[];
+}
+
+const { sources } = Astro.props;
+---
+
+<button class="evidence-trigger" type="button" data-evidence-open>
+  <span>Evidence</span>
+  <strong>{sources.length}</strong>
+  <small>verified sources</small>
+</button>
+
+<dialog class="evidence-dialog" data-evidence-dialog>
+  <div class="evidence-panel">
+    <header>
+      <div>
+        <span>Evidence ledger</span>
+        <h2>이 글의 근거 자료</h2>
+      </div>
+      <button type="button" data-evidence-close aria-label="출처 패널 닫기">×</button>
+    </header>
+    <div class="evidence-list">
+      {sources.map((source, index) => (
+        <article>
+          <span>{String(index + 1).padStart(2, "0")}</span>
+          <div>
+            <small>{source.publisher} · {source.published}</small>
+            <h3><a href={`/sources/${source.slug}`}>{source.title}</a></h3>
+            <p>{source.summary}</p>
+            <div>
+              <a href={`/sources/${source.slug}`}>Source Card</a>
+              {source.url && <a href={source.url} target="_blank" rel="noopener noreferrer">원문 열기 ↗</a>}
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</dialog>
+
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>("[data-evidence-dialog]");
+  const open = document.querySelector<HTMLButtonElement>("[data-evidence-open]");
+  const close = document.querySelector<HTMLButtonElement>("[data-evidence-close]");
+  open?.addEventListener("click", () => dialog?.showModal());
+  close?.addEventListener("click", () => dialog?.close());
+  dialog?.addEventListener("click", (event) => event.target === dialog && dialog.close());
+</script>

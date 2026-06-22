@@ -1,0 +1,604 @@
+{
+  "themes": {
+    "ai_data_center_infra": {
+      "title": "AI Data Center / Infra",
+      "companies": [
+        {
+          "id": "lg-corp",
+          "title": "LG Corp.",
+          "category": "lg_affiliate",
+          "path": "companies/lg-corp.md"
+        },
+        {
+          "id": "lg-ai-research",
+          "title": "LG AI Research",
+          "category": "lg_affiliate",
+          "path": "companies/lg-ai-research.md"
+        },
+        {
+          "id": "lg-uplus",
+          "title": "LG U+",
+          "category": "lg_affiliate",
+          "path": "companies/lg-uplus.md"
+        },
+        {
+          "id": "lg-cns",
+          "title": "LG CNS",
+          "category": "lg_affiliate",
+          "path": "companies/lg-cns.md"
+        },
+        {
+          "id": "lg-electronics",
+          "title": "LG Electronics",
+          "category": "lg_affiliate",
+          "path": "companies/lg-electronics.md"
+        },
+        {
+          "id": "lg-energy-solution",
+          "title": "LG Energy Solution",
+          "category": "lg_affiliate",
+          "path": "companies/lg-energy-solution.md"
+        },
+        {
+          "id": "lg-innotek",
+          "title": "LG Innotek",
+          "category": "lg_affiliate",
+          "path": "companies/lg-innotek.md"
+        },
+        {
+          "id": "nvidia",
+          "title": "NVIDIA",
+          "category": "partner",
+          "path": "companies/partners/nvidia.md"
+        },
+        {
+          "id": "skild-ai",
+          "title": "Skild AI",
+          "category": "partner",
+          "path": "companies/partners/skild-ai.md"
+        },
+        {
+          "id": "palantir",
+          "title": "Palantir",
+          "category": "partner",
+          "path": "companies/partners/palantir.md"
+        },
+        {
+          "id": "qualcomm",
+          "title": "Qualcomm",
+          "category": "partner",
+          "path": "companies/partners/qualcomm.md"
+        },
+        {
+          "id": "sdverse",
+          "title": "SDVerse",
+          "category": "partner",
+          "path": "companies/partners/sdverse.md"
+        },
+        {
+          "id": "sinar-mas-group",
+          "title": "Sinar Mas Group",
+          "category": "partner",
+          "path": "companies/partners/sinar-mas-group.md"
+        },
+        {
+          "id": "microsoft",
+          "title": "Microsoft",
+          "category": "partner",
+          "path": "companies/partners/microsoft.md"
+        },
+        {
+          "id": "ls-electric",
+          "title": "LS ELECTRIC",
+          "category": "partner",
+          "path": "companies/partners/ls-electric.md"
+        },
+        {
+          "id": "ls-cable-system",
+          "title": "LS Cable & System",
+          "category": "partner",
+          "path": "companies/partners/ls-cable-system.md"
+        },
+        {
+          "id": "grc",
+          "title": "GRC",
+          "category": "partner",
+          "path": "companies/partners/grc.md"
+        },
+        {
+          "id": "sk-enmove",
+          "title": "SK Enmove",
+          "category": "partner",
+          "path": "companies/partners/sk-enmove.md"
+        }
+      ]
+    },
+    "physical_ai_smart_manufacturing": {
+      "title": "Physical AI / Smart Manufacturing",
+      "companies": [
+        {
+          "id": "lg-corp",
+          "title": "LG Corp.",
+          "category": "lg_affiliate",
+          "path": "companies/lg-corp.md"
+        },
+        {
+          "id": "lg-ai-research",
+          "title": "LG AI Research",
+          "category": "lg_affiliate",
+          "path": "companies/lg-ai-research.md"
+        },
+        {
+          "id": "lg-uplus",
+          "title": "LG U+",
+          "category": "lg_affiliate",
+          "path": "companies/lg-uplus.md"
+        },
+        {
+          "id": "lg-cns",
+          "title": "LG CNS",
+          "category": "lg_affiliate",
+          "path": "companies/lg-cns.md"
+        },
+        {
+          "id": "lg-electronics",
+          "title": "LG Electronics",
+          "category": "lg_affiliate",
+          "path": "companies/lg-electronics.md"
+        },
+        {
+          "id": "lg-energy-solution",
+          "title": "LG Energy Solution",
+          "category": "lg_affiliate",
+          "path": "companies/lg-energy-solution.md"
+        },
+        {
+          "id": "lg-display",
+          "title": "LG Display",
+          "category": "lg_affiliate",
+          "path": "companies/lg-display.md"
+        },
+        {
+          "id": "lg-innotek",
+          "title": "LG Innotek",
+          "category": "lg_affiliate",
+          "path": "companies/lg-innotek.md"
+        },
+        {
+          "id": "lg-chem",
+          "title": "LG Chem",
+          "category": "lg_affiliate",
+          "path": "companies/lg-chem.md"
+        },
+        {
+          "id": "nvidia",
+          "title": "NVIDIA",
+          "category": "partner",
+          "path": "companies/partners/nvidia.md"
+        },
+        {
+          "id": "skild-ai",
+          "title": "Skild AI",
+          "category": "partner",
+          "path": "companies/partners/skild-ai.md"
+        },
+        {
+          "id": "palantir",
+          "title": "Palantir",
+          "category": "partner",
+          "path": "companies/partners/palantir.md"
+        },
+        {
+          "id": "qualcomm",
+          "title": "Qualcomm",
+          "category": "partner",
+          "path": "companies/partners/qualcomm.md"
+        },
+        {
+          "id": "sdverse",
+          "title": "SDVerse",
+          "category": "partner",
+          "path": "companies/partners/sdverse.md"
+        },
+        {
+          "id": "applied-intuition",
+          "title": "Applied Intuition",
+          "category": "partner",
+          "path": "companies/partners/applied-intuition.md"
+        }
+      ]
+    },
+    "ai_mobility_sdv_aidv": {
+      "title": "AI Mobility / SDV·AIDV",
+      "companies": [
+        {
+          "id": "lg-corp",
+          "title": "LG Corp.",
+          "category": "lg_affiliate",
+          "path": "companies/lg-corp.md"
+        },
+        {
+          "id": "lg-ai-research",
+          "title": "LG AI Research",
+          "category": "lg_affiliate",
+          "path": "companies/lg-ai-research.md"
+        },
+        {
+          "id": "lg-uplus",
+          "title": "LG U+",
+          "category": "lg_affiliate",
+          "path": "companies/lg-uplus.md"
+        },
+        {
+          "id": "lg-cns",
+          "title": "LG CNS",
+          "category": "lg_affiliate",
+          "path": "companies/lg-cns.md"
+        },
+        {
+          "id": "lg-electronics",
+          "title": "LG Electronics",
+          "category": "lg_affiliate",
+          "path": "companies/lg-electronics.md"
+        },
+        {
+          "id": "lg-energy-solution",
+          "title": "LG Energy Solution",
+          "category": "lg_affiliate",
+          "path": "companies/lg-energy-solution.md"
+        },
+        {
+          "id": "lg-display",
+          "title": "LG Display",
+          "category": "lg_affiliate",
+          "path": "companies/lg-display.md"
+        },
+        {
+          "id": "lg-innotek",
+          "title": "LG Innotek",
+          "category": "lg_affiliate",
+          "path": "companies/lg-innotek.md"
+        },
+        {
+          "id": "nvidia",
+          "title": "NVIDIA",
+          "category": "partner",
+          "path": "companies/partners/nvidia.md"
+        },
+        {
+          "id": "skild-ai",
+          "title": "Skild AI",
+          "category": "partner",
+          "path": "companies/partners/skild-ai.md"
+        },
+        {
+          "id": "palantir",
+          "title": "Palantir",
+          "category": "partner",
+          "path": "companies/partners/palantir.md"
+        },
+        {
+          "id": "qualcomm",
+          "title": "Qualcomm",
+          "category": "partner",
+          "path": "companies/partners/qualcomm.md"
+        },
+        {
+          "id": "sdverse",
+          "title": "SDVerse",
+          "category": "partner",
+          "path": "companies/partners/sdverse.md"
+        },
+        {
+          "id": "applied-intuition",
+          "title": "Applied Intuition",
+          "category": "partner",
+          "path": "companies/partners/applied-intuition.md"
+        }
+      ]
+    },
+    "enterprise_ax_agentic_operating_model": {
+      "title": "Enterprise AX / Agentic Operating Model",
+      "companies": [
+        {
+          "id": "lg-corp",
+          "title": "LG Corp.",
+          "category": "lg_affiliate",
+          "path": "companies/lg-corp.md"
+        },
+        {
+          "id": "lg-ai-research",
+          "title": "LG AI Research",
+          "category": "lg_affiliate",
+          "path": "companies/lg-ai-research.md"
+        },
+        {
+          "id": "lg-uplus",
+          "title": "LG U+",
+          "category": "lg_affiliate",
+          "path": "companies/lg-uplus.md"
+        },
+        {
+          "id": "lg-cns",
+          "title": "LG CNS",
+          "category": "lg_affiliate",
+          "path": "companies/lg-cns.md"
+        },
+        {
+          "id": "lg-electronics",
+          "title": "LG Electronics",
+          "category": "lg_affiliate",
+          "path": "companies/lg-electronics.md"
+        },
+        {
+          "id": "lg-energy-solution",
+          "title": "LG Energy Solution",
+          "category": "lg_affiliate",
+          "path": "companies/lg-energy-solution.md"
+        },
+        {
+          "id": "lg-display",
+          "title": "LG Display",
+          "category": "lg_affiliate",
+          "path": "companies/lg-display.md"
+        },
+        {
+          "id": "lg-innotek",
+          "title": "LG Innotek",
+          "category": "lg_affiliate",
+          "path": "companies/lg-innotek.md"
+        },
+        {
+          "id": "lg-chem",
+          "title": "LG Chem",
+          "category": "lg_affiliate",
+          "path": "companies/lg-chem.md"
+        },
+        {
+          "id": "lg-household-health-care",
+          "title": "LG Household & Health Care",
+          "category": "lg_affiliate",
+          "path": "companies/lg-household-health-care.md"
+        },
+        {
+          "id": "nvidia",
+          "title": "NVIDIA",
+          "category": "partner",
+          "path": "companies/partners/nvidia.md"
+        },
+        {
+          "id": "skild-ai",
+          "title": "Skild AI",
+          "category": "partner",
+          "path": "companies/partners/skild-ai.md"
+        },
+        {
+          "id": "palantir",
+          "title": "Palantir",
+          "category": "partner",
+          "path": "companies/partners/palantir.md"
+        },
+        {
+          "id": "qualcomm",
+          "title": "Qualcomm",
+          "category": "partner",
+          "path": "companies/partners/qualcomm.md"
+        },
+        {
+          "id": "sdverse",
+          "title": "SDVerse",
+          "category": "partner",
+          "path": "companies/partners/sdverse.md"
+        },
+        {
+          "id": "dd-pharmatech",
+          "title": "D&D Pharmatech",
+          "category": "partner",
+          "path": "companies/partners/dd-pharmatech.md"
+        },
+        {
+          "id": "microsoft",
+          "title": "Microsoft",
+          "category": "partner",
+          "path": "companies/partners/microsoft.md"
+        }
+      ]
+    },
+    "ai_for_science_bio_materials_battery": {
+      "title": "AI for Science / Bio / Materials / Battery",
+      "companies": [
+        {
+          "id": "lg-ai-research",
+          "title": "LG AI Research",
+          "category": "lg_affiliate",
+          "path": "companies/lg-ai-research.md"
+        },
+        {
+          "id": "lg-uplus",
+          "title": "LG U+",
+          "category": "lg_affiliate",
+          "path": "companies/lg-uplus.md"
+        },
+        {
+          "id": "lg-cns",
+          "title": "LG CNS",
+          "category": "lg_affiliate",
+          "path": "companies/lg-cns.md"
+        },
+        {
+          "id": "lg-electronics",
+          "title": "LG Electronics",
+          "category": "lg_affiliate",
+          "path": "companies/lg-electronics.md"
+        },
+        {
+          "id": "lg-energy-solution",
+          "title": "LG Energy Solution",
+          "category": "lg_affiliate",
+          "path": "companies/lg-energy-solution.md"
+        },
+        {
+          "id": "lg-chem",
+          "title": "LG Chem",
+          "category": "lg_affiliate",
+          "path": "companies/lg-chem.md"
+        },
+        {
+          "id": "lg-household-health-care",
+          "title": "LG Household & Health Care",
+          "category": "lg_affiliate",
+          "path": "companies/lg-household-health-care.md"
+        },
+        {
+          "id": "lg-technology-ventures",
+          "title": "LG Technology Ventures",
+          "category": "lg_affiliate",
+          "path": "companies/lg-technology-ventures.md"
+        },
+        {
+          "id": "nvidia",
+          "title": "NVIDIA",
+          "category": "partner",
+          "path": "companies/partners/nvidia.md"
+        },
+        {
+          "id": "palantir",
+          "title": "Palantir",
+          "category": "partner",
+          "path": "companies/partners/palantir.md"
+        },
+        {
+          "id": "dd-pharmatech",
+          "title": "D&D Pharmatech",
+          "category": "partner",
+          "path": "companies/partners/dd-pharmatech.md"
+        },
+        {
+          "id": "vanderbilt-university-medical-center",
+          "title": "Vanderbilt University Medical Center",
+          "category": "partner",
+          "path": "companies/partners/vanderbilt-university-medical-center.md"
+        }
+      ]
+    },
+    "global_ai_alliance_open_innovation": {
+      "title": "Global AI Alliance / Open Innovation",
+      "companies": [
+        {
+          "id": "lg-corp",
+          "title": "LG Corp.",
+          "category": "lg_affiliate",
+          "path": "companies/lg-corp.md"
+        },
+        {
+          "id": "lg-ai-research",
+          "title": "LG AI Research",
+          "category": "lg_affiliate",
+          "path": "companies/lg-ai-research.md"
+        },
+        {
+          "id": "lg-uplus",
+          "title": "LG U+",
+          "category": "lg_affiliate",
+          "path": "companies/lg-uplus.md"
+        },
+        {
+          "id": "lg-cns",
+          "title": "LG CNS",
+          "category": "lg_affiliate",
+          "path": "companies/lg-cns.md"
+        },
+        {
+          "id": "lg-electronics",
+          "title": "LG Electronics",
+          "category": "lg_affiliate",
+          "path": "companies/lg-electronics.md"
+        },
+        {
+          "id": "lg-energy-solution",
+          "title": "LG Energy Solution",
+          "category": "lg_affiliate",
+          "path": "companies/lg-energy-solution.md"
+        },
+        {
+          "id": "lg-display",
+          "title": "LG Display",
+          "category": "lg_affiliate",
+          "path": "companies/lg-display.md"
+        },
+        {
+          "id": "lg-innotek",
+          "title": "LG Innotek",
+          "category": "lg_affiliate",
+          "path": "companies/lg-innotek.md"
+        },
+        {
+          "id": "lg-chem",
+          "title": "LG Chem",
+          "category": "lg_affiliate",
+          "path": "companies/lg-chem.md"
+        },
+        {
+          "id": "lg-household-health-care",
+          "title": "LG Household & Health Care",
+          "category": "lg_affiliate",
+          "path": "companies/lg-household-health-care.md"
+        },
+        {
+          "id": "lg-technology-ventures",
+          "title": "LG Technology Ventures",
+          "category": "lg_affiliate",
+          "path": "companies/lg-technology-ventures.md"
+        },
+        {
+          "id": "nvidia",
+          "title": "NVIDIA",
+          "category": "partner",
+          "path": "companies/partners/nvidia.md"
+        },
+        {
+          "id": "skild-ai",
+          "title": "Skild AI",
+          "category": "partner",
+          "path": "companies/partners/skild-ai.md"
+        },
+        {
+          "id": "palantir",
+          "title": "Palantir",
+          "category": "partner",
+          "path": "companies/partners/palantir.md"
+        },
+        {
+          "id": "qualcomm",
+          "title": "Qualcomm",
+          "category": "partner",
+          "path": "companies/partners/qualcomm.md"
+        },
+        {
+          "id": "sdverse",
+          "title": "SDVerse",
+          "category": "partner",
+          "path": "companies/partners/sdverse.md"
+        },
+        {
+          "id": "dd-pharmatech",
+          "title": "D&D Pharmatech",
+          "category": "partner",
+          "path": "companies/partners/dd-pharmatech.md"
+        },
+        {
+          "id": "sinar-mas-group",
+          "title": "Sinar Mas Group",
+          "category": "partner",
+          "path": "companies/partners/sinar-mas-group.md"
+        },
+        {
+          "id": "applied-intuition",
+          "title": "Applied Intuition",
+          "category": "partner",
+          "path": "companies/partners/applied-intuition.md"
+        }
+      ]
+    }
+  }
+}

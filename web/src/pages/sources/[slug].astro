@@ -1,0 +1,66 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCompanies, getConcepts, getSources, getTopics, themeLabel } from "../../lib/content";
+
+export async function getStaticPaths() {
+  const [sources, topics, companies, concepts] = await Promise.all([
+    getSources(), getTopics(), getCompanies(), getConcepts()
+  ]);
+  return sources.map((source) => ({
+    params: { slug: source.slug },
+    props: {
+      source,
+      relatedTopics: topics.filter((topic) => source.related_topics.includes(topic.id)),
+      relatedCompanies: companies.filter((company) => source.related_companies.includes(company.slug)),
+      relatedConcepts: concepts.filter((concept) => source.related_concepts.includes(concept.slug))
+    }
+  }));
+}
+
+const { source, relatedTopics, relatedCompanies, relatedConcepts } = Astro.props;
+---
+
+<BaseLayout title={`${source.title} — Source`} description={source.summary} image={source.heroImage}>
+  <article class="source-detail">
+    <header class="source-detail-header">
+      <div class="source-detail-meta">
+        <span>Source card</span>
+        <time>{source.published}</time>
+      </div>
+      <h1>{source.title}</h1>
+      <div class="source-byline">
+        <strong>{source.publisher}</strong>
+        {source.url && <a href={source.url} target="_blank" rel="noopener noreferrer">원문 열기 ↗</a>}
+      </div>
+      <p>{source.summary}</p>
+      <div class="source-theme-links">
+        {source.related_themes.map((theme) => <a href={`/themes/${theme}`}>{themeLabel(theme)}</a>)}
+      </div>
+    </header>
+
+    <div class="source-detail-layout">
+      <aside class="source-relations">
+        <div><strong>{relatedTopics.length}</strong><span>questions</span></div>
+        <div><strong>{relatedCompanies.length}</strong><span>companies</span></div>
+        <div><strong>{relatedConcepts.length}</strong><span>concepts</span></div>
+      </aside>
+      <div class="source-prose prose" set:html={source.html}></div>
+    </div>
+
+    {relatedTopics.length > 0 && (
+      <section class="entity-questions">
+        <div class="section-heading horizontal">
+          <div><span class="eyebrow">Used in</span><h2>이 근거를 사용한 전략 질문</h2></div>
+        </div>
+        <div class="question-link-list">
+          {relatedTopics.map((topic) => (
+            <a href={`/insights/${topic.slug}`}>
+              <span>Q{String(topic.number).padStart(2, "0")}</span>
+              <strong>{topic.title}</strong><b>↗</b>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+</BaseLayout>

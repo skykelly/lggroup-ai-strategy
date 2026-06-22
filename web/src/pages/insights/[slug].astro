@@ -1,0 +1,113 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SourcePanel from "../../components/SourcePanel.astro";
+import { getSources, getTopics, themeLabel } from "../../lib/content";
+
+export async function getStaticPaths() {
+  const [topics, sources] = await Promise.all([getTopics(), getSources()]);
+  return topics.map((topic, index) => ({
+    params: { slug: topic.slug },
+    props: {
+      topic,
+      previous: topics[index - 1],
+      next: topics[index + 1],
+      relatedSources: sources.filter((source) => topic.source_ids.includes(source.id))
+    }
+  }));
+}
+
+const { topic, previous, next, relatedSources } = Astro.props;
+---
+
+<BaseLayout title={`${topic.title} — LG AI Strategy Journal`} description={topic.short_answer} image={topic.heroImage} type="article" published={topic.updated}>
+  <div class="reading-progress" data-reading-progress></div>
+  <article class="article-page">
+    <header class="article-header">
+      <div class="article-heading">
+        <div class="article-meta">
+          <span>Strategic Question {String(topic.number).padStart(2, "0")}</span>
+          <span>{topic.priority} · Score {topic.priorityScore.toFixed(2)}</span>
+          <span>{topic.updated}</span>
+          <span>{topic.readingTime} min read</span>
+        </div>
+        <h1>{topic.title}</h1>
+        <p class="article-subtitle">{topic.subtitle}</p>
+        <div class="article-themes">
+          {topic.related_themes.map((theme) => <a href={`/insights?theme=${theme}`}>{themeLabel(theme)}</a>)}
+        </div>
+      </div>
+      <aside class="question-card">
+        <span>Core question</span>
+        <p>{topic.question}</p>
+      </aside>
+    </header>
+
+    {topic.heroImage && (
+      <div class="article-hero-image">
+        <img src={topic.heroImage} alt="" />
+        <span>Source image from research archive</span>
+      </div>
+    )}
+
+    <div class="article-layout">
+      <aside class="article-rail">
+        <div class="toc" data-toc>
+          <span>On this page</span>
+          <nav></nav>
+        </div>
+      </aside>
+      <div class="article-main">
+        <section class="answer-block">
+          <span>Short answer</span>
+          <p>{topic.short_answer}</p>
+        </section>
+        <div class="prose" set:html={topic.html}></div>
+      </div>
+      <aside class="entity-rail">
+        <div>
+          <span>Related concepts</span>
+          <ul>{topic.related_concepts.slice(0, 6).map((concept) => <li>{concept.replace(/-/g, " ")}</li>)}</ul>
+        </div>
+        <SourcePanel sources={relatedSources} />
+      </aside>
+    </div>
+
+    <nav class="article-pagination" aria-label="다른 전략 질문">
+      {previous ? (
+        <a href={`/insights/${previous.slug}`} class="previous">
+          <span>Previous question</span>
+          <strong>{previous.title}</strong>
+        </a>
+      ) : <span></span>}
+      {next && (
+        <a href={`/insights/${next.slug}`} class="next">
+          <span>Next question</span>
+          <strong>{next.title}</strong>
+        </a>
+      )}
+    </nav>
+  </article>
+
+  <script>
+    const prose = document.querySelector(".prose");
+    const toc = document.querySelector("[data-toc] nav");
+    if (prose && toc) {
+      const headings = [...prose.querySelectorAll("h2")];
+      headings.forEach((heading, index) => {
+        const id = `section-${index + 1}`;
+        heading.id = id;
+        const link = document.createElement("a");
+        link.href = `#${id}`;
+        link.textContent = heading.textContent.replace(/^\d+\.\s*/, "");
+        toc.append(link);
+      });
+    }
+    const progress = document.querySelector<HTMLElement>("[data-reading-progress]");
+    const updateProgress = () => {
+      const height = document.documentElement.scrollHeight - innerHeight;
+      if (progress) progress.style.transform = `scaleX(${height > 0 ? scrollY / height : 0})`;
+    };
+    addEventListener("scroll", updateProgress, { passive: true });
+    updateProgress();
+  </script>
+</BaseLayout>
