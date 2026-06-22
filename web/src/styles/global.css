@@ -194,13 +194,14 @@ img {
   position: relative;
   display: grid;
   min-height: calc(100vh - 76px);
-  padding: clamp(90px, 12vh, 150px) max(40px, calc((100vw - 1380px) / 2));
+  padding: clamp(60px, 8vh, 96px) max(40px, calc((100vw - 1500px) / 2));
   overflow: hidden;
-  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: clamp(42px, 5vw, 88px);
+  grid-template-columns: minmax(420px, 0.8fr) minmax(560px, 1.2fr);
   align-items: center;
   background:
-    radial-gradient(circle at 82% 20%, rgb(53 109 255 / 10%), transparent 25%),
-    linear-gradient(140deg, #f7f9fb 0%, #eef2f6 100%);
+    radial-gradient(circle at 82% 20%, rgb(53 109 255 / 8%), transparent 25%),
+    linear-gradient(140deg, #f7f9fb 0%, #edf1f5 100%);
 }
 
 .hero-grid {
@@ -211,13 +212,21 @@ img {
     linear-gradient(rgb(16 28 53 / 7%) 1px, transparent 1px),
     linear-gradient(90deg, rgb(16 28 53 / 7%) 1px, transparent 1px);
   background-size: 72px 72px;
-  mask-image: linear-gradient(to right, transparent, black 35%, black 80%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 18%, black 88%, transparent);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  min-height: 630px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero-copy {
   position: relative;
-  z-index: 2;
-  max-width: 970px;
+  max-width: 690px;
 }
 
 .hero-kicker,
@@ -231,9 +240,9 @@ img {
 .hero h1 {
   margin: 28px 0 32px;
   font-family: var(--display);
-  font-size: clamp(48px, 6.6vw, 100px);
+  font-size: clamp(52px, 5.2vw, 82px);
   font-weight: 700;
-  line-height: 1.08;
+  line-height: 1.07;
   letter-spacing: -0.065em;
 }
 
@@ -288,17 +297,23 @@ img {
   position: relative;
   z-index: 2;
   display: grid;
-  align-self: end;
-  margin-bottom: 12px;
+  max-width: 620px;
+  margin-top: 64px;
   border-top: 1px solid var(--navy);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .hero-index > div {
-  display: grid;
-  padding: 18px 0;
-  border-bottom: 1px solid var(--line);
-  grid-template-columns: 56px 1fr;
-  align-items: baseline;
+  display: flex;
+  min-width: 0;
+  padding: 18px 16px 0 0;
+  flex-direction: column;
+  border-right: 1px solid var(--line);
+  gap: 6px;
+}
+
+.hero-index > div + div {
+  padding-left: 18px;
 }
 
 .hero-index strong {
@@ -312,60 +327,179 @@ img {
   text-transform: uppercase;
 }
 
-.hero-signal {
+.hero-carousel {
+  position: relative;
+  z-index: 2;
+  min-width: 0;
+  border: 1px solid rgb(16 28 53 / 16%);
+  background: #dce1e5;
+  box-shadow: 0 30px 80px rgb(16 28 53 / 18%);
+}
+
+.hero-carousel::before {
   position: absolute;
-  top: 10%;
-  right: 4%;
-  width: 37vw;
-  height: 72%;
-  opacity: 0.8;
-  pointer-events: none;
-}
-
-.signal-line {
-  position: absolute;
-  display: block;
-  border: 1px solid rgb(165 0 52 / 30%);
-  border-radius: 50%;
-}
-
-.line-a {
-  inset: 8% 4% 8% 4%;
-  transform: rotate(-18deg);
-}
-
-.line-b {
-  inset: 20% 18% 20% 18%;
-  border-color: rgb(53 109 255 / 28%);
-  transform: rotate(25deg);
-}
-
-.signal-dot {
-  position: absolute;
-  width: 11px;
-  height: 11px;
-  border: 3px solid var(--paper);
-  border-radius: 50%;
+  z-index: 3;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  width: 6px;
+  content: "";
   background: var(--red);
-  box-shadow: 0 0 0 1px var(--red);
-  animation: pulse 2.5s ease-in-out infinite;
 }
 
-.dot-a {
-  top: 17%;
-  right: 19%;
+.hero-slides {
+  position: relative;
+  aspect-ratio: 2560 / 1396;
+  overflow: hidden;
 }
 
-.dot-b {
-  right: 32%;
-  bottom: 12%;
-  background: var(--blue);
-  box-shadow: 0 0 0 1px var(--blue);
-  animation-delay: 900ms;
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.035);
+  transition:
+    opacity 700ms ease,
+    visibility 700ms ease,
+    transform 6s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
-@keyframes pulse {
-  50% { transform: scale(1.6); opacity: 0.55; }
+.hero-slide.active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.hero-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-slide figcaption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding: 46px 28px 22px;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  color: var(--white);
+  background: linear-gradient(transparent, rgb(7 14 27 / 82%));
+}
+
+.hero-slide figcaption span {
+  flex: none;
+  color: #ff9bbb;
+  font: 10px var(--mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero-slide figcaption strong {
+  font-size: clamp(14px, 1.2vw, 18px);
+  font-weight: 600;
+  text-align: right;
+}
+
+.hero-carousel-controls {
+  display: grid;
+  min-height: 74px;
+  padding: 0 18px 0 24px;
+  align-items: center;
+  color: var(--white);
+  background: var(--navy);
+  grid-template-columns: 76px 1fr auto;
+  gap: 18px;
+}
+
+.hero-slide-count {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  font: 11px var(--mono);
+}
+
+.hero-slide-count strong {
+  color: #ff8aae;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hero-slide-dots {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(8, minmax(12px, 1fr));
+}
+
+.hero-slide-dots button {
+  position: relative;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hero-slide-dots button::before {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: 0;
+  height: 1px;
+  content: "";
+  background: rgb(255 255 255 / 26%);
+}
+
+.hero-slide-dots button span {
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #778195;
+  transition: background 180ms ease, transform 180ms ease;
+}
+
+.hero-slide-dots button[aria-selected="true"] span {
+  background: #ff6d9b;
+  transform: scale(1.45);
+}
+
+.hero-slide-dots button:focus-visible {
+  outline: 1px solid #ff8aae;
+  outline-offset: 1px;
+}
+
+.hero-slide-arrows {
+  display: flex;
+  gap: 5px;
+}
+
+.hero-slide-arrows button {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid rgb(255 255 255 / 24%);
+  color: var(--white);
+  background: transparent;
+  cursor: pointer;
+  place-items: center;
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
+.hero-slide-arrows button:hover,
+.hero-slide-arrows button:focus-visible {
+  border-color: #ff8aae;
+  background: rgb(255 255 255 / 8%);
 }
 
 .section {
@@ -2367,7 +2501,8 @@ img {
   transform: none;
 }
 
-.js .hero-index {
+.js .hero-index,
+.js .hero-carousel {
   transition-delay: 180ms;
 }
 
@@ -2380,22 +2515,22 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .hero-content {
+    min-height: auto;
+  }
+
   .hero-index {
-    display: flex;
     max-width: 600px;
-    margin-top: 80px;
-    gap: 28px;
+    margin-top: 64px;
   }
 
   .hero-index > div {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+    padding-bottom: 4px;
   }
 
-  .hero-signal {
-    right: -12%;
-    width: 55vw;
+  .hero-carousel {
+    width: min(100%, 900px);
+    margin-top: 12px;
   }
 
   .radar-wrap {
@@ -2681,7 +2816,8 @@ img {
 
   .hero {
     min-height: auto;
-    padding: 100px 20px 70px;
+    padding: 82px 16px 54px;
+    gap: 44px;
   }
 
   .hero h1 {
@@ -2699,14 +2835,16 @@ img {
   }
 
   .hero-index {
-    display: grid;
-    margin-top: 64px;
-    gap: 0;
+    margin-top: 48px;
     grid-template-columns: repeat(3, 1fr);
   }
 
   .hero-index > div {
-    padding-right: 8px;
+    padding: 14px 8px 0 0;
+  }
+
+  .hero-index > div + div {
+    padding-left: 10px;
   }
 
   .hero-index strong {
@@ -2717,10 +2855,51 @@ img {
     font-size: 8px;
   }
 
-  .hero-signal {
-    top: 5%;
-    right: -45%;
-    width: 110vw;
+  .hero-carousel {
+    width: calc(100% + 32px);
+    margin: 0 -16px;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: 0 22px 52px rgb(16 28 53 / 18%);
+  }
+
+  .hero-carousel::before {
+    width: 4px;
+  }
+
+  .hero-slide figcaption {
+    padding: 34px 16px 14px;
+    gap: 12px;
+  }
+
+  .hero-slide figcaption span {
+    font-size: 8px;
+  }
+
+  .hero-slide figcaption strong {
+    max-width: 62%;
+    font-size: 11px;
+  }
+
+  .hero-carousel-controls {
+    min-height: 64px;
+    padding: 0 12px 0 16px;
+    grid-template-columns: 58px 1fr auto;
+    gap: 10px;
+  }
+
+  .hero-slide-count {
+    gap: 4px;
+    font-size: 9px;
+  }
+
+  .hero-slide-count strong {
+    font-size: 15px;
+  }
+
+  .hero-slide-arrows button {
+    width: 31px;
+    height: 31px;
   }
 
   .section {

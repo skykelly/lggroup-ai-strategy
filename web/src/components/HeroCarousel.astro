@@ -1,0 +1,121 @@
+---
+const slides = [
+  { image: "lggroup_ax_00.png", label: "Strategy architecture", title: "LG가 선도하는 피지컬 인텔리전스" },
+  { image: "lggroup_ax_01.png", label: "Theme 01", title: "AI Data Center & Infrastructure" },
+  { image: "lggroup_ax_02.png", label: "Theme 02", title: "Physical AI & Smart Manufacturing" },
+  { image: "lggroup_ax_03.png", label: "Theme 03", title: "AI Mobility" },
+  { image: "lggroup_ax_04.png", label: "Theme 04", title: "Enterprise AX" },
+  { image: "lggroup_ax_05.png", label: "Theme 05", title: "AI for Science" },
+  { image: "lggroup_ax_06.png", label: "Theme 06", title: "Global AI Alliance" },
+  { image: "lggroup_ax_07.png", label: "Opportunity map", title: "One LG AI Opportunity Portfolio" }
+];
+---
+
+<div class="hero-carousel reveal" data-hero-carousel aria-roledescription="carousel" aria-label="LG Group AI 사업기회 이미지">
+  <div class="hero-slides" aria-live="off">
+    {slides.map((slide, index) => (
+      <figure
+        class:list={["hero-slide", { active: index === 0 }]}
+        data-hero-slide
+        aria-hidden={index === 0 ? "false" : "true"}
+      >
+        <img
+          src={`/assets/hero_images/${slide.image}`}
+          alt={slide.title}
+          width="2560"
+          height="1396"
+          loading={index === 0 ? "eager" : "lazy"}
+          fetchpriority={index === 0 ? "high" : "auto"}
+        />
+        <figcaption>
+          <span>{slide.label}</span>
+          <strong>{slide.title}</strong>
+        </figcaption>
+      </figure>
+    ))}
+  </div>
+
+  <div class="hero-carousel-controls">
+    <div class="hero-slide-count" aria-hidden="true">
+      <strong data-hero-current>01</strong>
+      <span>/</span>
+      <span>{String(slides.length).padStart(2, "0")}</span>
+    </div>
+    <div class="hero-slide-dots" role="tablist" aria-label="이미지 선택">
+      {slides.map((slide, index) => (
+        <button
+          type="button"
+          role="tab"
+          aria-label={`${index + 1}번 이미지: ${slide.title}`}
+          aria-selected={index === 0 ? "true" : "false"}
+          data-hero-dot
+        >
+          <span></span>
+        </button>
+      ))}
+    </div>
+    <div class="hero-slide-arrows">
+      <button type="button" data-hero-prev aria-label="이전 이미지">←</button>
+      <button type="button" data-hero-next aria-label="다음 이미지">→</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const carousel = document.querySelector<HTMLElement>("[data-hero-carousel]");
+
+  if (carousel) {
+    const slides = [...carousel.querySelectorAll<HTMLElement>("[data-hero-slide]")];
+    const dots = [...carousel.querySelectorAll<HTMLButtonElement>("[data-hero-dot]")];
+    const current = carousel.querySelector<HTMLElement>("[data-hero-current]");
+    const previous = carousel.querySelector<HTMLButtonElement>("[data-hero-prev]");
+    const next = carousel.querySelector<HTMLButtonElement>("[data-hero-next]");
+    const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let activeIndex = 0;
+    let timer: number | undefined;
+
+    const showSlide = (index: number) => {
+      activeIndex = (index + slides.length) % slides.length;
+      slides.forEach((slide, slideIndex) => {
+        const isActive = slideIndex === activeIndex;
+        slide.classList.toggle("active", isActive);
+        slide.setAttribute("aria-hidden", String(!isActive));
+      });
+      dots.forEach((dot, dotIndex) => dot.setAttribute("aria-selected", String(dotIndex === activeIndex)));
+      if (current) current.textContent = String(activeIndex + 1).padStart(2, "0");
+    };
+
+    const stop = () => {
+      if (timer) window.clearInterval(timer);
+      timer = undefined;
+    };
+
+    const start = () => {
+      stop();
+      if (!reducedMotion) timer = window.setInterval(() => showSlide(activeIndex + 1), 6000);
+    };
+
+    previous?.addEventListener("click", () => {
+      showSlide(activeIndex - 1);
+      start();
+    });
+    next?.addEventListener("click", () => {
+      showSlide(activeIndex + 1);
+      start();
+    });
+    dots.forEach((dot, index) => dot.addEventListener("click", () => {
+      showSlide(index);
+      start();
+    }));
+    carousel.addEventListener("mouseenter", stop);
+    carousel.addEventListener("mouseleave", start);
+    carousel.addEventListener("focusin", stop);
+    carousel.addEventListener("focusout", start);
+    carousel.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft") showSlide(activeIndex - 1);
+      if (event.key === "ArrowRight") showSlide(activeIndex + 1);
+    });
+
+    start();
+  }
+</script>

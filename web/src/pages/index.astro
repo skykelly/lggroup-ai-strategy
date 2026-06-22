@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import HeroCarousel from "../components/HeroCarousel.astro";
 import StrategyRadar from "../components/StrategyRadar.astro";
 import TopicCard from "../components/TopicCard.astro";
 import { getTopics, THEME_META } from "../lib/content";
@@ -12,32 +13,29 @@ const moreTopics = topics.slice(3, 9);
 <BaseLayout>
   <section class="hero">
     <div class="hero-grid"></div>
-    <div class="hero-copy reveal">
-      <span class="hero-kicker">LG Group AI Opportunity Research · 2026</span>
-      <h1>
-        AI가 산업을 바꿀 때,<br />
-        <em>LG는 무엇을 장악해야 하는가.</em>
-      </h1>
-      <p>
-        모델 경쟁 너머의 전력, 냉각, 제조, 모빌리티, 연구개발. 공개 출처와 18개의 전략 질문으로
-        LG의 다음 사업기회를 추적합니다.
-      </p>
-      <div class="hero-actions">
-        <a class="button primary" href="/insights">전략 질문 읽기</a>
-        <a class="button text" href="#radar">6대 테마 탐색 <span>↓</span></a>
+    <div class="hero-content">
+      <div class="hero-copy reveal">
+        <span class="hero-kicker">LG Group AI Opportunity Research · 2026</span>
+        <h1>
+          AI가 산업을 바꿀 때,<br />
+          <em>LG는 무엇을 장악해야 하는가.</em>
+        </h1>
+        <p>
+          모델 경쟁 너머의 전력, 냉각, 제조, 모빌리티, 연구개발. 공개 출처와 18개의 전략 질문으로
+          LG의 다음 사업기회를 추적합니다.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="/insights">전략 질문 읽기</a>
+          <a class="button text" href="#radar">6대 테마 탐색 <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-index reveal">
+        <div><strong>06</strong><span>Opportunity themes</span></div>
+        <div><strong>18</strong><span>Strategic questions</span></div>
+        <div><strong>87</strong><span>Verified sources</span></div>
       </div>
     </div>
-    <div class="hero-index reveal">
-      <div><strong>06</strong><span>Opportunity themes</span></div>
-      <div><strong>18</strong><span>Strategic questions</span></div>
-      <div><strong>87</strong><span>Verified sources</span></div>
-    </div>
-    <div class="hero-signal" aria-hidden="true">
-      <span class="signal-line line-a"></span>
-      <span class="signal-line line-b"></span>
-      <span class="signal-dot dot-a"></span>
-      <span class="signal-dot dot-b"></span>
-    </div>
+    <HeroCarousel />
   </section>
 
   <section class="section radar-section" id="radar">

@@ -3,6 +3,7 @@ dist/
 .astro/
 .vercel/
 web/public/assets/images/
+web/public/assets/hero_images/
 web-dev.stdout.log
 web-dev.stderr.log
 __pycache__/
