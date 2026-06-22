@@ -1,0 +1,106 @@
+---
+import { THEME_META } from "../lib/content";
+
+const slides = Object.entries(THEME_META).map(([id, theme], index) => ({
+  id,
+  image: `lggroup_ax_0${index + 1}.png`,
+  ...theme
+}));
+---
+
+<div class="strategy-carousel reveal" data-strategy-carousel>
+  <div class="strategy-track" data-strategy-track tabindex="0" aria-label="6개 AI 전략 테마">
+    {slides.map((slide) => (
+      <article class="strategy-slide" id={`strategy-${slide.id}`} data-strategy-slide>
+        <div class="strategy-slide-copy">
+          <span>Theme {slide.number}</span>
+          <div>
+            <h3>{slide.title}</h3>
+            <p>{slide.description}</p>
+          </div>
+          <a href={`/themes/${slide.id}`} aria-label={`${slide.title} 자세히 보기`}>↗</a>
+        </div>
+        <a class="strategy-slide-image" href={`/themes/${slide.id}`}>
+          <img
+            src={`/assets/hero_images/${slide.image}`}
+            alt={`${slide.title} 전략 이미지`}
+            width="960"
+            height="456"
+            loading="lazy"
+          />
+        </a>
+      </article>
+    ))}
+  </div>
+  <div class="strategy-arrows">
+    <button type="button" data-strategy-prev aria-label="이전 테마">←</button>
+    <button type="button" data-strategy-next aria-label="다음 테마">→</button>
+  </div>
+</div>
+
+<script>
+  const carousel = document.querySelector<HTMLElement>("[data-strategy-carousel]");
+
+  if (carousel) {
+    const track = carousel.querySelector<HTMLElement>("[data-strategy-track]");
+    const slides = [...carousel.querySelectorAll<HTMLElement>("[data-strategy-slide]")];
+    const previous = carousel.querySelector<HTMLButtonElement>("[data-strategy-prev]");
+    const next = carousel.querySelector<HTMLButtonElement>("[data-strategy-next]");
+    let pointerStartX = 0;
+    let pointerStartScroll = 0;
+    let pointerStartIndex = 0;
+    let pointerActive = false;
+
+    const activeIndex = () => {
+      if (!track || !slides.length) return 0;
+      return slides.reduce((closest, slide, index) => {
+        const currentDistance = Math.abs(slide.offsetLeft - track.scrollLeft);
+        const closestDistance = Math.abs(slides[closest].offsetLeft - track.scrollLeft);
+        return currentDistance < closestDistance ? index : closest;
+      }, 0);
+    };
+
+    const move = (direction: number) => {
+      const target = Math.max(0, Math.min(slides.length - 1, activeIndex() + direction));
+      slides[target]?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+    };
+
+    previous?.addEventListener("click", () => move(-1));
+    next?.addEventListener("click", () => move(1));
+    track?.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        move(-1);
+      }
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        move(1);
+      }
+    });
+    track?.addEventListener("pointerdown", (event) => {
+      pointerActive = true;
+      pointerStartX = event.clientX;
+      pointerStartScroll = track.scrollLeft;
+      pointerStartIndex = activeIndex();
+      track.setPointerCapture(event.pointerId);
+      track.classList.add("dragging");
+    });
+    track?.addEventListener("pointermove", (event) => {
+      if (!pointerActive) return;
+      track.scrollLeft = pointerStartScroll - (event.clientX - pointerStartX);
+    });
+    const finishPointer = (event: PointerEvent) => {
+      if (!pointerActive || !track) return;
+      pointerActive = false;
+      track.releasePointerCapture(event.pointerId);
+      track.classList.remove("dragging");
+      const delta = event.clientX - pointerStartX;
+      const targetIndex = Math.abs(delta) > 55
+        ? Math.max(0, Math.min(slides.length - 1, pointerStartIndex + (delta < 0 ? 1 : -1)))
+        : pointerStartIndex;
+      slides[targetIndex]?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+    };
+    track?.addEventListener("pointerup", finishPointer);
+    track?.addEventListener("pointercancel", finishPointer);
+  }
+</script>

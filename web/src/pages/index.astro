@@ -1,103 +1,153 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HeroCarousel from "../components/HeroCarousel.astro";
-import StrategyRadar from "../components/StrategyRadar.astro";
+import HeroSphere from "../components/HeroSphere.astro";
+import StrategyCarousel from "../components/StrategyCarousel.astro";
 import TopicCard from "../components/TopicCard.astro";
-import { getTopics, THEME_META } from "../lib/content";
+import { getCompanies, getTopics } from "../lib/content";
 
-const topics = await getTopics();
+const [topics, companies] = await Promise.all([getTopics(), getCompanies()]);
 const featured = topics.slice(0, 3);
-const moreTopics = topics.slice(3, 9);
+const featuredMore = topics.slice(3, 6);
+const companyProfiles = [
+  {
+    slug: "lg-electronics",
+    number: "01",
+    color: "#A50034",
+    description: "AI 데이터센터 냉각·전력과 스마트팩토리, 차량 경험을 잇는 피지컬 AI 제품 축"
+  },
+  {
+    slug: "lg-cns",
+    number: "02",
+    color: "#596579",
+    description: "AI Factory, Enterprise AX, 데이터센터 운영을 실제 산업 워크플로로 구현하는 실행 축"
+  },
+  {
+    slug: "lg-ai-research",
+    number: "03",
+    color: "#6750A4",
+    description: "EXAONE과 산업 특화 모델을 기반으로 그룹의 공통 AI 두뇌와 연구 역량을 구축"
+  },
+  {
+    slug: "lg-energy-solution",
+    number: "04",
+    color: "#356DFF",
+    description: "배터리 데이터·BMS 소프트웨어·ESS를 모빌리티와 AI 인프라의 지능형 에너지 축으로 확장"
+  },
+  {
+    slug: "lg-innotek",
+    number: "05",
+    color: "#008E9B",
+    description: "카메라·센싱·통신 부품을 자율주행과 Physical AI가 현실을 인식하는 감각 레이어로 전환"
+  },
+  {
+    slug: "lg-chem",
+    number: "06",
+    color: "#DB3A62",
+    description: "소재·바이오 연구 데이터와 AI를 결합해 실험 속도와 신사업 탐색 범위를 확대"
+  }
+].map((profile) => ({
+  ...profile,
+  company: companies.find((company) => company.slug === profile.slug)
+})).filter((profile) => profile.company);
 ---
 
 <BaseLayout>
-  <section class="hero">
-    <div class="hero-grid"></div>
-    <div class="hero-content">
-      <div class="hero-copy reveal">
-        <span class="hero-kicker">LG Group AI Opportunity Research · 2026</span>
-        <h1>
-          AI가 산업을 바꿀 때,<br />
-          <em>LG는 무엇을 장악해야 하는가.</em>
-        </h1>
-        <p>
-          모델 경쟁 너머의 전력, 냉각, 제조, 모빌리티, 연구개발. 공개 출처와 18개의 전략 질문으로
-          LG의 다음 사업기회를 추적합니다.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="/insights">전략 질문 읽기</a>
-          <a class="button text" href="#radar">6대 테마 탐색 <span>↓</span></a>
-        </div>
-      </div>
-      <div class="hero-index reveal">
-        <div><strong>06</strong><span>Opportunity themes</span></div>
-        <div><strong>18</strong><span>Strategic questions</span></div>
-        <div><strong>87</strong><span>Verified sources</span></div>
-      </div>
-    </div>
-    <HeroCarousel />
+  <div class="home-page">
+  <section class="hero sphere-hero snap-section" id="home" data-snap-label="Overview">
+    <HeroSphere />
+    <h1 class="sphere-question">AI가 산업을 바꿀 때,<br />LG는 무엇을 장악해야 하는가?</h1>
   </section>
 
-  <section class="section radar-section" id="radar">
+  <section class="radar-section strategy-showcase-section snap-section" id="radar" data-snap-label="Strategy themes">
     <div class="section-heading reveal">
       <span class="eyebrow">Strategy map</span>
-      <h2>하나의 AI 전략이 아니라,<br />연결된 여섯 개의 산업 레이어</h2>
-      <p>테마를 선택하면 LG의 사업 자산이 AI 가치사슬에서 어떤 역할을 갖는지 확인할 수 있습니다.</p>
+      <h2>Six AI Strategy Themes</h2>
+      <p>물리적 세계와 산업 현장의 AI를 위한 ONE LG 청사진</p>
     </div>
-    <StrategyRadar />
+    <StrategyCarousel />
   </section>
 
-  <section class="section featured-section">
+  <section class="section featured-section snap-section" id="featured" data-snap-label="Featured insights">
     <div class="section-heading horizontal reveal">
       <div>
         <span class="eyebrow">Featured insights</span>
         <h2>지금 먼저 읽어야 할 질문</h2>
       </div>
-      <a class="section-link" href="/insights">18개 질문 전체 보기 <span>→</span></a>
     </div>
     <div class="featured-grid">
       {featured.map((topic, index) => <TopicCard topic={topic} featured={index === 0} />)}
     </div>
+    <div class="featured-more-grid">
+      {featuredMore.map((topic) => <TopicCard topic={topic} />)}
+    </div>
+    <div class="section-action reveal">
+      <a class="button primary" href="/insights">더 보기 <span>→</span></a>
+    </div>
   </section>
 
-  <section class="section themes-section" id="themes">
+  <section class="section themes-section snap-section" id="companies" data-snap-label="LG companies">
     <div class="section-heading reveal">
       <span class="eyebrow">Six opportunity fields</span>
-      <h2>LG가 이미 가진 자산에서<br />AI 사업기회를 다시 읽습니다.</h2>
+      <h2>여섯 개 회사가 만드는<br />ONE LG AI 포트폴리오</h2>
+      <p>각 계열사의 산업 자산과 데이터가 하나의 AI 가치사슬에서 맡는 역할을 살펴봅니다.</p>
     </div>
     <div class="theme-list">
-      {Object.entries(THEME_META).map(([id, theme]) => (
-        <a class="theme-row reveal" href={`/insights?theme=${id}`} style={`--row-color:${theme.color}`}>
-          <span class="theme-number">{theme.number}</span>
-          <h3>{theme.title}</h3>
-          <p>{theme.description}</p>
+      {companyProfiles.map(({ company, number, color, description }) => company && (
+        <a class="theme-row company-row reveal" href={`/companies/${company.slug}`} style={`--row-color:${color}`}>
+          <span class="theme-number">{number}</span>
+          <h3>{company.title}</h3>
+          <p>{description}</p>
           <span class="theme-arrow">↗</span>
         </a>
       ))}
     </div>
-  </section>
-
-  <section class="section more-section">
-    <div class="section-heading horizontal reveal">
-      <div>
-        <span class="eyebrow">Research journal</span>
-        <h2>이어지는 전략 리서치</h2>
-      </div>
-    </div>
-    <div class="topic-grid">
-      {moreTopics.map((topic) => <TopicCard topic={topic} />)}
+    <div class="section-action reveal">
+      <a class="button primary" href="/companies">더 보기 <span>→</span></a>
     </div>
   </section>
 
-  <section class="closing-statement reveal">
+  <section class="closing-statement reveal snap-section" id="closing" data-snap-label="Closing note">
     <p>AI 전략은 어떤 모델을 선택할지보다,<br /><strong>어떤 산업 지식을 남길지</strong>에서 시작합니다.</p>
     <a href="/insights">모든 인사이트 탐색 <span>→</span></a>
   </section>
+  </div>
+  <nav class="section-pagination" aria-label="메인 섹션 이동" data-section-pagination>
+    <a href="#home" aria-label="Overview" aria-current="true"><span>01</span><b>Overview</b></a>
+    <a href="#radar" aria-label="Strategy themes"><span>02</span><b>Strategy themes</b></a>
+    <a href="#featured" aria-label="Featured insights"><span>03</span><b>Featured insights</b></a>
+    <a href="#companies" aria-label="LG companies"><span>04</span><b>LG companies</b></a>
+    <a href="#closing" aria-label="Closing note"><span>05</span><b>Closing note</b></a>
+  </nav>
   <script>
+    document.documentElement.classList.add("home-scroll-snap");
     const observer = new IntersectionObserver(
       (entries) => entries.forEach((entry) => entry.isIntersecting && entry.target.classList.add("visible")),
       { threshold: 0.12 }
     );
     document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
+
+    const snapSections = [...document.querySelectorAll<HTMLElement>(".snap-section")];
+    const pagination = document.querySelector("[data-section-pagination]");
+    const paginationLinks = pagination ? [...pagination.querySelectorAll<HTMLAnchorElement>("a")] : [];
+    let paginationFrame = 0;
+
+    const updatePagination = () => {
+      paginationFrame = 0;
+      const marker = Math.min(180, innerHeight * 0.28);
+      let activeIndex = 0;
+      snapSections.forEach((section, index) => {
+        if (section.getBoundingClientRect().top <= marker) activeIndex = index;
+      });
+      paginationLinks.forEach((link, index) => {
+        if (index === activeIndex) link.setAttribute("aria-current", "true");
+        else link.removeAttribute("aria-current");
+      });
+    };
+
+    addEventListener("scroll", () => {
+      if (!paginationFrame) paginationFrame = requestAnimationFrame(updatePagination);
+    }, { passive: true });
+    addEventListener("resize", updatePagination, { passive: true });
+    updatePagination();
   </script>
 </BaseLayout>

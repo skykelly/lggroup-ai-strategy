@@ -1,0 +1,88 @@
+<div class="hero-sphere" aria-hidden="true">
+  <canvas data-hero-sphere></canvas>
+</div>
+
+<script>
+  const canvas = document.querySelector<HTMLCanvasElement>("[data-hero-sphere]");
+
+  if (canvas) {
+    const context = canvas.getContext("2d");
+    const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const pointCount = 820;
+    const points = Array.from({ length: pointCount }, (_, index) => {
+      const y = 1 - (index / (pointCount - 1)) * 2;
+      const radius = Math.sqrt(1 - y * y);
+      const theta = Math.PI * (3 - Math.sqrt(5)) * index;
+      return {
+        x: Math.cos(theta) * radius,
+        y,
+        z: Math.sin(theta) * radius
+      };
+    });
+    let width = 0;
+    let height = 0;
+    let angle = 0;
+    let frame = 0;
+
+    const resize = () => {
+      const ratio = Math.min(devicePixelRatio || 1, 2);
+      width = canvas.clientWidth;
+      height = canvas.clientHeight;
+      canvas.width = Math.round(width * ratio);
+      canvas.height = Math.round(height * ratio);
+      context?.setTransform(ratio, 0, 0, ratio, 0, 0);
+    };
+
+    const draw = () => {
+      if (!context) return;
+      context.clearRect(0, 0, width, height);
+      const sphereRadius = Math.min(width, height) * 0.34;
+      const centerX = width / 2;
+      const centerY = height / 2;
+      const tilt = -0.18;
+      const cosY = Math.cos(angle);
+      const sinY = Math.sin(angle);
+      const cosX = Math.cos(tilt);
+      const sinX = Math.sin(tilt);
+
+      const projected = points.map((point) => {
+        const rotatedX = point.x * cosY - point.z * sinY;
+        const rotatedZ = point.x * sinY + point.z * cosY;
+        const rotatedY = point.y * cosX - rotatedZ * sinX;
+        const depth = point.y * sinX + rotatedZ * cosX;
+        const perspective = 1 + depth * 0.16;
+        return {
+          x: centerX + rotatedX * sphereRadius * perspective,
+          y: centerY + rotatedY * sphereRadius * perspective,
+          depth
+        };
+      }).sort((a, b) => a.depth - b.depth);
+
+      projected.forEach((point) => {
+        const front = (point.depth + 1) / 2;
+        const size = 0.7 + front * 1.8;
+        context.beginPath();
+        context.arc(point.x, point.y, size, 0, Math.PI * 2);
+        context.fillStyle = front > 0.62
+          ? `rgba(224, 33, 91, ${0.28 + front * 0.65})`
+          : `rgba(218, 227, 242, ${0.08 + front * 0.38})`;
+        context.fill();
+      });
+
+      if (!reducedMotion) {
+        angle += 0.0024;
+        frame = requestAnimationFrame(draw);
+      }
+    };
+
+    const observer = new ResizeObserver(() => {
+      resize();
+      if (reducedMotion) draw();
+    });
+    observer.observe(canvas);
+    resize();
+    draw();
+
+    addEventListener("pagehide", () => cancelAnimationFrame(frame), { once: true });
+  }
+</script>
