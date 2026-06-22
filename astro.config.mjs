@@ -1,10 +1,20 @@
 import { defineConfig } from "astro/config";
+import vercel from "@astrojs/vercel";
+
+const deploymentHost =
+  process.env.SITE_URL ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:4321");
 
 export default defineConfig({
-  site: process.env.SITE_URL || "https://lg-ai-strategy-journal.pages.dev",
+  site: deploymentHost,
   srcDir: "./web/src",
   publicDir: "./web/public",
   output: "static",
+  adapter: vercel(),
   build: {
     assets: "_assets"
   },

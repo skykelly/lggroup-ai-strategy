@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .astro/
+.vercel/
 web/public/assets/images/
 web-dev.stdout.log
 web-dev.stderr.log

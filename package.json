@@ -4,14 +4,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "set ASTRO_TELEMETRY_DISABLED=1&& astro dev",
+    "dev": "node scripts/run-astro.mjs dev",
     "score:topics": "python scripts/score_topic_priorities.py",
     "refresh:topics": "python scripts/score_topic_priorities.py && python scripts/generate_step8_indexes.py",
-    "build": "node web/scripts/prepare-assets.mjs && set ASTRO_TELEMETRY_DISABLED=1&& astro build",
-    "preview": "set ASTRO_TELEMETRY_DISABLED=1&& astro preview",
-    "check": "set ASTRO_TELEMETRY_DISABLED=1&& astro check"
+    "build": "node web/scripts/prepare-assets.mjs && node scripts/run-astro.mjs build",
+    "preview": "node scripts/run-astro.mjs preview",
+    "check": "node scripts/run-astro.mjs check"
   },
   "dependencies": {
+    "@astrojs/vercel": "^10.0.8",
+    "@neondatabase/serverless": "^1.1.0",
     "astro": "^6.4.8",
     "marked": "^16.1.1",
     "yaml": "^2.8.3"

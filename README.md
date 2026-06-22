@@ -91,7 +91,7 @@ npm install
 npm run dev
 ```
 
-정적 배포 파일은 다음 명령으로 생성한다.
+배포 파일은 다음 명령으로 생성한다.
 
 ```powershell
 npm run check
@@ -125,8 +125,25 @@ npm run refresh:topics
 - Article Evidence Panel: 아티클 안에서 근거 자료 확인
 - Global Search: Insights, Themes, Companies, Concepts, Sources 통합 검색
 - SEO: canonical, Open Graph, JSON-LD, sitemap, robots, RSS
-- Deploy: Vercel 및 Cloudflare Pages 정적 배포 설정
+- Deploy: Vercel 정적 페이지 + Serverless API
 - 원본 콘텐츠: `topics/*.md`
 - 웹 이미지: 빌드 시 `assets/images/`에서 자동 복사
 
-배포 도메인이 정해지면 `SITE_URL` 환경변수를 실제 URL로 설정한다.
+## Vercel + Neon Postgres
+
+콘텐츠 페이지는 빌드 시 정적으로 생성하고, Neon을 사용하는 API만 Vercel
+Serverless Function으로 실행한다.
+
+1. Vercel에서 `skykelly/lggroup-ai-strategy` 저장소를 Import한다.
+2. Vercel Marketplace에서 Neon을 연결하거나 Neon에서 프로젝트를 만든다.
+3. Vercel 환경변수에 `DATABASE_URL`과 `SITE_URL`을 설정한다.
+4. Neon SQL Editor에서 `db/migrations/0001_app_metadata.sql`을 실행한다.
+5. 배포 후 `/api/health.json`에서 DB 연결 상태를 확인한다.
+
+로컬 설정은 `.env.example`을 `.env`로 복사한 뒤 실제 값을 입력한다. `.env`와
+실제 DB 인증 정보는 Git에 커밋하지 않는다.
+
+- `SITE_URL`: Vercel Production Domain
+- `DATABASE_URL`: Neon의 pooled connection string
+- DB 연결 코드: `web/src/lib/db.ts`
+- 연결 점검 API: `web/src/pages/api/health.json.ts`
