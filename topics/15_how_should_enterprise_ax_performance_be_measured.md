@@ -63,8 +63,8 @@ tags:
 > Enterprise AX의 성과를 “몇 명이 썼는가”, “프롬프트를 몇 번 입력했는가”로만 보면 실제 변화를 놓친다. AI가 조직의 일하는 방식에 들어왔는지 보려면 개인 생산성, 업무 cycle time, 의사결정 품질, 실행 자동화, 비용 절감, 시스템 연계, 데이터·ontology 축적을 함께 봐야 한다. AX의 KPI는 AI 사용량이 아니라 **업무가 얼마나 짧아지고, 판단이 얼마나 좋아지고, 실행이 얼마나 자동화되었는가**를 측정해야 한다.
 
 <figure>
-  <img src="assets/images/lgcns_ax_platform_service_development.png" alt="Enterprise AX 성과는 AI 플랫폼 도입률보다 실제 workflow 변화와 연결되어야 한다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>Enterprise AX 성과는 AI 플랫폼 도입률보다 실제 workflow 변화와 연결되어야 한다. 출처: <a href="https://www.lgcns.com/en/service/ai/ai-platform/">LG CNS</a></small></figcaption>
+  <img src="assets/images/lgenergy_ceo_ax_productivity.jpg" alt="LG에너지솔루션 CEO의 AX 생산성 언급은 Enterprise AX 성과 측정이 경영 의제로 부상했음을 보여준다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG에너지솔루션 CEO의 AX 생산성 언급은 Enterprise AX 성과 측정이 경영 의제로 부상했음을 보여준다. 출처: LG Energy Solution</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

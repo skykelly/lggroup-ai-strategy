@@ -59,8 +59,8 @@ tags:
 > 배터리 사업의 중심은 오랫동안 셀의 성능, 원가, 수율, 공급 안정성이었다. 하지만 SDV 시대에는 배터리가 차량 software가 이해해야 할 데이터 자산이 된다. 배터리 상태, 수명, 안전성, 열화, 충전 습관은 차량의 주행 경험과 유지비, 잔존가치, 안전성에 직접 영향을 준다. LG에너지솔루션이 BMS를 BMTS, SDVerse, Qualcomm Snapdragon Digital Chassis와 연결하는 흐름은 배터리를 단순 부품에서 **energy intelligence platform**으로 확장하려는 신호다.
 
 <figure>
-  <img src="assets/images/lgensol_baround_core_values.png" alt="B.around는 배터리 생애주기 전반을 진단·관리·서비스로 확장하는 BMTS 관점을 보여준다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>B.around는 배터리 생애주기 전반을 진단·관리·서비스로 확장하는 BMTS 관점을 보여준다. 출처: <a href="https://www.lgensol.com/mobile/en/business/baround">LG Energy Solution B.around</a></small></figcaption>
+  <img src="assets/images/lgensol_sdv_bms.png" alt="LG에너지솔루션의 SDV용 BMS는 배터리를 SDV 소프트웨어가 이해하는 에너지 intelligence platform으로 전환한다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG에너지솔루션의 SDV용 BMS는 배터리를 SDV 소프트웨어가 이해하는 에너지 intelligence platform으로 전환한다. 출처: LG Energy Solution</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

@@ -65,8 +65,8 @@ tags:
 > Physical AI는 스마트팩토리와 겹치지만 같은 말은 아니다. 스마트팩토리는 공장의 자동화, 모니터링, 품질, 생산성 향상에 초점을 두었다. Physical AI는 한 단계 더 나아가 AI가 물리 세계를 이해하고 행동할 수 있도록 실제 데이터, 합성 데이터, 디지털트윈, 로봇 시뮬레이션, edge deployment를 연결한다. LG에게 중요한 질문은 “스마트팩토리를 AI라고 다시 부를 것인가”가 아니라 **“제조 현장을 AI가 학습하고 실행하는 장으로 바꿀 수 있는가”**다.
 
 <figure>
-  <img src="assets/images/nvidia_lg_ai_factory_robot.png" alt="Physical AI는 AI를 실제 로봇·공장·차량 환경에 적용하기 위한 데이터, 시뮬레이션, 검증 workflow를 필요로 한다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>Physical AI는 AI를 실제 로봇·공장·차량 환경에 적용하기 위한 데이터, 시뮬레이션, 검증 workflow를 필요로 한다. 출처: <a href="https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/">NVIDIA Blog</a></small></figcaption>
+  <img src="assets/images/lgcns_factova_iot_expo.jpg" alt="LG CNS의 Factova는 스마트팩토리를 넘어 Physical AI가 실제 제조 현장에 적용되는 플랫폼을 보여준다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG CNS의 Factova는 스마트팩토리를 넘어 Physical AI가 실제 제조 현장에 적용되는 플랫폼을 보여준다. 출처: LG CNS</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

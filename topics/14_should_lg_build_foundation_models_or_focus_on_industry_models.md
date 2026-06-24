@@ -68,8 +68,8 @@ tags:
 > LG가 foundation model을 직접 키워야 하느냐는 질문은 “예/아니오”로 답하기 어렵다. EXAONE과 K-EXAONE은 LG가 AI를 이해하고 통제할 수 있게 만드는 중요한 기반 역량이다. 하지만 글로벌 frontier model과 오픈 모델의 발전 속도를 고려하면, LG가 범용 모델 성능 순위만으로 승부하는 것은 쉽지 않다. LG의 차별화는 foundation model 자체가 아니라, 그 모델을 **산업 문서, 제조 데이터, R&D 데이터, 고객·제품 lifecycle, 기업 workflow**에 붙여 산업 특화 AI로 만드는 데 있다.
 
 <figure>
-  <img src="assets/images/exaone_journey_timeline.png" alt="EXAONE은 LG가 자체 foundation model 역량을 축적해온 흐름을 보여준다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>EXAONE은 LG가 자체 foundation model 역량을 축적해온 흐름을 보여준다. 출처: <a href="https://www.lgresearch.ai/exaone/">LG AI Research</a></small></figcaption>
+  <img src="assets/images/exaone_discovery_operation.jpg" alt="EXAONE Discovery는 산업 특화 AI의 실제 운용 형태를 보여주는 사례로, foundation model과 industry model 전략의 접점이다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>EXAONE Discovery는 산업 특화 AI의 실제 운용 형태를 보여주는 사례로, foundation model과 industry model 전략의 접점이다. 출처: LG AI Research</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

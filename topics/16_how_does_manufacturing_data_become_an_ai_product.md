@@ -64,8 +64,8 @@ tags:
 > 제조 데이터는 많다고 바로 AI 제품이 되지 않는다. 설비 로그, 공정 조건, 불량 이력, 생산 계획, 작업자 노하우가 흩어져 있으면 그것은 원재료에 가깝다. 제조 데이터가 AI 제품이 되려면 품질 예측, 공정 최적화, 설비 이상 탐지, 로봇 시뮬레이션, 디지털트윈, 제조 Agent 같은 **고객이 구매할 수 있는 workflow**로 바뀌어야 한다. LG에게 중요한 것은 “데이터를 얼마나 쌓았는가”가 아니라 “데이터를 어떤 문제 해결 제품으로 바꾸었는가”다.
 
 <figure>
-  <img src="https://www.lg.com/content/dam/channel/wcms/global/newsroom/lg-story/beyond-news/executive-corner-lg-electronics-on-smart-factory-success-end-to-end-solution-and-experience-across-the-full-manufacturing-lifecycle/main-image-desktopmobile-ecsmart-464.png" alt="LG전자의 스마트팩토리 자산은 제조 데이터가 AI 제품으로 바뀔 수 있는 출발점이다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>LG전자의 스마트팩토리 자산은 제조 데이터가 AI 제품으로 바뀔 수 있는 출발점이다. 출처: <a href="https://www.lg.com/global/business/insights/smart-factory/news/lg-acclerates-smart-factory-solutions-business-integrating-ai-with-66-year-manufacturing-expertise/">LG Electronics Newsroom</a></small></figcaption>
+  <img src="assets/images/lgcns_ax_discovery.png" alt="LG CNS AX Discovery는 제조 데이터를 발굴·정제해 AI 제품으로 전환하는 데이터 파이프라인을 보여준다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG CNS AX Discovery는 제조 데이터를 발굴·정제해 AI 제품으로 전환하는 데이터 파이프라인을 보여준다. 출처: LG CNS</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

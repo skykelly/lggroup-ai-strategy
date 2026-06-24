@@ -65,8 +65,8 @@ tags:
 > AI for Science는 연구개발의 모든 문제를 한 번에 해결하는 마법이 아니다. 그러나 후보 탐색, 문헌·특허 분석, 실험 조건 설계, 배터리 설계, 소재 특성 예측처럼 시간이 많이 걸리는 탐색형 업무의 속도는 크게 바꿀 수 있다. LG에게 중요한 것은 AI가 좋은 답을 한 번 내는 것이 아니라, AI가 제안한 후보가 실제 실험과 검증을 거쳐 다시 데이터로 돌아오는 **closed-loop R&D**를 만드는 것이다.
 
 <figure>
-  <img src="assets/images/exaone_journey_timeline.png" alt="EXAONE은 범용 대화형 AI를 넘어 산업·과학 영역의 문제 해결로 확장되고 있다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>EXAONE은 범용 대화형 AI를 넘어 산업·과학 영역의 문제 해결로 확장되고 있다. 출처: <a href="https://www.lgresearch.ai/exaone/">LG AI Research</a></small></figcaption>
+  <img src="assets/images/lgchem_open_innovation_energy_materials.jpg" alt="LG화학의 Open Innovation 플랫폼은 AI와 외부 연구 협력을 통해 에너지·소재 R&D 속도를 높이는 방향을 보여준다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG화학의 Open Innovation 플랫폼은 AI와 외부 연구 협력을 통해 에너지·소재 R&D 속도를 높이는 방향을 보여준다. 출처: LG Chem</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

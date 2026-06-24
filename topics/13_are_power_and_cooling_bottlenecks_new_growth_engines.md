@@ -64,8 +64,8 @@ tags:
 > AI 데이터센터 경쟁은 GPU 수량만의 문제가 아니다. AI 모델이 커지고 rack density가 높아질수록 전력 인입, 전력 분배, 냉각, 계통 접속, 에너지 효율이 핵심 병목이 된다. 이 변화는 LG전자와 LG에너지솔루션에게 새로운 성장 기회가 될 수 있다. LG전자는 냉각과 운영 효율을, LG에너지솔루션은 전력 안정화와 ESS·UPS를, LG U+는 AIDC 운영 거점을 제공할 수 있다. 핵심은 개별 부품 판매가 아니라 **compute per megawatt를 높이는 통합 AI Infra package**다.
 
 <figure>
-  <img src="https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/eco-solution/lg-electronics-showcases-ai-data-center-cooling-solutions-at-data-center-world-2026/press-setting-image-desktop-tablet-dcw-1440.png" alt="LG전자의 1.4MW CDU는 AI 데이터센터의 고열·고밀도 문제를 겨냥한 cooling solution이다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>LG전자의 1.4MW CDU는 AI 데이터센터의 고열·고밀도 문제를 겨냥한 cooling solution이다. 출처: <a href="https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-showcases-ai-data-center-cooling-solutions-at-data-center-world-2026/">LG Electronics Newsroom</a></small></figcaption>
+  <img src="assets/images/img_koreatimes_cdu_01.jpg" alt="LG전자의 CDU(Coolant Distribution Unit)는 AI 데이터센터 고밀도 냉각 시장의 핵심 제품이다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG전자의 CDU(Coolant Distribution Unit)는 AI 데이터센터 고밀도 냉각 시장의 핵심 제품이다. 출처: The Korea Times</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

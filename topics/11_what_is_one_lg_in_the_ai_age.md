@@ -71,8 +71,8 @@ tags:
 > AI 시대에는 한 계열사만으로 풀기 어려운 문제가 늘어난다. AI 데이터센터에는 GPU뿐 아니라 전력, 냉각, 운영 소프트웨어, 네트워크, 데이터센터 설계가 필요하다. Physical AI에는 제조 데이터, 로봇, 디지털트윈, 시뮬레이션, AI 모델이 함께 필요하다. 이 지점에서 One LG는 실제 시너지가 될 수 있다. 다만 조건이 있다. 계열사를 나열하는 것이 아니라 **고객이 구매할 수 있는 package, 반복 가능한 운영 모델, 책임 있는 product owner**로 묶여야 한다.
 
 <figure>
-  <img src="assets/images/lg_nvidia_map_koo_huang_prn.jpg" alt="LG–NVIDIA M.A.P. 협력은 여러 계열사 자산이 하나의 AI stack으로 묶일 수 있음을 보여준다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>LG–NVIDIA M.A.P. 협력은 여러 계열사 자산이 하나의 AI stack으로 묶일 수 있음을 보여준다. 출처: <a href="https://www.prnewswire.com/news-releases/lg-teams-with-nvidia-to-shape-the-future-with-map-mobility--ai-infra--physical-ai-302793797.html">PRNewswire / LG</a></small></figcaption>
+  <img src="assets/images/lgcns_ax_fair_2026.jpg" alt="LG CNS AX Fair 2026은 계열사 AX 사례를 한 자리에서 공유하는 One LG 협업 생태계의 단면을 보여준다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG CNS AX Fair 2026은 계열사 AX 사례를 한 자리에서 공유하는 One LG 협업 생태계의 단면을 보여준다. 출처: LG CNS</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

@@ -68,8 +68,8 @@ tags:
 > AI Mobility 시대의 질문은 “누가 차를 만드는가”에서 “차 안팎의 AI 경험을 누가 설계하는가”로 이동하고 있다. LG는 완성차를 만들지 않지만, 차량용 디스플레이, in-cabin sensing, on-device AI, 배터리 소프트웨어, 카메라·라이다·레이더·통신 모듈을 갖고 있다. 차량이 SDV를 넘어 AIDV로 진화할수록 LG가 장악할 수 있는 영역은 완성차 자체가 아니라 **차량의 감각기관, 인터페이스, 에너지 지능, 탑승 경험**이다.
 
 <figure>
-  <img src="https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/vehicle-component-solutions/lg-showcases-future-of-mobility-with-ai-powered-in-vehicle-solutions-at-ces-2026/LG-AI-Powered-In-Vehicle-Solutions_image-1-D.png" alt="LG의 AI-powered in-vehicle solutions는 display, sensing, on-device AI를 하나의 in-vehicle experience로 묶는다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>LG의 AI-powered in-vehicle solutions는 display, sensing, on-device AI를 하나의 in-vehicle experience로 묶는다. 출처: <a href="https://www.lg.com/global/newsroom/news/vehicle-solutions/lg-showcases-future-of-mobility-with-ai-powered-in-vehicle-solutions-at-ces-2026/">LG Electronics Newsroom</a></small></figcaption>
+  <img src="assets/images/lgdisplay_ces2026_automotive_display.jpg" alt="LG디스플레이의 CES 2026 차량용 AI 디스플레이는 in-cabin 경험을 재정의하는 핵심 인터페이스 레이어다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG디스플레이의 CES 2026 차량용 AI 디스플레이는 in-cabin 경험을 재정의하는 핵심 인터페이스 레이어다. 출처: LG Display</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

@@ -69,8 +69,8 @@ tags:
 > AI 시대의 경쟁력을 모델만으로 설명하기는 어렵다. EXAONE처럼 LG가 통제할 수 있는 모델 layer는 중요하지만, 글로벌 frontier model과 오픈 모델이 빠르게 발전하는 환경에서는 모델 자체가 오래가는 moat가 되기 어렵다. LG에게 더 중요한 차별화는 제품, 공장, 고객 접점, 설치·서비스, 배터리, 모빌리티처럼 **물리 세계에서 반복적으로 쌓이는 데이터와 운영 노하우**다. 다만 데이터가 흩어져 있으면 moat가 되지 않는다. ontology와 Agent workflow로 연결되어야 방어 가능한 AI 자산이 된다.
 
 <figure>
-  <img src="assets/images/exaone_journey_timeline.png" alt="EXAONE은 LG가 통제할 수 있는 모델 layer지만, moat는 모델만으로 만들어지지 않는다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>EXAONE은 LG가 통제할 수 있는 모델 layer지만, moat는 모델만으로 만들어지지 않는다. 출처: <a href="https://www.lgresearch.ai/exaone/">LG AI Research</a></small></figcaption>
+  <img src="assets/images/lgcns_knowledge_data_pipeline.png" alt="LG CNS의 Knowledge·Data Pipeline은 데이터를 AI 자산으로 전환하는 구조적 moat의 핵심 인프라다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG CNS의 Knowledge·Data Pipeline은 데이터를 AI 자산으로 전환하는 구조적 moat의 핵심 인프라다. 출처: LG CNS</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

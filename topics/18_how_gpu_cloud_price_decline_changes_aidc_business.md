@@ -65,8 +65,8 @@ tags:
 > GPU Cloud 가격이 내려가면 AIDC 사업은 위험해질 수 있다. 단순히 GPU를 확보해 시간 단위로 빌려주는 모델은 가격 경쟁에 노출되기 때문이다. 하지만 가격 하락이 곧 수요 감소를 의미하지는 않는다. 오히려 inference 비용이 내려가면 AI 사용량과 workload는 늘어날 수 있다. 따라서 AIDC의 핵심은 GPU 가격이 아니라 **전력·냉각 효율, GPU utilization, workload orchestration, SLA, 보안, 산업 특화 workload**를 얼마나 잘 운영하느냐다.
 
 <figure>
-  <img src="assets/images/img_lguplus_paju_pulse_01.png" alt="GPU Cloud 가격이 하락하면 AIDC는 단순 GPU 임대가 아니라 운영 효율과 안정성으로 차별화해야 한다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>GPU Cloud 가격이 하락하면 AIDC는 단순 GPU 임대가 아니라 운영 효율과 안정성으로 차별화해야 한다. 출처: <a href="https://pulse.mk.co.kr/news/english/12068307">Pulse by Maeil Business News Korea</a></small></figcaption>
+  <img src="assets/images/lguplus_control_center.png" alt="LG U+의 AIDC 관제센터는 GPU 임대를 넘어 운영 안정성과 워크로드 효율로 차별화하는 방향을 보여준다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG U+의 AIDC 관제센터는 GPU 임대를 넘어 운영 안정성과 워크로드 효율로 차별화하는 방향을 보여준다. 출처: LG U+</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

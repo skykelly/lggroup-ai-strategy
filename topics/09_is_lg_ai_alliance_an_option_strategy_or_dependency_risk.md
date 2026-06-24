@@ -73,8 +73,8 @@ tags:
 > LG의 글로벌 AI Alliance는 선택지를 넓히는 전략이다. NVIDIA는 AI Infra와 Physical AI, Palantir는 enterprise ontology와 decision intelligence, Skild AI는 Robot Foundation Model, Qualcomm과 SDVerse는 SDV·battery software 확장을 빠르게 열어준다. 하지만 외부 파트너가 많아질수록 종속 리스크도 커진다. LG에게 중요한 것은 “누구와 제휴했는가”가 아니라 **제휴를 통해 어떤 데이터, workflow, 운영 노하우, 제품 구조를 내부 자산으로 남겼는가**다.
 
 <figure>
-  <img src="assets/images/lg_nvidia_map_koo_huang_prn.jpg" alt="NVIDIA와의 M.A.P. 협력은 LG의 글로벌 AI Alliance를 상징하는 대표 사례다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>NVIDIA와의 M.A.P. 협력은 LG의 글로벌 AI Alliance를 상징하는 대표 사례다. 출처: <a href="https://www.prnewswire.com/news-releases/lg-teams-with-nvidia-to-shape-the-future-with-map-mobility--ai-infra--physical-ai-302793797.html">PRNewswire / LG</a></small></figcaption>
+  <img src="assets/images/lgcns_skild_ai_hq.jpg" alt="LG CNS와 Skild AI의 협력은 Robot Foundation Model을 통한 AI Alliance 전략의 새로운 방향을 보여준다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>LG CNS와 Skild AI의 협력은 Robot Foundation Model을 통한 AI Alliance 전략의 새로운 방향을 보여준다. 출처: LG CNS / Skild AI</small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions

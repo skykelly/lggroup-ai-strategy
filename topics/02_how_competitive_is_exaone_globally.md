@@ -60,8 +60,8 @@ tags:
 > EXAONE을 GPT, Gemini, Claude 같은 글로벌 최상위 AI 플랫폼과 같은 기준으로만 비교하면 답은 단순해진다. 범용 성능, 생태계, 글로벌 이용자 기반에서는 글로벌 플랫폼이 앞서 있다. 하지만 EXAONE의 의미는 “세계 최고의 범용 챗봇”이 되는 데 있지 않다. LG가 가진 산업 문서, 제조 데이터, R&D 데이터, 한국어 업무 맥락과 결합될 때, EXAONE은 글로벌 범용 모델이 쉽게 대체하기 어려운 **산업 전용 지능 계층**이 될 수 있다.
 
 <figure>
-  <img src="assets/images/exaone_journey_timeline.png" alt="EXAONE은 2021년 1.0부터 2026년 4.5까지 멀티모달·추론·산업 적용 방향으로 진화해왔다." style="max-width:100%; border-radius:8px;" />
-  <figcaption><small>EXAONE은 2021년 1.0부터 2026년 4.5까지 멀티모달·추론·산업 적용 방향으로 진화해왔다. 출처: <a href="https://www.lgresearch.ai/exaone/">LG AI Research</a></small></figcaption>
+  <img src="assets/images/topic_02_lgai_exaone45_performance.png" alt="EXAONE 4.5는 글로벌 상위 모델들과 비교한 성능 벤치마크에서 산업·추론 영역의 경쟁력을 보여준다." style="max-width:100%; border-radius:8px;" />
+  <figcaption><small>EXAONE 4.5는 글로벌 상위 모델들과 비교한 성능 벤치마크에서 산업·추론 영역의 경쟁력을 보여준다. 출처: <a href="https://www.lgresearch.ai/exaone/">LG AI Research</a></small></figcaption>
 </figure>
 
 ## 1. Key Factors & Questions
