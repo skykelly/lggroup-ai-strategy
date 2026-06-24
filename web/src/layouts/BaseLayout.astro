@@ -74,10 +74,24 @@ const structuredData = {
         <a href="/concepts">Concepts</a>
         <a href="/sources">Sources</a>
       </nav>
-      <button class="search-trigger" type="button" aria-label="검색 열기" data-search-open>
-        <span>Search</span><kbd>⌘ K</kbd>
-      </button>
+      <div class="header-actions">
+        <button class="search-trigger" type="button" aria-label="검색 열기" data-search-open>
+          <span>Search</span><kbd>⌘ K</kbd>
+        </button>
+        <button class="hamburger" type="button" aria-label="메뉴 열기" aria-expanded="false" data-hamburger>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </header>
+    <nav class="mobile-nav" aria-hidden="true" data-mobile-nav>
+      <a href="/insights">Insights</a>
+      <a href="/themes">Themes</a>
+      <a href="/companies">Companies</a>
+      <a href="/concepts">Concepts</a>
+      <a href="/sources">Sources</a>
+    </nav>
     <main id="main">
       <slot />
     </main>
@@ -104,6 +118,21 @@ const structuredData = {
     <script>
       import { initSearch } from "../scripts/search";
       initSearch();
+    </script>
+    <script>
+      const hamburger = document.querySelector<HTMLButtonElement>("[data-hamburger]");
+      const mobileNav = document.querySelector<HTMLElement>("[data-mobile-nav]");
+      if (hamburger && mobileNav) {
+        const toggle = (open?: boolean) => {
+          const isOpen = open ?? hamburger.getAttribute("aria-expanded") !== "true";
+          hamburger.setAttribute("aria-expanded", String(isOpen));
+          mobileNav.setAttribute("aria-hidden", String(!isOpen));
+          hamburger.setAttribute("aria-label", isOpen ? "메뉴 닫기" : "메뉴 열기");
+        };
+        hamburger.addEventListener("click", () => toggle());
+        mobileNav.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => toggle(false)));
+        document.addEventListener("keydown", (e) => { if (e.key === "Escape") toggle(false); });
+      }
     </script>
   </body>
 </html>

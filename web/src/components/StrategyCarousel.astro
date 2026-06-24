@@ -77,28 +77,40 @@ const slides = Object.entries(THEME_META).map(([id, theme], index) => ({
         move(1);
       }
     });
+    let pointerDragging = false;
+
     track?.addEventListener("pointerdown", (event) => {
       pointerActive = true;
+      pointerDragging = false;
       pointerStartX = event.clientX;
       pointerStartScroll = track.scrollLeft;
       pointerStartIndex = activeIndex();
-      track.setPointerCapture(event.pointerId);
-      track.classList.add("dragging");
     });
     track?.addEventListener("pointermove", (event) => {
       if (!pointerActive) return;
-      track.scrollLeft = pointerStartScroll - (event.clientX - pointerStartX);
+      const delta = event.clientX - pointerStartX;
+      if (!pointerDragging && Math.abs(delta) > 5) {
+        pointerDragging = true;
+        track.setPointerCapture(event.pointerId);
+        track.classList.add("dragging");
+      }
+      if (pointerDragging) {
+        track.scrollLeft = pointerStartScroll - delta;
+      }
     });
     const finishPointer = (event: PointerEvent) => {
       if (!pointerActive || !track) return;
       pointerActive = false;
-      track.releasePointerCapture(event.pointerId);
-      track.classList.remove("dragging");
-      const delta = event.clientX - pointerStartX;
-      const targetIndex = Math.abs(delta) > 55
-        ? Math.max(0, Math.min(slides.length - 1, pointerStartIndex + (delta < 0 ? 1 : -1)))
-        : pointerStartIndex;
-      slides[targetIndex]?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+      if (pointerDragging) {
+        track.releasePointerCapture(event.pointerId);
+        track.classList.remove("dragging");
+        pointerDragging = false;
+        const delta = event.clientX - pointerStartX;
+        const targetIndex = Math.abs(delta) > 55
+          ? Math.max(0, Math.min(slides.length - 1, pointerStartIndex + (delta < 0 ? 1 : -1)))
+          : pointerStartIndex;
+        slides[targetIndex]?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+      }
     };
     track?.addEventListener("pointerup", finishPointer);
     track?.addEventListener("pointercancel", finishPointer);
