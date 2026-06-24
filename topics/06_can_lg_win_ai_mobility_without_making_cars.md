@@ -133,7 +133,7 @@ AI Mobility에서 차량은 세상을 봐야 한다. 이때 필요한 것이 cam
 LG에너지솔루션은 SDVerse에 참여하며 battery software를 SDV 환경으로 확장한다고 발표했다. 회사는 Battery Platform SW, Safety Diagnostic Calibration Tool, Onboard FRISM, Onboard BLiS, Onboard DASH 등 다섯 가지 battery software solution을 제시했다.
 
 <figure>
-  <img src="assets/images/lgensol_sdv_bms.png" alt="LG에너지솔루션은 B.around와 SDV BMS를 통해 배터리 데이터를 차량 software layer와 연결한다." style="max-width:100%; border-radius:8px;" />
+  <img src="https://www.lgensol.com/inc/images/img/serv_bms_pop1_mo_en.png" alt="LG에너지솔루션은 B.around와 SDV BMS를 통해 배터리 데이터를 차량 software layer와 연결한다." style="max-width:100%; border-radius:8px;" />
   <figcaption><small>LG에너지솔루션은 B.around와 SDV BMS를 통해 배터리 데이터를 차량 software layer와 연결한다. 출처: <a href="https://www.lgensol.com/mobile/en/business/baround">LG Energy Solution B.around</a></small></figcaption>
 </figure>
 

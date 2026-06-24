@@ -144,7 +144,7 @@ LG Smart Park는 이런 문제들이 실제 현장에서 작동할 수 있음을
 스마트팩토리는 공장을 효율화하는 언어였다. AI Factory는 한 단계 더 나아가 제조 현장을 AI가 배우고 검증하는 환경으로 만든다.
 
 <figure>
-  <img src="assets/images/nvidia_lg_ai_factory_robot.png" alt="AI Factory는 제조 데이터를 simulation, validation, deployment workflow로 연결한다." style="max-width:100%; border-radius:8px;" />
+  <img src="https://blogs.nvidia.com/wp-content/uploads/2026/06/kr-visit-lg-group-1920x1080-no-credit-1280x720.png" alt="AI Factory는 제조 데이터를 simulation, validation, deployment workflow로 연결한다." style="max-width:100%; border-radius:8px;" />
   <figcaption><small>AI Factory는 제조 데이터를 simulation, validation, deployment workflow로 연결한다. 출처: <a href="https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/">NVIDIA Blog</a></small></figcaption>
 </figure>
 
@@ -165,7 +165,7 @@ AI model development
 데이터와 알고리즘만으로는 고객이 살 수 있는 제품이 되기 어렵다. 고객은 “데이터셋”을 사는 것이 아니라 “문제 해결”을 산다. 그래서 제조 데이터 제품에는 platform과 delivery 구조가 필요하다.
 
 <figure>
-  <img src="assets/images/lgcns_factova_iot_expo.jpg" alt="LG CNS의 Factova는 제조 데이터를 고객이 구매할 수 있는 플랫폼·솔루션으로 바꾸는 방향을 보여준다." style="max-width:100%; border-radius:8px;" />
+  <img src="https://www.lgcns.com/content/dam/lgcns/images/newsroom/uploads/2026/05/%EB%B6%81%EB%AF%B8%EC%97%91%EC%8A%A4%ED%8F%AC%EC%98%81%EB%AC%B8.jpg" alt="LG CNS의 Factova는 제조 데이터를 고객이 구매할 수 있는 플랫폼·솔루션으로 바꾸는 방향을 보여준다." style="max-width:100%; border-radius:8px;" />
   <figcaption><small>LG CNS의 Factova는 제조 데이터를 고객이 구매할 수 있는 플랫폼·솔루션으로 바꾸는 방향을 보여준다. 출처: <a href="https://connect.lgcns.com/en/newsroom/press.html">LG CNS</a></small></figcaption>
 </figure>
 

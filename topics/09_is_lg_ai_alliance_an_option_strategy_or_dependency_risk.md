@@ -109,7 +109,7 @@ AI 시대에는 모든 기술을 내부에서 만들 수 없다. GPU, robot foun
 그래서 제휴는 필요하다. NVIDIA는 AI Infra와 Physical AI의 실행 속도를 높이고, Palantir는 enterprise data operating model의 벤치마크를 제공한다.
 
 <figure>
-  <img src="assets/images/lgcns_palantir_signing.jpg" alt="LG CNS–Palantir 파트너십은 enterprise AI와 ontology 기반 AX 확장의 사례다." style="max-width:100%; border-radius:8px;" />
+  <img src="https://www.lgcns.com/content/dam/lgcns/images/service/ai/ai-platform/AXplatform_webimage_1.png" alt="LG CNS–Palantir 파트너십은 enterprise AI와 ontology 기반 AX 확장의 사례다." style="max-width:100%; border-radius:8px;" />
   <figcaption><small>LG CNS–Palantir 파트너십은 enterprise AI와 ontology 기반 AX 확장의 사례다. 출처: <a href="https://www.digitaltoday.co.kr/en/view/35307/lg-cns-partners-with-palantir-to-target-enterprise-ai-starting-with-lg-group-expansion">Digital Today / LG CNS</a></small></figcaption>
 </figure>
 
@@ -143,7 +143,7 @@ Skild AI는 로봇이 단일 반복 작업을 넘어 더 다양한 산업 작업
 LG가 모든 foundation model, robot model, ontology platform을 직접 만들 필요는 없다. 하지만 반드시 내부화해야 할 것은 있다.
 
 <figure>
-  <img src="assets/images/exaone_journey_timeline.png" alt="EXAONE은 외부 모델·플랫폼과 병행해 LG가 내부적으로 통제할 수 있는 AI layer다." style="max-width:100%; border-radius:8px;" />
+  <img src="https://raw.githubusercontent.com/LG-AI-EXAONE/K-EXAONE/main/assets/main_figure.png" alt="EXAONE은 외부 모델·플랫폼과 병행해 LG가 내부적으로 통제할 수 있는 AI layer다." style="max-width:100%; border-radius:8px;" />
   <figcaption><small>EXAONE은 외부 모델·플랫폼과 병행해 LG가 내부적으로 통제할 수 있는 AI layer다. 출처: <a href="https://www.lgresearch.ai/exaone/">LG AI Research</a></small></figcaption>
 </figure>
 

@@ -128,7 +128,7 @@ LG Smart Park는 이미 WEF Lighthouse Factory로 선정된 제조 혁신 레퍼
 LG CNS의 Factova 역시 제조 AX 플랫폼으로 확장되고 있다. 즉, LG에게 AI Factory는 새로 만들어야 할 허공의 개념이 아니라, 기존 스마트팩토리 자산 위에 Physical AI, robot simulation, digital twin, AI data generation을 얹는 문제다.
 
 <figure>
-  <img src="assets/images/lgcns_factova_iot_expo.jpg" alt="LG CNS는 Factova 기반 스마트팩토리 솔루션을 북미 제조 AX 시장으로 확장하고 있다." style="max-width:100%; border-radius:8px;" />
+  <img src="https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/home-appliance-solution/lg-smart-park-named-lighthouse-factory-for-futuristic-manufacturing-technology/LG-Smart-Park_01.jpg" alt="LG CNS는 Factova 기반 스마트팩토리 솔루션을 북미 제조 AX 시장으로 확장하고 있다." style="max-width:100%; border-radius:8px;" />
   <figcaption><small>LG CNS는 Factova 기반 스마트팩토리 솔루션을 북미 제조 AX 시장으로 확장하고 있다. 출처: <a href="https://connect.lgcns.com/en/newsroom/press.html">LG CNS</a></small></figcaption>
 </figure>
 

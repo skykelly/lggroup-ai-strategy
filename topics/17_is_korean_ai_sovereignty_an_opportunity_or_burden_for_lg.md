@@ -158,7 +158,7 @@ Sovereign AI는 비용이 크다. 모델 개발에는 compute, 데이터, 인력
 LG–NVIDIA 협력은 이 균형을 보여준다. 글로벌 최고 수준의 AI infrastructure와 software stack을 활용하되, LG의 산업 데이터와 운영 노하우를 내부 자산으로 남겨야 한다.
 
 <figure>
-  <img src="assets/images/lg_nvidia_map_koo_huang_prn.jpg" alt="Sovereign AI는 폐쇄가 아니라 글로벌 stack과 국내 역량을 함께 쓰는 managed interdependence의 문제다." style="max-width:100%; border-radius:8px;" />
+  <img src="https://raw.githubusercontent.com/LG-AI-EXAONE/K-EXAONE/main/assets/K-EXAONE_logo_gray.png" alt="Sovereign AI는 폐쇄가 아니라 글로벌 stack과 국내 역량을 함께 쓰는 managed interdependence의 문제다." style="max-width:100%; border-radius:8px;" />
   <figcaption><small>Sovereign AI는 폐쇄가 아니라 글로벌 stack과 국내 역량을 함께 쓰는 managed interdependence의 문제다. 출처: <a href="https://www.prnewswire.com/news-releases/lg-teams-with-nvidia-to-shape-the-future-with-map-mobility--ai-infra--physical-ai-302793797.html">PRNewswire / LG</a></small></figcaption>
 </figure>
 
