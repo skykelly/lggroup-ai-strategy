@@ -324,24 +324,6 @@ img {
   font: 10px var(--mono);
 }
 
-.logout-btn {
-  padding: 6px 14px;
-  border-radius: 6px;
-  border: 1px solid rgb(165 0 52 / 35%);
-  background: transparent;
-  color: #a50034;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background 0.15s, color 0.15s;
-  white-space: nowrap;
-}
-
-.logout-btn:hover {
-  background: #a50034;
-  color: #fff;
-}
-
 .hero {
   position: relative;
   display: grid;
