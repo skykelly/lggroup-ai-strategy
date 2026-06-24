@@ -1,0 +1,248 @@
+---
+import "../styles/global.css";
+import { SESSION_COOKIE, SESSION_MAX_AGE, createSession } from "../lib/auth";
+
+// Already logged in → go home
+const existing = Astro.cookies.get(SESSION_COOKIE);
+if (existing?.value) {
+  const { verifySession } = await import("../lib/auth");
+  if (await verifySession(existing.value)) {
+    return Astro.redirect("/");
+  }
+}
+
+const nextParam = Astro.url.searchParams.get("next") ?? "/";
+const redirectTo = nextParam.startsWith("/") && !nextParam.startsWith("//") ? nextParam : "/";
+
+let error = "";
+
+if (Astro.request.method === "POST") {
+  const form = await Astro.request.formData();
+  const username = (form.get("username") ?? "").toString().trim();
+  const password = (form.get("password") ?? "").toString();
+  const next = (form.get("next") ?? "/").toString();
+  const safeNext = next.startsWith("/") && !next.startsWith("//") ? next : "/";
+
+  const validUser = import.meta.env.AUTH_USER ?? "";
+  const validPass = import.meta.env.AUTH_PASS ?? "";
+
+  if (username === validUser && password === validPass) {
+    const token = await createSession(username);
+    Astro.cookies.set(SESSION_COOKIE, token, {
+      httpOnly: true,
+      sameSite: "strict",
+      secure: import.meta.env.PROD,
+      maxAge: SESSION_MAX_AGE,
+      path: "/"
+    });
+    return Astro.redirect(safeNext);
+  }
+
+  // Same message for wrong user or wrong password (no enumeration)
+  error = "아이디 또는 비밀번호가 올바르지 않습니다.";
+}
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="noindex" />
+    <title>로그인 — LG AI Strategy Journal</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        min-height: 100svh;
+        display: grid;
+        place-items: center;
+        font-family: -apple-system, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+        background:
+          radial-gradient(circle at 50% 48%, #18213a 0%, #080b12 42%, #010204 78%),
+          #020306;
+        color: #fff;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background:
+          radial-gradient(circle at 18% 18%, rgb(165 0 52 / 32%), transparent 22%),
+          radial-gradient(circle at 82% 75%, rgb(53 109 255 / 22%), transparent 24%);
+      }
+
+      .login-wrap {
+        position: relative;
+        z-index: 1;
+        width: min(420px, calc(100vw - 48px));
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      }
+
+      .login-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+      }
+
+      .brand-mark {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 52px;
+        height: 52px;
+        border-radius: 14px;
+        background: #a50034;
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: -0.04em;
+        color: #fff;
+      }
+
+      .login-brand h1 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: -0.03em;
+      }
+
+      .login-brand p {
+        font-size: 13px;
+        color: rgb(255 255 255 / 45%);
+      }
+
+      .login-card {
+        background: rgb(255 255 255 / 4%);
+        border: 1px solid rgb(255 255 255 / 10%);
+        border-radius: 16px;
+        padding: 32px;
+        backdrop-filter: blur(12px);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+      }
+
+      label {
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(255 255 255 / 60%);
+        letter-spacing: 0.01em;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 11px 14px;
+        border-radius: 8px;
+        border: 1px solid rgb(255 255 255 / 14%);
+        background: rgb(255 255 255 / 6%);
+        color: #fff;
+        font-size: 15px;
+        outline: none;
+        transition: border-color 0.15s;
+        appearance: none;
+        -webkit-appearance: none;
+      }
+
+      input[type="text"]::placeholder,
+      input[type="password"]::placeholder {
+        color: rgb(255 255 255 / 22%);
+      }
+
+      input[type="text"]:focus,
+      input[type="password"]:focus {
+        border-color: rgb(255 255 255 / 38%);
+      }
+
+      .error-msg {
+        padding: 10px 14px;
+        border-radius: 8px;
+        background: rgb(165 0 52 / 18%);
+        border: 1px solid rgb(165 0 52 / 35%);
+        font-size: 13px;
+        color: #ff8099;
+      }
+
+      .submit-btn {
+        width: 100%;
+        padding: 13px;
+        border: none;
+        border-radius: 8px;
+        background: #a50034;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.15s, transform 0.12s;
+        letter-spacing: -0.01em;
+      }
+
+      .submit-btn:hover { background: #c0003d; transform: translateY(-1px); }
+      .submit-btn:active { transform: translateY(0); }
+
+      .login-footer {
+        text-align: center;
+        font-size: 12px;
+        color: rgb(255 255 255 / 22%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-wrap">
+      <div class="login-brand">
+        <span class="brand-mark">LG</span>
+        <h1>AI Strategy Journal</h1>
+        <p>관리자 로그인이 필요합니다</p>
+      </div>
+
+      <div class="login-card">
+        {error && <p class="error-msg" role="alert">{error}</p>}
+
+        <form method="POST">
+          <input type="hidden" name="next" value={redirectTo} />
+
+          <div class="field" style="margin-bottom: 4px;">
+            <label for="username">아이디</label>
+            <input
+              id="username"
+              type="text"
+              name="username"
+              placeholder="아이디 입력"
+              autocomplete="username"
+              required
+              autofocus
+            />
+          </div>
+
+          <div class="field" style="margin-bottom: 20px;">
+            <label for="password">비밀번호</label>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="비밀번호 입력"
+              autocomplete="current-password"
+              required
+            />
+          </div>
+
+          <button class="submit-btn" type="submit">로그인</button>
+        </form>
+      </div>
+
+      <p class="login-footer">LG AI Strategy Journal · 관리자 전용 접근</p>
+    </div>
+  </body>
+</html>

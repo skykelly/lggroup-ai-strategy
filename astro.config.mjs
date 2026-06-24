@@ -13,7 +13,7 @@ export default defineConfig({
   site: deploymentHost,
   srcDir: "./web/src",
   publicDir: "./web/public",
-  output: "static",
+  output: "server",
   adapter: vercel(),
   build: {
     assets: "_assets"
