@@ -25,6 +25,7 @@ related_companies:
   - lg-energy-solution
   - lg-ai-research
   - lg-corp
+  - microsoft
 source_ids:
   - src_lge_dcw_20260421
   - src_lguplus_paju_aidc_20260607
@@ -33,6 +34,7 @@ source_ids:
   - src_lgensol_ess_expansion_20260415
   - src_iea_energy_ai_2026
   - src_goldman_data_center_power_20260520
+  - src_koreaherald_lg_ms_aidc_techshow_20251205
 tags:
   - ai-data-center
   - ai-infra
@@ -281,3 +283,14 @@ LG그룹은 이 영역에서 다음 세 가지 전략적 의미를 가진다.
 | img_koreatimes_cdu_01 | LG Electronics CDU on display | https://newsimg.koreatimes.co.kr/2026/03/17/c4cc7129-49d9-4643-adb1-f9bbeb0de08e.jpg?w=728 | https://www.koreatimes.co.kr/business/tech-science/20260318/lg-bets-on-ai-data-center-ess-as-future-growth-driver | 이미지 URL 확보. 다운로드 시 timeout 가능성 확인 필요 |
 
 ---
+## src_koreaherald_lg_ms_aidc_techshow_20251205
+
+- URL: https://www.koreaherald.com/article/10630676
+- Publisher: The Korea Herald
+- Published: 2025-12-05
+- Key facts:
+  - LG그룹 6개 계열사(LG전자, LG에너지솔루션, LG CNS, LG유플러스, LG이노텍, LG사이언스파크) + LS그룹(LS전선, LS일렉트릭)이 2025년 12월 1일(현지시간) MS 레드몬드 본사에서 'AIDC 테크쇼' 개최.
+  - 사티아 나델라 MS CEO, 류재철 LG전자 대표, 김동명 LG에너지솔루션 대표, 현신균 LG CNS 대표, 홍범식 LG유플러스 대표 등 참석.
+  - LG전자: 마이크로소프트 글로벌 AI 데이터센터에 냉각 솔루션(콜드 플레이트, 1.4MW CDU, 공냉식 원심 칠러) 공급 파트너십 체결.
+  - 'One LG' 전략: 냉각(LG전자)+전력·ESS(LG에너지솔루션)+설계·구축(LG CNS)+운영(LG유플러스) 수직 통합 패키지로 MS에 제안.
+  - 계약 규모는 2차 보도(Introl Blog) 기준 연간 수십억 달러 수준으로 알려지나 공식 확인 미완료.
