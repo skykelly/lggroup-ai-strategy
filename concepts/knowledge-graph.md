@@ -30,7 +30,7 @@ tags:
 # Knowledge Graph
 
 <figure>
-  <img src="assets/images/lgcns_knowledge_data_pipeline.png" alt="Knowledge Graph 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Knowledge_graph_installation_in_Futurium.jpg" alt="Knowledge Graph 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>Knowledge Data pipeline: ingestion, processing, transformation, knowledge base. 전사 데이터·지식화·RAG 체계와 연결된다.</figcaption>
 </figure>
 

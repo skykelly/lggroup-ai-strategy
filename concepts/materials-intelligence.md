@@ -32,7 +32,7 @@ tags:
 # Materials Intelligence
 
 <figure>
-  <img src="assets/images/lgchem_cathode_material_main.png" alt="Materials Intelligence 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="assets/images/lgchem_cathode_mobile_application.png" alt="Materials Intelligence 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Chem Cathode Material page hero image. 배터리 소재 탐색·검증의 핵심 적용 영역.</figcaption>
 </figure>
 

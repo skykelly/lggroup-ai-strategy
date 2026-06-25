@@ -28,7 +28,7 @@ tags:
 # Software-Defined Vehicle
 
 <figure>
-  <img src="assets/images/lgdisplay_ces2026_automotive_display.jpg" alt="Software-Defined Vehicle 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="assets/images/lgchem_cathode_auto_application.png" alt="Software-Defined Vehicle 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG디스플레이 CES 2026 차량용 디스플레이 이미지. P2P, Slidable OLED 등 SDV용 HMI 방향과 연결.</figcaption>
 </figure>
 

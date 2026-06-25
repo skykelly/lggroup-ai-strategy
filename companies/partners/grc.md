@@ -17,7 +17,7 @@ tags:
 # GRC
 
 <figure>
-  <img src="assets/images/img_koreatimes_cdu_01.jpg" alt="GRC 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://mma.prnewswire.com/media/2826953/Green_Revolution_Cooling_Logo.jpg" alt="GRC 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Electronics CDU on display</figcaption>
 </figure>
 

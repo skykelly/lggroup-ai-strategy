@@ -39,7 +39,7 @@ tags:
 # Hybrid AI Strategy
 
 <figure>
-  <img src="assets/images/exaone_journey_timeline.png" alt="Hybrid AI Strategy 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/CERN_Server_03.jpg" alt="Hybrid AI Strategy 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>EXAONE Journey timeline. EXAONE 4.5까지 이어진 LG AI Research의 모델 고도화 흐름.</figcaption>
 </figure>
 

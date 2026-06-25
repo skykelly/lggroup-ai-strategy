@@ -17,7 +17,7 @@ tags:
 # SK Enmove
 
 <figure>
-  <img src="assets/images/img_koreatimes_cdu_01.jpg" alt="SK Enmove 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Apple_datacenter_Reno_satellite_view.jpg" alt="SK Enmove 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Electronics CDU on display</figcaption>
 </figure>
 

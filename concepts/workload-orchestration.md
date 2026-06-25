@@ -34,7 +34,7 @@ tags:
 # Workload Orchestration
 
 <figure>
-  <img src="assets/images/topic_01_lguplus_ace_on_trust.png" alt="Workload Orchestration 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Pros_and_cons_of_Search_Engines%2C_Knowledge_Graphs_and_Large_Language_Modells%2C_2025.png" alt="Workload Orchestration 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG U+의 차세대 AIDC 전략 ‘The ACE on Trust’. Agility, Capacity, Efficiency를 Trust 위에 결합한다.</figcaption>
 </figure>
 

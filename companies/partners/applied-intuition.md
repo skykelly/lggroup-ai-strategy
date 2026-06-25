@@ -32,7 +32,7 @@ tags:
 # Applied Intuition
 
 <figure>
-  <img src="assets/images/topic_01_lginnotek_autonomous_sensor_fusion.png" alt="Applied Intuition 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://mma.prnewswire.com/media/2342851/New_Eagle_Logov1.jpg" alt="Applied Intuition 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG이노텍의 자율주행 센서 포트폴리오. NVIDIA DRIVE Hyperion 협력에서 sensing, communication, lighting layer의 의미를 보여준다.</figcaption>
 </figure>
 

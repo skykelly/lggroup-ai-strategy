@@ -29,7 +29,7 @@ tags:
 # Industrial Humanoid
 
 <figure>
-  <img src="assets/images/doc_02_skild-ai-series-c-800x329.jpg" alt="Industrial Humanoid 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Humanoider-Roboter-DASA.JPG" alt="Industrial Humanoid 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>Skild AI 소개.</figcaption>
 </figure>
 

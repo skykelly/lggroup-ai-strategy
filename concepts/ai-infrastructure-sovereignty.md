@@ -30,7 +30,7 @@ tags:
 # AI Infrastructure Sovereignty
 
 <figure>
-  <img src="assets/images/img_lguplus_paju_pulse_01.png" alt="AI Infrastructure Sovereignty 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/A_network_diagram_of_the_%27nesta_case1354_pegase_high_voltage%27_electrical_power_system.png" alt="AI Infrastructure Sovereignty 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Uplus Paju AIDC construction site</figcaption>
 </figure>
 

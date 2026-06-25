@@ -31,7 +31,7 @@ tags:
 # Smart Manufacturing
 
 <figure>
-  <img src="assets/images/lgcns_factova_iot_expo.jpg" alt="Smart Manufacturing 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/18_Beispiele.png" alt="Smart Manufacturing 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>IoT Tech Expo 2026에서 LG CNS가 Factova 기반 AI smart factory solution을 설명하는 모습.</figcaption>
 </figure>
 

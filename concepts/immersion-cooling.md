@@ -26,7 +26,7 @@ tags:
 # Immersion Cooling
 
 <figure>
-  <img src="assets/images/img_koreatimes_cdu_01.jpg" alt="Immersion Cooling 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/CFD_of_immersion_cooling_tank.png" alt="Immersion Cooling 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Electronics CDU on display</figcaption>
 </figure>
 

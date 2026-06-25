@@ -47,7 +47,7 @@ tags:
 # Qualcomm
 
 <figure>
-  <img src="assets/images/lgensol_sdv_bms.png" alt="Qualcomm 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="assets/images/lgensol_bms_features_to_hpc.png" alt="Qualcomm 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>SDV BMS. BMS 기능을 고성능 컴퓨팅과 AI 기반 진단·제어로 확장하는 개념.</figcaption>
 </figure>
 

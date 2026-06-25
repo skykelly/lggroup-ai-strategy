@@ -17,7 +17,7 @@ tags:
 # Vanderbilt University Medical Center
 
 <figure>
-  <img src="assets/images/lgchem_life_science_primary_care.jpg" alt="Vanderbilt University Medical Center 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/OVF-Logo_Cropped_blue_background_2-21-18.jpg" alt="Vanderbilt University Medical Center 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Chem Life Science Primary Care division image. AI 신약개발의 실험·검증 필드와 연결된다.</figcaption>
 </figure>
 

@@ -30,7 +30,7 @@ tags:
 # Industry-Specialized AI
 
 <figure>
-  <img src="assets/images/topic_02_lgai_exaone45_performance.png" alt="Industry-Specialized AI 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="assets/images/lgchem_cathode_ess_application.png" alt="Industry-Specialized AI 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>EXAONE 4.5는 문서 이해와 한국어 맥락 이해에서 강점을 강조한다.</figcaption>
 </figure>
 

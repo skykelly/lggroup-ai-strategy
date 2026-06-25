@@ -60,7 +60,7 @@ tags:
 # LG CNS
 
 <figure>
-  <img src="assets/images/lgcns_ax_platform_service_development.png" alt="LG CNS 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/OPEN_SPACE.jpg" alt="LG CNS 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG CNS AX Platform: faster, simpler AI service development. 기업 AI 서비스 개발·배포 기반을 설명하는 이미지.</figcaption>
 </figure>
 

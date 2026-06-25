@@ -41,7 +41,7 @@ tags:
 # Industrial AI Ecosystem
 
 <figure>
-  <img src="assets/images/lg_nvidia_map_koo_huang_prn.jpg" alt="Industrial AI Ecosystem 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="assets/images/lgcns_ax_consulting_master_plan.png" alt="Industrial AI Ecosystem 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Corp. 구광모 회장과 NVIDIA Jensen Huang CEO. M.A.P. 협력은 Mobility, AI Infra, Physical AI를 연결하는 6번 테마의 핵심 축이다.</figcaption>
 </figure>
 

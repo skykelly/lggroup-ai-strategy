@@ -33,7 +33,7 @@ tags:
 # Automotive Display
 
 <figure>
-  <img src="assets/images/lgdisplay_ces2026_automotive_display.jpg" alt="Automotive Display 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://mma.prnewswire.com/media/2960001/new_photo_jpg.jpg" alt="Automotive Display 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG디스플레이 CES 2026 차량용 디스플레이 이미지. P2P, Slidable OLED 등 SDV용 HMI 방향과 연결.</figcaption>
 </figure>
 

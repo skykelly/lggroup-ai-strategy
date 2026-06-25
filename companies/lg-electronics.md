@@ -58,7 +58,7 @@ tags:
 # LG Electronics
 
 <figure>
-  <img src="assets/images/img_koreatimes_cdu_01.jpg" alt="LG Electronics 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg" alt="LG Electronics 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Electronics CDU on display</figcaption>
 </figure>
 

@@ -28,7 +28,7 @@ tags:
 # AI Co-Scientist
 
 <figure>
-  <img src="assets/images/exaone_discovery_operation.jpg" alt="AI Co-Scientist 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="assets/images/lgchem_life_science_specialty_care.jpg" alt="AI Co-Scientist 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>EXAONE Discovery in operation. 논문·특허·분자구조 등 비정형 데이터를 활용해 후보물질 탐색과 실험 설계를 지원하는 예시.</figcaption>
 </figure>
 

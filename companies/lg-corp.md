@@ -48,7 +48,7 @@ tags:
 # LG Corp.
 
 <figure>
-  <img src="assets/images/lg_nvidia_map_koo_huang_prn.jpg" alt="LG Corp. 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://mma.prnewswire.com/media/2850114/Kwang_Mo_Koo___Chairman_and_Chief_Executive_Officer_of_LG_Corporation.jpg" alt="LG Corp. 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Corp. 구광모 회장과 NVIDIA Jensen Huang CEO. M.A.P. 협력은 Mobility, AI Infra, Physical AI를 연결하는 6번 테마의 핵심 축이다.</figcaption>
 </figure>
 

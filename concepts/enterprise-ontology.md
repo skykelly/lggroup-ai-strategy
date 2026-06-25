@@ -30,7 +30,7 @@ tags:
 # Enterprise Ontology
 
 <figure>
-  <img src="assets/images/lgcns_palantir_signing.jpg" alt="Enterprise Ontology 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/KnowledgeGraphExtension.png" alt="Enterprise Ontology 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG CNS CEO Hyun Shin-gyun and Palantir CEO Alex Karp at the strategic partnership signing ceremony. LG그룹 AX의 온톨로지·의사결정 체계 벤치마킹과 연결된다.</figcaption>
 </figure>
 

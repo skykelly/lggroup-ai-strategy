@@ -32,7 +32,7 @@ tags:
 # Data Center Cooling
 
 <figure>
-  <img src="assets/images/img_koreatimes_cdu_01.jpg" alt="Data Center Cooling 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="assets/images/img_koreatimes_ess_container_01.jpg" alt="Data Center Cooling 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Electronics CDU on display</figcaption>
 </figure>
 

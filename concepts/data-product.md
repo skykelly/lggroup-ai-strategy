@@ -29,7 +29,7 @@ tags:
 # Data Product
 
 <figure>
-  <img src="assets/images/lgcns_knowledge_data_pipeline.png" alt="Data Product 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Medical_knowledge_graph_visualization_of_disease%2C_symptom%2C_drug%2C_category%2C_and_treatment.png" alt="Data Product 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>Knowledge Data pipeline: ingestion, processing, transformation, knowledge base. 전사 데이터·지식화·RAG 체계와 연결된다.</figcaption>
 </figure>
 

@@ -31,7 +31,7 @@ tags:
 # Korean AI
 
 <figure>
-  <img src="assets/images/exaone_journey_timeline.png" alt="Korean AI 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Knowledge_graph_management_system.png" alt="Korean AI 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>EXAONE Journey timeline. EXAONE 4.5까지 이어진 LG AI Research의 모델 고도화 흐름.</figcaption>
 </figure>
 

@@ -31,7 +31,7 @@ tags:
 # Sovereign AI Foundation Model
 
 <figure>
-  <img src="assets/images/topic_02_lgai_exaone45_performance.png" alt="Sovereign AI Foundation Model 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Silicon_Vally_Venture_Capital_investment.png" alt="Sovereign AI Foundation Model 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>EXAONE 4.5는 문서 이해와 한국어 맥락 이해에서 강점을 강조한다.</figcaption>
 </figure>
 

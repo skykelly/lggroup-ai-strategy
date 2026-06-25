@@ -31,7 +31,7 @@ tags:
 # Physical AI
 
 <figure>
-  <img src="assets/images/nvidia_lg_ai_factory_robot.png" alt="Physical AI 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="assets/images/lginnotek_ces2026_sketch_06.avif" alt="Physical AI 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>NVIDIA Blog의 LG AI Factory 대표 이미지. 제조·로봇·디지털트윈·Physical AI 운영 모델과 연결된다.</figcaption>
 </figure>
 

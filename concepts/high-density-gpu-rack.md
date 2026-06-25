@@ -28,7 +28,7 @@ tags:
 # High-Density GPU Rack
 
 <figure>
-  <img src="assets/images/img_lgcns_ai_box_01.jpg" alt="High-Density GPU Rack 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Half_filled_server_racks.jpg" alt="High-Density GPU Rack 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG CNS AI Box cutaway</figcaption>
 </figure>
 

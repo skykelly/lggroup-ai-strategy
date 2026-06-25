@@ -32,7 +32,7 @@ tags:
 # Data Flywheel
 
 <figure>
-  <img src="assets/images/lgcns_llmops_lifecycle.png" alt="Data Flywheel 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/VentureTimeline.png" alt="Data Flywheel 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>Enterprise-fit AI lifecycle management: learning, monitoring, evaluation, retraining. 운영형 AI의 지속 개선 루프와 연결된다.</figcaption>
 </figure>
 

@@ -18,7 +18,7 @@ tags:
 # Sinar Mas Group
 
 <figure>
-  <img src="assets/images/img_lguplus_paju_pulse_01.png" alt="Sinar Mas Group 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Mike_Splinter%2C_Tiara_Cameron_Salzman%2C_Alan_Salzman%2C_Pat_Splinter.jpg" alt="Sinar Mas Group 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Uplus Paju AIDC construction site</figcaption>
 </figure>
 

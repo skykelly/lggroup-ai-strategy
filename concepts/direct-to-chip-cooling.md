@@ -26,7 +26,7 @@ tags:
 # Direct-to-Chip Cooling
 
 <figure>
-  <img src="assets/images/img_koreatimes_cdu_01.jpg" alt="Direct-to-Chip Cooling 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Single-phase-immersion-cooling-diagram.png" alt="Direct-to-Chip Cooling 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Electronics CDU on display</figcaption>
 </figure>
 

@@ -33,7 +33,7 @@ tags:
 # Model Governance
 
 <figure>
-  <img src="assets/images/lgcns_monitoring_governance.png" alt="Model Governance 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Scholia_topic_in_context_visualisation_Harriman_Alaska_Expedition.png" alt="Model Governance 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>Monitoring & Governance. 보안, 권한, 거버넌스 정책 운영을 설명하는 이미지.</figcaption>
 </figure>
 

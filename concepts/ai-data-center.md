@@ -30,7 +30,7 @@ tags:
 # AI Data Center
 
 <figure>
-  <img src="assets/images/img_lguplus_paju_pulse_01.png" alt="AI Data Center 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Racks_Amravati_Data_Center.jpg" alt="AI Data Center 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Uplus Paju AIDC construction site</figcaption>
 </figure>
 

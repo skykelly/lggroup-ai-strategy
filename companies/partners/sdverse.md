@@ -47,7 +47,7 @@ tags:
 # SDVerse
 
 <figure>
-  <img src="assets/images/lgensol_baround_core_values.png" alt="SDVerse 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Nadine_Robot.jpg" alt="SDVerse 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>B.around Core Values. 진단 전문성, 신뢰 기반 관리, 혁신 서비스, 직관적 경험을 강조.</figcaption>
 </figure>
 

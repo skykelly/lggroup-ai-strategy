@@ -1327,12 +1327,17 @@ img {
 .theme-row::before {
   position: absolute;
   inset: 0;
-  z-index: -1;
+  z-index: 0;
   content: "";
   background: var(--row-color);
   transform: scaleY(0);
   transform-origin: bottom;
   transition: transform 220ms ease;
+}
+
+.theme-row > * {
+  position: relative;
+  z-index: 1;
 }
 
 .theme-row:hover {
@@ -2080,11 +2085,16 @@ img {
 .theme-portfolio-row::before {
   position: absolute;
   inset: 0;
-  z-index: -1;
+  z-index: 0;
   content: "";
   background: #2c3748;
   transform: translateX(-101%);
   transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.theme-portfolio-row > * {
+  position: relative;
+  z-index: 1;
 }
 
 .theme-portfolio-row:hover {

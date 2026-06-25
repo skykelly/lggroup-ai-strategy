@@ -26,7 +26,7 @@ tags:
 # Power Bottleneck
 
 <figure>
-  <img src="assets/images/topic_01_nvidia_800v_architecture.png" alt="Power Bottleneck 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/20241201_Power_grid_storage_energy_flow_-_daily.svg" alt="Power Bottleneck 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>NVIDIA 800V DC architecture 개념도. AI Factory의 병목이 GPU에서 전력·냉각·운영 효율로 이동하고 있음을 보여준다.</figcaption>
 </figure>
 

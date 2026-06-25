@@ -34,7 +34,7 @@ tags:
 # Strategic Alliance Governance
 
 <figure>
-  <img src="assets/images/lg_nvidia_map_koo_huang_prn.jpg" alt="Strategic Alliance Governance 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="assets/images/lgenergy_ceo_ax_productivity.jpg" alt="Strategic Alliance Governance 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>LG Corp. 구광모 회장과 NVIDIA Jensen Huang CEO. M.A.P. 협력은 Mobility, AI Infra, Physical AI를 연결하는 6번 테마의 핵심 축이다.</figcaption>
 </figure>
 

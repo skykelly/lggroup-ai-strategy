@@ -35,7 +35,7 @@ tags:
 # Manufacturing Intelligence
 
 <figure>
-  <img src="assets/images/lgcns_factova_iot_expo.jpg" alt="Manufacturing Intelligence 관련 이미지" style="max-width:100%; border-radius:8px;" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Atlas_frontview_2013.jpg" alt="Manufacturing Intelligence 관련 이미지" style="max-width:100%; border-radius:8px;" />
   <figcaption>IoT Tech Expo 2026에서 LG CNS가 Factova 기반 AI smart factory solution을 설명하는 모습.</figcaption>
 </figure>
 
