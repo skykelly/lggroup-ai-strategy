@@ -80,6 +80,14 @@ LG그룹이 보유한 계열사별 자산을 Enterprise AX / Agentic Operating M
 - [[sources/src_lgcns_agenticworks_20250825]]
 - [[sources/src_lgensol_ax_productivity_20260511]]
 - [[sources/src_lgcns_palantir_20260312]]
+- [[sources/src_lgcns_anthropic_claude_enterprise_20260609]]
+- [[sources/src_lgcns_kbiz_ax_20260617]]
+
+## 10. LG 관련 사례
+
+LG CNS는 2026년 6월 앤트로픽 Claude Enterprise를 도입해 그룹 전 계열사에 생성형 AI 기반 업무 혁신을 확산할 계획을 발표했다([[sources/src_lgcns_anthropic_claude_enterprise_20260609]]). 이는 외부 파운데이션 모델을 Enterprise AX 인프라로 통합하는 Hybrid AI 전략의 실행 사례다.
+
+중소기업중앙회와 LG CNS의 AI 상생협력 협약([[sources/src_lgcns_kbiz_ax_20260617]])은 최대 30억 원 사업 규모로 선정 기업에 최대 12개월 AX 구축 지원을 제공하며, LG CNS의 Enterprise AX 역량을 외부 중소기업 생태계로 확장하는 구체적 모델을 제시했다.
 
 ## 9. Open Questions
 

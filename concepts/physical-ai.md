@@ -89,6 +89,14 @@ LG가 보유한 제조 현장, 제품, 센서, 배터리, 서비스 데이터는
 - [[sources/src_lge_smart_factory_20260414]]
 - [[sources/src_lgcns_skild_ai_20250616]]
 - [[sources/src_lg_nvidia_map_20260608]]
+- [[sources/src_lgcns_physicalworks_20260508]]
+- [[sources/src_lgcns_lxpantos_humanoid_20260611]]
+
+## 10. LG 관련 사례
+
+LG CNS의 PhysicalWorks 플랫폼([[sources/src_lgcns_physicalworks_20260508]])은 Physical AI를 제품으로 구현한 대표 사례다. PhysicalWorks Forge는 3D 가상환경 시뮬레이션으로 현장 배포 기간을 수개월에서 1~2개월로 단축하고, PhysicalWorks Baton은 100대 로봇 통합 운영에서 생산성 15% 이상 향상·운영비 18% 절감 성과를 제시했다.
+
+컬리·LX판토스 물류센터 휴머노이드 PoC 확장([[sources/src_lgcns_lxpantos_humanoid_20260611]])은 LG CNS가 물류 Physical AI 레퍼런스를 조직적으로 축적하고 있음을 보여준다.
 
 ## 9. Open Questions
 
